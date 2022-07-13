@@ -1,3 +1,38 @@
+# Capstone 5 Insurance Salesbot
+
+A chatbot hosted on Facebook messenger to approach potential customers in the insurance industry.
+
+## Push changes to Heroku
+
+You need to be a collaborator in the heroku app. First, log in to Heroku using the Heroku CLI
+
+```
+heroku login
+```
+
+You can now make changes to the RASA NLU by pushing the changes.
+
+```
+git add .
+git commit -am "some comments"
+git push heroku master
+```
+
+## Push changes to Github repo
+
+You need to be a collaborator for the Github repo. First, log in to Git in your shell
+
+```
+git config --global user.name "your_username"
+git config --global user.email "your_email_address@example.com"
+```
+
+```
+git add .
+git commit -am "some comments"
+git push
+```
+
 # Rasa NLU server template
 
 This template contains all you need to deploy [Rasa NLU](https://rasa.com/) server on [Heroku cloud](https://heroku.com) to make your Rasa project visible globally.
@@ -49,7 +84,7 @@ Then go to the directory of your application (cloned on the previous step) and m
 Please refer to the [Rasa documentaion](https://rasa.com/docs/rasa/user-guide/rasa-tutorial/) to learn how to build and evaluate NLU model.
 
 > Please note that you don't have to run **rasa init** command once your template project is already cloned from Heroku.
-Also note that NLU server doesn't run any actions - it only runs your NLU model. Thus you can use only **rasa train nlu** command.
+> Also note that NLU server doesn't run any actions - it only runs your NLU model. Thus you can use only **rasa train nlu** command.
 
 #### Evaluate changes
 
