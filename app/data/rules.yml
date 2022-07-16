@@ -1,46 +1,11 @@
 version: "3.1"
 
-stories:
-  # - story: happy path
-  #   steps:
-  #   - intent: greet
-  #   - action: utter_greet
-  #   - intent: mood_great
-  #   - action: utter_happy
-
-  # - story: sad path 1
-  #   steps:
-  #   - intent: greet
-  #   - action: utter_greet
-  #   - intent: mood_unhappy
-  #   - action: utter_cheer_up
-  #   - action: utter_did_that_help
-  #   - intent: affirm
-  #   - action: utter_happy
-
-  # - story: sad path 2
-  #   steps:
-  #   - intent: greet
-  #   - action: utter_greet
-  #   - intent: mood_unhappy
-  #   - action: utter_cheer_up
-  #   - action: utter_did_that_help
-  #   - intent: deny
-  #   - action: utter_goodbye
-
-  - story: hook
+rules:
+  - rule: Say goodbye anytime the user says goodbye
     steps:
-      - intent: greet
-      - action: utter_greet
-      - action: utter_emoji_hook
-      - intent: emoji_quiz_correct
-      - action: utter_correct
-      - action: utter_ask_likeToSki
-      - intent: affirm
-      - action: utter_ask_travel_ski
-      - intent: affirm
-      - action: utter_ask_travel_insurance
-      - intent: ask_how
-      - action: utter_ans_how
-      - intent: show_policy
-      - action: utter_redirect
+      - intent: goodbye
+      - action: utter_goodbye
+# - rule: Say 'I am a bot' anytime the user challenges
+#   steps:
+#   - intent: bot_challenge
+#   - action: utter_iamabot
