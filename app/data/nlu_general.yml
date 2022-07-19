@@ -1,0 +1,275 @@
+version: "3.1"
+nlu:
+
+# GREETINGS
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - mornin
+    - yo
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: ask_how
+  examples: |
+    - oh really? how so?
+    - really?
+    - really? how so?
+    - how so?
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - yea
+    - yup
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - nah
+    - nope
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+# OUT OF SCOPE
+- intent: out_of_scope
+  examples: |
+    - i want to order food
+    - i want to buy food
+
+# GENERAL
+- intent: who_are_you
+  examples: |
+    - who are you
+    - what is your name
+
+- intent: what_can_you_do
+  examples: |
+    - what can you do
+    - what do you do
+
+# REDIRECT TO HUMAN AGENT
+- intent: redirect_agent
+  examples: |
+    - chat with agent
+    - i want to speak to a live agent
+    - Connect me to a human agent
+
+# GENERAL INSURANCE
+- intent: show_policy
+  examples: |
+    - show me the policy
+    - cool, show me
+    - i'd like to take a look at the policy
+
+# QUOTES / BUY INSURANCE
+- intent: how_buy_insurance
+  examples: |
+    - how to buy insurance
+    - how to purchase insurance
+    - how to purchase insurance from you
+    - how to get insurance from you
+    - how to buy insurance from you
+    - how to buy your insurance
+    - how to get your insurance
+    - how to purchase your insurance
+    - i want to buy insurance
+    - i want to purchase insurance
+    - i want to purchase your insurance
+    - i want to buy your insurance
+    - buy insurance
+    - purchase insurance
+    - get insurance
+    - buy your insurance
+    - purchase your insurance
+    - get your insurance
+    - buy insurance from you
+    - purchase insurance from you
+    - get insurance from you
+
+- intent: get_renew_quote
+  examples: |
+    - Can I get a quote for travel insurance renewal
+    - Get a quote for travel insurance renewal
+    - Get travel insurance renewal quote
+    - How to get a quote for travel insurance renewal
+    - How to get travel insurance quote renewal
+    - Where to get a quote for travel insurance renewal 
+    - Where to get travel insurance renewal quote
+    - What is the procedure to get a quote for travel insurance renewal
+    - What is the procedure to get travel insurance renewal quote
+    - Can I get a quote for big 3 critical illness insurance renewal
+    - Get a quote for big 3 critical illness insurance renewal
+    - Get big 3 critical illness insurance renewal quote
+    - How to get a quote for big 3 critical illness insurance renewal
+    - How to get big 3 critical illness insurance quote renewal
+    - Where to get a quote for big 3 critical illness insurance renewal 
+    - Where to get big 3 critical illness insurance renewal quote
+    - What is the procedure to get a quote for big 3 critical illness insurance renewal
+    - What is the procedure to get big 3 critical illness insurance renewal quote
+    - Can I get a quote for home insurance renewal
+    - Get a quote for home insurance renewal
+    - Get home insurance renewal quote
+    - How to get a quote for home insurance renewal
+    - How to get home insurance quote renewal
+    - Where to get a quote for home insurance renewal 
+    - Where to get home insurance renewal quote
+    - What is the procedure to get a quote for home insurance renewal
+    - What is the procedure to get home insurance renewal quote
+    - Can I get a quote for maid insurance renewal
+    - Get a quote for maid insurance renewal
+    - Get maid insurance renewal quote
+    - How to get a quote for maid insurance renewal
+    - How to get maid insurance quote renewal
+    - Where to get a quote for maid insurance renewal 
+    - Where to get maid insurance renewal quote
+    - What is the procedure to get a quote for maid insurance renewal
+    - What is the procedure to get maid insurance renewal quote
+    - Can I get a quote for cancer insurance renewal
+    - Get a quote for cancer insurance renewal
+    - Get cancer insurance renewal quote
+    - How to get a quote for cancer insurance renewal
+    - How to get cancer insurance quote renewal
+    - Where to get a quote for cancer insurance renewal 
+    - Where to get cancer insurance renewal quote
+    - What is the procedure to get a quote for cancer insurance renewal
+    - What is the procedure to get cancer insurance renewal quote
+    - Can I get a quote for stroke insurance renewal
+    - Get a quote for stroke insurance renewal
+    - Get stroke insurance renewal quote
+    - How to get a quote for stroke insurance renewal
+    - How to get stroke insurance quote renewal
+    - Where to get a quote for stroke insurance renewal 
+    - Where to get stroke insurance renewal quote
+    - What is the procedure to get a quote for stroke insurance renewal
+    - What is the procedure to get stroke insurance renewal quote
+    - Can I get a quote for car insurance renewal
+    - Get a quote for car insurance renewal
+    - Get car insurance renewal quote
+    - How to get a quote for car insurance renewal
+    - How to get car insurance quote renewal
+    - Where to get a quote for car insurance renewal 
+    - Where to get car insurance renewal quote
+    - What is the procedure to get a quote for car insurance renewal
+    - What is the procedure to get car insurance renewal quote
+    - Can I get a quote for personal accident insurance renewal
+    - Get a quote for personal accident insurance renewal
+    - Get personal accident insurance renewal quote
+    - How to get a quote for personal accident insurance renewal
+    - How to get personal accident insurance quote renewal
+    - Where to get a quote for personal accident insurance renewal 
+    - Where to get personal accident insurance renewal quote
+    - What is the procedure to get a quote for personal accident insurance renewal
+    - What is the procedure to get personal accident insurance renewal quote
+
+- intent: get_quote_retrieve
+  examples: |
+    - How to retrieve my quote for travel insurance
+    - Where to retrieve my quote for travel insurance
+    - How to retrieve my quote for big 3 insurance
+    - Where to retrieve my quote for big 3 insurance
+    - How to retrieve my quote for big 3 critical illness insurance
+    - Where to retrieve my quote for big 3 critical illness insurance
+    - How to retrieve my quote for home insurance
+    - Where to retrieve my quote for home insurance
+    - How to retrieve my quote for maid insurance
+    - Where to retrieve my quote for maid insurance
+    - How to retrieve my quote for cancer insurance
+    - Where to retrieve my quote for cancer insurance
+    - How to retrieve my quote for stroke insurance
+    - Where to retrieve my quote for stroke insurance
+    - How to retrieve my quote for car insurance
+    - Where to retrieve my quote for car insurance
+    - How to retrieve my quote for personal accident insurance
+    - Where to retrieve my quote for personal accident insurance
+
+- intent: get_quote_valid
+  examples: |
+    - how long is my quote for travel insurance valid for
+    - what is the validity period for my travel insurance quote
+    - how long is the travel insurance quote valid for
+    - what is the validity period of the quote for travel insurance
+    - how long is my quote for big 3 critical illness insurance valid for
+    - what is the validity period for my big 3 critical illness insurance quote
+    - how long is the big 3 critical illness insurance quote valid for
+    - what is the validity period of the quote for big 3 critical illness insurance
+    - how long is my quote for big 3 insurance valid for
+    - what is the validity period for my big 3 insurance quote
+    - how long is the big 3 insurance quote valid for
+    - what is the validity period of the quote for big 3 insurance
+    - how long is my quote for home insurance valid for
+    - what is the validity period for my home insurance quote
+    - how long is the home insurance quote valid for
+    - what is the validity period of the quote for home insurance
+    - how long is my quote for maid insurance valid for
+    - what is the validity period for my maid insurance quote
+    - how long is the maid insurance quote valid for
+    - what is the validity period of the quote for maid insurance
+    - how long is my quote for cancer insurance valid for
+    - what is the validity period for my cancer insurance quote
+    - how long is the cancer insurance quote valid for
+    - what is the validity period of the quote for cancer insurance
+    - how long is my quote for stroke insurance valid for
+    - what is the validity period for my stroke insurance quote
+    - how long is the stroke insurance quote valid for
+    - what is the validity period of the quote for stroke insurance
+    - how long is my quote for car insurance valid for
+    - what is the validity period for my car insurance quote
+    - how long is the car insurance quote valid for
+    - what is the validity period of the quote for car insurance
+    - how long is my quote for personal accident insurance valid for
+    - what is the validity period for my personal accident insurance quote
+    - how long is the personal accident insurance quote valid for
+    - what is the validity period of the quote for personal accident insurance
+
+# CLAIMS
+- intent: claim_select_insurance
+  examples: |
+    - Claim for big 3 insurance
+    - Claim for cancer insurance
+    - Claim for car insurance
+    - Claim for home insurance
+    - Claim for maid insurance
+    - Claim for personal accident insurance
+    - Claim for stroke insurance
+    - Claim for travel insurance
+
+- intent: claim_general
+  examples: |
+    - make a claim
+    - i want to make a claim
+    - i want to make an insurance claim
+    - i want to claim insurance
+    - claim insurance
+    - claim your insurance

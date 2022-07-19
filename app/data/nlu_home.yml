@@ -1,0 +1,270 @@
+version: "3.1"
+nlu:
+
+- intent: faq_home/know_more
+  examples: |
+    - i would like to know more about your home insurance
+    - show me your home insurance
+    - i'd like to take a look at your home insurance
+
+- intent: faq_home/buy_insurance
+  examples: |
+    - I would like to purchase home insurance
+    - I would like to buy home insurance
+    - I want to purchase home insurance
+    - I want to buy home insurance
+    - Can I buy home insurance
+    - Can I get a quote for home insurance
+    - Get a quote for home insurance
+    - Get home insurance quote
+
+- intent: faq_home/get_quote_how
+  examples: |
+    - How to get a quote for home insurance
+    - How to get home insurance quote
+    - Where to get a quote for home insurance
+    - Where to get home insurance quote
+    - What is the procedure to get a quote for home insurance
+    - What is the procedure to get home insurance quote
+
+- intent: faq_home/get_quote_info
+  examples: |
+    - What information is needed to get a quote for home insurance
+    - What information do I need to give to get a quote for home insurance
+    - What information do I need to provide to get a quote for home insurance
+    - Do I need to provide any information to get a quote for home insurance
+    - What information is needed for home insurance insunce quote
+    - What information do I need to give for home insurance quote
+    - What information do I need to provide for home insurance quote
+    - Do I need to provide any information to get home insurance quote
+
+- intent: faq_home/emergency_contact
+  examples: |
+    - How do I contact FWD in case of an emergency for Home Insurance
+    - how can i contact FWD in times of emergency for home insurance
+
+- intent: faq_home/postal_code_not_registered
+  examples: |
+    - What do I do if your system does not register my postal code for Home Insurance
+    - What do I do if my postal code is not registered in your system for Home Insurance
+    - What do I do if my postal code is not detected when buying Home Insurance
+
+- intent: faq_home/renew_rent_flat
+  examples: |
+    - If I rent out my flat how can I renew home insurance
+    - how do i renew my home insurance if i rent out my flat
+    - can i still renew my home insurance if i rent out my flat
+
+- intent: faq_home/change_coverage_amount
+  examples: |
+    - Can I change the coverage amount after I bought my Home Insurance
+    - I already bought my home insurance, can i still change the coverage amount
+    - Am i able to change the coverage amount after buying my home insurance
+
+- intent: faq_home/change_address
+  examples: |
+    - Must I inform FWD if my address has changed under Home Insurance
+    - Must I inform FWD if i changed my address under Home Insurance
+    - do i have to inform FWD if i changed my address under home insurance
+    - do i have to inform FWD if my address has changed under home insurance
+
+- intent: faq_home/hdb_fire_difference
+  examples: |
+    - What is the difference between HDB Fire and Home Insurance
+    - How does HDB Fire and Home Insurance differ
+
+- intent: faq_home/instalment_payment_plans
+  examples: |
+    - Do you offer instalment payment plans for Home Insurance
+    - do you have instalment payment plans for home insurance
+    - is there an instalment payment plan for home insurance
+
+- intent: faq_home/refunds_by_cheque_or_card
+  examples: |
+    - Can refunds be made by cheque or to another card for Home Insurance
+    - will the refund be made by cheque or to another card for home insurance
+
+- intent: faq_home/claim_documents
+  examples: |
+    - What do I need to make a Home Insurance claim
+    - what documents do i need for a home insurance claim
+    - what documents do i need to make a home insurance claim
+
+- intent: faq_home/claim_where
+  examples: |
+    - Where to make Home Insurance claim
+    - where can i make a home insurance claim
+    - where to make a home insurance claim
+
+- intent: faq_home/pet_injury_claim
+  examples: |
+    - Can I claim for pet injury for Home Insurance
+    - am i able to claim for pet injury under home insurance
+
+- intent: faq_home/claim_process_after_police_report
+  examples: |
+    - How long will the Home Insurance claim be processed upon reporting to the police station
+    - how long does it take to process the home insurance claim after police report
+    - how long will the home insurance claim take to process after making a report at the police station
+
+- intent: faq_home/receive_after_purchase
+  examples: |
+    - What documents will I receive after purchasing your Home Insurance
+    - What documents will I receive after buying your Home Insurance
+    - what will i receive after buying your home insurance
+    - what will i receive after purchase your home insurance
+    - what will i receive after i purchased your home insurance
+    - what will i receive after i bought your home insurance
+
+- intent: faq_home/buy_if_live_oversease
+  examples: |
+    - Can I buy Home Insurance if I live overseas
+    - Can I buy Home Insurance if I reside overseas
+    - am i able to buy home insurance if i reside overseas
+    - am i able to buy home insurance if i live overseas
+    - am i able to purchase home insurance if i reside overseas
+    - am i able to purchase home insurance if i live overseas
+
+- intent: faq_home/online_purchase_successful_or_not
+  examples: |
+    - How will I know whether my online purchase of Home Insurance was successful or not
+    - how do i know if my online purchase of home insurance is successful
+
+- intent: faq_home/promo
+  examples: |
+    - Promo code for Home Insurance
+    - do you have a promo code for home insurance
+    - can i get a promo for buying your home insurance
+    - is there a promo for your home insurance
+
+- intent: faq_home/free_look_period
+  examples: |
+    - What is the free look period for Home Insurance
+    - is there a free-look period for your home insurance
+    - got free-look period for your home insurance?
+    - does your home insurance have a free-look period
+    - home insurance have free look period?
+    - what is the free look period for your home insurance?
+
+- intent: faq_home/how_to_download
+  examples: |
+    - How do I download my Home Insurance
+    - how to download my home insurance policy
+
+- intent: faq_home/is_there_waiting_period
+  examples: |
+    - Is my cover active right away or do I have a waiting period under Home Insurance
+    - is my home insurance cover activated immediately or is there a waiting period
+    - does my home insurance cover start immediately or is there a waiting period
+    - does my home insurance cover start immediately or do i need to wait for a period of time
+    - does my home insurance cover start immediately or after a certain duration
+    - does my home insurance cover start immediately or after a certain time period
+
+- intent: faq_home/types_offered
+  examples: |
+    - What types of Home Insurance policies do you offer
+    - What kinds of Home Insurance policies do you offer
+    - what are the types of home insurance you offer
+    - what are the kinds of home insurance you offer
+    - types of home insurance you offer
+    - kinds of home insurance you offer
+
+- intent: faq_home/port_to_new_location
+  examples: |
+    - Is it possible to port this Home Insurance policy to a new location if I am moving home
+    - Is it possible to port this Home Insurance policy to a new address if I am moving home
+    - possible to transfer my current home insurance policy to a new address since i am moving house
+    - can i transfer my current home insurance policy to a new address since i am moving house
+    - can i transfer this home insurance policy to a new address since i am moving house
+
+- intent: faq_home/cover_damages_from_ceiling_leak
+  examples: |
+    - Are the damages from ceiling leak covered under Home Insurance
+    - does your home insurance cover damages from ceiling leak
+    - does the coverage under your home insurance include damages from ceiling leak
+
+- intent: faq_home/coverage_emergency_home_assistance
+  examples: |
+    - What is covered under emergency home assistance under Home Insurance
+    - what does emergency home assistance cover under your home insurance
+    - what does emergency home assistance include under your home insurance
+
+- intent: faq_home/incidental_expenses
+  examples: |
+    - What are incidental expenses in Home Insurance
+    - What do incidental expenses in your home insurance refer to
+
+- intent: faq_home/how_much
+  examples: |
+    - How much is your Home Insurance
+    - how much does your home insurance cost
+    - your home insurance cost how much
+
+- intent: faq_home/do_i_need_hdb_fire
+  examples: |
+    - I have an existing Home Insurance, do I still need to buy HDB Fire Insurance
+    - I have an existing Home Insurance, do I still need to purchase HDB Fire Insurance
+    - i already have home insurance, do i still need to buy hdb fire insurance
+    - i already have home insurance, do i still need to purchase hdb fire insurance
+    - is hdb fire insurance still needed if i already have home insurance
+    - is hdb fire insurance still needed if i have an existing home insurance
+
+- intent: faq_home/cover_theft
+  examples: |
+    - Do you cover theft under Home Insurance
+    - is theft covered under your home insurance
+    - does your home insurance cover theft
+    - theft covered under home insurance?
+
+- intent: faq_home/fire_theft_coverage
+  examples: |
+    - Is there fire and theft coverage in your Home Insurance
+    - is fire and theft coverage offered in your home insurance
+    - does your home insurance include fire and theft coverage
+
+- intent: faq_home/cover_event_types
+  examples: |
+    - What kind of events does Home Insurance cover
+    - what types of events does your home insurance cover
+    - your home insurance cover what kind of events
+    - your home insurance cover what types of events
+    - what kind of events are covered under your home insurance
+    - what types of events are covered under your home insurance
+
+- intent: faq_home/max_amount_payable
+  examples: |
+    - What is the maximum amount you will pay for an item under Home Insurance
+    - What is the max amount you will pay for an item under Home Insurance
+    - What is the max amount payable for an item under Home Insurance
+    - maximum amount payable for an item insured under home insurance
+    - what is the maximum amount payable for an item insured under home insurance
+
+- intent: faq_home/cover_renovation_defects_by_previous_owner
+  examples: |
+    - Does the Home Insurance cover renovation defects made by a previous home owner
+    - does your home insurance cover renovation defects from the previous owner
+    - is renovation defects from the previous owner covered under your home insurance
+    - is renovation defects made by the previous home owner covered under your home insurance
+
+- intent: faq_home/list_excess
+  examples: |
+    - List excess under Home Insurance
+    - what is the list of excess under Home Insurance
+
+- intent: faq_home/cover_public_liability
+  examples: |
+    - Does FWD Home Insurance covers public liability
+    - is public liability covered under your home insurance
+    - does your home insurance cover public liability
+
+- intent: faq_home/building_coverage
+  examples: |
+    - How about building coverage in Home Insurance
+    - is building coverage included in your Home Insurance
+    - is building coverage included under Home Insurance
+
+- intent: faq_home/cover_expensive_jewellery_watches
+  examples: |
+    - Would my expensive jewellery and watches be covered in full under Home Insurance
+    - are my expensive jewellery and watches covered in full under your home insurance
+    - does your home insurance cover my expensive jewellery and watches in full

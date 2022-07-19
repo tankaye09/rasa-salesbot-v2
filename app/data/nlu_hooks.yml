@@ -1,0 +1,12 @@
+version: "3.1"
+nlu:
+
+- intent: initiate_hook
+  examples: |
+    - #comment
+    - #like
+
+- intent: emoji_quiz_correct
+  examples: |
+    - water ski
+    - water skiing

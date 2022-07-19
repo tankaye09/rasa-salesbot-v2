@@ -1,0 +1,378 @@
+version: "3.1"
+nlu:
+
+- intent: faq_car/know_more
+  examples: |
+    - i would like to know more about your car insurance
+    - show me your car insurance
+    - i'd like to take a look at your car insurance
+
+- intent: faq_car/buy_insurance
+  examples: |
+    - I would like to purchase car insurance
+    - I would like to buy car insurance
+    - I want to purchase car insurance
+    - I want to buy car insurance
+    - Can I buy car insurance
+    - Can I get a quote for car insurance
+    - Get a quote for car insurance
+    - Get car insurance quote
+
+- intent: faq_car/get_quote_how
+  examples: |
+    - How to get a quote for car insurance
+    - How to get car insurance quote
+    - Where to get a quote for car insurance
+    - Where to get car insurance quote
+    - What is the procedure to get a quote for car insurance
+    - What is the procedure to get car insurance quote
+
+- intent: faq_car/modifications_exclusion
+  examples: |
+    - do you have any exclusions related to modifications under car insurance
+    - do you have any exclusions regarding modifications under car insurance
+    - are there any exclusions regarding modifications under car insurance
+    - are there any exclusions related to modifications under car insurance
+
+- intent: faq_car/ncd_transfer
+  examples: |
+    - can i transfer ncd under car insurance
+    - am i able to transfer ncd under car insurance
+
+- intent: faq_car/ncd_transfer_motorcycle
+  examples: |
+    - can i transfer ncd from motorcycle to car insurance
+    - am i able to transfer ncd from motorcycle to car insurance
+
+- intent: faq_car/ncd_transfer_company_vehicle
+  examples: |
+    - can i transfer ncd from my company vehicle when i buy car insurance
+    - am i able to transfer ncd from my company vehicle when i purchase car insurance
+
+- intent: faq_car/accident_report_late
+  examples: |
+    - do i get penalised under car insurance if my accident reporting is late
+    - will i be penalised under car insurance if i am late on my accident report
+
+- intent: faq_car/types_accidents_police_report
+  examples: |
+    - what are the kind of accident cases which requires a police report under car insurance
+    - what are the types of accident cases which requires a police report under car insurance
+    - what accident cases require a police report under car insurance
+
+- intent: faq_car/accident_report_days
+  examples: |
+    - how many days do i have to make the accident report under car insurance
+    - what is the deadline to make the accident report under car insurance
+
+- intent: faq_car/accident_report_not_claiming
+  examples: |
+    - do i have to make a report if i had an accident but not claiming under car insurance
+    - if i had an accident but i am not claiming under car insurance, do i have to make a report
+
+- intent: faq_car/accident_what_to_do
+  examples: |
+    - if i met with an accident, what should i do under car insurance
+    - what do i do under car insurance if i met with an accident
+
+- intent: faq_car/accident_report_how_to
+  examples: |
+    - how am i able to make an accident report for car insurance
+    - how can i make an accident report for car insurance
+    - how do i go about making an accident report for car insurance
+
+- intent: faq_car/renew_how
+  examples: |
+    - how can i renew my car insurance
+    - how do i go about renewing my car insurance
+
+- intent: faq_car/add_second_driver
+  examples: |
+    - how can i add a 2nd driver under car insurance
+    - how can i add a second driver under car insurance
+    - how do i add a second driver under car insurance
+    - how do i add a 2nd driver under car insurance
+
+- intent: faq_car/quote_do_not_know_ncd
+  examples: |
+    - what do i choose when getting a car insurance quote if i do not know my ncd
+    - what do i do if i do not know my ncd when getting a car insurance quote
+    - how do i know what to choose if i do not know my ncd when getting a car insurance quote
+
+- intent: faq_car/why_better_direct_asia
+  examples: |
+    - can you tell me why your car insurance better than direct asia
+    - why is your car insurance better than direct asia
+    - how is your car insurance better than direct asia
+    
+- intent: faq_car/comprehensive_third_party_differ
+  examples: |
+    - how does comprehensive, third party fire and theft, and third party car insurance differ
+    - what is the difference between comprehensive, third party fire and theft, and third party car insurance
+    - how do you differentiate between comprehensive, third party fire and theft, and third party car insurance
+
+- intent: faq_car/lower_premium_off_peak_cars
+  examples: |
+    - are the premium lower for off-peak cars
+    - is the premium cheaper for off-peak cars
+    - do off-peak cars get lower premium
+    - do off-peak cars get cheaper premium
+
+- intent: faq_car/discounts_drivers_no_demerit_points
+  examples: |
+    - do you give discounts for car insurance to drivers without any demerit points
+    - are there discounts for drivers with no demerit points when buying car insurance
+
+- intent: faq_car/claim_after_renewal_invitation
+  examples: |
+    - what do i do if i have a claim after i received the car insurance renewal invitation
+    - what should i do if i have a claim after i received the car insurance renewal invitation
+    - what should i do if i have a claim after receiving invitation for car insurance renewal
+    - what do i do if i have a claim after receiving invitation for car insurance renewal
+
+- intent: faq_car/number_of_claims_declare
+  examples: |
+    - how many number of claims under car insurance should i declare
+    - how many claims should i declare under car insurance
+    - what is the number of claims i should declare under car insurance
+
+- intent: faq_car/buy_with_zero_excess
+  examples: |
+    - can i buy the car insurance with zero excess
+    - can i purchase the car insurance with zero excess
+    - am i able to buy car insurance with zero excess
+    - am i able to purchase car insurance with zero excess
+
+- intent: faq_car/new_for_old_cover
+  examples: |
+    - what does new-for-old cover mean under car insurance
+    - what is the meaning of new-for-old cover under car insurance
+    - what is new-for-old cover under your car insurance
+
+- intent: faq_car/where_to_repair_car_damaged_from_accident
+  examples: |
+    - from where can i get my car repaired when my car is damaged due to an accident
+    - my car is damaged due to an accident, from where can i get my car repaired
+    - where can i get my car repaired if it was damaged form an accident
+    - where to get my car repaired if it was damaged form an accident
+
+- intent: faq_car/where_to_repair_car
+  examples: |
+    - from where can i get my car repaired under car insurance
+    - where can i get my car repaired under car insurance
+    - i want to repair my car, where can i do so under your car insurance
+    - under your car insurance, where can i repair my car
+    - under your car insurance, where can i get my car repaired
+
+- intent: faq_car/why_need
+  examples: |
+    - why do i need to buy car insurance
+    - why should i buy car insurance
+    - what is the need for car insurance
+    - buy car insurance for what
+
+- intent: faq_car/certificate_of_merit
+  examples: |
+    - certificate of merit is what in car insurance
+    - what is certificate of merit in your car insurance
+    - what does certificate of merit in your car insurance mean
+    - what does certificate of merit in your insurance refer to
+
+- intent: faq_car/when_guardian_angel_benefit_apply
+  examples: |
+    - when will the guardian angel benefit apply under car insurance
+    - when will the guardian angel benefit take effect under car insurance
+    - when does the guardian angel benefit take effect under car insurance
+    - when does the guardian angel benefit apply under car insurance
+
+- intent: faq_car/define_modification
+  examples: |
+    - how do you define modification under car insurance
+    - what is the definition of modification under car insurance
+    - what does modification mean under car insurance
+
+- intent: faq_car/list_of_workshop
+  examples: |
+    - is there a list of workshop that i can refer to under the car insurance
+    - is there a list of workshop that i can look at under the car insurance
+    - do you have a list of workshop that i look at under your car insurance
+    - do you have a list of workshop that i can refer to under your car insurance
+
+- intent: faq_car/what_is_excess
+  examples: |
+    - what is an excess under car insurance
+    - what does excess under your car insurance mean
+    - explain what is an excess under your car insurance
+
+- intent: faq_car/ncd_break_in_car_ownership
+  examples: |
+    - what can possibly happen to my ncd if there is a break in car ownership
+    - what will happen to my ncd if there is a break in car ownership
+    - what happens to my ncd if there is a break in car ownership
+    - if there is a break in car ownership, what happens to my ncd
+    - if there is a break in car ownership, what will happen to my ncd
+    - if there is a break in car ownership, what can possibly happen to my ncd
+
+- intent: faq_car/buy_if_driving_license_suspended_revoked
+  examples: |
+    - can i buy car insurance if my driving license has been suspended or revoked
+    - can i purchase car insurance if my driving license has been suspended or revoked
+    - can i purchase car insurance if my license is suspended
+    - can i purchase car insurance if my license is revoked
+    - can i buy car insurance if my license is suspended
+    - can i buy car insurance if my license is revoked
+
+- intent: faq_car/ncd_affected_when_utilise_breakdown_assistance
+  examples: |
+    - does my ncd get affected when utilizing the breakdown assistance under car insurance
+    - does my ncd get affected if i use the breakdown assistance under car insurance
+    - does my ncd get affected when using the breakdown assistance under car insurance
+    - will my ncd be affected if i use the breakdown assistance under your car insurance
+    - will my ncd be affected when utilizing the breakdown assistance under your car insurance
+    - will my ncd be affected when utilising the breakdown assistance under your car insurance
+    - will my ncd be affected when using the breakdown assistance under your car insurance
+    - if i use the breakdown assistance under car insurance, will my ncd get affected
+    - if i use the breakdown assistance under car insurance, does my ncd get affected
+
+- intent: faq_car/renew_road_tax_just_purchase
+  examples: |
+    - when can i renew road tax if i just purchased the car insurance
+    - when am i able to renew road tax if i just purchased the car insurance
+    - when can i renew road tax if i just bought the car insurance
+    - when am i able to renew road tax if i just bought the car insurance
+
+- intent: faq_car/repair_windscreen_malaysia
+  examples: |
+    - under car insurance, am i allowed to repair my windscreen in malaysia
+    - can i repair my windscreen in malaysia under your car insurance
+    - can my windscreen be repaired in malaysia under your car insurance
+    - can i choose to repair my windscreen in malaysia under your car insurance
+    - can i choose to have my windscreen repaired in malaysia under your car insurance
+    - under your car insurance, can i repair my windscreen in malaysia
+    - under your car insurance, can my windscreen be repaired in malaysia
+    - under your car insurance, can i choose to repair my windscreen in malaysia
+    - under your car insurance, can i choose to have my windscreen repaired in malaysia
+
+- intent: faq_car/repair_car_preferred_workshop
+  examples: |
+    - can i choose the option under car insurance to repair my car at my preferred workshop
+    - can i choose to repair my car at my preferred workshop under your car insurance
+    - can i have my car repaired at my preferred workshop under your car insurance
+
+- intent: faq_car/extend_renew_road_tax
+  examples: |
+    - am i able to extend my car insurance as i need to renew my road tax
+    - can i extend my car insurance as i need to renew my road tax
+    - i need to renew my road tax, can i extend my car insurance
+    - i need to renew my road tax, am i able to extend my car insurance
+
+- intent: faq_car/use_for_grabhitch
+  examples: |
+    - can i use your car insurance for grabhitch
+    - can grabhitch be covered under the car insurance
+    - is grabhitch covered under the car insurance
+
+- intent: faq_car/car_still_under_warranty
+  examples: |
+    - my car is still under warranty, what must i do under car insurance
+    - what do i do under your car insurance if my car is still under warranty
+    - what must i do under your car insurance if my car is still under warranty
+
+- intent: faq_car/top_up_for_own_workshop
+  examples: |
+    - how much do i need to top up for my own workshop under car insurance
+    - how much is the top up to use my own workshop under your car insurance
+
+- intent: faq_car/buy_if_no_license
+  examples: |
+    - am i able to buy the car insurance if i do not have license
+    - am i able to purchase the car insurance if i do not have a driving license
+    - am i able to purchase the car insurance if i do not have a license
+    - can i buy your car insurance if i have no driving license
+    - can i purchase your car insurance if i have no driving license
+
+- intent: faq_car/license_required_to_buy
+  examples: |
+    - am i required to have license to buy your car insurance
+    - do i need a driving license to buy your car insurance
+    - is a driving license needed to buy your car insurance
+    - does buying your car insurance require me to have a driving license
+    - does buying your car insurance require a driving license
+
+- intent: faq_car/replacement_car_while_vehicle_under_repair
+  examples: |
+    - can i get a replacement car under my car insurance while my vehicle is in the workshop for repair
+    - can i get a replacement car under my car insurance while my vehicle is under repair
+    - can i get a replacement car under my car insurance while my vehicle is being repaired
+    - am i able to get a replacement car under my car insurance while my vehicle is in the workshop for repair
+    - am i able to get a replacement car under my car insurance when my car is under repair
+    - am i able to get a replacement car under my car insurance when my car is being repaired
+
+- intent: faq_car/not_satisfied_with_repairs_at_premium_workshop
+  examples: |
+    - what can be done if i am not satisfied with the repairs done at the premium workshop under car insurance
+    - what can be done if i am not pleased with the repairs from the premium workshop under car insurance
+    - what can i do if i am not pleased with the repairs from the premium workshop under my car insurance
+    - what can be done if i am not pleased with the repairs from the premium workshop under my car insurance
+    - what if i am not satisfied with the repairs from the premium workshop under my car insurance
+    - what can be done i am not satisfied with the repairs from the premium workshop under my car insurance
+
+- intent: faq_car/cover_damage_personal_belongings
+  examples: |
+    - do you cover damage to personal belongings under car insurance
+    - is damage to personal belongings covered under your car insurance
+    - does your car insurance cover damage to personal belongings
+
+- intent: faq_car/coverage_limit_bodily_injury_to_others
+  examples: |
+    - what are the coverage limit for bodily injury to others under car insurance
+    - coverage limit for bodily injury to others under car insurance
+
+- intent: faq_car/how_long_covered
+  examples: |
+    - how long am i covered for my car insurance
+    - what is the cover duration for my car insurance
+    - what is the duration of cover for my car insurance
+    - how long am i insured under my car insurance
+
+- intent: faq_car/covered_if_drive_car_out_of_sg
+  examples: |
+    - am i covered under car insurance if i drive my car out of singapore
+    - if i drove my car out of sg, am i still covered under your car insurance
+    - am i still covered under car insurance if i drove my car out of sg
+
+- intent: faq_car/cover_natural_disaster
+  examples: |
+    - do you cover natural disaster under your car insurance
+    - is natural disaster covered under your car insurance
+    - does your car insurance cover natural disaster
+
+- intent: faq_car/cover_loss_of_keys
+  examples: |
+    - do you cover loss of keys under car insurance
+    - is loss of keys covered under car insurance
+    - does your car insurance cover loss of keys
+
+- intent: faq_car/cover_for_coe
+  examples: |
+    - can your car insurance include cover for coe
+    - is coe included in your car insurance
+    - is coe covered under your car insurance
+
+- intent: faq_car/cover_cars_above_10_years
+  examples: |
+    - do you cover cars above 10 years for car insurance
+    - does your car insurance cover cars that are above 10 years
+    - does your car insurance insure cars that are above 10 years
+    - are cars above 10 years insured under your car insurance
+    - can cars above 10 years be covered under your car insurance
+    - can cars above 10 years be insured under your car insurance
+
+- intent: faq_car/what_cars_can_be_insured
+  examples: |
+    - what cars can be insured under car insurance
+    - what cars are covered under your car insurance
+    - what type of cars are insured under car insurance
+    - what type of cars are covered under your car insurance
+    - what kinds of cars cars are covered under your car insurance
+    - what kinds of cars cars are insured under your car insurance

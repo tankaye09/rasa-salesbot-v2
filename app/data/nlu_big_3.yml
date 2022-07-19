@@ -1,0 +1,692 @@
+version: "3.1"
+nlu:
+
+- intent: faq_big_3/know_more
+  examples: |
+    - i would like to know more about your big 3 insurance
+    - show me your big 3 insurance
+    - i'd like to take a look at your big 3 insurance
+    - i would like to know more about your big three critical illness insurance
+    - show me your big three critical illness insurance
+    - i'd like to take a look at your big three critical illness insurance
+    - i would like to know more about your big 3 critical illness insurance
+    - show me your big 3 critical illness insurance
+    - i'd like to take a look at your big 3 critical illness insurance
+    - i would like to know more about your big three critical illness insurance
+    - show me your big three critical illness insurance
+    - i'd like to take a look at your big three critical illness insurance
+
+- intent: faq_big_3/buy_insurance
+  examples: |
+    - I would like to purchase big 3 insurance
+    - I would like to buy big 3 insurance
+    - I want to purchase big 3 insurance
+    - I want to buy big 3 insurance
+    - Can I buy big 3 insurance
+    - I would like to purchase big 3 critical illness insurance
+    - I would like to buy big 3 critical illness insurance
+    - I want to purchase big 3 critical illness insurance
+    - I want to buy big 3 critical illness insurance
+    - Can I buy big 3 critical illness insurance
+    - Can I get a quote for big 3 critical illness insurance
+    - Get a quote for big 3 critical illness insurance
+    - Get big 3 critical illness insurance quote
+    - Can I get a quote for big 3 insurance
+    - Get a quote for big 3 insurance
+    - Get big 3 insurance quote
+
+- intent: faq_big_3/get_quote_how
+  examples: |
+    - How to get a quote for big 3 critical illness insurance
+    - How to get big 3 critical illness insurance quote
+    - Where to get a quote for big 3 critical illness insurance
+    - Where to get big 3 critical illness insurance quote
+    - What is the procedure to get a quote for big 3 critical illness insurance
+    - What is the procedure to get big 3 critical illness insurance quote
+    - How to get a quote for big 3 insurance
+    - How to get big 3 insurance quote
+    - Where to get a quote for big 3 insurance
+    - Where to get big 3 insurance quote
+    - What is the procedure to get a quote for big 3 insurance
+    - What is the procedure to get big 3 insurance quote
+
+- intent: faq_big_3/cancellation
+  examples: |
+    - how can i cancel my big 3 critical illness policy
+    - how do i cancel my big 3 critical illness policy
+    - how can i cancel my big 3 critical illness insurance policy
+    - how do i cancel my big 3 critical illness insurance policy
+    - how can i cancel my big 3 insurance policy
+    - how do i cancel my big 3 insurance policy
+
+- intent: faq_big_3/withdraw_leave_sg
+  examples: |
+    - can i withdraw my big 3 critical illness insurance when i leave singapore
+    - can i withdraw my big 3 insurance when i leave singapore
+    - am i able to withdraw my big 3 insurance when i leave singapore
+    - am i able to withdraw my big 3 critical illness insurance when i leave singapore
+
+- intent: faq_big_3/recommend_stroke
+  examples: |
+    - Do I still need Stroke Insurance if I am already holding a Critical Illness Insurance
+    - will i need Stroke Insurance if I already have a Critical Illness Insurance
+    - will i need Stroke Insurance if I already bought a Critical Illness Insurance
+    - do i need Stroke Insurance if I already bought a Critical Illness Insurance
+
+- intent: faq_big_3/breast_cysts_no_treatment
+  examples: |
+    - do i answer 'yes' or 'no' to the question under big 3 critical illness if i have breast cysts but no treatment needed
+    - what do i answer to the question under big 3 insurance if i have breast cysts but no treatment needed
+    - if i have breast cysts but i don't need treatment, do i answer 'yes' or 'no' to the question under big 3 insurance
+    - if i have breast cysts but i don't need treatment, do i answer 'yes' or 'no' to the question under big 3 critical illness
+    - if i have breast cysts but i don't need treatment, what do i answer to the question under big 3 critical illness
+    - if i have breast cysts but i don't need treatment, what do i answer to the question under big 3 insurance
+
+# TODO: Try to extract the number of years as entity
+- intent: faq_big_3/renew_years
+  examples: |
+    - is your big 3 critical illness insurance renewable every 5 years
+    - is your big 3 insurance renewable every 5 years
+    - do i have to renew my big 3 insurance every 5 years
+    - how many years later do i renew my big 3 critical illness insurance
+    - how many years later do i renew my big 3 insurance
+    - after how many years do i have to renew my big 3 insurance
+    - after how many years do i have to renew my big 3 critical illness insurance
+    - when do i have to renew my big 3 insurance
+    - when do i have to renew my big 3 critical illness insurance
+
+- intent: faq_big_3/wrong_gender
+  examples: |
+    - what do i do if the wrong gender is stated on my big 3 critical illness policy
+    - what if my gender is stated wrongly on my big 3 critical illness policy
+    - what do i do if the wrong gender is stated on my big 3 insurance policy
+    - what if my gender is stated wrongly on my big 3 insurance policy
+    - what do i do if the wrong gender is stated on my big 3 policy
+    - what if my gender is stated wrongly on my big 3 policy
+
+- intent: faq_big_3/change_personal_particulars
+  examples: |
+    - can i make changes to my personal particulars after i buy big 3 critical illness insurance
+    - Can i still amend my personal particulars after i buy big 3 critical illness insurance
+    - can i still make amendments to my personal particulars after i buy big 3 critical illness insurance
+    - can i still change my personal particulars after i buy big 3 critical illness insurance
+    - am i able to change my personal particulars after i buy big 3 critical illness insurance
+    - am i able to amend my personal particulars after i buy big 3 critical illness insurance
+    - am i still able to amend my personal particulars after i buy big 3 critical illness insurance
+    - am i still able to change my personal particulars after i buy big 3 critical illness insurance
+    - can i make changes to my personal particulars after i buy big 3 insurance
+    - Can i still amend my personal particulars after i buy big 3 insurance
+    - can i still make amendments to my personal particulars after i buy big 3 insurance
+    - can i still change my personal particulars after i buy big 3 insurance
+    - am i able to change my personal particulars after i buy big 3 insurance
+    - am i able to amend my personal particulars after i buy big 3 insurance
+    - am i still able to amend my personal particulars after i buy big 3 insurance
+    - am i still able to change my personal particulars after i buy big 3 insurance
+
+- intent: faq_big_3/convert_from_term_life
+  examples: |
+    - can i convert my term life insurance to big 3 critical illness insurance
+    - change i change my term life insurance to big 3 critical illness insurance
+    - can i convert my term life insurance to big 3 insurance
+    - change i change my term life insurance to big 3 insurance
+
+- intent: faq_big_3/change_coverage_amount_benefits
+  examples: |
+    - can i make changes to my coverage amount or benefits after i buy your big 3 critical illness insurance
+    - can i still change my coverage amount or benefits after i buy your big 3 critical illness insurance
+    - can i still amend my coverage amount or benefits after i buy your big 3 critical illness insurance
+    - can i make changes to my coverage amount or benefits after i buy your big 3 insurance
+    - can i still change my coverage amount or benefits after i buy your big 3 insurance
+    - can i still amend my coverage amount or benefits after i buy your big 3 insurance
+
+- intent: faq_big_3/change_plan_renewal
+  examples: |
+    - I am looking to change to cancer heart attack and stroke plan this coming renewal
+    - I am looking to change my big 3 policy to cancer heart attack and stroke plan this coming renewal
+    - I am thinking of changing my big 3 policy to cancer heart attack and stroke plan this coming renewal
+    
+- intent: faq_big_3/term_life_difference_critical_illness
+  examples: |
+    - what is the difference in critical illness between the term life insurance and big 3 critical illness insurance
+    - what is the difference in critical illness between the term life insurance and big 3 insurance
+    - does the critical illness differ between the term life insurance and big 3 critical illness insurance
+    - does the critical illness differ between the term life insurance and big 3 insurance
+    - is there a difference in critical illness between the term life insurance and big 3 critical illness insurance
+    - is there a difference in critical illness between the term life insurance and big 3 insurance
+    
+- intent: faq_big_3/cancer_more_expensive
+  examples: |
+    - why is your cancer insurance more expensive than big 3 critical illness insurance
+    - why is your cancer insurance more expensive than big 3 insurance
+    - how come cancer insurance is more expensive than big 3 critical illness insurance
+    - how come cancer insurance is more expensive than big 3 insurance
+    
+- intent: faq_big_3/cheaper_than_cancer
+  examples: |
+    - why is your big 3 critical illness insurance cheaper than cancer insurance
+    - why is your big 3 insurance cheaper than cancer insurance
+    - how come big 3 critical illness insurance is cheaper than cancer insurance
+    - how come big 3 insurance is cheaper than cancer insurance
+    
+- intent: faq_big_3/term_life_difference
+  examples: |
+    - what is the difference between big 3 and term life
+    - what is the difference between big 3 insurance and term life insurance
+    - how does big 3 and term life insurance differ
+    - how does big 3 and term life differ
+    - how do you differentiate between big 3 and term life
+    - how do you differentiate between big 3 insurance and term life insurance
+    
+- intent: faq_big_3/cancer_difference
+  examples: |
+    - what is the difference between big 3 insurance and cancer insurance
+    - what is the difference between big 3 and cancer
+    - how does big 3 insurance and cancer insurance differ
+    - how does big 3 and cancer differ
+    - how do you differentiate between big 3 insurance and cancer insurance
+    - how do you differentiate between big 3 and cancer
+
+- intent: faq_big_3/cancer_difference_cancer_coverage
+  examples: |
+    - what is the difference in cancer coverage between big 3 critical illness and cancer insurance
+    - what is the difference in cancer coverage between big 3 insurance and cancer insurance
+    - does the cancer coverage differ between big 3 critical illness and cancer insurance
+    - does the cancer coverage differ between big 3 insurance and cancer insurance
+    
+- intent: faq_big_3/is_term_life_better
+  examples: |
+    - is term life insurance better than big 3 critical illness insurance
+    - would you say that term life insurance better than big 3 critical illness insurance
+
+- intent: faq_big_3/payment_frequencies
+  examples: |
+    - which payment frequencies can i choose from for big 3 critical illness insurance
+    - what are the payment frequencies available for big 3 critical illness insurance
+    - what payment frequencies do you offer for big 3 critical illness insurance
+    - which payment frequencies can i choose from for big 3 insurance
+    - what are the payment frequencies available for big 3 insurance
+    - what payment frequencies do you offer for big 3 insurance
+
+- intent: faq_big_3/pay_premium_every_year
+  examples: |
+    - do i have to pay premium every year until age 85 for big 3 critical illness insurance
+    - will i have to pay premium every year until age 85 for big 3 critical illness insurance
+    - is the premium payable yearly until age 85 for big 3 critical illness insurance
+    - do i have to pay premium every year until age 85 for big 3 insurance
+    - will i have to pay premium every year until age 85 for big 3 insurance
+    - is the premium payable yearly until age 85 for big 3 insurance
+
+- intent: faq_big_3/premiums_levelled
+  examples: |
+    - are the premiums levelled for big 3 critical illness insurance
+    - are the premiums levelled for big 3 insurance
+
+- intent: faq_big_3/payment_methods
+  examples: |
+    - which payment methods are accepted for big 3 critical illness insurance
+    - what payment methods do you have for big 3 critical illness insurance
+    - what payment methods do you offer for big 3 critical illness insurance
+    - what payment methods are available for big 3 critical illness insurance
+    - which payment methods are accepted for big 3 insurance
+    - what payment methods do you have for big 3 insurance
+    - what payment methods do you offer for big 3 insurance
+    - what payment methods are available for big 3 insurance
+
+- intent: faq_big_3/premium
+  examples: |
+    - what is the big 3 critical illness premium till 85 years old
+    - how much is the big 3 critical illness premium till 85 years old
+
+- intent: faq_big_3/payment_sum_early_cancer_detected
+  examples: |
+    - will the big 3 critical illness insurance pay me a whole sum if there is early cancer detected
+    - if early cancer is detected, will big 3 insurance pay me a whole sum
+    - will i receive a whole sum under big 3 insurance if early cancer is detected
+
+- intent: faq_big_3/claim_myself
+  examples: |
+    - do i need to make a big 3 critical illness claim myself
+    - do i have to make the big 3 claim myself
+
+- intent: faq_big_3/buy_have_cancer_insurance
+  examples: |
+    - Can I buy Big 3 Critical Illness insurance if I have a Cancer insurance
+    - if i already have cancer insurance, can i still buy big 3 insurance
+    - if i already have cancer insurance, can i still buy big 3 critical illness insurance
+    - if i have cancer insurance, can i still buy big 3 insurance
+    - if i have cancer insurance, can i still buy big 3 critical illness insurance
+
+- intent: faq_big_3/buy_rider
+  examples: |
+    - is it necessary to buy rider for big 3 insurance
+    - is rider a necessary purchase for big 3 insurance
+    - should i buy rider for big 3 insurance
+    - should i get rider for big 3 insurance
+
+- intent: faq_big_3/buy_after_cancer_insurance_expires
+  examples: |
+    - Am I able to buy Big 3 Critical Illness Insurance after my Cancer Insurance expires
+    - can i get big 3 insurance after my cancer insurance expires
+    - can i buy big 3 insurance after my cancer insurance expires
+    - can i purchase big 3 insurance after my cancer insurance expires
+    - after my cancer insurance expires, can i buy big 3 insurance
+    - after my cancer insurance expires, can i purchase big 3 insurance
+
+- intent: faq_big_3/buy_if_cancel_cancer_insurance
+  examples: |
+    - Can I buy Big 3 Critical Illness Insurance if I cancel my Cancer Insurance
+    - Can I purchase Big 3 Critical Illness Insurance if I cancel my Cancer Insurance
+    - if i cancel my cancer insurance, can i buy big 3 insurance
+    - if i cancel my cancer insurance, can i purchase big 3 insurance
+
+- intent: faq_big_3/free_look_period
+  examples: |
+    - is there a free-look period for your big 3 critical illness insurance
+    - is there a free look period for your big 3 critical illness insurance
+    - is there a free-look period for your big 3 insurance
+    - is there a free look period for your big 3 insurance
+    - got free-look period for your big 3 critical illness insurance?
+    - got free look period for your big 3 critical illness insurance?
+    - got free-look period for your big 3 insurance?
+    - got free look period for your big 3 insurance?
+    - does your big 3 insurance have a free-look period
+    - does your big 3 critical illness insurance have a free-look period
+    - does your big 3 insurance have a free look period
+    - does your big 3 critical illness insurance have a free look period
+    - big 3 insurance have free look period?
+    - big 3 insurance have free-look period?
+    - what is the free look period for your big 3 insurance?
+    - what is the free look period for your big 3 critical illness insurance?
+
+- intent: faq_big_3/who_can_buy
+  examples: |
+    - who can buy big 3 critical illness insurance
+    - who can buy big 3 insurance
+    - who is eligible to buy big 3 insurance
+    - who is eligible to buy big 3 critical illness insurance
+    - who can purchase big 3 critical illness insurance
+    - who can purchase big 3 insurance
+    - who is eligible to purchase big 3 insurance
+    - who is eligible to purchase big 3 critical illness insurance
+
+- intent: faq_big_3/promo
+  examples: |
+    - is there any promo for big 3 critical illness insurance
+    - got promo for big 3 critical illness insurance
+    - got promo for big 3 insurance
+    - is there any promo for big 3 insurance
+    - do you have any promo for your big 3 insurance
+    - do you have any promo for your big 3 critical illness insurance
+
+- intent: faq_big_3/buy_more_than_one
+  examples: |
+    - can a person buy more than one big 3 critical illness insurance
+    - can buy more than one big 3 insurance
+    - can buy more than one big 3 critical illness insurance
+    - can i buy more than one big 3 insurance
+    - can i buy more than one big 3 critical illness insurance
+
+- intent: faq_big_3/who_dependents_sudden_death
+  examples: |
+    - who will be my dependents in the event of sudden death under big 3 critical illness insurance
+    - who will be my dependents in the event of sudden death under big 3 insurance
+    - who are my dependents in case of sudden death under your big 3 insurance
+    - who are my dependents in case of sudden death under your big 3 critical illness insurance
+    - in case of sudden death, who are my dependents under the big 3 insurance
+    - in case of sudden death, who are my dependents under the big 3 critical illness insurance
+    - under your big 3 insurance, who will be my dependents in case of sudden death
+    - under your big 3 critical illness insurance, who will be my dependents in case of sudden death
+    - under your big 3 insurance, who are going to be my dependents in case of sudden death
+    - under your big 3 critical illness insurance, who are going to be my dependents in case of sudden death
+
+- intent: faq_big_3/survival_period
+  examples: |
+    - do you have survival period for big 3 critical illness insurance
+    - do you have survival period for big 3 insurance
+    - your big 3 insurance got survival period
+    - your big 3 critical illness insurance got survival period
+    - is there a survival period for your big 3 insurance
+    - is there a survival period for your big 3 critical illness insurance
+    - got survival period for your big 3 insurance
+    - got survival period for your big 3 critical illness insurance
+
+- intent: faq_big_3/max_age_coverage
+  examples: |
+    - what is the maximum age coverage for big 3 critical illness insurance
+    - what is the maximum age coverage for big 3 insurance
+    - what is the max age coverage for big 3 critical illness insurance
+    - what is the max age coverage for big 3 insurance
+    - maximum age coverage for your big 3 insurance
+    - maximum age coverage for your big 3 critical illness insurance
+    - max age coverage for your big 3 insurance
+    - max age coverage for your big 3 critical illness insurance
+
+- intent: faq_big_3/terms_conditions
+  examples: |
+    - what are the terms and conditions under big 3 critical illness insurance
+    - what are the terms and conditions under big 3 insurance
+    - what are the terms and conditions for your big 3 critical illness insurance
+    - what are the terms and conditions for your big 3 insurance
+    - terms and conditions under big 3 critical illness insurance
+    - terms and conditions under big 3 insurance
+    - terms and conditions for your big 3 critical illness insurance
+    - terms and conditions for your big 3 insurance
+    - state the terms and conditions for your big 3 insurance
+    - state the terms and conditions for your big 3 critical illness insurance
+
+- intent: faq/big_cannot_open_policy_document
+  examples: |
+    - why can't i open my big 3 critical illness policy document
+    - why can't i open my big 3 policy document
+    - why cannot open my big 3 policy document
+    - why cannot open my big 3 critical illness policy document
+    - cannot open my big 3 policy document
+    - cannot open my big 3 critical illness policy document
+    - i got issues opening my big 3 policy document
+    - i got issues opening my big 3 critical illness policy document
+    - i am facing some problems opening my big 3 policy document
+    - i am facing some problems opening my big 3 critical illness policy document
+
+- intent: faq_big_3/waiting_period
+  examples: |
+    - what is the waiting period for big 3 critical illness insurance
+    - what is the waiting period for big 3 insurance
+    - got waiting period for big 3 insurance
+    - waiting period for big 3 insurance
+    - got waiting period for big 3 critical illness insurance
+    - waiting period for big 3 critical illness insurance
+    - is there a waiting period for big 3 insurance
+    - is there a waiting period for big 3 critical illness insurance
+
+- intent: faq_big_3/cover_cancer_types
+  examples: |
+    - what kind of cancers are covered under big 3 critical illness
+    - what types of cancers are covered under big 3 critical illness
+    - what kind of cancers are covered under big 3
+    - what kind of cancers are covered under big 3 insurance
+    - what types of cancers are covered under big 3
+    - what types of cancers are covered under big 3 insurance
+    - kinds of cancers covered under big 3 critical illness insurance
+    - types of cancers covered under big 3 critical illness insurance
+    - kinds of cancers covered under big 3 insurance
+    - types of cancers covered under big 3 insurance
+    - big 3 critical illness insurance covers what types of cancer
+    - big 3 insurance covers what types of cancer
+    - big 3 critical illness insurance covers what kinds of cancer
+    - big 3 insurance covers what kinds of cancer
+    - big 3 covers what cancer
+    - big 3 insurance covers what cancer
+    - big 3 critical illness insurance covers what cancer
+    - cancer coverage for big 3
+    - cancer coverage for big 3 insurance
+    - cancer coverage for big 3 critical illness insurance
+
+- intent: faq_big_3/why_cannot_buy_if_have_cancer_insurance
+  examples: |
+    - why can't i buy big 3 critical illness insurance when i have cancer insurance
+    - why can't i buy big 3 insurance when i have cancer insurance
+    - why cannot buy big 3 critical illness insurance when i have cancer insurance
+    - why cannot buy big 3 insurance when i have cancer insurance
+    - why am i unable to buy big 3 insurance when i have cancer insurance
+    - why am i unable to buy big 3 critical illness insurance when i have cancer insurance
+    - i cannot buy big 3 critical illness insurance when i have cancer insurance
+    - i cannot buy big 3 insurance when i have cancer insurance
+
+- intent: faq_big_3/buy_if_have_cancer_insurance
+  examples: |
+    - can i buy big 3 critical illness insurance if i have a cancer insurance
+    - can i buy big 3 insurance if i have a cancer insurance
+    - can buy big 3 insurance if i have a cancer insurance
+    - can buy big 3 critical illness insurance if i have a cancer insurance
+    - if i have cancer insurance, can i still buy big 3 insurance
+    - if i have cancer insurance, can i still buy big 3 critical illness insurance
+    - if i have cancer insurance, can i still purchase big 3 insurance
+    - if i have cancer insurance, can i still purchase big 3 critical illness insurance
+
+- intent: faq_big_3/buy_with_policy_from_another_company
+  examples: |
+    - can i buy big 3 critical illness insurance if i already have a critical illness policy from another company
+    - can i buy big 3 insurance if i already have a critical illness policy from another company
+    - can i still buy your big 3 insurance if i already have a critical illness insurance from another company
+    - can i still buy your big 3 insurance if i already have a critical illness insurance from elsewhere
+
+- intent: faq_big_3/medical_checkup
+  examples: |
+    - do i need to go for a medical check-up for big 3 critical illness insurance
+    - do i need to go for a medical check-up for big 3 insurance
+    - do i need to go for a medical checkup for big 3 critical illness insurance
+    - do i need to go for a medical checkup for big 3 insurance
+    - do i have go for a medical check-up for big 3 critical illness insurance
+    - do i have go for a medical check-up for big 3 insurance
+    - do i have go for a medical checkup for big 3 critical illness insurance
+    - do i have go for a medical checkup for big 3 insurance
+    - need medical check-up for big 3 insurance
+    - need medical check-up for big 3 critical illness insurance
+    - need medical checkup for big 3 insurance
+    - need medical checkup for big 3 critical illness insurance
+    - need medical check-up to buy your big 3 insurance
+    - need medical check-up to buy your big 3 critical illness insurance
+    - need medical checkup to buy your big 3 insurance
+    - need medical checkup to buy your big 3 critical illness insurance
+
+- intent: faq_big_3/change_rider_after_purchase
+  examples: |
+    - can i change the rider after buying big 3 critical illness insurance
+    - can i change the rider after buying big 3 insurance
+    - can change rider after buying big 3 critical illness insurance
+    - can change rider after buying big 3 insurance
+    - change the rider after buying big 3 critical illness insurance
+    - change the rider after buying big 3 insurance
+    - is it possible for me to change rider after buying the big 3 insurance
+    - is it possible for me to change rider after buying the big 3 critical illness insurance
+
+- intent: faq_big_3/buy_term_life_already_have_big_3
+  examples: |
+    - can i buy term life insurance if i already have big 3 critical illness insurance
+    - can buy term life insurance if i already have big 3 critical illness insurance
+    - can i buy term life insurance if i already have big 3 insurance
+    - can buy term life insurance if i already have big 3 insurance
+    - if i already have big 3 insurance, can i still buy term life insurance
+    - if i already have big 3 critical illness insurance, can i still buy term life insurance
+
+- intent: faq_big_3/smoker_nonsmoker
+  examples: |
+    - what is considered a smoker or non-smoker under the big 3 critical illness insurance
+    - what is a smoker or non-smoker under the big 3 critical illness insurance
+    - what is considered a smoker or non-smoker under the big 3 insurance
+    - what is a smoker or non-smoker under the big 3 insurance
+
+- intent: faq_big_3/buy_if_undergo_medical_treatment
+  examples: |
+    - can i buy big 3 critical illness insurance if i am currently undergoing medical treatment
+    - can i buy big 3 insurance if i am currently undergoing medical treatment
+    - can i buy big 3 critical illness insurance if i am undergoing medical treatment now
+    - can i buy big 3 insurance if i am undergoing medical treatment now
+    - if i am currently undergoing medical treatment, can i buy 3 insurance
+    - if i am currently undergoing medical treatment, can i buy 3 critical illness insurance
+    - if i am undergoing medical treatment now, can i buy 3 critical illness insurance
+    - if i am undergoing medical treatment now, can i buy 3 insurance
+
+- intent: faq_big_3/resume_smoking
+  examples: |
+    - what if i resume smoking under big 3 critical illness insurance
+    - what happens if i resume smoking under big 3 critical illness insurance
+    - what if i resume smoking under big 3 insurance
+    - what happens if i resume smoking under big 3 insurance
+    - what if i start smoking again under big 3 insurance
+    - what happens if i start smoking again under big 3 insurance
+    - what if i start smoking again under big 3 critical illness insurance
+    - what happens if i start smoking again under big 3 critical illness insurance
+
+- intent: faq_big_3/for_parents_children
+  examples: |
+    - can i buy big 3 critical illness insurance for my parents or children
+    - can i buy big 3 insurance for my parents or children
+    - can buy big 3 critical illness insurance for my parents or children
+    - can buy big 3 insurance for my parents or children
+    - can i buy big 3 critical illness insurance for my parents or kids
+    - can i buy big 3 insurance for my parents or kids
+    - can buy big 3 critical illness insurance for my parents or kids
+    - can buy big 3 insurance for my parents or kids
+
+- intent: faq_big_3/buy_if_above_65
+  examples: |
+    - can i buy big 3 critical illness insurance if i am more than 65 years old
+    - can i buy big 3 critical illness insurance if i am above 65 years old
+    - can i buy big 3 critical illness insurance if i am above 65
+    - can i buy big 3 insurance if i am more than 65 years old
+    - can i buy big 3 insurance if i am above 65 years old
+    - can i buy big 3 insurance if i am above 65
+    - can buy big 3 insurance if i am more than 65 years old
+    - can buy big 3 insurance if i am above 65 years old
+    - can buy big 3 insurance if i am above 65
+    - if i am above 65, can i buy your big 3 insurance
+    - if i am above 65, can i buy your big 3 critical illness insurance
+    - if i am above 65 years old, can i buy your big 3 insurance
+    - if i am above 65 years old, can i buy your big 3 critical illness insurance
+    - if i am above 65, can i purchase your big 3 insurance
+    - if i am above 65, can i purchase your big 3 critical illness insurance
+    - if i am above 65 years old, can i purchase your big 3 insurance
+    - if i am above 65 years old, can i purchase your big 3 critical illness insurance
+
+- intent: faq_big_3/whose_ic_to_key_in
+  examples: |
+    - whose ic do i key in if i am buying big 3 critical illness insurance for someone else
+
+- intent: faq_big_3/buy_if_recovered_from_cancer
+  examples: |
+    - if i have recovered from cancer can i still purchase the big 3
+    - if i have recovered from cancer can i still buy the big 3
+    - if i have recovered from cancer can i still purchase the big 3 insurance
+    - if i have recovered from cancer can i still buy the big 3 insurance
+    - if i have recovered from cancer can i still purchase the big 3 critical illness insurance
+    - if i have recovered from cancer can i still buy the big 3 critical illness insurance
+    - can i still buy your big 3 insurance if i have recovered from cancer
+    - can i still buy your big 3 critical illness insurance if i have recovered from cancer
+    - can i still purchase your big 3 insurance if i have recovered from cancer
+    - can i still purchase your big 3 critical illness insurance if i have recovered from cancer
+
+- intent: faq_big_3/covers_how_many_years
+  examples: |
+    - how many years does big 3 critical illness insurance covers
+    - how many years does big 3 insurance covers
+    - what is the number of years that big 3 insurance covers
+    - what is the number of years that big 3 critical illness insurance covers
+    - number of years that big 3 critical illness insurance covers
+    - number of years that big 3 insurance covers
+
+- intent: faq_big_3/pay_whole_sum_if_early_cancer_detected
+  examples: |
+    - Will the Big 3 Critical Illness Insurance pay me a whole sum if there is early cancer detected
+    - Will the Big 3 Insurance pay me a whole sum if there is early cancer detected
+    - will i be paid a whole sum under big 3 insurance if early cancer is detected
+    - will i be paid a whole sum under big 3 critical illness insurance if early cancer is detected
+    - will i get a whole sum under big 3 insurance if early cancer is detected
+    - will i get a whole sum under big 3 critical illness insurance if early cancer is detected
+
+- intent: faq_big_3/cover_should_i_choose
+  examples: |
+    - how much cover should i choose for big 3 critical illness insurance
+    - how much cover should i choose for big 3 insurance
+    - how much cover to choose for big 3 critical illness insurance
+    - how much cover to choose for big 3 insurance
+    - how much cover do i choose for big 3 critical illness insurance
+    - how much cover do i choose for big 3 insurance
+    - how do i know how much cover to choose for big 3 insurance
+    - how do i know how much cover to choose for big 3 critical illness insurance
+
+- intent: faq_big_3/cover_kidney_failure
+  examples: |
+    - does big 3 cover kidney failure
+    - does your big 3 insurance cover kidney failure
+    - does your big 3 critical illness insurance cover kidney failure
+    - is kidney failure covered under big 3 insurance
+    - is kidney failure covered under big 3 critical illness insurance
+    - is kidney failure covered under big 3
+    - big 3 got cover kidney failure
+    - big 3 critical illness insurance got cover kidney failure
+    - big 3 insurance got cover kidney failure
+
+- intent: faq_big_3/buy_max_age_eligible
+  examples: |
+    - what is the maximum age eligible to purchase your big 3 critical illness insurance
+    - what is the max age eligible to purchase your big 3 critical illness insurance
+    - max age eligible to purchase your big 3 critical illness insurance
+    - maximum age eligible to purchase your big 3 critical illness insurance
+
+- intent: faq_big_3/heart_attack_coverage
+  examples: |
+    - what is the specific coverage for heart attack in big 3 critical illness insurance
+    - what is the specific coverage for heart attack in big 3 insurance
+    - specific coverage for heart attack in big 3 critical illness insurance
+    - specific coverage for heart attack in big 3 insurance
+
+- intent: faq_big_3/cancer_coverage_limit
+  examples: |
+    - What is the coverage limit for Big 3 Critical Illness Insurance and Cancer Insurance
+    - What is the coverage limit for big 3 insurance and Cancer Insurance
+    - coverage limit for Big 3 Critical Illness Insurance and Cancer Insurance
+    - coverage limit for big 3 insurance and Cancer Insurance
+    - what is the limit of the coverage under big 3 insurance and cancer insurance
+    - what is the limit of the coverage under big 3 critical illness insurance and cancer insurance
+    - limit of the coverage under big 3 insurance and cancer insurance
+    - limit of the coverage under big 3 critical illness insurance and cancer insurance
+
+- intent: faq_big_3/cover_early_stages_heart_disease
+  examples: |
+    - does big 3 critical illness insurance covers early stages of heart disease
+    - does big 3 insurance covers early stages of heart disease
+    - is early stages of heart disease covered under big 3 insurance
+    - is early stages of heart disease covered under big 3 critical illness insurance
+    - does your big 3 insurance cover early stages of heart disease
+    - does your big 3 critical illness insurance cover early stages of heart disease
+    - your big 3 critical illness insurance got cover early stages of heart disease
+    - your big 3 insurance got cover early stages of heart disease
+
+- intent: faq_big_3/max_protection
+  examples: |
+    - what is the maximum protection i can buy under big 3 critical illness insurance
+    - maximum protection i can buy under big 3 critical illness insurance
+    - maximum protection available under big 3 critical illness insurance
+    - what is the maximum protection i can buy under big 3 insurance
+    - maximum protection i can buy under big 3 insurance
+    - maximum protection available under big 3 insurance
+    - what is the max protection i can buy under big 3 insurance
+    - max protection i can buy under big 3 insurance
+    - max protection available under big 3 insurance
+
+- intent: faq_big_3/cover_sg_international
+  examples: |
+    - does the big 3 critical illness insurance covers only singapore or internationally
+    - does the big 3 insurance covers only singapore or internationally
+    - does the big 3 insurance covers only singapore or internationally
+    - does the big 3 critical illness insurance covers only singapore or internationally
+    - is the coverage for big 3 insurance applicable for only singapore or internationally
+    - is the coverage for big 3 critical illness insurance applicable for only singapore or internationally
+
+- intent: faq_big_3/cover_early_critical_illness
+  examples: |
+    - does big 3 insurance cover for early critical illness
+    - does your big 3 insurance cover early critical illness
+    - is early critical illness cover under your big 3 insurance
+    - is early critical illness cover under your big 3 critical illness insurance
+
+- intent: faq_big_3/max_protection_cancer
+  examples: |
+    - What is the maximum protection for cancer under my Big 3 Critical Illness Insurance
+    - What is the maximum protection for cancer under big 3 insurance
+    - maximum protection for cancer under my Big 3 Critical Illness Insurance
+    - maximum protection for cancer under my big 3 insurance
+    - max protection for cancer under my Big 3 Critical Illness Insurance
+    - max protection for cancer under my big 3 insurance
+    - max cancer protection for big 3 insurance
+    - max cancer protection for big 3 critical illness insurance
+    - maximum cancer protection for big 3 insurance
+    - maximum cancer protection for big 3 critical illness insurance
+
+- intent: faq_big_3/cover_early_stage_cancer
+  examples: |
+    - does big 3 critical illness insurance cover for early stage cancer
+    - does big 3 insurance cover for early stage cancer
+    - does big 3 cover early stage cancer
+    - does your big 3 insurance cover early stage cancer

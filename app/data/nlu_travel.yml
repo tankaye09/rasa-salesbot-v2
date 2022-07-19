@@ -1,0 +1,976 @@
+version: "3.1"
+nlu:
+
+# - intent: faq_travel/state_destination
+#   examples: |
+#     - [Singapore] (country)
+
+- intent: faq_travel/know_more
+  examples: |
+    - i would like to know more about your travel insurance
+    - show me your travel insurance
+    - i'd like to take a look at your travel insurance
+
+- intent: faq_travel/buy_insurance
+  examples: |
+    - I would like to purchase travel insurance
+    - I would like to buy travel insurance
+    - I want to purchase travel insurance
+    - I want to buy travel insurance
+    - Can I buy travel insurance
+    - Can I get a quote for travel insurance
+    - Get a quote for travel insurance
+    - Get travel insurance quote
+
+- intent: faq_travel/get_quote_how
+  examples: |
+    - How to get a quote for travel insurance
+    - How to get travel insurance quote
+    - Where to get a quote for travel insurance
+    - Where to get travel insurance quote
+    - What is the procedure to get a quote for travel insurance
+    - What is the procedure to get travel insurance quote
+
+- intent: faq_travel/covid_country_exclusion
+  examples: |
+    - Which countries are excluded from FWD’s COVID-19 enhanced travel benefits?
+    - Are there any countries excluded from your COVID-19 enhanced travel benefits?
+
+- intent: faq_travel/exclusions
+  examples: |
+    - Are there any exclusions under Travel Insurance
+    - What are the exclusions under your travel inusrance
+    - Does your travle insurance have any exclusions
+
+- intent: faq_travel/annual_cancel
+  examples: |
+    - Can I cancel my annual Travel Insurance
+    - Am I able to cancel my annual travel insurance
+
+- intent: faq_travel/abroad_study_recommend
+  examples: |
+    - Is Travel Insurance the best plan to buy if I am going abroad for a year to study
+    - I am going overseas to study for one year, should I get your travel insurance?
+    - is yoru travel insurance a good choice if I am going overseas to study for a year
+
+- intent: faq_travel/destination_cruise_to_nowhere
+  examples: |
+    - What do I put as the destination if I buy your Travel Insurance for cruise to nowhere
+    - What do I indicate as the destination if I buy your Travel Insurance for cruise to nowhere
+    - What do I write as the destination if I buy your Travel Insurance for cruise to nowhere
+
+- intent: faq_travel/renew_cannot_pay
+  examples: |
+    - What do I do if I cannot pay for my Travel Insurance renewal
+    - What should I do if i cannot pay for my travel insurance renewal
+    - What if I have troubles paying for my travel insurance renewal
+    - What if I have problems paying for my travel insurance renewal
+    - What if I have difficulties paying for my travel insurance renewal
+
+- intent: faq_travel/auto_renew
+  examples: |
+    - Is my Travel Insurance auto renewable
+    - Will my travel insurance be renewed automatically
+    - Will my travel insurance renew automatically
+
+- intent: faq_travel/change_start_date
+  examples: |
+    - Can I change my Travel Insurance policy start date once my policy has already started
+    - am i able to change my Travel Insurance policy start date once my policy has already started
+    - can i still change the start date after my travel insurance policy has already started
+    - my travel insurance policy has already started, can i still change the policy start date
+
+- intent: faq_travel/make_changes
+  examples: |
+    - How do I make changes to my Travel Insurance
+    - how can i make changes to my travel insurance
+    - how do i make ammendments to my travel insurance plan
+    - how can i make amendments to my travel insurance plan
+
+- intent: faq_travel/differentiate_couple_family_group
+  examples: |
+    - how to differentiate between couple, family and group under travel insurance
+    - how does couple, family and group differ under travel insurance
+
+- intent: faq_travel/pay_premium
+  examples: |
+    - Am I paying the premium under Travel Insurance for 1 person or for everyone
+    - am i paying the premium for one person or for everyone under travel insurance
+    - is the premium payable for one person or for everyone under travel insurance
+    - is the premium to be paid for one person or for everyone under travel insurance
+
+- intent: faq_travel/how_much_asia_plan
+  examples: |
+    - How much is your Asia Travel Insurance plan
+    - how much does your asia travel insurance plan
+    - what is the amount payment for your asia travel insurance plan
+    - what is the cost of your asia travel insurance plan
+
+- intent: faq_travel/theft_of_money_claim_documents
+  examples: |
+    - what documents i need to produce for the theft of money claim
+    - what do i need for the theft of money claim
+
+- intent: faq_travel/car_rental_excess_claim_documents
+  examples: |
+    - what do i need for car rental excess claim during my trip
+    - what documents do i need for car rental excess claim during my trip
+
+- intent: faq_travel/medical_expenses_claim_procedure
+  examples: |
+    - What is the procedure to make a Travel Insurance medical expenses claim
+    - how do i go about making a travel insurance medical expenses claim
+    - how do i make a medical expenses claim under travel insurance
+    - how do i go about making medical expenses claim under travel insurance
+    - what is the procedure to make medical expenses claim under travel insurance
+
+- intent: faq_travel/trip_cut_short_claim_documents
+  examples: |
+    - what documents do you need to submit a claim for trip cut short
+    - what do i need to submit a claim for trip cut short
+
+- intent: faq_travel/trip_postponement_claim_documents
+  examples: |
+    - what documents do you need to submit a claim for trip postponement
+    - what do i need to make a claim for trip postponement
+    - what documents do i need to produce to submit a claim for trip postponement
+
+- intent: faq_travel/claim
+  examples: |
+    - make a travel claim
+    - i want to make a travel claim
+
+- intent: faq_travel/loss_of_luggage_claim_documents
+  examples: |
+    - what documents do i need for loss of luggage claim
+    - what do i need to make a loss of luggage claim
+    - what do i need to provide for making a loss of luggage claim
+
+- intent: faq_travel/loss_of_documents_claim_documents
+  examples: |
+    - what documents i need to produce for the loss of documents claim
+    - what documents i need to produce to make a loss of documents claim
+    - what do i need for the loss of documents claim
+    - what do i need to make a loss of documents claim
+    - what do i need to produce for the loss of documents claim
+    - what do i need to produce to make a loss of documents claim
+
+- intent: faq_travel/sports_equipment_protector
+  examples: |
+    - what documents do i need to make a claim for sports equipment protector
+    - What is needed to submit a claim for sports equipment protector
+    - what documents do i need to submit to make a claim for sports equipment protector
+    - what do i need to make a claim for sports equipment protector
+    - what do you need from me when making a sports equipment protector claim
+
+- intent: faq_travel/doctor_visit_claim_documents
+  examples: |
+    - what documents do i need for my doctor visit claim after my travel
+    - What is needed for my doctor visit claim after my travel
+    - what documents do i need to produce for my doctor visit claim after my travel
+    - what documents do i need to produce for my doctor visit claim after my trip
+    - what do i need for my doctor visit claim after my travel
+    - what do i need to make my doctor visit claim after my trip
+    - what do i need to produce to make doctor visit claim after my travel
+    - what do i need to produce to make a doctor visit claim after my trip
+
+- intent: faq_travel/trip_cancellation_claim_documents
+  examples: |
+    - what documents do you need to submit a claim for trip cancellation
+    - what documents do i need to submit a claim for trip cancellation
+    - What is needed to submit a claim for trip cancellation
+    - what documents do i need to have to submit a claim for trip cancellation
+    - what documents do i need to produce to submit a trip cancellation claim
+    - what do i need to submit a claim for trip cancellation
+    - what do i need to produce to submit a trip cancellation claim
+
+- intent: faq_travel/claim_where
+  examples: |
+    - where to make travel insurance claim
+    - where do i go to make a travel insurance claim
+
+- intent: faq_travel/claim_both
+  examples: |
+    - can i claim from fwd covid-19's enhanced travel policy and from another insurance policy that covers the same covid-19 benefits?
+    - can i make a claim from both fwd covid-19's enhanced travel policy and another insurance insurance policy with same covid-19 benefits?
+
+- intent: faq_travel/receive_after_purchase
+  examples: |
+    - What will I receive after purchasing Travel Insurance
+    - What will I receive after buying Travel Insurance
+    - What will I receive after I have purchased Travel Insurance
+    - What will I receive after I have bought Travel Insurance
+    - what documents will i get after buying travel insurance
+    - what documents will i get after purchase travel insurance
+    - what documents will i get after I have bought travel insurance
+    - what documents will i get after I have purchased travel insurance
+
+- intent: faq_travel/buy_enhanced_covid_travel_multiple_countries
+  examples: |
+    - Can I buy FWD’s COVID-19 enhanced travel benefits if I am travelling to multiple countries?
+    - Can I purchase FWD’s COVID-19 enhanced travel benefits if I am travelling to multiple countries?
+    - Can I buy your COVID-19 enhanced travel benefits if I am travelling to multiple countries?
+    - Can I purchase your COVID-19 enhanced travel benefits if I am travelling to multiple countries?
+    - Can I buy your covid enhanced travel benefits if I am travelling to multiple countries?
+    - Can I purchase your covid enhanced travel benefits if I am travelling to multiple countries?
+    - Can I buy FWD’s COVID-19 enhanced travel benefits if I am travelling to a few countries?
+    - Can I purchase FWD’s COVID-19 enhanced travel benefits if I am travelling to a few countries?
+    - Can I buy your COVID-19 enhanced travel benefits if I am travelling to a few countries?
+    - Can I purchase your COVID-19 enhanced travel benefits if I am travelling to a few countries?
+    - Can I buy your covid enhanced travel benefits if I am travelling to a few countries?
+    - Can I purchase your covid enhanced travel benefits if I am travelling to a few countries?
+
+- intent: faq_travel/buy_if_going_overseas_for_work
+  examples: |
+    - Can I buy Travel Insurance if I am going overseas for work
+    - Can I purchase Travel Insurance if I am going overseas for work
+    - Can I purchase Travel Insurance if I am going abroad for work
+    - Can I buy Travel Insurance if I am going abroad for work
+    - am i able to buy travel insurance if i am going overseas for work
+    - am i able to buy travel insurance if i am going abroad for work
+    - am i able to purchase travel insurance if i am going overseas for work
+    - am i able to purchase travel insurance if i am going abroad for work
+
+- intent: faq_travel/buy_started_travelling
+  examples: |
+    - Am I able to buy Travel Insurance if I started travelling few days ago
+    - Am I able to buy Travel Insurance if I am already travelling for few days ago
+    - Am I able to purchase Travel Insurance if I started travelling few days ago
+    - Am I able to purchase Travel Insurance if I am already travelling for few days ago
+    - can i still buy travel insurance if I am already travelling for few days ago
+    - can i still buy travel insurance if I started travelling for few days ago
+    - can i still purchase travel insurance if I am already travelling for few days ago
+    - can i still purchase travel insurance if I started travelling for few days ago
+
+- intent: faq_travel/buy_how_long_before_trip
+  examples: |
+    - how long before my trip must i purchase the travel insurance
+    - how long before my trip must i buy travel insurance
+    - how long before my trip must i get travel insurance
+    - how many days before my trip do I need to buy travel insurance
+    - how many days before my trip do I need to get travel insurance
+    - how many days before my trip do I need to purchase travel insurance
+    - how early before my trip do I need to purchase travel insurance
+    - how early before my trip do I need to buy travel insurance
+    - how early before my trip do I need to get travel insurance
+
+- intent: faq_travel/buy_for_one_way_trip
+  examples: |
+    - Can I buy Travel Insurance for a one-way trip
+    - Can I purchase Travel Insurance for a one-way trip
+    - Can I get Travel Insurance for a one-way trip
+    - am i able to buy Travel Insurance for a one-way trip
+    - am i able to purchase Travel Insurance for a one-way trip
+    - am i able to get Travel Insurance for a one-way trip
+
+- intent: faq_travel/buy_cruise
+  examples: |
+    - Can I buy the Travel Insurance if I travel by cruise
+    - Can I get the Travel Insurance if I travel by cruise
+    - Can I purchase the Travel Insurance if I travel by cruise
+    - am i able to buy Travel Insurance if I travel by cruise
+    - am i able to purchase Travel Insurance if I travel by cruise
+    - am i able to get Travel Insurance if I travel by cruise
+
+- intent: faq_travel/how_choose_start_date
+  examples: |
+    - How to choose my cover start date for Travel Insurance
+    - What start date do i choose for my Travel Insurance
+    - How do i choose the cover start date for Travel Insurance
+
+- intent: faq_travel/buy_if_sick
+  examples: |
+    - Can I buy a Travel Insurance if I am sick
+    - Can I purchase a Travel Insurance if I am sick
+    - Can I get a Travel Insurance if I am sick
+    - Can I buy a Travel Insurance if I am unwell
+    - Can I purchase a Travel Insurance if I am unwell
+    - Can I get a Travel Insurance if I am unwell
+    - am i able to buy Travel Insurance if I am sick
+    - am i able to purchase Travel Insurance if I am sick
+    - am i able to buy Travel Insurance if I am unwell
+    - am i able to purchase Travel Insurance if I am unwell
+
+- intent: faq_travel/buy_enhanced_covid_how_soon
+  examples: |
+    - How soon can I purchase FWD’s COVID-19 enhanced travel benefits?
+    - How soon can I purchase your covid enhanced travel benefits?
+    - How soon can I purchase your COVID-19 enhanced travel benefits?
+    - How early can I buy your COVID-19 enhanced travel benefits?
+    - How early can I buy your covid enhanced travel benefits?
+    - How early can I buy FWD's COVID-19 enhanced travel benefits?
+    - How early can I buy FWD's covid enhanced travel benefits?
+
+- intent: faq_travel/buy_if_pregnant
+  examples: |
+    - am i allowed to purchase travel insurance if i am pregnant
+    - am i allowed to get travel insurance if i am pregnant
+    - am i allowed to buy travel insurance if i am pregnant
+    - can i still buy travel insurance if i am pregnant
+    - can i still purchase travel insurance if i am pregnant
+    - can i still get travel insurance if i am pregnant
+
+- intent: faq_travel/buy_travelled_out_of_sg
+  examples: |
+    - Am I able to get Travel Insurance if I have travelled out of Singapore
+    - Am I able to buy Travel Insurance if I have already left Singapore
+    - Am I able to purchase Travel Insurance if I have already left Singapore
+    - Am I able to purchase Travel Insurance if I have travelled out of Singapore
+    - can i still buy travel insurance if i have travelled out of Singapore
+    - can i still buy travel insurance if i have left Singapore
+    - can i still purchase travel insurance if i have left Singapore
+
+- intent: faq_travel/buy_multiple_countries
+  examples: |
+    - Can I get Travel Insurance for a few countries
+    - Can I purchase Travel Insurance for a few countries
+    - Can I buy Travel Insurance for a few countries
+    - am i able to buy travel insurance for multiple countries
+    - am i able to get travel insurance for multiple countries
+    - am i able to purchase travel insurance for multiple countries
+
+- intent: faq_travel/buy_for_child
+  examples: |
+    - Can I buy Travel Insurance for my child
+    - Can I purchase Travel Insurance for my child
+    - am i able to purchase travel insurance for my child
+    - am i able to purchase travel insurance for my kid
+
+- intent: faq_travel/buy_enhanced_covid_already_on_ferry_cruise
+  examples: |
+    - Can I still buy FWD’s COVID-19 enhanced travel benefits if I’m already on a ferry or a cruise ship?
+    - Can I still purchaseFWD’s COVID-19 enhanced travel benefits if I’m already on a ferry or a cruise?
+    - Can I still buy FWD’s covid enhanced travel benefits if I’m already on a ferry or a cruise ship?
+    - Can I still purchase FWD’s covid enhanced travel benefits if I’m already on a ferry or a cruise?
+    - Can I still buy your covid enhanced travel benefits if I’m already on a ferry or a cruise?
+    - Can I still purchase your covid enhanced travel benefits if I’m already on a ferry or a cruise?
+    - am i able to purchase your covid enhanced travel benefits if I’m already on a ferry or a cruise?
+    - am i able to buy your covid enhanced travel benefits if I’m already on a ferry or a cruise?
+
+- intent: faq_travel/buy_enhanced_covid_already_at_airport_checkpoint
+  examples: |
+    - Can I still buy FWD’s COVID-19 enhanced travel benefits if I’m already at Singapore Changi Airport or the Woodlands/Tuas checkpoint?
+    - Can I still purchase FWD’s COVID-19 enhanced travel benefits if I’m already at Singapore Changi Airport or the Woodlands/Tuas checkpoint?
+    - Can I still buy your COVID-19 enhanced travel benefits if I’m already at Singapore Changi Airport or the Woodlands/Tuas checkpoint?
+    - Can I still purchase your COVID-19 enhanced travel benefits if I’m already at Singapore Changi Airport or the Woodlands/Tuas checkpoint?
+    - Can I still buy your covid enhanced travel benefits if I’m already at Singapore Changi Airport or the Woodlands/Tuas checkpoint?
+    - Can I still purchase your covid enhanced travel benefits if I’m already at Singapore Changi Airport or the Woodlands/Tuas checkpoint?
+  
+- intent: faq_travel/buy_single_trip_travelling_with_relatives
+  examples: |
+    - Can I buy the travel single trip for family if i am travelling with my grand niece
+    - Can I buy the travel single trip for family if i am travelling with my grand nephew
+    - Can I purchase the travel single trip for family if i am travelling with my grand niece
+    - Can I purchase the travel single trip for family if i am travelling with my grand nephew
+    - Can I purchase the travel single trip for family if i am travelling with my niece
+    - Can I purchase the travel single trip for family if i am travelling with my nephew
+    - Can I buy the travel single trip for family if i am travelling with my niece
+    - Can I buy the travel single trip for family if i am travelling with my nephew
+
+- intent: faq_travel/buy_above_age
+  examples: |
+    - Can I buy Travel Insurance for those above 70
+    - Can I purchase Travel Insurance for those above 70
+    - Can I buy Travel Insurance for those above 70 years old
+    - Can I purchase Travel Insurance for those above 70 years old
+    - Can I purchase Travel Insurance for those above 70 years
+    - Can I buy Travel Insurance for those above 70 years
+
+- intent: faq_travel/buy_for_parents_from_country
+  examples: |
+    - Am I able to get for my parents travelling from Philippines
+    - can i buy travel insurance for my parents coming from Philippines
+
+# MARKER
+- intent: faq_travel/flight_cancelled
+  examples: |
+    - what happens if my flight gets cancelled?
+
+- intent: faq_travel/which_region_travel_to_island
+  examples: |
+    - Which region should I choose under Travel Insurance if I am travelling to an island
+
+- intent: faq_travel/get_covid_overseas
+  examples: |
+    - what happens if i get covid overseas?
+
+- intent: faq_travel/china_which_region
+  examples: |
+    - China comes under which region for Travel Insurance
+
+- intent: faq_travel/preexisting_condition
+  examples: |
+    - What is pre-existing condition under Travel Insurance
+
+- intent: faq_travel/fiji_which_region
+  examples: |
+    - Fiji comes under which region for Travel Insurance
+
+- intent: faq_travel/asean_consist_which_country
+  examples: |
+    - ASEAN countries consist of which country under Travel Insurance
+
+- intent: faq_travel/emergency_assistance
+  examples: |
+    - How can I get emergency assistance for Travel Insurance
+
+- intent: faq_travel/trip_disruption
+  examples: |
+    - What does trip disruption under Travel Insurance entail
+
+- intent: faq_travel/types_offered
+  examples: |
+    - how many types of travel insurance do you have
+
+- intent: faq_travel/how_check_travel_notice_mfa
+  examples: |
+    - How can I check for travel notice from the Ministry of Foreign Affairs
+
+- intent: faq_travel/details_for_cruise
+  examples: |
+    - Can I get details for cruise under Travel Insurance
+
+- intent: faq_travel/cover_trip_cancellation
+  examples: |
+    - Am I covered for trip cancellation under Travel Insurance
+
+- intent: faq_travel/covered_if_drive_car_out_of_sg
+  examples: |
+    - Am I covered under Travel Insurance if I drive my car out of Singapore
+
+- intent: faq_travel/cover_flight_cancellation
+  examples: |
+    - Am I covered for flight cancellation under Travel Insurance
+
+- intent: faq_travel/cover_outbound_passengers_into_philippines
+  examples: |
+    - Do you cover for outbound passengers travelling into Philippines
+
+- intent: faq_travel/cover_if_test_covid_positive_no_hospitalisation
+  examples: |
+    - Will FWD’s COVID-19 Enhanced Travel Benefits add-on cover me if I test positive for COVID-19 but am not hospitalised?
+
+- intent: faq_travel/max_trip_duration_to_buy_enhanced_travel_rider
+  examples: |
+    - What is the maximum duration of my trip to be eligible to purchase the COVID-19 Enhanced Travel Benefits rider
+
+- intent: faq_travel/age_limit
+  examples: |
+    - Is there any age limit for COVID-19 Travel Insurance
+
+- intent: faq_travel/emergency evacuation
+  examples: |
+    - What does emergency evacuation under Travel Insurance mean
+
+- intent: faq_travel/website_hang_during_renew
+  examples: |
+    - What do I do if your website hang when I am trying to renew my Travel Insurance
+
+- intent: faq_travel/promo
+  examples: |
+    - Do you have any promotional code for Travel Insurance
+
+- intent: faq_travel/what
+  examples: |
+    - What is Travel Insurance
+
+- intent: faq_travel/cruise_to_nowhere
+  examples: |
+    - Do I need Travel Insurance for cruise to nowhere
+
+- intent: faq_travel/do_you_offer
+  examples: |
+    - Does FWD offer Travel Insurance
+
+- intent: faq_travel/single_trip
+  examples: |
+    - What does single trip for Travel Insurance means
+
+- intent: faq_travel/fall_sick_overseas
+  examples: |
+    - what happens if i fall sick overseas?
+
+- intent: faq_travel/find_clinic_list_app
+  examples: |
+    - where can i find the clinic list for travel insurance in the fwd flyer app
+
+- intent: faq_travel/evacuation_medical_emergency
+  examples: |
+    - How about evacuation for medical emergency for Travel Insurance
+
+- intent: faq_travel/buy_couple_insurance_but_one_travelling
+  examples: |
+    - Can I buy a Couple travel insurance but only one travelling
+
+- intent: faq_travel/max_days_per_trip
+  examples: |
+    - how many days would be the maximum per trip under travel insurance
+
+- intent: faq_travel/how_many_trips_under_annual
+  examples: |
+    - How many trips can I make under Annual Travel Insurance Plan
+
+- intent: faq_travel/myanmar_under_asean_asia
+  examples: |
+    - Is Myanmar under ASEAN or Asia under Travel Insurance
+
+- intent: faq_travel/what_happens_mfa_issues_travel_advisory
+  examples: |
+    - What happen under my Travel Insurances if the Ministry of Foreign Affairs issues a travel advisory when I am already there
+
+- intent: faq_travel/uae_dubai_asia
+  examples: |
+    - Is UAE Dubai consider Asia country under Travel Insurance
+
+- intent: faq_travel/berlin_region
+  examples: |
+    - Which region is Berlin under within Travel Insurance
+
+- intent: faq_travel/australia_asean_asia
+  examples: |
+    - Is Australia under ASEAN or Asia under Travel Insurance
+
+- intent: faq_travel/turkey_asia_europe
+  examples: |
+    - Is Turkey included under Asia or Europe under Travel Insurance
+
+- intent: faq_travel/austria_region
+  examples: |
+    - Which region is Austria under within Travel Insurance
+
+- intent: faq_travel/stockholm_region
+  examples: |
+    - Which region is Stockholm under within Travel Insurance
+
+- intent: faq_travel/ukraine_region
+  examples: |
+    - Which region is Ukraine under within Travel Insurance
+
+- intent: faq_travel/start_trip_in_sg
+  examples: |
+    - Do I need to start my trip in Singapore for Travel Insurance
+
+- intent: faq_travel/portugal_region
+  examples: |
+    - Which region is Portugal under within Travel Insurance
+
+- intent: faq_travel/cover_russia
+  examples: |
+    - Does your Travel insurance cover Russia
+
+- intent: faq_travel/cover_chiropractor_visit
+  examples: |
+    - Am I covered for chiropractor visit under Travel Insurance
+
+- intent: faq_travel/cover_hospitalisation_under_covid_positive_test
+  examples: |
+    - will i be covered for hospitalisation under covid-19 insurance if i travelled overseas and return to singapore with a positive test result
+
+- intent: faq_travel/add_car_rental_excess
+  examples: |
+    - Can I add car rental excess to my Travel Insurance policy
+
+- intent: faq_travel/brunei_asean_asia
+  examples: |
+    - Is Brunei under ASEAN or Asia under Travel Insurance
+
+- intent: faq_travel/athens_region
+  examples: |
+    - Which region is Athens under within Travel Insurance
+
+- intent: faq_travel/america_region
+  examples: |
+    - Which region is America under
+
+- intent: faq_travel/bhutan_asia
+  examples: |
+    - Is Bhutan considered Asia under Travel Insurance
+
+- intent: faq_travel/kuwait_region
+  examples: |
+    - Which region is Kuwait under within Travel Insurance
+
+- intent: faq_travel/amsterdam_region
+  examples: |
+    - Which region is Amsterdam under within Travel Insurance
+
+- intent: faq_travel/bangladesh_asean_asia
+  examples: |
+    - Is Bangladesh under ASEAN or Asia under Travel Insurance
+
+- intent: faq_travel/see_doctor_again
+  examples: |
+    - I have seen the doctor overseas but I am still sick. Am I allowed to see the doctor again under Travel Insurance
+
+- intent: faq_travel/sri_lanka_asean_asia
+  examples: |
+    - Is Sri Lanka under ASEAN or Asia under Travel Insurance
+
+- intent: faq_travel/pakistan_asia_global_region
+  examples: |
+    - Pakistan is under the Asia or global region under Travel Insurance
+
+- intent: faq_travel/poland_region
+  examples: |
+    - Which region is Poland under within Travel Insurance
+
+- intent: faq_travel/luxembourg_region
+  examples: |
+    - Which region is Luxembourg under within Travel Insurance
+
+- intent: faq_travel/tanzania_region
+  examples: |
+    - Which region is Tanzania under within Travel Insurance
+
+- intent: faq_travel/thailand_mfa_advise_against
+  examples: |
+    - Is Thailand one of the countries that the Ministry of Foreign Affairs (MFA) has advised against travelling
+
+- intent: faq_travel/zurich_region
+  examples: |
+    - Which region is Zurich under within Travel Insurance
+
+- intent: faq_travel/qatar_region
+  examples: |
+    - Which region is Qatar under within Travel Insurance
+
+- intent: faq_travel/uzbekistan_region
+  examples: |
+    - Which region is Uzbekistan under within Travel Insurance
+
+- intent: faq_travel/croatia_region
+  examples: |
+    - Which region is Croatia under within Travel Insurance
+
+- intent: faq_travel/worldwide_cover_egypt
+  examples: |
+    - Does worldwide cover Egypt under Travel Insurance
+
+- intent: faq_travel/south_africa_region
+  examples: |
+    - Which region is South Africa under within Travel Insurance
+
+- intent: faq_travel/slovakia_region
+  examples: |
+    - Which region is Slovakia under within Travel Insurance
+
+- intent: faq_travel/israel_region
+  examples: |
+    - Which region is Israel under within Travel Insurance
+
+- intent: faq_travel/hungary_region
+  examples: |
+    - Which region is Hungary under within Travel Insurance
+
+- intent: faq_travel/belgium_region
+  examples: |
+    - Which region is Belgium under within Travel Insurance
+
+- intent: faq_travel/buy_employment_pass_holder
+  examples: |
+    - Can an employment pass holder purchase Travel Insurance
+
+- intent: faq_travel/indonesia_under_asia
+  examples: |
+    - Can I ask if Indonesia is covered under Asia as well under Travel Insurance
+
+- intent: faq_travel/moscow_region
+  examples: |
+    - Which region is Moscow under within Travel Insurance
+
+- intent: faq_travel/use_for_schengen_visa_application
+  examples: |
+    - Am I able to use your Travel Insurance for the schengen visa application
+
+- intent: faq_travel/india_asean
+  examples: |
+    - Is India considered ASEAN country under the Travel Insurance
+
+- intent: faq_travel/reykjavik_region
+  examples: |
+    - Which region is Reykjavik under within Travel Insurance
+
+- intent: faq_travel/london_region
+  examples: |
+    - Which region is London under within Travel Insurance
+
+- intent: faq_travel/vancouver_canada_zone
+  examples: |
+    - Vancouver in Canada under which zone for Travel Insurance
+
+- intent: faq_travel/mauritius_asia
+  examples: |
+    - Is Mauritius under Asia under Travel Insurance
+
+- intent: faq_travel/maldives_asia
+  examples: |
+    - Can I reconfirm that Maldives is under Asia under Travel Insurance
+
+- intent: faq_travel/milano_region
+  examples: |
+    - Which region is Milano under within Travel Insurance
+
+- intent: faq_travel/macau_asean_asia
+  examples: |
+    - Is Macau under ASEAN or Asia under Travel Insurance
+
+- intent: faq_travel/romania_region
+  examples: |
+    - Which region is Romania under within Travel Insurance
+
+- intent: faq_travel/tibet_asia
+  examples: |
+    - Is Tibet considered Asia under Travel Insurance
+
+- intent: faq_travel/rome_region
+  examples: |
+    - Which region is Rome under within Travel Insurance
+
+- intent: faq_travel/laos_asean_asia
+  examples: |
+    - Is Laos under ASEAN or Asia under Travel Insurancet
+
+- intent: faq_travel/papua_new_guinea_asean_asia
+  examples: |
+    - Is Papua New Guinea under ASEAN or Asia under Travel Insurance
+
+- intent: faq_travel/barcelona_region
+  examples: |
+    - Which region is Barcelona under within Travel Insurance
+
+- intent: faq_travel/east_timor_asean_asia
+  examples: |
+    - Is East Timor under ASEAN or Asia under Travel Insurance
+
+- intent: faq_travel/cover_saudi_arabia
+  examples: |
+    - Does your Travel Insurance cover Saudi Arabia
+
+- intent: faq_travel/finland_region
+  examples: |
+    - Which region is Finland under within Travel Insurance
+
+- intent: faq_travel/cambodia_asean_asia
+  examples: |
+    - Is Cambodia under ASEAN or Asia under Travel Insurance
+
+- intent: faq_travel/oman_region
+  examples: |
+    - Which region is Oman under within Travel Insurance
+
+- intent: faq_travel/nepal_region
+  examples: |
+    - Which region is Nepal under the Travel Insurance
+
+- intent: faq_travel/cover_emergency_landing
+  examples: |
+    - Am I covered for emergency landing under Travel Insurance
+
+- intent: faq_travel/cover_loss_of_documents
+  examples: |
+    - Am I covered for loss of documents under Travel Insurance
+
+- intent: faq_travel/cover_political_unrest
+  examples: |
+    - Am I covered for political unrest under Travel Insurance
+
+- intent: faq_travel/cover_trip_extended_reasons_beyond_my_control
+  examples: |
+    - Will I be covered if my trip gets extended for reason(s) beyond my control under FWD’s COVID-19 enhanced travel benefits?
+
+- intent: faq_travel/cover_start_enhanced_travel
+  examples: |
+    - When does my cover start for FWD’s COVID-19 enhanced travel benefits?
+
+- intent: faq_travel/cover_robbery
+  examples: |
+    - Am I covered for robbery under Travel Insurance
+
+- intent: faq_travel/cover_hiking
+  examples: |
+    - Am I covered for hiking under Travel Insurance
+
+- intent: faq_travel/cover_pharmacy_expenses
+  examples: |
+    - Am I covered for pharmacy expenses under Travel Insurance
+
+- intent: faq_travel/cover_loss_of_passport_cash
+  examples: |
+    - Am I covered for loss of passport and cash under Travel Insurance
+
+- intent: faq_travel/cover_overseas_call_charges
+  examples: |
+    - Am I covered for overseas call charges under Travel Insurance
+
+- intent: faq_travel/cover_high_altitude_activities
+  examples: |
+    - Am I covered for high altitude activities for Travel Insurance
+
+- intent: faq_travel/cover_sailing_on_my_own
+  examples: |
+    - Will I be covered if I am sailing on my own boat, yacht, or cruiser under FWD’s COVID-19 enhanced travel benefits?
+
+- intent: faq_travel/cover_insolvency
+  examples: |
+    - Am I covered for insolvency under Travel Insurance
+
+- intent: faq_travel/cover_business_trips
+  examples: |
+    - can i get coverage for business trips under travel insurance
+
+- intent: faq_travel/cover_cosmetic_surgeries
+  examples: |
+    - Do you cover cosmetic surgeries under Travel Insurance
+
+- intent: faq_travel/cover_adventurous_activities
+  examples: |
+    - Am I covered for adventurous activities for Travel Insurance
+
+- intent: faq_travel/cover_visa_rejected
+  examples: |
+    - Am I covered under Travel Insurance if my visa gets rejected
+
+- intent: faq_travel/cover_covid
+  examples: |
+    - Do you cover Covid-19 under your Travel Insurance
+    - do you have travel insurance with covid-19 coverage
+
+- intent: faq_travel/cover_cruise_cruise_to_nowhere
+  examples: |
+    - Does FWD’s travel insurance cover cruises or cruises to nowhere?
+
+- intent: faq_travel/cover_cruise
+  examples: |
+    - Am I covered for cruise under Travel Insurance
+
+- intent: faq_travel/cover_coup
+  examples: |
+    - Am I covered for coup under Travel Insurance
+
+- intent: faq_travel/coverage_cruise_to_nowhere
+  examples: |
+    - what coverage is required for cruise to nowhere
+
+- intent: faq_travel/cover_if_volcano_eruption
+  examples: |
+    - Am I covered under Travel Insurance if there is volcano erruption
+
+- intent: faq_travel/cover_volcano_eruption
+  examples: |
+    - Am I covered for volcano eruption under Travel Insurance
+
+- intent: faq_travel/cover_diving
+  examples: |
+    - Am I covered for diving under Travel Insurance
+
+- intent: faq_travel/cover_flight_delay
+  examples: |
+    - Am I covered for flight delay under Travel Insurance
+
+- intent: faq_travel/cover_baggage_delay
+  examples: |
+    - Am I covered for baggage delay under Travel Insurance
+
+- intent: faq_travel/cover_north_korea_annual_travel
+  examples: |
+    - Do you cover North Korea under the annual travel plan
+
+- intent: faq_travel/cover_north_korea
+  examples: |
+    - Do you cover North Korea under your Travel Insurance plan
+
+- intent: faq_travel/cover_natural_disaster
+  examples: |
+    - Am I covered for natural disaster under Travel Insurance
+
+- intent: faq_travel/cover_flight_delay_pass_coverage_date
+  examples: |
+    - am i covered under travel insurance if my flight delay passes my coverage date
+
+- intent: faq_travel/cover_repatriation
+  examples: |
+    - Am I covered for repatriation under Travel Insurance
+
+- intent: faq_travel/cover_loss_mobile_phones
+  examples: |
+    - Am I covered for loss of mobile phone under Travel Insurance
+
+- intent: faq_travel/cover_loss_of_baggage
+  examples: |
+    - Am I covered for loss of baggage under Travel Insurance
+
+- intent: faq_travel/cover_loss_of_cash
+  examples: |
+    - Am I covered for loss of cash under Travel Insurance
+
+- intent: faq_travel/what_you_cover
+  examples: |
+    - What does your Travel Insurance cover
+
+- intent: faq_travel/cover_death
+  examples: |
+    - Am I covered for death under Travel Insurance
+
+- intent: faq_travel/cover_enhanced_travel_go_country_not_listed_in_vtl
+  examples: |
+    - Will I be covered under FWD’s COVID-19 Enhanced Travel Benefits add-on if I go to a country not listed under the Vaccination Travel Lane or Reciprocal Green Lane?
+
+- intent: faq_travel/cover_surgery
+  examples: |
+    - Am I covered for surgery under Travel Insurance
+
+- intent: faq_travel/cover_hospitalisation
+  examples: |
+    - Am I covered for hospitalisation under Travel Insurance
+
+- intent: faq_travel/cover_countries
+  examples: |
+    - What countries are covered under Travel Insurance
+
+- intent: faq_travel/cover_how_many_people_under_group_plan
+  examples: |
+    - How many people can be covered under the group plan for Travel Insurance
+
+- intent: faq_travel/cover_airbnb
+  examples: |
+    - Am I covered for airbnb under Travel Insurance
+
+- intent: faq_travel/cover_travel_delay
+  examples: |
+    - Am I covered for travel delay under Travel Insurance
+
+- intent: faq_travel/cover_overseas_surgery
+  examples: |
+    - Am I covered for overseas surgery under Travel Insurance
+
+- intent: faq_travel/cover_elderly
+  examples: |
+    - can i get coverage for elderly under travel insurance
+
+- intent: faq_travel/cover_illness
+  examples: |
+    - Am I covered for illness under Travel Insurance
+
+- intent: faq_travel/cover_overseas_medical_expenses
+  examples: |
+    - Am I covered under Travel Insurance for overseas medical expenses
+
+- intent: faq_travel/cover_missed_flight
+  examples: |
+    - Am I covered for missed flight under Travel Insurance
+
+- intent: faq_travel/cover_sail_on_yacht
+  examples: |
+    - am i covered under travel insurance if i am sailing on my yacht
+
+- intent: faq_travel/revalidate_return_ticket_covid_positive
+  examples: |
+    - If I need to revalidate or purchase a new return ticket as I wasn’t allowed to travel back to Singapore due to a positive COVID-19 diagnosis, will that be covered under FWD’s COVID-19 Enhanced Travel Benefits add-on?
+
+- intent: faq_travel/cover_hospitalisation_bills_if_hospitalised_overseas_covid
+  examples: |
+    - If I am hospitalised overseas due to COVID-19 and it’s already more than 30 days of my trip, will my hospitalisation bill still be covered under FWD’s COVID-19 Enhanced Travel Benefits add-on?
+
+# - intent: faq_travel/fly_to
+#   examples: |
+#     - may i check if this policy allows me to fly to [country]

@@ -1,0 +1,192 @@
+version: "3.1"
+nlu:
+
+- intent: faq_maid/know_more
+  examples: |
+    - i would like to know more about your maid insurance
+    - show me your maid insurance
+    - i'd like to take a look at your maid insurance
+
+- intent: faq_maid/buy_insurance
+  examples: |
+    - I would like to purchase maid insurance
+    - I would like to buy maid insurance
+    - I want to purchase maid insurance
+    - I want to buy maid insurance
+    - Can I buy maid insurance
+    - Can I get a quote for maid insurance
+    - Get a quote for maid insurance
+    - Get maid insurance quote
+
+- intent: faq_maid/get_quote_how
+  examples: |
+    - How to get a quote for maid insurance
+    - How to get maid insurance quote
+    - Where to get a quote for maid insurance
+    - Where to get maid insurance quote
+    - What is the procedure to get a quote for maid insurance
+    - What is the procedure to get maid insurance quote
+
+- intent: faq_maid/not_cancelled
+  examples: |
+    - Why my maid insurance policy is not cancelled
+    - how come my maid insurance policy is not cancelled
+    - why is my maid insurance policy not cancelled
+
+- intent: faq_maid/when_to_buy
+  examples: |
+    - How do I know when to buy the Maid Insurance
+    - when should i buy maid insurance
+    - how do i know what is the best time i should buy maid insurance
+
+- intent: faq_maid/work_permit_type
+  examples: |
+    - Which work permit type should I select for my Maid Insurance
+    - what is the correct work permit type to select for my maid insurance
+    - How do i know which work permit type to select for my maid insurance
+
+- intent: faq_maid/renew_start_date
+  examples: |
+    - What is the correct start date for the Maid Insurance policy for renewal
+    - What should i write as the start date when renewing my maid insurance policy
+    - What is the correct start date to put when i renew my maid insurance policy
+
+- intent: faq_maid/renew_how
+  examples: |
+    - How do I renew my Maid Insurance
+    - how can i renew my maid insurance
+    - how do i go about renewing my maid insurance
+
+- intent: faq_maid/ntuc_issue_policy_same_day
+  examples: |
+    - Why NTUC is able to issue the maid policy on the same day
+    - How come NTUC can issue the maid policy on the same day
+    - How come NTUC can issue same day maid policy
+
+- intent: faq_maid/instalment_plan
+  examples: |
+    - Can you offer instalment plan for Maid Insurance
+    - do you offer instalment plan for maid insurance
+    - is there an instalment plan available for maid insurance
+    - do you have an instalment plan for maid insurance
+
+- intent: faq_maid/claim_documents
+  examples: |
+    - What do I need to make a Maid Insurance claim
+    - what documents do i need to produce to make a maid insurance claim
+    - what documents i need to make a maid insurance claim
+    - what do i need to produce to make a maid insurance claim
+
+- intent: faq_maid/claim_where
+  examples: |
+    - Where to make Maid Insurance claim
+    - where do i go to make a maid insurance claim
+    - where to make a claim for maid insurance
+
+- intent: faq_maid/receive_after_purchase
+  examples: |
+    - What documents will I receive after I bought Maid Insurance
+    - What documents will I receive after I purchased Maid Insurance
+    - What documents will I get after I purchased Maid Insurance
+    - What documents will I get after I bought Maid Insurance
+    - what will i receive after buying your maid insurance
+    - what will i receive after purchase your maid insurance
+    - what will i get after purchase your maid insurance
+    - what will i get after buying your maid insurance
+    - what will i get after I bought your maid insurance
+    - what will i get after I purchased your maid insurance
+
+- intent: faq_maid/promo
+  examples: |
+    - Is there any promo code for Maid Insurance
+    - do you have promo for maid insurance
+    - got promo code for maid insurance
+    - can i get a promo for buying your maid insurance
+
+- intent: faq_maid/online_purchase_successful_or_not
+  examples: |
+    - How will I know whether my online purchase of Maid Insurance policy was successful or not
+    - how do i know if my online purchase of maid insurance is successful
+
+- intent: faq_maid/setup_cashless_visit
+  examples: |
+    - How can I setup the cashless visit under Maid Insurance for my helper
+    - How do I go about setting up the cashless visit under Maid Insurance for my helper
+    - How to set up the cashless visit under Maid Insurance for my helper
+
+- intent: faq_maid/make_health_connect
+  examples: |
+    - What is Make Health Connect (MHC) under Maid Insurance
+    - What is Make Health Connect (MHC) in your Maid Insurance
+
+- intent: faq_maid/use_for_confinemnt_nanny
+  examples: |
+    - Can I use your Maid Insurance for confinement nanny
+    - Can your Maid Insurance be used for confinement nanny
+
+- intent: faq_maid/repatriation
+  examples: |
+    - What does repatriation expenses mean under Maid Insurance
+    - What is the meaning of repatriation expenses under Maid Insurance
+    - What is considered as repatriation expenses under Maid Insurance
+
+- intent: faq_maid/renew_expired_passport
+  examples: |
+    - My maid’s passport expired can I renew
+    - can i renew my maid's expired passport
+    - can i renew if my maid's passport has expired
+
+- intent: faq_maid/covered_when_travel_with_family
+  examples: |
+    - When my maid travels with me or my family, is she covered under Maid Insurance
+    - is my maid covered under maid insurance When she travels with me or my family
+    - is my maid covered under maid insurance When she travels with us
+    - when my maid travels with us, is she covered under maid insurance
+
+- intent: faq_maid/covered_if_injures_damages
+  examples: |
+    - If my maid accidentally injures someone else or damages someone else property, is that covered under Maid Insurance
+    - is it covered under maid insurance if my maid accidentally injures someone else or damages someone else property
+
+- intent: faq_maid/what_is_covered
+  examples: |
+    - What is covered under Maid Insurance
+    - What is the coverage for Maid Insurance
+    - coverage for Maid Insurance
+    - what does the coverage for maid insurance entails
+
+- intent: faq_maid/covered_if_go_any_clinic
+  examples: |
+    - Am I covered under Maid Insurance if I go to any clinic if my helper is ill
+    - if i go to any clinic when my helper is sick, am I covered under Maid Insurance
+
+- intent: faq_maid/cover_dental
+  examples: |
+    - Am I covered for dental treatments under Maid Insurance
+    - are dental treatments covered under Maid Insurance
+    - is dental covered under Maid Insurance
+
+- intent: faq_maid/outpatient_medical_expenses_max_coverage
+  examples: |
+    - What is the maximum coverage for the outpatient medical expenses under Maid Insurance
+    - maximum coverage for the outpatient medical expenses under Maid Insurance
+    - under your maid insurance, what is the maximum coverage for the outpatient medical expenses
+
+- intent: faq_maid/cover_mom_bond
+  examples: |
+    - Are you able to cover the S$ 5,000 MOM bond under Maid Insurance
+    - does your maid insurance cover the S$ 5,000 MOM bond
+    - can cover the S$ 5,000 MOM bond in your maid insurance
+
+- intent: faq_maid/cover_covid
+  examples: |
+    - Does your Maid Insurance cover COVID-19
+    - is covid covered in your Maid Insurance
+    - is COVID-19 covered in your Maid Insurance
+    - does your maid insurance cover covid
+
+- intent: faq_maid/cover_if_fall_sick_in_home_country
+  examples: |
+    - If my maid gets sick due to an illness or fall ill due to an accident while she is back in her home country during her home leave would FWD Maid Insurance cover for that
+    - does your maid insurance cover if my maid falls sick due to illness or accident when she is back in her home country
+    - will your maid insurance cover if my maid got sick due to illness or accident when she is in her home country

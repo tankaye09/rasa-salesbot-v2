@@ -1,0 +1,466 @@
+version: "3.1"
+nlu:
+
+- intent: faq_cancer/know_more
+  examples: |
+    - i would like to know more about your cancer insurance
+    - show me your cancer insurance
+    - i'd like to take a look at your cancer insurance
+    - Would you be able to tell me more on Cancer Insurance
+
+- intent: faq_cancer/buy_insurance
+  examples: |
+    - I would like to purchase cancer insurance
+    - I would like to buy cancer insurance
+    - I want to purchase cancer insurance
+    - I want to buy cancer insurance
+    - Can I buy cancer insurance
+    - Can I get a quote for cancer insurance
+    - Get a quote for cancer insurance
+    - Get cancer insurance quote
+
+- intent: faq_cancer/get_quote_how
+  examples: |
+    - How to get a quote for cancer insurance
+    - How to get cancer insurance quote
+    - Where to get a quote for cancer insurance
+    - Where to get cancer insurance quote
+    - What is the procedure to get a quote for cancer insurance
+    - What is the procedure to get cancer insurance quote
+
+
+- intent: faq_cancer/cancellation_refund
+  examples: |
+    - Can I get a refund if I decide to cancel my Cancer Insurance plan halfway through
+    - do i get a refund if i cancel my cancer insurance midway
+    - do i get a refund if i cancel my cancer insurance halfway through
+    - will i be able to get a refund if i cancel my cancer insurance plan halfway
+
+- intent: faq_cancer/recommend_cover
+  examples: |
+    - How much cover should I choose for Cancer Insurance
+    - How much coverage do i select for cancer insurance
+    - how much coverage should i select for cancer insurance
+    - how do i know how much coverage to choose for my cancer insurance
+    - how do i know how much cover to choose for my cancer insurance
+
+- intent: faq_cancer/benefits
+  examples: |
+    - What is so good about the Cancer Insurance
+    - What are the benefits of your Cancer Insurance
+
+- intent: faq_cancer/application_cannot_proceed
+  examples: |
+    - What do I do if I am unable to proceed on during my Cancer Insurance application
+    - i cannot proceed with my cancer insurance application
+    - what should i do if i cannot proceed on during the cancer insurance application
+
+- intent: faq_cancer/wrong_details
+  examples: |
+    - What should I do if I entered my details wrongly for Cancer Insurance
+    - what do i do if my details are entered wrongly for cancer insurance
+
+- intent: faq_cancer/change_beneficiaries
+  examples: |
+    - How can I change my beneficiaries for Cancer Insurance
+    - can i change my beneficiaries for my cancer insurance
+    - how do i amend my beneficiaries for my cancer insurance
+
+- intent: faq_cancer/change_sum_insured
+  examples: |
+    - Am I allowed to change the sum insured for my Cancer Insurance during renewal
+    - Am I allowed to change the sum insured when renewing my Cancer Insurance
+    - can i change the sum insured for my cancer insurance during renewal
+    - can i change the sum insured when renewing my cancer insurance
+
+- intent: faq_cancer/changes_personal_particulars
+  examples: |
+    - Can I make changes to my personal particulars after I buy Cancer Insurance
+    - Can i still amend my personal particulars after i buy cancer insurance
+    - can i still make amendments to my personal particulars after i buy cancer insurance
+    - can i still change my personal particulars after i buy cancer insurance
+    - am i able to change my personal particulars after i buy cancer insurance
+    - am i able to amend my personal particulars after i buy cancer insurance
+    - am i still able to amend my personal particulars after i buy cancer insurance
+    - am i still able to change my personal particulars after i buy cancer insurance
+
+- intent: faq_cancer/term_life_difference
+  examples: |
+    - How is your Cancer Insurance different from critical illness
+    - What is the difference between Cancer Insurance and critical illness insurance
+    - how does cancer insurance and critical illness insurance differ
+    - how to differentiate between cancer insurance and critical illness insurance
+
+
+- intent: faq_cancer/difference_term_life
+  examples: |
+    - What is the difference between Cancer Insurance and term life insurance
+    - how does cancer insurance and term life insurance differ
+    - how to differentiate between cancer insurance and term life insurance
+    - how is your cancer insurance different from term life insurance
+
+- intent: faq_cancer/how_much
+  examples: |
+    - How much is your Cancer Insurance
+    - how much does your cancer insurance cost
+    - what is the cost of your cancer insurance
+
+- intent: faq_cancer/someone_else_make_payment
+  examples: |
+    - Can someone else make payments for my Cancer Insurance
+    - can someone else pay for my cancer insurance
+    - can i have someone else pay for my cancer insurance
+    - can i get someone else to make payments for my cancer insurance
+
+- intent: faq_cancer/payment_frequencies
+  examples: |
+    - Which payment frequencies can I choose from for Cancer Insurance
+    - what payment frequencies do you have for cancer insurance
+    - what payment frequencies do you offer for cancer insurance
+
+- intent: faq_cancer/premium_not_auto_deducted
+  examples: |
+    - Can I choose to not have my premium automatically deducted from my account for the next billing cycle for FWD Cancer Insurance
+    - can i opt for my premium to be not be auto detected from my account in the next billing cycle for my cancer insurance
+    - can i not have the premium auto detected from my account in the next billing cycle for my cancer insurance
+    - can the premium not be auto detected from my account in the next billing for my cancer insurance
+
+- intent: faq_cancer/pay_annual_premium
+  examples: |
+    - Can I pay annual premium for Cancer Insurance
+    - am i able to pay annual premiuim for cancer insurance
+    - can i pay premium annually for cancer insurance
+    - am i able to pay premium annually for cancer insurance
+
+- intent: faq_cancer/missed_premium_payment
+  examples: |
+    - What should I do if I missed a premium payment for my Cancer Insurance
+    - what do i do i miss a premium payment for my cancer insurance
+    - what happens if i missed a premium payment for my cancer insurance
+
+- intent: faq_cancer/payment_methods
+  examples: |
+    - Which payment methods are accepted for your Cancer Insurance
+    - what payment methods do you accept for cancer insurance
+    - what payment methods do you have for cancer insurance
+    - what payment methods are available for cancer insurance
+
+- intent: faq_cancer/premiums_levelled
+  examples: |
+    - Are the premiums levelled for Cancer Insurance
+    - are the premiums for cancer insurance levelled
+
+- intent: faq_cancer/promo
+  examples: |
+    - Is there any promo for Cancer Insurance
+    - do you have any promo for cancer insurance
+    - do you offer any promo for cancer insurance
+
+- intent: faq_cancer/cover_affected_if_missed_premium_payment
+  examples: |
+    - Will my cover be affected if I missed a premium payment for my Cancer Insurance
+    - Will my cover change if I missed a premium payment for my Cancer Insurance
+    - Will my coverage change if I missed a premium payment for my Cancer Insurance
+
+- intent: faq_cancer/claim_documents
+  examples: |
+    - What is needed to file a Cancer Insurance claim
+    - what documents i need to produce for the cancer insurance claim
+    - what documents i need to produce to make a cancer insurance claim
+    - what do i need for the cancer insurance claim
+    - what do i need to make a cancer insurance claim
+    - what do i need to produce for the cancer insurance claim
+    - what do i need to produce to make a cancer insurance claim
+
+- intent: faq_cancer/claim_immediately_after_purchase
+  examples: |
+    - Can I make a claim on my Cancer Insurance immediately after I have purchased it
+    - am i able to make a claim under my cancer insurance immediately after i bought it
+
+- intent: faq_cancer/claim_limit
+  examples: |
+    - How many times can we claim the Cancer Insurance
+    - is there a limit to how many times we can claim the cancer insurance
+
+- intent: faq_cancer/why_buy_if_have_critical_illness_insurance
+  examples: |
+    - Why should I buy Cancer Insurance if I already have an insurance that covers critical illness
+    - Why should I purchase Cancer Insurance if I already have an insurance that covers critical illness
+    - if i already have critical illness insurance, why should i still get cancer insurance
+    - if i already have critical illness insurance, why should i still buy cancer insurance
+    - if i already have critical illness insurance, why should i still purchase cancer insurance
+    - if i already have an insurance that covers critical illness, why should i still buy cancer insurance
+    - if i already have an insurance that covers critical illness, why should i still purchase cancer insurance
+
+- intent: faq_cancer/buy_other_critical_illess_insurance
+  examples: |
+    - Can I buy other critical illness Insurance when I already have Cancer Insurance
+    - Can I purchase other critical illness Insurance when I already have Cancer Insurance
+    - Can I buy other critical illness Insurance if i already have Cancer Insurance
+    - Can I purchase other critical illness Insurance if i already have Cancer Insurance
+    - if i already have Cancer Insurance, can i still buy other critical illness Insurance 
+    - if i already have Cancer Insurance, can i still purchase other critical illness Insurance 
+
+- intent: faq_cancer/receive_after_purchase
+  examples: |
+    - What documents will I receive after purchasing Cancer Insurance
+    - What documents will I receive after I purchased Cancer Insurance
+    - What documents will I receive after buying Cancer Insurance
+    - What documents will I receive after I bought Cancer Insurance
+    - what will i get after buying cancer insurance
+    - what will i get after purchase cancer insurance
+    - what will i get after i bought cancer insurance
+    - what will i get after i purchased cancer insurance
+    - what will i receive after buying cancer insurance
+    - what will i receive after purchase cancer insurance
+    - what will i receive after i bought cancer insurance
+    - what will i receive after i purchased cancer insurance
+
+- intent: faq_cancer/buy_if_have_medical_conditions
+  examples: |
+    - Can I buy Cancer Insurance from you even if I have a medical condition
+    - Can I get Cancer Insurance from you even if I have a medical condition
+    - Can I purchase Cancer Insurance from you even if I have a medical condition
+    - Can I purchase Cancer Insurance from you if I have a medical condition
+    - Can I buy Cancer Insurance from you if I have a medical condition
+    - if i have a medical condition, can i still buy your cancer insurance
+    - if i have a medical condition, can i still purchase your cancer insurance
+    - if i have a medical condition, can i still get your cancer insurance
+
+- intent: faq_cancer/add_stroke_heart_attack_insurance_after_purchase
+  examples: |
+    - Can I add Stroke and Heart Attack Insurance after I have purchased Cancer Insurance
+    - Can I add Stroke and Heart Attack Insurance after I have bought Cancer Insurance
+    - am i able to add stroke and heart attack insurance after purchasing cancer insurance
+    - am i able to add stroke and heart attack insurance after buying cancer insurance
+
+- intent: faq_cancer/buy_for_parents_children
+  examples: |
+    - Can I buy Cancer Insurance for my parents or children
+    - Can I buy Cancer Insurance for my parents or kids
+    - can i purchase cancer insurance for my parents or children
+    - can i purchase cancer insurance for my parents or kids
+    - am i able to buy cancer insurance for my parents or children
+    - am i able to buy cancer insurance for my parents or kids
+    - am i able to purchase cancer insurance for my parents or kids
+    - am i able to purchase cancer insurance for my parents or children
+
+- intent: faq_cancer/buy_both_term_life
+  examples: |
+    - Am I able to buy both Term Life and Cancer Insurance
+    - Am I able to get both Term Life and Cancer Insurance
+    - Am I able to purchase both Term Life and Cancer Insurance
+    - can i buy both term life and cancer insurance
+    - can i buy get term life and cancer insurance
+    - can i buy purchase term life and cancer insurance
+
+- intent: faq_cancer/buy_heart_attack
+  examples: |
+    - Can I buy Heart Attack insurance if I have a Cancer insurance
+    - Can I purchase Heart Attack insurance if I have a Cancer insurance
+    - if i already have cancer insurance, can i still buy heart attack insurance
+    - if i already have cancer insurance, can i purchase heart attack insurance
+    - if i already have cancer insurance, can i buy heart attack insurance
+
+- intent: faq_cancer/change_mind_after_purchase
+  examples: |
+    - What if I change my mind after purchasing the Cancer Insurance
+    - What if I change my mind after buying the Cancer Insurance
+    - What if I change my mind after I bought the Cancer Insurance
+    - What if I change my mind after I purchased the Cancer Insurance
+    - what do i do if i change my mind after buying the cancer insurance
+    - what do i do if i change my mind after i purchased the cancer insurance
+    - what do i do if i change my mind after i bought the cancer insurance
+
+- intent: faq_cancer/buy_age
+  examples: |
+    - Can I buy Cancer Insurance if I am 59 years old
+    - Can I buy Cancer Insurance if I am 59
+    - Can I buy Cancer Insurance if I'm already 59
+    - Can I purchase Cancer Insurance if I am 59 years old
+    - Can I purchase Cancer Insurance if I am 59
+    - Can I purchase Cancer Insurance if I'm already 59
+
+- intent: faq_cancer/claim
+  examples: |
+    - make a cancer insurance claim
+    - i want to make a claim for cancer insurance
+    - i want to make a cancer insurance claim
+    - claim cancer insurance
+
+- intent: faq_cancer/switch_to_big_3
+  examples: |
+    - Can I switch my Cancer Insurance to Big 3 Critical Illness Insurance
+    - Can switch my Cancer Insurance to Big 3 Critical Illness Insurance
+    - Can I switch my Cancer Insurance to Big 3 Insurance
+    - Can switch my Cancer Insurance to Big 3 Insurance
+    - can i change my cancer insurance to big 3 insurance
+    - can i change my cancer insurance to big 3 critical illness insurance
+    - can change my cancer insurance to big 3 insurance
+    - can change my cancer insurance to big 3 critical illness insurance
+
+- intent: faq_cancer/how_mediguide_choose_medical_centres
+  examples: |
+    - How do Mediguide choose their medical centres under Cancer Insurance
+    - how are the medical centres chosen by mediguide under Cancer Insurance
+    - for cancer insurance, how are the medical centres chosen by mediguide
+    - for cancer insurance, how do mediguide choose their medical centres
+
+- intent: faq_cancer/for_family
+  examples: |
+    - Do you have Cancer Insurance for family
+    - Do you offer Cancer Insurance for family
+    - you have cancer insurance for family?
+    - do you have a family plan for cancer insurance
+    - you have a family plan for cancer insurance?
+
+- intent: faq_cancer/next_step_after_receive_medical_second_opinion
+  examples: |
+    - What is the next step after I receive my Medical Second Opinion under Cancer Insurance
+    - What is the next step after I get my Medical Second Opinion under Cancer Insurance
+    - What is the next step after getting my Medical Second Opinion under Cancer Insurance
+    - What is the next step after receiving my Medical Second Opinion under Cancer Insurance
+    - next step after I receive my Medical Second Opinion under Cancer Insurance
+    - next step after getting my Medical Second Opinion under Cancer Insurance
+    - next step after receiving my Medical Second Opinion under Cancer Insurance
+    - next step after i get my Medical Second Opinion under Cancer Insurance
+    - what is the next step after getting my Medical Second Opinion under Cancer Insurance
+    - what do i do after getting my Medical Second Opinion under Cancer Insurance
+    - what do i do after receiving my Medical Second Opinion under Cancer Insurance
+    - what do i do after i receive my Medical Second Opinion under Cancer Insurance
+    - what do i do after i get my Medical Second Opinion under Cancer Insurance
+
+- intent: faq_cancer/savings_component
+  examples: |
+    - Does Cancer Insurance come with any savings component
+    - Does Cancer Insurance have any savings component
+    - Does your cancer insurance have any savings component
+    - Does your cancer insurance come with any savings component
+    - Does your cancer insurance come with savings component
+    - Does your cancer insurance have savings component
+    - is there a savings component in your cancer insurance
+
+- intent: faq_cancer/health_questions
+  examples: |
+    - What are the 3 health questions in Cancer Insurance
+    - 3 health questions for Cancer Insurance
+    - 3 health questions in Cancer Insurance
+    - list the 3 health questions for cancer insurance
+
+- intent: faq_cancer/who_can_buy
+  examples: |
+    - Who can buy Cancer Insurance
+    - Who can purchase Cancer Insurance
+    - Who is eligible to buy Cancer Insurance
+    - Who is eligible to purchase Cancer Insurance
+
+- intent: faq_cancer/do_you_have
+  examples: |
+    - Do you have Cancer Insurance
+    - do you offer cancer insurance
+    - do you have an insurance plan for cancer
+    - do you offer any insurance plan for cancer
+
+- intent: faq_cancer/cover_cancer_types
+  examples: |
+    - What types of cancer does your Cancer Insurance cover
+    - What kinds of cancer does your Cancer Insurance cover
+    - your cancer insurance covers what types of cancer
+    - your cancer insurance covers what kinds of cancer
+    - cancer coverage for your cancer insurance
+    - what is the cancer coverage for your cancer insurance
+
+- intent: faq_cancer/view_premium_table
+  examples: |
+    - Where can I view my premium table for Cancer Insurance
+    - Where to view my premium table for Cancer Insurance
+    - view the premium table for Cancer Insurance
+    - view premium table for Cancer Insurance
+
+- intent: faq_cancer/how_many_time_use_medical_second_opinion
+  examples: |
+    - How many times can I use the Medical Second Opinion service under Cancer Insurance
+    - what is the number of times I can use the Medical Second Opinion service under Cancer Insurance
+
+- intent: faq_cancer/get_second_opinion_mediguide
+  examples: |
+    - How can I get a second opinion from Mediguide under Cancer Insurance
+    - How to get a second opinion from Mediguide under Cancer Insurance
+    - how do i get a second opinion from mediguide for cancer insurance
+    - how to get a second opinion from mediguide for cancer insurance
+
+- intent: faq_cancer/name_beneficiary
+  examples: |
+    - How do I name a beneficiary for my Cancer Insurance
+    - How to name a beneficiary for my Cancer Insurance
+    - what is the procedure to name a beneficiary for my Cancer Insurance
+    - what is the process to name a beneficiary for my Cancer Insurance
+    - what are the steps i have to take to name a beneficiary for my Cancer Insurance
+
+- intent: faq_cancer/medical_checkup
+  examples: |
+    - Do I need to go for a medical check-up for Cancer Insurance
+    - Do I need a medical check-up for Cancer Insurance
+    - is a medical check-up needed for cancer insurance
+    - Do I need to go for a medical checkup for Cancer Insurance
+    - Do I need a medical checkup for Cancer Insurance
+    - is a medical checkup needed for cancer insurance
+
+- intent: faq_cancer/use_mediguide_condition_present_before
+  examples: |
+    - Can I use Mediguide for a condition that was present before I enrol into the Cancer Insurance plan
+    - Can I use Mediguide for a condition that was present before I buy the cancer insurance
+    - Can I use Mediguide for a condition that was present before enrolling into the cancer insurance
+    - Can use Mediguide for a condition that I have previously before enrolling into the Cancer Insurance plan
+    - Can use Mediguide for a condition that I have previously before i enrol into the Cancer Insurance plan
+    - Can use Mediguide for a condition that I have previously before i buy the cancer insurance
+
+- intent: faq_cancer/valid_if_relocate
+  examples: |
+    - Will my Cancer Insurance still be valid if I relocate
+    - if i relocate, will my Cancer Insurance still be valid
+    - if i relocate, will my Cancer Insurance stay valid
+    - if i relocate, does my Cancer Insurance stay valid
+    - does my cancer insurance stay valid if i relocate
+    - will my cancer insurance stay valid if i relocate
+
+- intent: faq_cancer/coverage_options
+  examples: |
+    - What are the coverage options for Cancer Insurance
+    - coverage options for Cancer Insurance
+
+- intent: faq_cancer/choose_how_long_to_cover
+  examples: |
+    - Can I choose how long I would like to be covered under Cancer Insurance
+    - am i able to choose how long I would like to be covered under Cancer Insurance
+    - am i able to choose the cover duration for Cancer Insurance
+    - can i choose the cover duration for Cancer Insurance
+    - choose the cover duration for Cancer Insurance
+    - can i decide how long i want to be covered for cancer insurance
+    - can i choose how long i want to be covered for cancer insurance
+
+- intent: faq_cancer/cover_early_stage_cancer
+  examples: |
+    - Does the Cancer Insurance cover early stage cancer
+    - is early stage cancer cover in your cancer insurance
+    - your cancer insurance got cover early stage cancer
+    - is early stage cancer included under your cancer insurance
+
+- intent: faq_cancer/when_cover_start
+  examples: |
+    - When does my cover start for Cancer Insurance
+    - what is the start date for my Cancer Insurance
+
+- intent: faq_cancer/death_benefit
+  examples: |
+    - What is the death benefit for Cancer Insurance
+    - death benefit for Cancer Insurance
+
+- intent: faq_cancer/highest_coverage_amount
+  examples: |
+    - What is the highest amount of coverage for Cancer Insurance
+    - highest amount of coverage for Cancer Insurance
+    - can i know what is the highest amount of coverage for Cancer Insurance
+    - can i know what is the most coverage available under Cancer Insurance
+    - what is the most coverage available under Cancer Insurance
+    - most coverage available under Cancer Insurance

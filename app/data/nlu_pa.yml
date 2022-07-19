@@ -1,0 +1,589 @@
+version: "3.1"
+nlu:
+
+- intent: faq_pa/know_more
+  examples: |
+    - i would like to know more about your personal accident insurance
+    - show me your personal accident insurance
+    - i'd like to take a look at your personal accident insurance
+
+- intent: faq_pa/buy_insurance
+  examples: |
+    - I would like to purchase personal accident insurance
+    - I would like to buy personal accident insurance
+    - I want to purchase personal accident insurance
+    - I want to buy personal accident insurance
+    - Can I buy personal accident insurance
+    - Can I get a quote for personal accident insurance
+    - Get a quote for personal accident insurance
+    - Get personal accident insurance quote
+
+
+- intent: faq_pa/get_quote_how
+  examples: |
+    - How to get a quote for personal accident insurance
+    - How to get personal accident insurance quote
+    - Where to get a quote for personal accident insurance
+    - Where to get personal accident insurance quote
+    - What is the procedure to get a quote for personal accident insurance
+    - What is the procedure to get personal accident insurance quote
+
+- intent: faq_pa/get_quote_info
+  examples: |
+    - What information is needed to get a quote for personal accident insurance
+    - What information do I need to give to get a quote for personal accident insurance
+    - What information do I need to provide to get a quote for personal accident insurance
+    - Do I need to provide any information to get a quote for personal accident insurance
+    - What information is needed for personal accident insurance insunce quote
+    - What information do I need to give for personal accident insurance quote
+    - What information do I need to provide for personal accident insurance quote
+    - Do I need to provide any information to get personal accident insurance quote
+
+- intent: faq_pa/emergency_contact
+  examples: |
+    - How will I contact FWD for help in case of an emergency for Personal Accident Insurance
+    - how can i contact FWD in times of emergency for personal accident insurance
+    - how can i contact FWD if i have an emergency for personal accident insurance
+
+- intent: faq_pa/renew_no_promo
+  examples: |
+    - Why is there no promotional discount on my Personal Accident plan renewal
+    - why do i not get a promotional discount when i renew my personal accident insurance
+    - why do i not get a promotional discount when i renew my personal accident plan
+
+- intent: faq_pa/cannot_renew
+  examples: |
+    - What do I do if I cannot renew my Personal Accident Insurance
+    - what should i do if i have troubles renewing my personal accident insurance
+    - what do i do if i am unable to renew my personal accident insurance
+    - what if i cannot renew my personla accident insurance
+
+- intent: faq_pa/payment_mode_frequency
+  examples: |
+    - What is the payment mode and frequency for Personal Accident Insurance
+    - what is the mode and frequency of payment for personal accident insurance
+
+- intent: faq_pa/payment methods
+  examples: |
+    - Which payment methods are accepted for Personal Accident Insurance
+    - what payment methods are available for personal accident insurance
+    - what payment methods do you accept for personal accident insurance
+
+- intent: faq_pa/claim_documents
+  examples: |
+    - What do I need to make a Personal Accident insurance claim
+    - What documents do I need to make a Personal Accident insurance claim
+
+- intent: faq_pa/claim_infectious_diseases_50_percent_payable
+  examples: |
+    - For Personal Accident Insurance, what does it mean if the claim is due to an infectious disease then 50% of the Sum insured limit will be payable
+    - what does it mean by the claim is due to an infectious disease then 50% of the Sum insured limit will be payable for personal accident insurance
+
+- intent: faq_pa/claim_tcm_appointments
+  examples: |
+    - Can i claim tcm appointments for the personal accident plan as i injured my arm recently
+    - is tcm appointments claimable under personal accident plan
+    - can i claim tcm appoinments under my personal plan
+
+- intent: faq_pa/claim_limit
+  examples: |
+    - What is the policy claim limit for Personal Accident Insurance
+    - is there a policy claim limit for personal accident insurance
+    - what is the limit for policy claim under personal accident insurance
+
+- intent: faq_pa/claim_where
+  examples: |
+    - Where to make Personal Accident Insurance claim
+    - where do i go to make a claim under personal accident insurance
+    - where do i go to make a Personal Accident Insurance claim
+
+- intent: faq_pa/claim_from_both_another_pa_plan
+  examples: |
+    - Can I claim from both if I have another Personal Accident Insurance plan
+    - can i make a claim from both company if i have another existing personal accident plan
+
+- intent: faq_pa/buy_for_spouse
+  examples: |
+    - Can I buy this Personal Accident Insurance for my spouse
+    - Can I buy this Personal Accident Insurance for my partner
+    - Can I purchase this Personal Accident Insurance for my partner
+    - Can I purchase this Personal Accident Insurance for my spouse
+    - am i able to buy your personal accident insurance for my spouse
+    - am i able to buy your personal accident insurance for my partner
+    - am i able to purchase your personal accident insurance for my spouse
+    - am i able to purchase your personal accident insurance for my partner
+
+- intent: faq_pa/buy_term_life
+  examples: |
+    - Should I still buy Term Life Insurance if I already have a Personal Accident Insurance
+    - I already have a personal accident insurance, should i still purchase term life insurance
+
+- intent: faq_pa/policy_wording
+  examples: |
+    - Policy wording for Personal Accident Insurance
+    - can i have the policy wording your personal accident insurance
+    - can i get the policy wording your personal accident insurance
+
+- intent: faq_pa/can_i_buy
+  examples: |
+    - Can I buy Personal Accident Insurance
+    - Can I buy your Personal Accident Insurance
+    - Can I purchase your Personal Accident Insurance
+    - Can I purchase Personal Accident Insurance
+    - am i eligible to buy your personal accident insurance
+    - am i eligible to purchase your personal accident insurance
+    - am i able to buy your personal accident insurance
+    - am i able to purchase your personal accident insurance
+
+- intent: faq_pa/under_general_insurance
+  examples: |
+    - Is Personal Accident Insurance under General Insurance in FWD
+    - is personal accident insurance considered under your general insurance
+    - is your personal accident insurance considered as general insurance
+
+- intent: faq_pa/types_offered
+  examples: |
+    - What type of Personal Accident Insurance do you offer
+    - What are the types of Personal Accident Insurance that you offer
+    - you offer what types of personal accident insurance
+
+- intent: faq_pa/partial_disabled
+  examples: |
+    - Definition of partial disabled, for Personal Accident Insurance
+    - can i have the definition of partial disabled in your Personal Accident Insurance
+    - what is the meaning of partial disabled in your personal accident insurance
+
+- intent: faq_pa/additional_permanent_disability
+  examples: |
+    - What is Personal Accident additional permanent disability
+    - What does Personal Accident additional permanent disability refer to
+    - What is the meaning of Personal Accident additional permanent disability
+    - What does additional permanent disability mean in your personal accident insurance
+    - What is the meaning of additional permanent disability in your personal accident insurance
+
+- intent: faq_pa/cover_cycling
+  examples: |
+    - Do you cover cycling under Personal Accident Insurance
+    - is cycling covered under your personal accident insurance
+    - does your personal accident insurance cover cycling
+    - coverage for cycling under your personal accident insurance
+
+- intent: faq_pa/cover_loss_mobile_phones
+  examples: |
+    - Does your Personal Accident Insurance cover loss of mobile phones
+    - is loss of mobile phones covered under your personal accident insurance
+    - does your personal accident insurance cover loss of mobile phones
+    - coverage for loss of mobile phones under your personal accident insurance
+
+- intent: faq_pa/coverage_lost_wallet
+  examples: |
+    - Coverage for lost wallet under Personal Accident Insurance
+    - Does your Personal Accident Insurance cover lost wallet
+    - is lost wallet covered under your personal accident insurance
+    - does your personal accident insurance cover lost wallet
+
+- intent: faq_pa/family_plan
+  examples: |
+    - Do you have any family plan for Personal Accident Insurance
+    - is there a family plan option for personal accident insurance
+    - is there a family option for personal accident insurance
+    - does your personal accident insurance have a family plan option
+    - does your personal accident insurance have a family plan
+    - does your personal accident insurance have a family option
+
+- intent: faq_pa/do_you_have
+  examples: |
+    - Do you have Personal Accident Insurance
+    - do you sell personal accident insurance
+    - do you offer personal accident insurance
+
+- intent: faq_pa/promo
+  examples: |
+    - Any promo code for Personal Accident Insurance
+    - promo for personal accident insurance
+    - promo code for personal accident insurance
+    - got promo for personal accident insurance
+    - got promo code for personal accident insurance
+    - do i get a promo if i want to buy your personal accident insurance
+    - do i get a promo code if i want to buy your personal accident insurance
+    - do you have promot for your personal accident insurance
+
+- intent: faq_pa/waiting_period
+  examples: |
+    - Is there a waiting period for Personal Accident Insurance
+    - does your Personal Accident Insurance have a waiting period
+    - got waiting period for your personal accident insurance
+
+- intent: faq_pa/medical_expenses_limit_per_accident
+  examples: |
+    - What is the limit per accident for medical expenses under Personal Accident
+    - limit per accident for medical expenses under Personal Accident
+    - what is the medical expenses limit per accident under personal accident insurance
+    - medical expenses limit per accident under personal accident insurance
+    - what is the max medical expenses claimable per accident under your personal accident isnurance
+    - max medical expenses claimable per accident under your personal accident isnurance
+
+- intent: faq_pa/who_can_buy
+  examples: |
+    - Who can buy FWD Personal Accident Insurance
+    - who can purchase your personal accident insurance
+    - who is eligible to buy personal accident insurance 
+
+- intent: faq_pa/enhanced_permanent_disability
+  examples: |
+    - What is Personal Accident enhanced permanent disability
+    - What does Personal Accident enhanced permanent disability mean
+    - what is the enhanced permanent disability in your personal accident insurance
+    - what does the enhanced permanent disability in your personal accident insurance mea
+
+- intent: faq_pa/occupation_group_teacher
+  examples: |
+    - Occupation group teacher under Personal Accident Insurance
+    - teacher is under which occupation group for your personal accident insurance
+    - which occupation group is teacher grouped under for your personal accident
+
+- intent: faq_pa/free_look_period
+  examples: |
+    - What is the free look period for Personal Accident Insurance
+    - is there a free look period for your personal accident insurance
+    - your personal accident insurance got free look period
+    - does your personal accident have a free look period
+
+- intent: faq_pa/emergency_medical_evacuation
+  examples: |
+    - Can you provide further elaboration on the emergency medical evacuation under Personal Accident Insurance
+    - explain the emergency medical evacuation stated in your personal accident insurance
+    - what is the emergency medical evacuation stated in your personal accident insurance
+
+- intent: faq_pa/cover_participate_sporting_event
+  examples: |
+    - Am I covered under Personal Accident Insurance if I am participating in a sporting event
+    - Am I covered under Personal Accident Insurance if I am taking part in a sport event
+    - will i still be covered under your personal accident if i am taking part in a sports event
+    - will i still be covered under your personal accident if i am taking part in a sporting event
+
+- intent: faq_pa/cover_dental
+  examples: |
+    - Do you cover dental under Personal Accident Insurance
+    - is dental covered under your personal accident insurance
+    - your personal accident insurance got include dental
+    - your personal accident insurance got cover dental
+
+- intent: faq_pa/direct_term_life_different
+  examples: |
+    - Is DIRECT - Term Life Insurance different from Personal Accident Insurance
+    - differences between direct term life insurance and personal accident insurance
+    - direct term life insurance vs personal accident insurance
+    - how does direct term life insurance differ from personal accident insurance
+
+- intent: faq_pa/occupation
+  examples: |
+    - What occupation should I choose for Personal Accident Insurance
+    - What is the occupation to choose for Personal Accident Insurance
+    - i choose which occupation for your personal accident insurance
+
+- intent: faq_pa/policy_limit
+  examples: |
+    - What is the policy limit for Personal Accident plan
+    - policy limit for Personal Accident plan
+    - What is the policy limit for Personal Accident insurance
+    - policy limit for Personal Accident insurance
+
+- intent: faq_pa/change_my_job_inform_fwd
+  examples: |
+    - Must I inform FWD if I change my job under Personal Accident Insurance
+    - need to inform FWD if I change my job under Personal Accident Insurance
+    - do i need to inform you if i changed my job under your personal accident insurance
+    - i changed my job, do i need to inform you under your personal accident insurance
+
+- intent: faq_pa/receive_email_after_purchase
+  examples: |
+    - When will I receive an email on my Personal Accident Insurance purchase
+    - when will i get the email on my purchase of personal accident insurance
+    - when will i get the email after my purchase of personal accident insurance
+    - when will i receive the email after i bought your personal accident insurance
+    - when will i receive the email after purchasing your personal accident insurance
+    - when will i get the email after buying your personal accident insurance
+
+- intent: faq_pa/why_occupation_class_affect_premium
+  examples: |
+    - Why does my occupation class affect the premium I pay for Personal Accident Insurance
+    - Why does my occupation group affect the premium I pay for Personal Accident Insurance
+    - how come the occupation class affect the premium I pay for Personal Accident Insurance
+    - how come the occupation group affect the premium I pay for Personal Accident Insurance
+    - how come the occupation class affect how much premium I pay for Personal Accident Insurance
+    - how come the occupation group affect how much premium I pay for Personal Accident Insurance
+
+- intent: faq_pa/define_accident
+  examples: |
+    - How do you define accident under Personal Accident Insurance
+    - how is accident is defined under your personal accident insurance
+    - what is the definition of accident under your personal accident insurance
+
+- intent: faq_pa/outpatient_expenses_include_mri_xray
+  examples: |
+    - Do outpatient expenses under Personal Accident Insurance include MRI and/or X-Ray scans
+    - does the outpatient expenses include MRI and/or X-Ray scans under your personal accident insurance
+    - under your personal accident insurance, does the outpatient expenses include MRI and/or X-Ray scans
+    - is MRI and/or X-Ray scans included in the outpatient expenses stated in your personal accident insurance
+
+- intent: faq_pa/what_age_considered_child
+  examples: |
+    - What age is considered as child under your Personal Accident Insurance
+    - what age range is considered as child under your Personal Accident Insurance
+    - child is from what age to what age under your Personal Accident Insurance
+
+- intent: faq_pa/renewed_policy_no_reflect_covid_dengue
+  examples: |
+    - But the renewed Personal Accident Insurance policy does not reflect anything about COVID or dengue
+    - the renewed personal accident insurance does not reflect anything about COVID or dengue
+    - the renewed personal accident insurance never show anything about COVID or dengue
+    - the renewed personal accident insurance never indicate COVID or dengue
+
+- intent: faq_pa/medical_expenses_per_year_or_accident
+  examples: |
+    - Are the medical expenses per policy year or accident for Personal Accident Insurance
+
+- intent: faq_pa/work_category
+  examples: |
+    - What is my work category under Personal Accident Insurance
+    - what should my work category be under your Personal Accident Insurance
+    - what do i choose as my work category under your personal accident insurance
+
+- intent: faq_pa/why_cannot_purchase_family
+  examples: |
+    - Why am I not able to purchase Family Personal Accident Insurance
+    - why can't i purchase the family personal accident insurance
+    - why i cannot purchase the family personal accident insurance
+    - i cannot purchase the family personal accident insurance
+
+- intent: faq_pa/housewife_category
+  examples: |
+    - Which category is housewife under for Personal Accident Insurance
+    - which occupation group is housewife under for your personal accident insurance
+    - which occupation class is housewife under for your personal accident insurance
+
+- intent: faq_pa/occupation_class_for_student_retiree_homemaker
+  examples: |
+    - Which occupation class should I pick if I am a student, retiree or a homemaker for Personal Accident Insurance
+    - if i am a student, retiree or homemaker, which occupation group is it under for personal accident insurance
+    - which occupation group is student, retriree or homemaker under for your personal accident insurance
+    - if i am a student, retiree or homemaker, which occupation class is it under for personal accident insurance
+    - which occupation class is student, retriree or homemaker under for your personal accident insurance
+
+- intent: faq_pa/part_time_worker
+  examples: |
+    - Can I purchase Personal Accident Insurance if I am a part-time worker
+    - Can I buy Personal Accident Insurance if I am a part-time worker
+    - if i am a part time worker, can i buy your personal accident insurance
+    - as a part time worker, can i buy your personal accident insurance
+    - as a part time worker, can i purchase your personal accident insurance
+
+- intent: faq_pa/buy_if_live_overseas
+  examples: |
+    - Can I buy your Personal Accident Insurance if I live overseas
+    - can i purchase your personal accident insurance if i reside overseas
+    - can buy your personal accident insurance if i live overseas
+    - can purchase your personal accident insurance if i reside overseas
+
+- intent: faq_pa/define_personal_liabiilty
+  examples: |
+    - How do you define personal liability under Personal Accident Insurance
+    - How is personal liability defined under Personal Accident Insurance
+    - what is the definition of personal liability in your personal accident insurance
+
+- intent: faq_pa/deliveryman_occupation_group
+  examples: |
+    - As a deliveryman, which occupation group am I in for Personal Accident Insurance
+    - what occupation group is deliveryman in under your personal accident insurance
+    - which occupation group do i choose as a deliveryman under your personal accident insurance
+    - deliveryman is under which occupation group under your personal accident insurance
+    - As a deliveryman, which occupation class am I in for Personal Accident Insurance
+    - what occupation class is deliveryman in under your personal accident insurance
+    - which occupation class do i choose as a deliveryman under your personal accident insurance
+    - deliveryman is under which occupation class under your personal accident insurance
+
+- intent: faq_pa/different_riders_adults_children
+  examples: |
+    - Are there different riders for adults and children under the Personal Accident Insurance?
+    - got different riders for adults and children under your personal accident insurance
+    - do adults and children have different riders under your personal accident insurance
+
+- intent: faq_pa/life_plan_difference
+  examples: |
+    - Difference between a life plan and Personal Accident plan
+    - what is the differences between a life plan and Personal Accident plan
+    - how does a life plan and personal accident plan differ
+    - life plan vs personal accident plan
+
+- intent: faq_pa/issue_cover_only_child
+  examples: |
+    - Do you issue Personal Accident Insurance covering only my child
+    - do you have personal accident insurance that covers only my child
+
+- intent: faq_pa/visit_panel_clinic_to_claim
+  examples: |
+    - Do i need to visit your panel clinic in order to claim for Personal Accident
+    - do i need to go to your panel clinic to claim under your personal accident
+    - Do i need to visit your panel clinic to be able to claim for Personal Accident
+    - do i need to go to your panel clinic to be able to claim under your personal accident
+
+- intent: faq_pa/cover_out_of_sg
+  examples: |
+    - Am I covered under Personal Accident Insurance if I am out of Singapore
+    - Does your personal Accident Insurance still cover me if i am out of sg
+    - does your personal accident insurance cover me if i am out of singapore
+    - am i covered if i am out of sg under your personal accident insurance
+
+- intent: faq_pa/cover_critical_illness
+  examples: |
+    - Does Personal Accident Insurance covers critical illness
+    - Do you cover critical illness under Personal Accident Insurance
+    - does your personal accident insurance cover critical illness
+    - am i covered for critical illness under your personal accident insurance
+    - does the coverage for your personal accident insurance include critical illness
+    - is critical illness covered under your personal accident insurance
+    - is critical illness included as part of the coverage under your personal accident insurance
+
+- intent: faq_pa/cover_accident_public_transport
+  examples: |
+    - Does Personal Accident insurance cover accident under public transport
+    - Do you cover accident under public transport under Personal Accident Insurance
+    - does your personal accident insurance cover accident under public transport
+    - am i covered for accident under public transport under your personal accident insurance
+    - does the coverage for your personal accident insurance include accident under public transport
+    - is accident under public transport covered under your personal accident insurance
+    - is accident under public transport included as part of the coverage under your personal accident insurance
+
+- intent: faq_pa/cover_insect_bites
+  examples: |
+    - Does Personal Accident Insurance covers insect bites
+    - Do you cover insect bites under Personal Accident Insurance
+    - does your personal accident insurance cover insect bites
+    - am i covered for insect bites under your personal accident insurance
+    - does the coverage for your personal accident insurance include insect bites
+    - is insect bites covered under your personal accident insurance
+    - is insect bites included as part of the coverage under your personal accident insurance
+
+- intent: faq_pa/cover_illness_infectious_disease
+  examples: |
+    - What are the illness and infectious disease covered under Personal Accident Insurance
+    - What are the illness and infectious disease covered under your Personal Accident Insurance
+    - What is the list of illness and infectious disease covered under Personal Accident Insurance
+    - can i know the list of illness and infectious disease covered under Personal Accident Insurance
+    - can i know what is the list of illness and infectious disease covered under Personal Accident Insurance
+    - can i know what is the list of illness and infectious disease covered under your Personal Accident Insurance
+
+- intent: faq_pa/cover_covid
+  examples: |
+    - Does your Personal Accident Insurance cover Covid-19 against travel advisory
+    - Am I covered for covid 19 against travel advisory under Personal Accident Insurance
+    - Do you cover covid 19 against travel advisory under Personal Accident Insurance
+    - does the coverage for your personal accident insurance include covid 19 against travel advisory
+    - is covid 19 against travel advisory covered under your personal accident insurance
+    - is covid 19 against travel advisory included as part of the coverage under your personal accident insurance
+
+- intent: faq_pa/cover_injuries_operation_of_aircraft
+  examples: |
+    - Does your Personal Accident Insurance covers injuries arising from operation of an aircraft
+    - Do you cover injuries arising from operation of an aircraft under Personal Accident Insurance
+    - am i covered for injuries arising from operation of an aircraft under your personal accident insurance
+    - does the coverage for your personal accident insurance include injuries arising from operation of an aircraft
+    - is injuries arising from operation of an aircraft covered under your personal accident insurance
+    - is injuries arising from operation of an aircraft included as part of the coverage under your personal accident insurance
+    - Does your Personal Accident Insurance covers injuries from operating an aircraft
+    - Do you cover injuries from operating an aircraft under Personal Accident Insurance
+    - am i covered for injuries from operating an aircraft under your personal accident insurance
+    - does the coverage for your personal accident insurance include injuries from operating an aircraft
+    - is injuries from operating an aircraft covered under your personal accident insurance
+    - is injuries from operating an aircraft included as part of the coverage under your personal accident insurance
+    - is injuries from operating an aircraft included in your personal accident insurance
+
+- intent: faq_pa/cover_infectious_disease
+  examples: |
+    - Am I covered for infectious disease under Personal Accident Insurance
+    - Do you cover infectious disease under Personal Accident Insurance
+    - does your personal accident insurance cover infectious disease
+    - does the coverage for your personal accident insurance include infectious disease
+    - is infectious disease covered under your personal accident insurance
+    - is infectious disease included as part of the coverage under your personal accident insurance
+
+- intent: faq_pa/cover_physiotherapy
+  examples: |
+    - Do you cover physiotherapy under Personal Accident Insurance
+    - does your personal accident insurance cover physiotherapy
+    - am i covered for physiotherapy under your personal accident insurance
+    - does the coverage for your personal accident insurance include physiotherapy
+    - is physiotherapy covered under your personal accident insurance
+    - is physiotherapy included as part of the coverage under your personal accident insurance
+
+- intent: faq_pa/reduced_cover_for_children
+  examples: |
+    - Is there any reduced cover for children under Personal Accident Insurance
+    - any reduced cover for children under Personal Accident Insurance
+    - do children have reduced cover under personal accident insurance
+
+- intent: faq_pa/cover_terrorism
+  examples: |
+    - Am I covered for terrorism under your Personal Accident Insurance
+    - is terrorism covered under your personal accident insurance
+    - your personal accident insurance got cover terrorism?
+    - do you cover terrorism under your personal accident insurance
+    - does your personal accident insurance cover terrorism
+
+- intent: faq_pa/cover_infectious_diseases
+  examples: |
+    - What infectious diseases are covered under Personal Accident Insurance
+    - what is the list of infectious diseases covered under Personal Accident Insurance
+    - what are the infectious diseases covered under your personal accident insurance
+    - can i know what infectious diseases are covered under Personal Accident Insurance
+    - can i know what are the infectious diseases covered under Personal Accident Insurance
+    - can i know what is the list of infectious diseases covered under Personal Accident Insurance
+
+- intent: faq_pa/cover_natural_death
+  examples: |
+    - Does Personal Accident Insurance covers natural death
+    - is natural death covered in your personal accident insurance
+    - do you cover natural death in your personal accident insurance
+
+- intent: faq_pa/cover_minor_accidents
+  examples: |
+    - Does your Personal Accident policy covers minor accidents
+    - minor acciddents covered in your personal accident insurance?
+    - are accidents covered in your personal accident insurance
+    - does the coverage under your personal accident insurance include minor accidents
+
+- intent: faq_pa/medical_expenses_coverage
+  examples: |
+    - What is the medical expenses coverage under Personal Accident Insurance
+    - medical expenses coverage under Personal Accident Insurance
+    - what is the coverage for medical expenses under your personal accident insurance
+
+- intent: faq_pa/cover_effects_due_to_covid_vaccination_hospitalisation
+  examples: |
+    - I like to know if I'm being covered for effects due to covid vaccination hospitalisation under Personal Accident Insurance
+    - am i covered for effects due to covid vaccination hospitalisation under your personal accident insurance
+    - does your personal accident insurance cover for effects due to covid vaccination hospitalisation
+    - if i am experiencing effects from covid vaccination hospitalisation, does your personal accident insurance cover it
+
+- intent: faq_pa/cover_haze_related_events_in_sg
+  examples: |
+    - Do you cover haze related events in Singapore under Personal Accident Insurance
+    - Do you cover haze related events in sg under Personal Accident Insurance
+    - is haze related events in sg covered under your personal accident insurance
+    - is haze related events in singapore covered under your personal accident insurance
+    - does your personal accident insurance cover haze related events in sg
+    - does your personal accident insurance cover haze related events in singapore
+
+- intent: faq_pa/add_another_child
+  examples: |
+    - Can I add another child to my Personal Accident Insurance
+    - Can add another child to my Personal Accident Insurance
+    - can another child be added to my personal accident insurance
+
+- intent: faq_pa/cover_hospitalisation_surgery_cost
+  examples: |
+    - Does your Personal Accident Insurance cover hospitalisation and surgery cost
+    - is hospitalisation and surgery cost covered in your personal accident insurance
+    - personal accident insurance got cover hospitalisation and surgery cost
+    - does the coverage under your personal accident insurance include hospitalisation and surgery cost

@@ -1,0 +1,194 @@
+version: "3.1"
+nlu:
+
+- intent: faq_stroke/know_more
+  examples: |
+    - i would like to know more about your stroke insurance
+    - show me your stroke insurance
+    - i'd like to take a look at your stroke insurance
+
+- intent: faq_stroke/buy_insurance
+  examples: |
+    - I would like to purchase stroke insurance
+    - I would like to buy stroke insurance
+    - I want to purchase stroke insurance
+    - I want to buy stroke insurance
+    - Can I buy stroke insurance
+    - Can I get a quote for stroke insurance
+    - Get a quote for stroke insurance
+    - Get stroke insurance quote
+
+- intent: faq_stroke/get_quote_how
+  examples: |
+    - How to get a quote for stroke insurance
+    - How to get stroke insurance quote
+    - Where to get a quote for stroke insurance
+    - Where to get stroke insurance quote
+    - What is the procedure to get a quote for stroke insurance
+    - What is the procedure to get stroke insurance quote
+
+- intent: faq_stroke/cancellation
+  examples: |
+    - How can I cancel my Stroke policy
+    - How can I cancel my Stroke insurance policy
+    - how do i cancel my stroke policy
+    - how do i cancel my stroke insurance policy
+    - can i cancel my stroke policy
+    - can i cancel my stroke insurance policy
+
+- intent: faq_stroke/change_coverage_amount_benefits
+  examples: |
+    - Can I make changes to my coverage amount or benefits after I buy your Stroke Insurance
+    - can i change my coverage amount or benefits after buying your stroke insurance
+    - can i amend my coverage amount or benefits after i bought your stroke insurance
+
+- intent: faq_stroke/changes_personal_particulars
+  examples: |
+    - Can I make changes to my personal particulars after I buy Stroke Insurance
+    - Can i still amend my personal particulars after i buy stroke insurance
+    - can i still make amendments to my personal particulars after i buy stroke insurance
+    - can i still change my personal particulars after i buy stroke insurance
+    - am i able to change my personal particulars after i buy stroke insurance
+    - am i able to amend my personal particulars after i buy stroke insurance
+    - am i still able to amend my personal particulars after i buy stroke insurance
+    - am i still able to change my personal particulars after i buy stroke insurance
+
+- intent: faq_stroke/payment_methods
+  examples: |
+    - Which payment methods are accepted for Stroke Insurance
+    - what payment methods do you accept for stroke insurance
+    - what payment methods do you have for stroke insurance
+    - what payment methods are available for stroke insurance
+
+- intent: faq_stroke/payment_frequencies
+  examples: |
+    - Which payment frequencies can I choose from for Stroke Insurance
+    - what payment frequencies do you have for stroke insurance
+    - what payment frequencies do you offer for stroke insurance
+
+- intent: faq_stroke/premiums_levelled
+  examples: |
+    - Are the premiums levelled for Stroke Insurance
+    - are the premiums for stroke insurance levelled
+
+- intent: faq_stroke/claim
+  examples: |
+    - Make a stroke insurance claim
+    - i want to make a stroke insurance claim
+
+- intent: faq_stroke/payout
+  examples: |
+    - What is the payout for Stroke Insurance
+    - what is the payout amount of stroke insurance
+
+- intent: faq_stroke/buy_for_parents_children
+  examples: |
+    - Can I buy Stroke Insurance for my parents or children
+    - Can I purchase Stroke Insurance for my parents or children
+    - am i able to buy stroke insurance for my parents or children
+    - am i able to purchase stroke insurance for my parents or kids
+    - am i able to purchase stroke insurance for my parents or children
+    - am i able to buy stroke insurance for my parents or kids
+
+- intent: faq_stroke/buy_if_have_mild_stroke
+  examples: |
+    - Can I purchase Stroke Insurance if I have mild stroke
+    - Can I buy Stroke Insurance if I have mild stroke
+    - am i able to purchase stroke insurance if i have mild stroke
+    - am i able to buy stroke insurance if i have mild stroke
+    - if i have mild stroke, can i buy stroke insurance
+    - if i have mild stroke, can i purchase stroke insurance
+
+- intent: faq_stroke/buy_if_have_cancer_insurance
+  examples: |
+    - Can I buy Stroke insurance if I have a Cancer insurance
+    - Can I purchase Stroke insurance if I have a Cancer insurance
+    - Can I purchase Stroke insurance if I already have a Cancer insurance
+    - Can I buy Stroke insurance if I already have a Cancer insurance
+    - if i already have a cancer insurance, can i still buy stroke insurance
+    - i already have a cancer insurance, can i still purchase stroke insurance
+
+- intent: faq_stroke/buy_undergoing_medical_treatment
+  examples: |
+    - Can I buy Stroke insurance if I am currently undergoing medical treatment
+    - I am currently undergoing medical treatment, can I buy Stroke insurance
+    - am i able to buy stroke if i am currently undergoing medical treatment
+    - am i able to purchase stroke if i am currently undergoing medical treatment
+    - am i able to buy stroke if i am undergoing medical treatment now
+    - am i able to purchase stroke if i am undergoing medical treatment now
+
+- intent: faq_stroke/buy_if_have_medical_conditions
+  examples: |
+    - Can I buy Stroke Insurance even though I have some medical conditions
+    - Can I get Stroke Insurance even though I have some medical conditions
+    - Can I purchase Stroke Insurance even though I have some medical conditions
+    - can i get your stroke insurance if i have some medical conditions
+    - can i buy your stroke insurance if i have some medical conditions
+    - can i purchase your stroke insurance if i have some medical conditions
+    - can i get your stroke insurance if i have medical conditions
+    - can i buy your stroke insurance if i have medical conditions
+    - can i purchase your stroke insurance if i have medical conditions
+    - if i have medical conditions, can i buy your stroke insurance
+    - if i have medical conditions, can i purchase your stroke insurance
+    - if i have medical conditions, can i get your stroke insurance
+    - if i have some medical conditions, can i still buy your stroke insurance
+
+- intent: faq_stroke/promo
+  examples: |
+    - Is there any promo for Stroke Insurance
+    - do you have any promo for stroke insurance
+    - do i get a promo for buying your stroke insurance
+    - got promo for stroke insurance
+
+- intent: faq_stroke/who_can_buy
+  examples: |
+    - Who can buy Stroke Insurance
+    - Who can purchase Stroke Insurance
+    - Who is eligible to buy Stroke Insurance
+    - Who is eligible to purchase Stroke Insurance
+
+- intent: faq_stroke/what_is_preexisting_medical_condition
+  examples: |
+    - What is pre-existing medical condition under the Stroke insurance
+    - What does pre-existing medical condition mean in Stroke insurance
+    - What is the meaning of pre-existing medical condition in Stroke insurance
+
+- intent: faq_stroke/prepare_documents
+  examples: |
+    - Do I need to prepare any documents for Stroke insurance
+    - are there any documents I need to prepare for Stroke insurance
+    - what documents do I need to prepare for Stroke insurance
+
+- intent: faq_stroke/how_much_cover
+  examples: |
+    - How much cover should I choose for Stroke Insurance
+    - How much coverage should I choose for Stroke Insurance
+    - How much cover do I choose for Stroke Insurance
+    - How much coverage do I choose for Stroke Insurance
+
+- intent: faq_stroke/free_look_period
+  examples: |
+    - Is there a free-look period for your Stroke Insurance
+    - does your stroke insurance have a free-look period
+    - got free-look period for your stroke insurance
+
+- intent: faq_stroke/smoker
+  examples: |
+    - Am i a smoker under the Stroke insurance
+    - Am i considered as a smoker under the Stroke insurance
+    - how do i know if im a smoker under your stroke insurance
+    - how do i know if im considered as a smoker under your stroke insurance
+
+- intent: faq_stroke/medical_checkup
+  examples: |
+    - Do I need to go for a medical check-up for Stroke Insurance
+    - do I have to go for a medical check-up for Stroke Insurance
+    - need to go for medical check-up for Stroke Insurance
+
+- intent: faq_stroke/max_protection
+  examples: |
+    - What is the maximum protection I can buy under FWD Stroke Insurance
+    - What is the maximum protection I can get under FWD Stroke Insurance
+    - What is the maximum protection I can get under your stroke Insurance
+    - what is the maximum protection i can get for stroke insurance
+    - what is the maximum protection i can buy for stroke insurance
