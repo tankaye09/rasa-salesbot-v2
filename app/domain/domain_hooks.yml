@@ -1,0 +1,42 @@
+version: "3.1"
+
+responses:
+
+  utter_emoji_hook:
+  - text: "Can you guess what this emoji is? 🌊 ⛷️"
+  - text: "Want to guess what this emoji is? 🌊 ⛷️"
+  - text: "Have a go at what this is! 🌊 ⛷️"
+
+  utter_affirm:
+  - text: "Sure!"
+  - text: "Of course!"
+  - text: "Got it!"
+  - text: "Ok!"
+
+  utter_correct:
+  - text: "Nice!"
+  - text: "Wow! Good guess!"
+  - text: "Wow! How did you know?"
+  - text: "Correct!"
+
+  utter_ask_likeToSki:
+  - text: "Do you like skiing?"
+  - text: "Do you enjoy skiing?"
+
+  utter_ask_faq/travel_ski:
+  - text: "Are you intending to travel? Maybe going to ski?"
+  - text: "Going overseas to ski?"
+
+  utter_ask_faq/travel_insurance:
+  - text: "Did you know that travel insurance can provide you with a peace of mind when doing extreme sports overseas?"
+  #- text: "Nice! Have you bought any travel insurance for the trip? Would you like one?"
+
+  utter_ask_destination:
+  - text: "Where would you like to go?"
+
+  utter_ans_how:
+  - text: "We provide unlimited coverage for emergency medical evacuation, a minimum of 200k in medical expenses incurred overseas, and a minimum of 200k of lump sum payment upon death or disability from accidents. Ultimately, we want to protect you so that you can focus on living life to the fullest."
+
+  utter_redirect:
+  - text: "Ok! Read more about our policy and get a quote here: https://www.fwd.com.sg/travel-insurance."
+  #- text: "Ok! Please hold while I get you the best deals I can find."

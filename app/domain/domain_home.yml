@@ -1,0 +1,120 @@
+version: "3.1"
+
+responses:
+
+  utter_faq_home/know_more:
+  - text: "Sure! 😊 You may read more about our home insurance [here](https://www.fwd.com.sg/home-insurance/)."
+
+  utter_faq_home/buy_insurance:
+  - text: "Great choice! It'll take less than a min to get a quote.\n\nPlease click [here](https://www.fwd.com.sg/home-insurance/online-quote/ownerType#owner) to get a quote if you are a home owner.\nOr click [here](https://www.fwd.com.sg/home-insurance/online-quote/ownerType#tenant) to get a quote if you are a tenant."
+
+  utter_faq_home/get_quote_how:
+  - text: "It's really easy! If you are a home owner, click [here](https://www.fwd.com.sg/home-insurance/online-quote/ownerType#owner) and you'll get a quote instantly just by answering a few questions.\nFor tenants, click [here](https://www.fwd.com.sg/home-insurance/online-quote/ownerType#tenant) instead."
+  
+  utter_faq_home/get_quote_info:
+  - text: "You just need to fill in your residence status, residence type and number of bedrooms on the online form and you are good to go! You may click [here](https://www.fwd.com.sg/home-insurance/) to get your quote"
+  
+  utter_faq_home/emergency_contact:
+  - text: "Just call our friendly customer service representatives at +6568208888 or if it's an emergency, please call our 24 hours Emergency Assistance hotline on +6563222072."
+
+  utter_faq_home/postal_code_not_registered:
+  - text: "Sorry you are having issues on our website. If you're unable to find your postcode, do give us a call at +65 6820 8888 or email us at contact.sg@fwd.com"
+
+  utter_faq_home/renew_rent_flat:
+  - text: "You can select “renting out” option when you renew your Home Insurance."
+
+  utter_faq_home/change_coverage_amount:
+  - text: "We'll only be able to change the coverage amount of your Home Insurance if the policy hasn't start. Do call our friendly consultants at +6568208888 immediately if any details in your Home Insurance policy needs to be changed."
+
+  utter_faq_home/change_address:
+  - text: "Do call our friendly consultants at +6568208888 immediately if any details in your Home Insurance policy needs to be changed as it may affect your coverage."
+
+  utter_faq_home/hdb_fire_difference:
+  - text: "Our HDB Fire Insurance covers the cost of reinstating damaged internal structures, fixtures, as well as areas built and provided by HDB. \n\nThe Home Insurance covers home contents such as furniture, renovations and personal belongings. You can click [here](https://www.fwd.com.sg/home-insurance) for more info or click [here](https://www.fwd.com.sg/) to get a quote."
+
+  utter_faq_home/instalment_payment_plans:
+  - text: "Sorry we currently do not offer any instalment plan for our Home Insurance."
+
+  utter_faq_home/refunds_by_cheque_or_card:
+  - text: "If you need the refund via cheque, please let us know before cancelling the policy. If not, we'll refund back to the same card used to purchase the policy automatically"
+
+  utter_faq_home/claim_documents:
+  - text: "The documents needed to make a Home Insurance claim depend on what you're claiming for. You can refer to the guide [here](https://help.fwd.com.sg/hc/en-us)."
+
+  utter_faq_home/claim_where:
+  - text: "It depends on what you're claiming for. You can make a Home Insurance claim through your Online Services Account or using the online form."
+
+  utter_faq_home/pet_injury_claim:
+  - text: "Under FWD Home Insurance, we will reimburse you up to the amount stated in the table of benefits, the medical expenses incurred as a result of any injury suffered by your pet dog and/or cat due to an Insured Event.\n\nYou can submit your claim through our mobile app or online services portal [here](https://www.fwd.com.sg/portal/)."
+
+  utter_faq_home/claim_process_after_police_report:
+  - text: "You must inform us as soon as possible and no later than 30 days after an incident which may result in a claim under this Home Insurance policy. To file a claim, please call our Emergency Assistance +65 6322 2072 or call us at +65 6820 8888 and let us guide you through the claims process."
+
+  utter_faq_home/receive_after_purchase:
+  - text: "Our standard Home Insurance policy will have:\n1. Home Insurance Summary\n2. Tax Invoice\n3. Home Insurance Contract"
+
+  utter_faq_home/buy_if_live_oversease:
+  - text: "Sorry! Our Home Insurance is only for those residing in Singapore."
+
+  utter_faq_home/online_purchase_successful_or_not:
+  - text: "You'll receive an SMS notification and your Home Insurance policy will be sent to your email. If you didn't receive an SMS or email from us within one hour, please call us on +6568208888."
+
+  utter_faq_home/promo:
+  - text: "Click [here](https://www.fwd.com.sg/insurance-promotions/) to get the promo codes and see our current promotions. You may be eligible for a gift too!"
+
+  utter_faq_home/free_look_period:
+  - text: "The free-look period for our Home Insurance is 14 days from the date of issuance. If you cancel your policy during the free-look period, we will refund 100% of your premium as long as you have not made any claims. If you cancel after the 14 days free-look period, we will refund 95% of the unused period of insurance, subject to no claims.You can request to cancel or free-look your Home Insurance policy via your online services account [here](https://www.fwd.com.sg/portal/)."
+
+  utter_faq_home/how_to_download:
+  - text: "You can download your Home Insurance contract either by logging in to our online services portal [here](https://www.fwd.com.sg/portal/) or through the email that was sent to you when you first purchased."
+
+  utter_faq_home/is_there_waiting_period:
+  - text: "There's no waiting period for our Home Insurance. You'll be covered from the date you choose to start your policy"
+
+  utter_faq_home/types_offered:
+  - text: "You can apply for our Home Insurance if you're the owner, landlord or even a tenant. We cover 3 different types of residence: HDB, Condo and Landed."
+
+  utter_faq_home/port_to_new_location:
+  - text: "Do call our friendly consultants at +6568208888 immediately if any details in your Home Insurance policy needs to be changed as it may affect your coverage."
+
+  utter_faq_home/cover_damages_from_ceiling_leak:
+  - text: "If the ceiling leak is due to bursting of pipes or tank, then it'll be covered under our Home Insurance."
+
+  utter_faq_home/coverage_emergency_home_assistance:
+  - text: "Our Home Insurance home assistance cover provides electrical, plumbing, locksmith and air-con services up to 4 times per 12 month period."
+
+  utter_faq_home/incidental_expenses:
+  - text: "Incidental expenses refers to costs you incur as a result of any of the Insured Events. For more information, you can refer to item 10 of our Home Insurance contract. \n\nIf you're the owner/landlord, click [here](https://www.fwd.com.sg/uploads/sites/1/2018/03/FWD-home-contract-homeowner-without-signature.pdf)\nIf you're a tenant, click [here](https://www.fwd.com.sg/uploads/sites/1/2018/03/FWD-home-contract-tenant-without-signature.pdf)"
+
+  utter_faq_home/how_much:
+  - text: "It depends on your preferred coverage.\n\nPlease click [here](https://www.fwd.com.sg/home-insurance/online-quote/ownertype#owner) to get a quote if you're a homeowner or click [here](https://www.fwd.com.sg/home-insurance/online-quote/ownertype#tenant) to get a quote if you're a tenant"
+
+  utter_faq_home/do_i_need_hdb_fire:
+  - text: "It's compulsory for owners with an HDB mortgage loan to buy HDB Fire Insurance as required by the Housing & Development Board (HDB)."
+
+  utter_faq_home/cover_theft:
+  - text: "Our Home Insurance covers for theft if the home contents stolen were stored within a residential building. For more information, you may refer to our Home Insurance policy wording for homeowners [here](https://www.fwd.com.sg/uploads/sites/1/2018/03/FWD-home-contract-homeowner-without-signature.pdf) and for tenants [here](https://www.fwd.com.sg/uploads/sites/1/2018/03/FWD-home-contract-tenant-without-signature.pdf)."
+
+  utter_faq_home/fire_theft_coverage:
+  - text: "There is fire and theft coverage in our Home Insurance. The fire coverage includes covers for home contents such as furniture, renovations and personal belongings and the theft coverage includes covers for theft if the home contents stolen were stored within a residential building."
+
+  utter_faq_home/cover_event_types:
+  - text: "Our Home Insurance covers most of the common events that lead to loss or damage. For the detailed coverage, you can refer to our policy wording: \n\nFor owner/landlord, click [here](https://www.fwd.com.sg/uploads/sites/1/2018/03/FWD-home-contract-homeowner-without-signature.pdf)\nFor tenant, click [here](https://www.fwd.com.sg/uploads/sites/1/2018/03/FWD-home-contract-tenant-without-signature.pdf)"
+
+  utter_faq_home/max_amount_payable:
+  - text: "For furniture, home appliances and home audio-visual equipment there's no maximum limit per item under our Home Insurance. All other home contents are subjected to a maximum of S$1,000 per item."
+
+  utter_faq_home/cover_renovation_defects_by_previous_owner:
+  - text: "Renovations refer to any improvements made by you or previous owner and tenants. Our Home Insurance covers renovations made from previous owners but the repair has to be due to insured events. For the detailed coverage, you can refer to our policy wording: \n\nFor owner/landlord, click [here](https://www.fwd.com.sg/uploads/sites/1/2018/03/FWD-home-contract-homeowner-without-signature.pdf)\nFor tenant, click [here](https://www.fwd.com.sg/uploads/sites/1/2018/03/FWD-home-contract-tenant-without-signature.pdf)"
+
+  utter_faq_home/list_excess:
+  - text: "We will not charge you any excess when you submit a claim under our Home Insurance policy."
+
+  utter_faq_home/cover_public_liability:
+  - text: "Under our Home Insurance, we cover for worldwide personal liability up to S$500,000 if you or your family members are legally liable for the loss or damage to third party's property."
+
+  utter_faq_home/building_coverage:
+  - text: "The amount of building cover is the cost to repair your home to its original form, excluding renovations that you have made. For landed property, you will need to consider the full cost of rebuilding your home. \n\nThere is no building coverage for condo, HDB building coverage is fixed depending on the number of rooms, and landed is adjustable up to $1million."
+
+  utter_faq_home/cover_expensive_jewellery_watches:
+  - text: "For items other than furniture, domestic appliances and home audio-visual equipment, there is a limit of S$1,000 per item under our Home Insurance."

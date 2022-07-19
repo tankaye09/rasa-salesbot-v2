@@ -1,0 +1,89 @@
+version: "3.1"
+
+responses:
+  utter_faq_maid/know_more:
+  - text: "Sure! 😊 You may read more about our maid insurance [here](https://www.fwd.com.sg/maid-insurance/)."
+
+  utter_faq_maid/buy_insurance:
+  - text: "Great choice! It'll take less than a min to get a quote.\n\nPlease click [here](https://www.fwd.com.sg/maid-insurance/online-quote#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/maid_Get_Quote) to get a quote"
+
+  utter_faq_maid/get_quote_how:
+  - text: "It's really easy! Click [here](https://www.fwd.com.sg/maid-insurance/online-quote#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/maid_Get_Quote) and you'll get a quote instantly just by answering a few questions."
+
+  utter_faq_maid/not_cancelled:
+  - text: "We can only cancel your Maid Insurance upon receiving the instructions from MOM which usually takes around 2 weeks from cancellation date."
+
+  utter_faq_maid/when_to_buy:
+  - text: "Once you have the In-Principle Approval letter, it's advisable for you to purchase the Maid Insurance policy the earliest possible because it'll take 5 days for the application to be approved by MOM. Your helper will not be allowed to enter Singapore if the policy has not started.\n\nAs we would need to process and furnish your maid's insurance details to the Ministry of Manpower (MOM), the earliest policy start date for our Maid Insurance is 5 days from the date of purchase.\n\nFor new maids, the policy start date should be the date when your maid is coming into Singapore or earlier.\nFor renewal maids, the policy start date should be 1 day after your maid's current work permit expires.\nFor transferred maids, the policy start date should be on or before the date you apply for a transfer with MOM."
+
+  utter_faq_maid/work_permit_type:
+  - text: "These are type of work permit under the Maid Insurance: \n\nNew: Maid who is currently not in Singapore \nTransfer: An existing maid in Singapore whom you're now employing \nRenew: You current maid whom you want to renew"
+
+  utter_faq_maid/renew_start_date:
+  - text: "The Maid Insurance policy start date must be one day after her current work permit's expiry date as required by MOM. MOM will reject the transmission if the date is selected wrongly."
+
+  utter_faq_maid/renew_how:
+  - text: "If you have an existing policy with us, we'll send you a renewal link (it comes with a discount!) via email to renew online before your policy expires. You'll be able to make changes to your plan before proceeding with payment.\n\nOtherwise, simply get a new quote for your policy [here](https://www.fwd.com.sg/maid-insurance/online-quote/quickQuestions)"
+
+  utter_faq_maid/ntuc_issue_policy_same_day:
+  - text: "I won't be able to comment on another insurer 😩 \n\nOur maid policy does indeed have a 5-days wait time because we want to allow enough time for the information to reach MOM for approval."
+
+  utter_faq_maid/instalment_plan:
+  - text: "Sorry, there isn't an instalment plan for our Maid Insurance at the moment."
+
+  utter_faq_maid/claim_documents:
+  - text: "The documents needed to make a Maid Insurance claim depend on what you're claiming for. You can refer to the guide [here](https://www.fwd.com.sg/insurance-claims/claims-guide/guide-maid.html)"
+
+  utter_faq_maid/claim_where:
+  - text: "It depends on what you're claiming for. You can make a Maid Insurance claim through your Online Services Account or using the online form."
+
+  utter_faq_maid/receive_after_purchase:
+  - text: "The standard Maid Insurance policy documents will have:\n1. Maid Insurance Summary\n2. Letter of Guarantee to MOM\n3. Tax Invoice\n4. Insurance Contract"
+
+  utter_faq_maid/promo:
+  - text: "Click [here](https://www.fwd.com.sg/insurance-promotions/) to get the promo codes and see our current promotions. You may be eligible for a gift too!"
+
+  utter_faq_maid/online_purchase_successful_or_not:
+  - text: "You'll receive an SMS notification and your Maid Insurance policy will be sent to your email. If you didn't receive an SMS or email from us within one hour, please call us on +6568208888"
+
+  utter_faq_maid/setup_cashless_visit:
+  - text: "If you've added the outpatient medical expenses benefit, you can register her details on the MHC App to enjoy cashless visits. Do note that this benefit is only available if she goes to our panel clinic [here](http://www.mhcasia.com/managedcare/links/MHC-clinic-network-app/)."
+
+  utter_faq_maid/make_health_connect:
+  - text: "Make Health Connect (MHC) is our Third Party Administrator for the outpatient medical expenses benefit. You can learn more about them by clicking [here](https://www.mhcasia.com/managedcare/about-us/who-we-are/)"
+
+  utter_faq_maid/use_for_confinemnt_nanny:
+  - text: "We don't have insurance for confinement nanny or short term helper for now. Do check back with us again in the future 😄"
+
+  utter_faq_maid/repatriation:
+  - text: "Repatriation expenses is the cost of sending your maid back to her home country if she suffers serious illness or injury which prevents her from carrying out duties or to send her mortal remains back if she passes away."
+
+  utter_faq_maid/renew_expired_passport:
+  - text: "For passport renewal matters, please contact the embassy and MOM."
+
+  utter_faq_maid/covered_when_travel_with_family:
+  - text: "If your maid travels with you or your family, she'll be covered under the Maid Insurance policy for the related benefits"
+
+  utter_faq_maid/covered_if_injures_damages:
+  - text: "Liability to third parties is one of our features under the Maid Insurance. Coverage starts from S$3,000 for our Essential (basic) plan."
+
+  utter_faq_maid/what_is_covered:
+  - text: "Our Maid Insurance provides COVID-19 coverage for all maids, whether returning to or entering Singapore, at no additional cost. We’ll cover up to S$25,000 for hospitalisation costs incurred by your helper if she is diagnosed with COVID-19 during the period of insurance. This goes beyond MOM’s requirement of S$10,000 coverage within 14 days of arrival in Singapore.  \nClick [here](https://www.fwd.com.sg/maid-insurance/) to get a quote.\nYou may refer to our detailed coverage and our policy wording [here](https://www.fwd.com.sg/uploads/sites/1/2020/02/fwd-maid-policy-contract.pdf)"
+
+  utter_faq_maid/covered_if_go_any_clinic:
+  - text: "You'll only be covered If you've added the outpatient medical expenses benefit during purchase, and you visited one of our panel clinic [here](http://www.mhcasia.com/managedcare/links/MHC-clinic-network-app/)"
+
+  utter_faq_maid/cover_dental:
+  - text: "Dental treatment is not covered under our Maid Insurance unless your maid is hospitalized due to accident or illness, and the dental procedure is part of the treatment and it is medically necessary."
+
+  utter_faq_maid/outpatient_medical_expenses_max_coverage:
+  - text: "Coverage for GP visits is only available if you've added the Outpatient Medical Expenses benefit to your Maid Insurance policy. If your maid is unwell, she can visit any panel clinics listed [here](https://www.fwd.com.sg/claim-locator#maid-insurance). You'll need to pay the first S$10 and any balance after deducting the next S$30 (covered by your policy up to the limit of your plan).\n\nFor information on the maximum coverage for Outpatient Medical Expenses, you may refer to the benefit table in our policy wording [here](https://www.fwd.com.sg/uploads/sites/1/2020/02/fwd-maid-policy-contract.pdf)."
+
+  utter_faq_maid/cover_mom_bond:
+  - text: "All our Maid Insurance includes the S$5,000 Security Bond to MOM. We don't have the Waiver of Indemnity benefit as we'll bear the full cost of S$5,000 if the bond is forfeited."
+
+  utter_faq_maid/cover_covid:
+  - text: "Our new maid insurance does not cover Covid-19. You have to purchase the optional benefit to meet MOM’s criteria for new and returning maids to Singapore. Under this optional benefit, we only insure for the first 14 days upon arrival in Singapore."
+
+  utter_faq_maid/cover_if_fall_sick_in_home_country:
+  - text: "There'll be no coverage when your helper is back in her home country. Overseas coverage will only apply if she's travelling with you or your family."

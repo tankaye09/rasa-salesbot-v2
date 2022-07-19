@@ -1,0 +1,82 @@
+version: "3.1"
+
+responses:
+  utter_faq_stroke/know_more:
+  - text: "Sure! 😊 You may read more about our stroke insurance [here](https://www.fwd.com.sg/stroke-insurance/)."
+
+  utter_faq_stroke/buy_insurance:
+  - text: "Great choice! It'll take less than a min to get a quote.\n\nPlease click [here](https://www.fwd.com.sg/stroke-insurance/online-quote) to get a quote."
+
+  utter_faq_stroke/get_quote_how:
+  - text: "It's really easy! Click [here](https://www.fwd.com.sg/stroke-insurance/online-quote) and you'll get a quote instantly just by answering a few questions."
+
+  utter_faq_stroke/cancellation:
+  - text: "Do note that there’ll be no refund for Stroke policy once the 14 days free-look period is over. However, you'll continue to enjoy the coverage till the last day of cover.\nIf you would still like to cancel, you can submit your request through our online services here or through our FWD SG app under \"manage policy” and your policy will not be automatically renewed."
+
+  utter_faq_stroke/change_coverage_amount_benefits:
+  - text: "The coverage amount of your Stroke Insurance plan cannot be changed once the policy is effective. If you wish to increase the protection amount, you may purchase a new policy up till S$200,00 worth of total coverage. You will not be able to reduce your coverage."
+
+  utter_faq_stroke/changes_personal_particulars:
+  - text: "You can update your mobile number and other personal particulars through our mobile app or online services portal [here](https://www.fwd.com.sg/portal/)."
+
+  utter_faq_stroke/payment_methods:
+  - text: "You can pay via Credit or Debit card either monthly or yearly.\nFor monthly payment by Credit or Debit Card, we'll debit your premiums for the first 1 month from your credit or debit card."
+
+  utter_faq_stroke/payment_frequencies:
+  - text: "You can choose to pay for your Stroke Insurance either monthly or yearly"
+
+  utter_faq_stroke/premiums_levelled:
+  - text: "The premium for our Stroke Insurance policy isn't fixed and will be based on your age upon renewal. Before making payment, you can download a copy of your personalised quotation to gauge the upcoming premiums."
+
+  utter_faq_stroke/claim:
+  - text: "No problem, you can make a claim easily online. Do you have a login password?"
+    buttons:
+    - title: "Yes"
+      payload: "/claim_has_login_password"
+    - title: "No"
+      payload: "/claim_no_login_password"
+
+  utter_faq_stroke/payout:
+  - text: "Your pay-out will be made based on the sum assured that you have purchased. For example, if you bought a sum assured of $200,000 the same amount will be paid out if you are medically diagnosed with a Stroke."
+
+  utter_faq_stroke/buy_for_parents_children:
+  - text: "You can buy our Stroke Insurance for your parents or child(ren) as long as the person covered is between 18 and 65 years old (both inclusive) with a NRIC or valid FIN during application.\nDo note that they'll not be able to purchase this Stroke Insurance if they are already covered under our 3-in-1 Critical Illness Insurance."
+
+  utter_faq_stroke/buy_if_have_mild_stroke:
+  - text: "Sorry, you cannot purchase our Stroke Insurance if you have mild stroke."
+
+  utter_faq_stroke/buy_if_have_cancer_insurance:
+  - text: "We will be happy to cover you for Heart Attack, Stroke and Cancer up to S$200,000 for each critical illness. We do allow concurrent policies individually."
+
+  utter_faq_stroke/buy_undergoing_medical_treatment:
+  - text: "You will need to wait for the results of your medical test in order to buy this Stroke policy. There will be some health questions that are based on the results and it may affect your claims or termination of the policy."
+
+  utter_faq_stroke/buy_if_have_medical_conditions:
+  - text: "Your application's approval for Stroke Insurance will be based on your health declaration. In general we do not cover pre-existing condition you have suffered from before or have not fully recovered from. Stroke that is directly or indirectly caused by a pre-exsiting condition will also not be covered."
+
+  utter_faq_stroke/promo:
+  - text: "Click [here](https://www.fwd.com.sg/insurance-promotions) to get the promo codes and see our current promotions 😊"
+
+  utter_faq_stroke/who_can_buy:
+  - text: "You can purchase our Stroke Insurance if you're between 18 and 65 (both inclusive) and a resident of Singapore holding an NRIC or FIN, so long as your application is approved based on your health condition.\nDo note that you'll not be able to purchase this Stroke Insurance if you've bought our 3-in-1 Critical Illness Insurance."
+
+  utter_faq_stroke/what_is_preexisting_medical_condition:
+  - text: "Pre-existing medical condition are any medical condition you have suffered from before or have not fully recovered from."
+
+  utter_faq_stroke/prepare_documents:
+  - text: "To buy a Stroke insurance, you will need to submit a copy of your NRIC/FIN and a recent ultility or telco bill that contains your name and address. You may also wish to upload any medical records which may be relevant."
+
+  utter_faq_stroke/how_much_cover:
+  - text: "Insurance is a long-term commitment. You may want to prioritise the type of benefits and coverage that meet your needs in the most cost-effective manner before making a purchase.\nIf you're unsure, MoneySENSE has a Protection Gap Calculator to guide you [here](https://www.moneysense.gov.sg/financial-tools/budget-calculator)"
+
+  utter_faq_stroke/free_look_period:
+  - text: "There's a standard 14 days free-look period and you may cancel your Stroke Insurance policy within this period for a full refund as long as no claims were made against the policy."
+
+  utter_faq_stroke/smoker:
+  - text: "You are considered a non-smoker if you have not smoked for the last 12 months"
+
+  utter_faq_stroke/medical_checkup:
+  - text: "A medical check-up is not required for Stroke Insurance. You just need to answer a few simple questions to get covered 😊"
+
+  utter_faq_stroke/max_protection:
+  - text: "S$200,000 is the maximum protection you can buy under Stroke Insurance."

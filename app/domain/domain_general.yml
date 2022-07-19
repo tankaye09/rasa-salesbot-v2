@@ -1,0 +1,196 @@
+version: "3.1"
+
+responses:
+
+  # GREETINGS
+  utter_greet_insurance:
+  - text: "Hello, welcome to FWD! We offer a wide range of insurance that caters to all your needs. Which one would you like to know more about?"
+    # quick_replies:
+    buttons:
+    - title: "Big 3 Insurance"
+      payload: 'Show me your big 3 insurance'
+    - title: "Cancer Insurance"
+      payload: 'Show me your cancer insurance'
+    - title: "Home Insurance"
+      payload: 'Show me your home insurance'
+    - title: "Car Insurance"
+      payload: 'Show me your car insurance'
+    - title: "Maid Insurance"
+      payload: 'Show me your maid insurance'
+    - title: "Stroke Insurance"
+      payload: 'Show me your stroke insurance'
+    - title: "Travel Insurance"
+      payload: 'Show me your travel insurance'
+    - title: "Personal Accident Insurance"
+      payload: 'Show me your personal accident insurance'
+
+  utter_greet:
+  - text: "Hey! How can I help?"
+  - text: "Hi there! Nice to meet you!"
+  - text: "Hello!"
+
+  utter_goodbye:
+  - text: "Bye! See you next time!"
+  - text: "Bye! Speak again soon!"
+  - text: "Bye! Hope to speak to you again!"
+  - text: "Bye! See you again!"
+
+  utter_help:
+  - text: "Sure! I can help you with that."
+  - text: "Let me help you with that."
+
+  utter_help_anything:
+  - text: "Is there something else I can help you with?"
+
+  utter_bot:
+  - text: "I am a bot and you can ask me anything related to your insurance needs! I'll try my best to answer them 😁"
+
+  utter_bot_name:
+  - text: "My name is Bot 😉"
+  
+  # BUY INSURANCE
+  utter_how_buy_insurance:
+  - text: "Which insurance would you like to purchase?"
+    # quick_replies:
+    buttons:
+    - title: "Big 3 Insurance"
+      payload: 'get big 3 insurance quote'
+    - title: "Cancer Insurance"
+      payload: 'get cancer insurance quote'
+    - title: "Home Insurance"
+      payload: 'get home insurance quote'
+    - title: "Car Insurance"
+      payload: 'get car insurance quote'
+    - title: "Maid Insurance"
+      payload: 'get maid insurance quote'
+    - title: "Stroke Insurance"
+      payload: 'get stroke insurance quote'
+    - title: "Travel Insurance"
+      payload: 'get travel insurance quote'
+    - title: "Personal Accident Insurance"
+      payload: 'get personal accident insurance quote'
+
+  # QUOTES
+  utter_get_renew_quote:
+  - text: "Just click on the 'Renew Now' button in your renewal invitation email and you'll be directed to an online quotation. You can add or remove any extra benefits and even change your existing plan before proceeding with the payment"
+  
+  utter_get_quote_retrieve:
+  - text: "Just click on 'save' during your online application and we'll send your application to your email which you can retrieve using the mobile number you've keyed in.\n\nHowever, there might be changes to the price and promotion (if any) within that time frame."
+  
+  utter_get_quote_valid:
+  - text: "Your insurance application link will be valid for 30 days, from the day you saved the application. However, there might be changes to the price and promotion (if any) within that time frame."
+
+  # CLAIMS
+  utter_claim_options:
+  - text: "Which insurance are you claiming from?\n"
+    # quick_replies:
+    buttons:
+    - title: "Big 3 Insurance"
+      payload: 'Claim for big 3 insurance'
+    - title: "Cancer Insurance"
+      payload: 'Claim for cancer insurance'
+    - title: "Home Insurance"
+      payload: 'Claim for home insurance'
+    - title: "Car Insurance"
+      payload: 'Claim for car insurance'
+    - title: "Maid Insurance"
+      payload: 'Claim for maid insurance'
+    - title: "Stroke Insurance"
+      payload: 'Claim for stroke insurance'
+    - title: "Travel Insurance"
+      payload: 'Claim for travel insurance'
+    - title: "Personal Accident Insurance"
+      payload: 'Claim for personal accident insurance'
+  
+  utter_claim_online:
+  - text: "No problem, you can make a claim easily online. Do you have a login password?\n"
+    buttons:
+      - title: "Yes"
+        payload: '/claim_login_password{{"has_login_password":"true"}}'
+      - title: "No"
+        payload: '/claim_login_password{{"has_login_password":"false"}}'
+
+  utter_claim_has_login_password:
+  - text: "You can login into our customer portal (here)[https://www.fwd.com.sg/portal/]"
+
+  utter_claim_no_login_password:
+  - text: "Not an issue, you can submit your claim [here](https://www.fwd.com.sg/claim-online/stroke-insurance/quickQuestions)"
+
+  # OUT OF SCOPE / FALLBACK
+  utter_out_of_scope:
+  - text: "Sorry, I am unable to fulfil your request or understand your question."
+
+  utter_fallback:
+  - text: "Sorry, I do not have a response this yet. Could you try to rephrase?"
+
+  # REDIRECT TO HUMAN AGENT
+  utter_redirect_agent:
+  - text: "Click below if you would like to chat with a Live Agent.\n"
+    buttons:
+    - title: "Chat with Agent"
+      payload: 'Chat with Agent'
+  
+  utter_agent_form:
+  - text: "Sure! We will require some details from you before connecting you to a Live Agent."
+
+  utter_ask_agent_form_user_first_name:
+  - text: "May I have your first name?"
+
+  utter_ask_agent_form_user_last_name:
+  - text: "May I have your last name?"
+  
+  utter_ask_agent_form_user_email:
+  - text: "May I have your email address?"
+
+  utter_connecting_to_agent:
+  - text: "Thank you for filling in the form.\n\nHere are the details you have submitted:\n- First Name: {agent_form_user_first_name}\n- Last Name: {agent_form_user_last_name}\n- Email: {agent_form_user_email}\n\nPlease hold while we connect you to a live agent..."
+  
+  utter_agent_callback:
+  - text: "I'm sorry our office is closed now. Our live chat hours are 9am - 10pm Monday to Friday and 9am - 1pm on Saturday, excluding Sundays and public holidays.\n\nWould you like us to call you back?\n"
+    buttons:
+    - title: "Yes"
+      payload: '/agent_callback{{"agent_callback_choice":"true"}}'
+    - title: "No"
+      payload: '/agent_callback{{"agent_callback_choice":"false"}}'
+
+  utter_ask_callback_user_first_name:
+  - text: "May I have your first name?"
+
+  utter_ask_callback_user_last_name:
+  - text: "May I have your last name?"
+  
+  utter_ask_callback_user_email:
+  - text: "May I have your email address?"
+
+  utter_ask_callback_user_number:
+  - text: "May I have your contact number?"
+
+  utter_ask_callback_user_nature:
+  - text: "Please select the nature of your enquiry:\n"
+    # quick_replies:
+    buttons:
+    - title: "Product / Promotion"
+    - title: "Renewal of Policy"
+    - title: "Claims"
+    - title: "Change of Policy / Personal Details"
+    - title: "Others"
+
+  utter_ask_callback_user_message:
+  - text: "Please type your message:\n"
+
+  utter_request_callback:
+  - text: "Sure! Please help to fill in your details"
+
+  utter_no_callback:
+  - text: "No worries! Is there something else I can help you with?"
+
+  utter_callback_form_values:
+  - text: "Thank you for filling in the form.\n\n
+            Here are the details you have submitted: \n
+              - First Name: {callback_user_first_name}\n
+              - Last Name: {callback_user_last_name}\n
+              - Email: {callback_user_email}\n
+              - Contact Number: {callback_user_number}\n
+              - Nature of Enquiry: {callback_user_nature}\n
+              - Message: {callback_user_message}\n\n
+            We'll get back to you within 2 working days.\n"

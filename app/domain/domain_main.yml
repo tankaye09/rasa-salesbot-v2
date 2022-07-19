@@ -1,0 +1,169 @@
+version: "3.1"
+
+intents:
+  # GREETINGS
+  - greet
+  - goodbye
+  - ask_how
+  - affirm
+  - deny
+
+  # OUT OF SCOPE / REDIRECT TO AGENT
+  - out_of_scope
+  - redirect_agent
+  - agent_callback
+
+  # GENERAL
+  - what_can_you_do
+  - who_are_you
+
+  # GENERAL INSURANCE
+  - show_policy
+
+  # QUOTES
+  - get_renew_quote
+  - get_quote_retrieve
+  - get_quote_valid
+  - how_buy_insurance
+
+  # INSURANCE FAQ
+  - faq_big_3
+  - faq_cancer
+  - faq_car
+  - faq_home
+  - faq_maid
+  - faq_pa
+  - faq_stroke
+  - faq_travel
+  
+  # HOOKS
+  - initiate_hook
+  - emoji_quiz_correct
+
+  # CLAIMS
+  - claim_select_insurance
+  - claim_general
+  - claim_login_password
+
+entities:
+  - agent_callback_choice
+  - has_login_password
+
+forms:
+  agent_form:
+    required_slots:
+        - agent_form_user_first_name
+        - agent_form_user_last_name
+        - agent_form_user_email
+
+  agent_callback_form:
+    required_slots:
+        - callback_user_first_name
+        - callback_user_last_name
+        - callback_user_email
+        - callback_user_number
+        - callback_user_nature
+        - callback_user_message
+
+slots:
+  # CLAIMS
+  has_login_password:
+    type: bool
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: has_login_password
+  # ACTIVATE FORMS
+  activate_agent_form:
+    type: bool
+    influence_conversation: true
+    mappings:
+    - type: custom
+      action: action_agent_transfer_check
+  # AGENT FORM
+  agent_form_user_first_name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: agent_form
+        requested_slot: agent_form_user_first_name
+  agent_form_user_last_name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: agent_form
+        requested_slot: agent_form_user_last_name
+  agent_form_user_email:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: agent_form
+        requested_slot: agent_form_user_email
+  # CALLBACK
+  agent_callback_choice:
+    type: bool
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: agent_callback_choice
+  callback_user_first_name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: agent_callback_form
+        requested_slot: callback_user_first_name
+  callback_user_last_name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: agent_callback_form
+        requested_slot: callback_user_last_name
+  callback_user_email:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: agent_callback_form
+        requested_slot: callback_user_email
+  callback_user_number:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: agent_callback_form
+        requested_slot: callback_user_number
+  callback_user_nature:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: agent_callback_form
+        requested_slot: callback_user_nature
+  callback_user_message:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: agent_callback_form
+        requested_slot: callback_user_message
+
+actions:
+  - action_agent_transfer_check
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

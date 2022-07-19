@@ -1,0 +1,242 @@
+version: "3.1"
+
+responses:
+  utter_faq_pa/know_more:
+  - text: "Sure! 😊 You may read more about our personal accident insurance [here](https://www.fwd.com.sg/personal-accident-insurance/)."
+
+  utter_faq_pa/buy_insurance:
+  - text: "Great choice! It'll take less than a min to get a quote.\n\nPlease click [here](https://www.fwd.com.sg/personal-accident-insurance/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/pa_Get_Quote) to get a quote."
+
+  utter_faq_pa/get_quote_info:
+  - text: "You'll need to select:\n\n1. Choice of plan (individual, couple or family)\n2. Occupation group\n3. Coverage amount to get a Personal Accident Insurance quote"
+
+  utter_faq_pa/get_quote_how:
+  - text: "It's really easy! Click [here](https://www.fwd.com.sg/personal-accident-insurance/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/pa_Get_Quote) and you'll get a quote instantly just by answering a few questions."
+
+  utter_faq_pa/emergency_contact:
+  - text: "You can call our FWD Emergency Assistance hotline at +65 6322 2072 which is available 24/7."
+
+  utter_faq_pa/renew_no_promo:
+  - text: "There is no promotional discount because for renewal, you'll only get the early bird and loyalty discount. Please note that the renewal rate already contains the online discount rate."
+
+  utter_faq_pa/cannot_renew:
+  - text: "Sorry if you're having trouble renewing your Personal Accident policy! If you are unable to renew through the renewal link in the email, you can always renew your policy by logging in to our mobile app or online services account."
+
+  utter_faq_pa/payment_mode_frequency:
+  - text: "Our Personal Accident Insurance is a yearly payment plan. Premiums are payable on a yearly basis. You can pay either with your credit/debit card (Visa or MasterCard) or eNETS only. AMEX card and other payment method are not available for now. Although we don't offer instalment payment plans for Personal Accident Insurance, if you have a DBS/POSB Visa or Master Card, your bank offers instalments for 6 or 12 months if your premium exceeds S$500."
+
+  utter_faq_pa/payment methods:
+  - text: "You can use any credit/debit card, Visa or Mastercard to make payment for our Personal Accident Insurance."
+
+  utter_faq_pa/claim_documents:
+  - text: "The documents needed to make a Personal Accident Insurance claim depend on what you're claiming for. You can refer to the guide [here](https://www.fwd.com.sg/insurance-claims/claims-guide/guide-personal.html)."
+
+  utter_faq_pa/claim_infectious_diseases_50_percent_payable:
+  - text: "Our Personal Accident Insurance covers food poisoning and infectious disease as a result of accident, we will pay up to 50% of the relevant limit stated in the summary but do note that the coverage will only begin 90 days after your policy start date."
+
+  utter_faq_pa/claim_tcm_appointments:
+  - text: "Traditional Chinese Medicine Expenses (TCM) is covered under your personal accident plan up to your policy limit."
+
+  utter_faq_pa/claim_limit:
+  - text: "The claim limit depends on what you are claiming for under Personal Accident Insurance. You can refer to our table of benefits online for the maximum amount covered under each claim."
+
+  utter_faq_pa/claim_where:
+  - text: "It depends on what you're claiming for. You can make a Personal Accident Insurance claim through your Online Services Account or using the online form."
+
+  utter_faq_pa/claim_from_both_another_pa_plan:
+  - text: "You can't claim from multiple insurers if the claim is based on reimbursement. You can only do so if the claim is a benefit (e.g. accidental death)."
+  
+  utter_faq_pa/buy_for_spouse:
+  - text: "Under our Personal Accident Insurance, you can choose to insure you and your spouse with 5 options for the sum insured between $100k to $1mil. For more information, click on 'get a quote', and choose the option 'me and my spouse'."
+
+  utter_faq_pa/buy_term_life:
+  - text: "You can still consider a Term Life policy even if you already have a Personal Accident Insurance as both provide a different coverage. \n\nTerm Life Insurance provides you cover for death caused by illnesses or accidents. Personal Accident Insurance only covers death caused by an accident."
+
+  utter_faq_pa/policy_wording:
+  - text: "Just click [here](https://www.fwd.com.sg/pdfs/PA-Insurance_unsigned_30092016.pdf) for the summary of cover for our Personal Accident Insurance."
+
+  utter_faq_pa/can_i_buy:
+  - text: "Please click [here](https://www.fwd.com.sg/personal-accident-insurance/online-quote/#/quotation/quickQuestions) to get a Personal Accident Insurance quote."
+
+  utter_faq_pa/under_general_insurance:
+  - text: "Personal Accident Insurance is under General Insurance for FWD and across all insurance companies as well."
+
+  utter_faq_pa/types_offered:
+  - text: "You can create your own package under our Personal Accident Insurance. Choose to insure yourself, include your spouse or family (spouse and children) with 5 options for the sum insured between $100k to $1mil."
+
+  utter_faq_pa/partial_disabled:
+  - text: "Our Personal Accident Insurance covers for permanent total and partial disability as a result of accident, based on the benefit as stated in your policy summary and depending on the severity. For more information permanent disability severity and the respective coverage, please refer to the policy wording online."
+
+  utter_faq_pa/additional_permanent_disability:
+  - text: "This add-on benefit under Personal Accident Insurance is for the additional pay out if you are eligible for Permanent Total and Partial Disability benefit."
+
+  utter_faq_pa/cover_cycling:
+  - text: "Our Personal Accident Insurance covers hospitalisation and surgery costs due to injuries caused by accidents, such as cycling accidents."
+
+  utter_faq_pa/cover_loss_mobile_phones:
+  - text: "You can claim under the 'Damage of personal electronic devices' benefit up to the limit stated in your Personal Accident Insurance Summary if your personal electronics (mobile phones, tablets and laptops) are damaged, lost or stolen due to an accident that results in you admitting into hospital."
+
+  utter_faq_pa/coverage_lost_wallet:
+  - text: "Our Personal Accident Insurance covers hospitalisation and surgery costs, up to your policy limit, due to an accident. We do not cover any unexplained and mysterious loss or damage. You may refer to our Personal Accident policy wording for full details on the coverage."
+
+  utter_faq_pa/family_plan:
+  - text: "Under our Personal Accident Insurance, you can choose to insure your family (spouse and children) with 5 options for the sum insured between $100k to $1mil. To do so, when you click on 'get a quote', simply choose the option 'me and my family'."
+
+  utter_faq_pa/do_you_have:
+  - text: "You'll find info on our Personal Accident Insurance [here](https://www.fwd.com.sg/personal-accident-insurance/) 😄\n"
+
+  utter_faq_pa/promo:
+  - text: "Click here to get the promo codes and see our current promotions. You may be eligible for a gift too! \n\nCall us if you need help 😊"
+
+  utter_faq_pa/waiting_period:
+  - text: "Coverage will start immediately on the policy start date for our Personal Accident Insurance. \n\nBut for infectious disease and food poisoning, there's a 90 days waiting period from the coverage start date."
+
+  utter_faq_pa/medical_expenses_limit_per_accident:
+  - text: "The medical expenses for Personal Accident Insurance is per accident. Medical expenses is up to S$15,000 for inpatient and outpatient care in Singapore. You may add a rider and get up to S$30,000 coverage for overseas medical expenses."
+
+  utter_faq_pa/who_can_buy:
+  - text: "To apply for our Personal Accident Insurance, you need to be a resident of Singapore with a valid NRIC/FIN between the age of 18-65."
+
+  utter_faq_pa/enhanced_permanent_disability:
+  - text: "This add-on benefit under Personal Accident Insurance is for if you are unlikely to ever return to any business, profession, or occupation that you are trained, educated, or experienced to work in before the accident."
+
+  utter_faq_pa/occupation_group_teacher:
+  - text: "For Personal Accident Insurance, you can check which category of your occupation falls under by selecting the 'i' button beside each of the occupation group.\n\nIf you are still unsure, feel free to give us a call at +6568208888 and we'll try out best to help you 😊"
+
+  utter_faq_pa/free_look_period:
+  - text: "The free-look period for our Personal Accident Insurance is 14 days from the date of issuance \n\nDuring this period you can cancel your policy and receive a full refund if no claims are made."
+
+  utter_faq_pa/emergency_medical_evacuation:
+  - text: "Under our Personal Accident emergency medical evacuation, we will pay for any necessary expenses to move you to the medical facility for treatment and also any adminstrative fees to change your return dates or destionations. For more information, you can refer to our policy wording online."
+
+  utter_faq_pa/cover_participate_sporting_event:
+  - text: "I love sports too! 💪 You'll be covered if you participate in any sporting event as long as you are not participating in a professional capacity i.e. being paid."
+
+  utter_faq_pa/cover_dental:
+  - text: "Under our Personal Accident Insurance, we will reimburse you for dental claims only if the injury is caused by an accident and it is medically necessary."
+
+  utter_faq_pa/direct_term_life_different:
+  - text: "DIRECT - Term Life Insurance is life insurance that covers death from both illnesses and accidents. Personal Accident Insurance only covers death caused by an accident."
+
+  utter_faq_pa/occupation:
+  - text: "You can click on the 'i' button to see the definition of each occupation group on our online quote page here.\n\nIf you are still unsure, feel free to give us a call at +6568208888 and we'll try out best to help you 😊"
+
+  utter_faq_pa/policy_limit:
+  - text: "The policy limit for our Personal Accident plan is between 100k to 1million."
+
+  utter_faq_pa/change_my_job_inform_fwd:
+  - text: "Please call us at +6568208888 if any details in your Personal Accident Insurance policy needs to be changed. This is to ensure continuous protection because certain changes may affect your premium."
+
+  utter_faq_pa/receive_email_after_purchase:
+  - text: "We will send you a confirmation email within 30 minutes upon purchase, and there will be a link inside the email for you to download your Personal Accident policy documents."
+
+  utter_faq_pa/why_occupation_class_affect_premium:
+  - text: "The premiums will be different depending on the risks associated with your occupation."
+
+  utter_faq_pa/define_accident:
+  - text: "Under the Personal Accident Insurance, an 'Accident' refers to any sudden, unexpected and unintentional event that's the cause of the damage or injury suffered."
+
+  utter_faq_pa/outpatient_expenses_include_mri_xray:
+  - text: "We will reimburse you for medically necessary expenses for any accident when you are in singapore up to the relevant limit of benefit stated in your personal accident insurance summary. For more information, please refer to the product page and the policy wording online."
+
+  utter_faq_pa/what_age_considered_child:
+  - text: "A child under our Personal Accident Insurance refers to anyone who is 18 years of age or younger, or up to age 25 years if the child is studying full-time at the coverage start date."
+
+  utter_faq_pa/renewed_policy_no_reflect_covid_dengue:
+  - text: "Our Personal Accident Insurance covers COVID-19 at no additional cost for existing customers if you purchased from 4 March 2020 onwards. It also covers for any adverse side effects of the Covid-19 vaccine. Please refer to the terms and conditions on the product page."
+
+  utter_faq_pa/medical_expenses_per_year_or_accident:
+  - text: "The medical expenses for Personal Accident Insurance is per accident."
+
+  utter_faq_pa/work_category:
+  - text: "Under Personal Accident Insurance, you can check which category of your occupation falls under by selecting the 'i' button beside each of the occupation group."
+
+  utter_faq_pa/why_cannot_purchase_family:
+  - text: "When you click on 'get a quote', you will have the option to choose 'me and my family'. Do let me know if you are having any website issues."
+
+  utter_faq_pa/housewife_category:
+  - text: "Under Personal Accident Insurance, housewife is under the 'Sales / Light Manual Worker' category"
+
+  utter_faq_pa/occupation_class_for_student_retiree_homemaker:
+  - text: "You may select 'Sales / Light Manual Worker' option if you are a student, homemaker or retiree."
+
+  utter_faq_pa/part_time_worker:
+  - text: "You are able to purchase our Personal Accident Insurance as a part-time worker as long as you are a resident of Singapore with a valid NRIC/FIN between the age of 18-65."
+
+  utter_faq_pa/buy_if_live_overseas:
+  - text: "Our Personal Accident Insurance plan is for residents of Singapore with a valid NRIC/FIN only."
+
+  utter_faq_pa/define_personal_liabiilty:
+  - text: "Personal liability refers to any legal responsibility that arises if you caused any injury or damage to a third-party or his/her property."
+
+  utter_faq_pa/deliveryman_occupation_group:
+  - text: "Thank you for your interest! Unfortunately, deliverymen are not covered under our Personal Accident Insurance. If you wish to purchase other insurance, do check out our FWD website!"
+
+  utter_faq_pa/different_riders_adults_children:
+  - text: "If you need different rider options for different people under “me and my spouse” or “me and my family” plan, you need to purchase individual Personal Accident Insurance for them."
+
+  utter_faq_pa/life_plan_difference:
+  - text: "A Personal Accident Insurance plan covers you for death or disabilities caused by accidents and diseases. A life policy covers you for death and/or disabilities caused illness and there's usually a lump-sum payment, known as the death benefit."
+
+  utter_faq_pa/issue_cover_only_child:
+  - text: "The Personal Accident Insurance allows you to add on coverage for your child only if you purchase the policy indicating yourself as the main policyholder and insured person."
+
+  utter_faq_pa/visit_panel_clinic_to_claim:
+  - text: "Our Personal Accident claim can be from any clinic as long as the documents needed to make the claim is submitted. You can refer to the guide [here](https://www.fwd.com.sg/insurance-claims/claims-guide/guide-personal.html)."
+
+  utter_faq_pa/cover_out_of_sg:
+  - text: "As long as you're overseas for less than 180 continuous days, you'll be covered under your Personal Accident Insurance policy."
+
+  utter_faq_pa/cover_critical_illness:
+  - text: "Our Personal Accident Insurance do not cover critical illnesses. It covers accident related death and disability as well as diseases such as HFMD, dengue and food poisoning.\n\nIf you would like to get coverage for critical illnesses, you can check out our other products such as Term Life, Big 3, Cancer, Stroke & Heart Attack."
+
+  utter_faq_pa/cover_accident_public_transport:
+  - text: "Under our Personal Accident Insurance, we cover you for accidents occured in public transportation vehicles."
+
+  utter_faq_pa/cover_insect_bites:
+  - text: "Our Personal Accident Insurance covers injuries including those due to insect or animal bites."
+
+  utter_faq_pa/cover_illness_infectious_disease:
+  - text: "You can view full information on the illnesses and infectious diseases covered under the Personal Accident Insurance online."
+
+  utter_faq_pa/cover_covid:
+  - text: "Our Personal Accident Insurance does not cover Covid-19 if it is against travel advisory."
+
+  utter_faq_pa/cover_injuries_operation_of_aircraft:
+  - text: "For our Personal Accident Insurance, we do not cover any accident toan insured person whose occupation is a pilot."
+
+  utter_faq_pa/cover_infectious_disease:
+  - text: "Infectious disease coverage will only begin 90 days after your policy start date."
+
+  utter_faq_pa/cover_physiotherapy:
+  - text: "We will cover for the cost of your physiotherapy as stated in your Personal Accident Insurance summary if you suffer a permanent disability because of an accident and need to undergo physiotherapy within 90 days from the accident."
+
+  utter_faq_pa/reduced_cover_for_children:
+  - text: "Under our Personal Accident Insurance, the coverage for children below age 18 (or below age 25 if he/she's still attending a tertiary-education institute) is 50% of an adult as the premium for them is also significantly lower compared to an adult."
+
+  utter_faq_pa/cover_terrorism:
+  - text: "Our Personal Accident plans cover any claims directly or indirectly caused by terrorism, up to the limit of the benefit which was triggered."
+
+  utter_faq_pa/cover_infectious_diseases:
+  - text: "You can view a full list of infectious diseases covered under the Personal Accident Insurance online."
+
+  utter_faq_pa/cover_natural_death:
+  - text: "Our Personal Accident Insurance plan covers you for death or disabilities caused by accidents and diseases."
+
+  utter_faq_pa/cover_minor_accidents:
+  - text: "Our Personal Accident plan does cover minor accidents if the cause of damage or injury was due to a sudden, unexpected and unintentional event. You can refer to the policy wording online for more information."
+
+  utter_faq_pa/medical_expenses_coverage:
+  - text: "Under our Personal Accident Insurance, we will cover you up to S$7,500 for inpatient and outpatient care in Singapore. You may also add a rider and get coverage of up to S$15,000 for overseas medical expenses."
+
+  utter_faq_pa/cover_effects_due_to_covid_vaccination_hospitalisation:
+  - text: "Our Personal Accident insurance covers covid vaccination hospitalisation as part of the its medical expenses benefits."
+
+  utter_faq_pa/cover_haze_related_events_in_sg:
+  - text: "One can't predict when there'll be haze, so why should you pay for it? 😉 Under our Personal Accident plans, if you purchased tickets to an event but it is cancelled due to haze, you'll be covered up to your policy limit."
+
+  utter_faq_pa/add_another_child:
+  - text: "You can only add another child to your Personal Accident Insurance upon renewal."
+
+  utter_faq_pa/cover_hospitalisation_surgery_cost:
+  - text: "Our Personal Accident Insurance covers hospitalisation and surgery cost up to your policy limit if these events are due to an accident."

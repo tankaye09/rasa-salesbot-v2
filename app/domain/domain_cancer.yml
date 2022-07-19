@@ -1,0 +1,184 @@
+version: "3.1"
+
+responses:
+  utter_faq_cancer/know_more:
+  - text: "Sure! 😊 You may read more about our cancer insurance [here](https://www.fwd.com.sg/cancer-insurance/)."
+
+  utter_faq_cancer/buy_insurance:
+  - text: "Great choice! It'll take less than a min to get a quote.\n\nPlease click [here](https://www.fwd.com.sg/cancer-insurance/online-quote/quickQuestions) to get a quote."
+
+  utter_faq_cancer/get_quote_how:
+  - text: "It's really easy! Click [here](https://www.fwd.com.sg/cancer-insurance/online-quote/quickQuestions) and you'll get a quote instantly just by answering a few questions."
+
+  utter_faq_cancer/cancellation_refund:
+  - text: "Sorry, we don't provide refunds for your Cancer Insurance. However, you'll continue to enjoy coverage for the rest of the period you've paid your premium for."
+
+  utter_faq_cancer/recommend_cover:
+  - text: "Insurance is a long-term commitment. You may want to prioritize the type of benefits and coverage that meet your needs in the most cost-effective manner before making a purchase. If you're unsure, MoneySENSE has a Protection Gap Calculator to guide you [here](https://www.moneysense.gov.sg/financial-tools/budget-calculator)."
+
+  utter_faq_cancer/benefits:
+  - text: "Our Cancer Insurance covers all stages of cancer and you'll get 100% payout upon diagnosis of cancer 👍"
+
+  utter_faq_cancer/application_cannot_proceed:
+  - text: "Sorry if you are having troubles on our website! If you have gotten an error or unable to proceed, do refresh your browser cache and try to redo. If the error still persist, do take a screenshot of the error message (if there's any) and send us an email at contact.sg@fwd.com"
+
+  utter_faq_cancer/wrong_details:
+  - text: "If you've entered your details under your Cancer Insurance incorrectly, you can update your personal particulars such as your name, address, email address and NRIC/FIN through our mobile app or online services portal [here](https://www.fwd.com.sg/portal/) and we'll get back to you within 3 working days. Alternatively, you can simply call us at +6568208888 and one of our friendly customer service representatives will be happy to assist you."
+
+  utter_faq_cancer/change_beneficiaries:
+  - text: "It depends on whether your beneficiary is a revocable nominee or trust nominee.\n1. Revocable Nominee: You can change it anytime using Form 5 [here](https://www.fwd.com.sg/pdfs/Nomination-of-Beneficiary-Form-5-Revocation-of-Revocable-Nomination.pdf) \n2. Trust Nominee: Only if your trust nominee/s agree to the changes and you will need to complete Form 2 [here](https://www.fwd.com.sg/pdfs/Nomination-of-Beneficiary-Form-2-Revocation-of-Trust-Nomination.pdf)"
+
+  utter_faq_cancer/change_sum_insured:
+  - text: "Sorry, you cannot change your sum insured for your Cancer Insurance."
+
+  utter_faq_cancer/changes_personal_particulars:
+  - text: "You can update your personal particulars such as your name, address, email address and NRIC/FIN through our mobile app or online services portal (here)[https://www.fwd.com.sg/portal/]. We'll get back to you within 3 working days"
+
+  utter_faq_cancer/term_life_difference:
+  - text: "Cancer Insurance provides cover for all stages of cancer, while critical illness insurance provides cover for 37 illnesses. Although critical illness insurance includes cancer, it doesn't cover for early stages of cancer."
+
+  utter_faq_cancer/difference_term_life:
+  - text: "Our Cancer Insurance policy covers all types and stages of cancer. Our Term Life Insurance is a pure life insurance plan that will cover policyholders up to a certain age or duration, and you can choose if you want to be covered for critical illness. Early stage cancer is not covered under the Term Life Insurance"
+
+  utter_faq_cancer/how_much:
+  - text: "It depends on your preferred coverage. Please click [here](http://www.fwd.com.sg/cancer-insurance/online-quote/quickQuestions) to get a quote."
+
+  utter_faq_cancer/someone_else_make_payment:
+  - text: "The person paying for the protection and the person enjoying protection can be different."
+
+  utter_faq_cancer/payment_frequencies:
+  - text: "You can choose to pay for your Cancer Insurance either monthly or yearly."
+
+  utter_faq_cancer/premium_not_auto_deducted:
+  - text: "In order to ensure customers remain covered by the Cancer Insurance continuously, we currently offer only recurring payments. We don't offer manual payment options."
+
+  utter_faq_cancer/pay_annual_premium:
+  - text: "You can choose to pay annual premium for your Cancer Insurance."
+
+  utter_faq_cancer/missed_premium_payment:
+  - text: "Please contact us at +6568208888 immediately if you missed your premium payment and one of our friendly customer service representatives will be happy to assist you."
+
+  utter_faq_cancer/payment_methods:
+  - text: "You can pay via Credit or Debit card either monthly or yearly.\nFor monthly payment by Credit or Debit Card, we'll debit your premiums for the first 1 month from your credit or debit card."
+
+  utter_faq_cancer/premiums_levelled:
+  - text: "The premium for our Cancer Insurance policy isn't fixed and will be based on your age upon renewal. Before making payment, you can download a copy of your personalised quotation to gauge the upcoming premiums."
+
+  utter_faq_cancer/promo:
+  - text: "We do have promotions for our Cancer Insurance from time to time and if there's one currently, you'll be able to find it on our promotions page [here](https://www.fwd.com.sg/insurance-promotions)"
+
+  utter_faq_cancer/cover_affected_if_missed_premium_payment:
+  - text: "We have a 62-days grace period for you to make your payments in case you miss any payments. If no payment is received within this period, your Cancer Insurance will be terminated."
+
+  utter_faq_cancer/claim_documents:
+  - text: "The documents needed to make a Cancer Insurance claim depend on what you're claiming for. You can refer to the guide [here](https://www.fwd.com.sg/insurance-claims/claims-guide/guide-cancer.html)"
+
+  utter_faq_cancer/claim_immediately_after_purchase:
+  - text: "Our Cancer Insurance benefit starts after a 90-day waiting period from the policy issue date or date of endorsement, whicheve is later. If you make a claim within the first 90 days from the policy issue date or date of endorsement, whichever is later, the Cancer benefit will not be payable."
+
+  utter_faq_cancer/claim_limit:
+  - text: "Once. You can file a claim if you or the insured person on your policy has been diagnosed with cancer. Once you have submitted your claim with all the required documents, we will process your claim and inform you of the outcome as soon as possible. Kindly note that your policy will be terminated after the payout."
+
+  utter_faq_cancer/why_buy_if_have_critical_illness_insurance:
+  - text: "Our Cancer Insurance provides early-stage cancer coverage which the critical illness insurance generally don't. It can be an essential top-up to give you a better coverage."
+
+  utter_faq_cancer/buy_other_critical_illess_insurance:
+  - text: "You can still purchase other critical illness plans such as the standalone Stroke or Heart Attack Insurance if you already have Cancer Insurance."
+
+  utter_faq_cancer/receive_after_purchase:
+  - text: "Your Cancer Insurance policy documents will have:\n1. Official receipt\n2. Your completed application form\n3. Policy schedule & illustration\n4. Cancer Insurance Contract"
+
+  utter_faq_cancer/buy_if_have_medical_conditions:
+  - text: "Depending on the type and severity of the medical condition you have or had, you'll be able to determine your eligibility for our Cancer Insurance once you've answered the 3 simple health questions. Click [here](https://www.fwd.com.sg/cancer-insurance/online-quote/quickQuestions) to check."
+
+  utter_faq_cancer/add_stroke_heart_attack_insurance_after_purchase:
+  - text: "You can purchase the Standalone Stroke or Heart Attack Insurance if you already have Cancer Insurance."
+
+  utter_faq_cancer/buy_for_parents_children:
+  - text: "You can buy our Cancer Insurance for your parents or child(ren) as long as the person covered or the policyholder is between 18 and 65 years old (both inclusive) with a NRIC or valid FIN during application."
+
+  utter_faq_cancer/buy_both_term_life:
+  - text: "You are able to buy both Term Life and Cancer Insurance."
+
+  utter_faq_cancer/buy_heart_attack:
+  - text: "We will be happy to cover you for Stroke, Heart Attack and Cancer up to S$200,000 for each critical illness. We do allow concurrent policies individually."
+
+  utter_faq_cancer/change_mind_after_purchase:
+  - text: "There's a standard 14 days free-look period and you may cancel your Cancer Insurance policy within this period for a full refund as long as no claims were made against the policy."
+
+  utter_faq_cancer/buy_age:
+  - text: "You can buy our Cancer Insurance if your age is between 18 to 65."
+
+  utter_faq_cancer/claim:
+  - text: "No problem, you can make a claim easily online. Do you have a login password?"
+    buttons:
+      - title: "Yes"
+        payload: "/claim_has_login_password"
+      - title: "No"
+        payload: "/claim_no_login_password"
+  
+  utter_faq_cancer/switch_to_big_3:
+  - text: "You are not able to switch or convert your Cancer Insurance to Big 3 Critical Illness Insurance. You can only purchase a Big 3 Critical Illness Insurance once your Cancer Insurance expires."
+
+  utter_faq_cancer/how_mediguide_choose_medical_centres:
+  - text: "Mediguide assess the panel of medical centres on an ongoing basis to ensure they're capable of providing quality Medical Second Opinion services."
+
+  utter_faq_cancer/for_family:
+  - text: "Sorry, we do not have Cancer Insurance for family at the moment."
+
+  utter_faq_cancer/next_step_after_receive_medical_second_opinion:
+  - text: "You should discuss the Medical Second Opinion service recommendations with your doctor. The information can enable you to make informed decisions about your health and treatment plan."
+
+  utter_faq_cancer/savings_component:
+  - text: "Our Cancer Insurance is a pure life insurance plan and it is not meant for savings nor investment. There's no cash value nor surrender value."
+
+  utter_faq_cancer/health_questions:
+  - text: "For our Cancer Insurance, all you need is one simple health declaration (to all the listed health questions) without any medical examination required and you’re on your way to a complete cancer coverage. Please click on “check your price” on the Cancer Insurance product page, you will be directed to the health questions as you generate the quote."
+
+  utter_faq_cancer/who_can_buy:
+  - text: "You can purchase our Cancer Insurance if you're between 18 and 65 (both inclusive) and a resident of Singapore holding an NRIC or FIN, so long as your application is approved based on your health condition."
+
+  utter_faq_cancer/do_you_have:
+  - text: "You'll find info on our Cancer Insurance [here](http://www.fwd.com.sg/cancer-insurance) 😊"
+
+  utter_faq_cancer/cover_cancer_types:
+  - text: "Our Cancer Insurance covers all types of cancer, be it in the early stages or major stages."
+
+  utter_faq_cancer/view_premium_table:
+  - text: "You will find the estimated yearly premium table for your Cancer Insurance at the end of your quotation just before proceeding to pay. If you have already purchased, you can find the premium table in your policy documents.\nDo note that promotional discounts are applicable for first year only and will not bring over to subsequent premiums."
+
+  utter_faq_cancer/how_many_time_use_medical_second_opinion:
+  - text: "There's no limit on the usage of Mediguide services."
+
+  utter_faq_cancer/get_second_opinion_mediguide:
+  - text: "A visit to another doctor is not required to use Mediguide. Within 10 business days upon receiving your medical files by the centre you choose, you'll receive an independently written review of your diagnosis and treatment plan"
+
+  utter_faq_cancer/name_beneficiary:
+  - text: "You can download all our forms here .\nRevocable Nominee: nominate anyone using Form 4 here. You can simply remove them using Form 5 here . \nTrust Nominee: nominate either your spouse and/or child(ren) only using Form 1 here. You'll need the consent of all nominees or trustees if you want to add/remove a nominee. \nYou can find out more about nominating a beneficiary here."
+
+  utter_faq_cancer/medical_checkup:
+  - text: "A medical check-up is not required for Cancer Insurance. You just need to answer 3 simple health questions"
+
+  utter_faq_cancer/use_mediguide_condition_present_before:
+  - text: "You can use the Mediguide service for cancer conditions which were diagnosed before you were enrolled under your Cancer Insurance plan"
+
+  utter_faq_cancer/valid_if_relocate:
+  - text: "We will need to check with our underwriters if there is any change in terms of relocation or staying overseas for more than 180 days or 6 months."
+
+  utter_faq_cancer/coverage_options:
+  - text: "You can choose the sum insured of $50k, $100k or $200k."
+
+  utter_faq_cancer/choose_how_long_to_cover:
+  - text: "You'll enjoy coverage for 1-year after which your Cancer Insurance policy will automatically renew every year, up to a maximum age of 85."
+
+  utter_faq_cancer/cover_early_stage_cancer:
+  - text: "Our Cancer Insurance policy covers all types of cancer, be it in the early or major stages so long as it's cancer. You can choose to be covered for S$50,000, S$100,000 or S$200,000."
+
+  utter_faq_cancer/when_cover_start:
+  - text: "Your Cancer Insurance has a 90-day waiting period. If you experience first symptoms of cancer within the first 90 days from the Policy Issue Date the Cancer Benefit will not be payable."
+
+  utter_faq_cancer/death_benefit:
+  - text: "The death benefit for your Cancer Insurance is equal to the sum assured stated in your policy schedule. To view your policy schedule, you can log in to our Online Services Portal here and click on 'download policy'."
+
+  utter_faq_cancer/highest_coverage_amount:
+  - text: "S$200,000 is the maximum protection you can buy under Cancer Insurance."

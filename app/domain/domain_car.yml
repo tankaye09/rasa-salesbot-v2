@@ -1,0 +1,167 @@
+version: "3.1"
+
+responses:
+  utter_faq_car/know_more:
+  - text: "Sure! 😊 You may read more about our car insurance [here](https://www.fwd.com.sg/car-insurance/)."
+
+  utter_faq_car/buy_insurance:
+  - text: "Great choice! It'll take less than a min to get a quote.\n\nPlease click [here](https://www.fwd.com.sg/car-insurance/comprehensive-motor-insurance/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/car_Comprehensive_Get_Quote) to get a quote for a comprehensive car insurance.\nOr [here])(https://www.fwd.com.sg/car-insurance/third-party-cover/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/car_Third-Party_Get_Quote) to get a quote for a third party car insurance."
+
+  utter_faq_car/get_quote_how:
+  - text: "It's really easy!\n\nFor a comprehensive car insurance, click [here](https://www.fwd.com.sg/car-insurance/comprehensive-motor-insurance/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/car_Comprehensive_Get_Quote) and you'll get a quote instantly just by answering a few questions.\nOr click [here](https://www.fwd.com.sg/car-insurance/third-party-cover/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/car_Third-Party_Get_Quote) for a third party car insurance."
+
+  utter_faq_car/modifications_exclusion:
+  - text: "As long as your vehicle modification is approved by LTA, we're able to provide cover under our Car Insurance 😊"
+
+  utter_faq_car/ncd_transfer:
+  - text: "We'll accept a transfer of NCD between spouses only. Your NCD can also be transferred to any new car if the old car is sold. \n\n\nDo note that NCD can't be transferred to a different class of vehicle."
+
+  utter_faq_car/ncd_transfer_motorcycle:
+  - text: "NCD can't be shared or split between multiple vehicles and can't be transferred to a different class of vehicle."
+
+  utter_faq_car/ncd_transfer_company_vehicle:
+  - text: "Generally, we don't allow NCD transfer from company vehicle to your own vehicle. You may contact our friendly customer service representatives at +6568208888 and they'll be more than happy to discuss on an alternative."
+
+  utter_faq_car/accident_report_late:
+  - text: "The NCD under Car Insurance will be reduced by 10% if the accident is not reported or it was done after the 24 hours period. So make sure you report the accident within 24 hours 🙏"
+
+  utter_faq_car/types_accidents_police_report:
+  - text: "A Police report is only required for the following cases: \n\n1. Accidents involving death or injury to any party \n2. Non-injury accidents involving a foreign vehicle \n3. Non-injury accidents involving a government vehicle/damage to government property \n4. Non-injury accidents involving a pedestrian or cyclist \n5. Theft or loss of vehicle, hit and run accidents, vandalism, parked and found damaged"
+
+  utter_faq_car/accident_report_days:
+  - text: "All accidents must be reported within 24 hours or immediately on the next working day even if there's no injury, damage or claim."
+
+  utter_faq_car/accident_report_not_claiming:
+  - text: "All accidents must be reported at any of our approved reporting centres within 24 hours. \n\nThis is to help our Motor Claims team to handle if there's any claims made against your Car Insurance policy due to the accident."
+
+  utter_faq_car/accident_what_to_do:
+  - text: "If you were involved in an accident, please contact our Emergency Assistance hotline at +65 6322 2072 for assistance. I hope you are alright!"
+
+  utter_faq_car/accident_report_how_to:
+  - text: "Please take your car and the following documents to one of our Approved Reporting Centres here: https://www.fwd.com.sg/claim-locator/ to lodge a report:\n\n1. Driver's driving license\n2. Insured and driver's NRIC\n3. Soft copy of your Car's Certificate of Insurance\n4. Police report (if any)\n5. Scene photos (if any)\n6. Witness reports (if any)\n\nAternatively, you can opt for mobile reporting. Please call our Emergency Assistance hotline at +65 6322 2072 for assistance."
+
+  utter_faq_car/renew_how:
+  - text: "If you have an existing policy with us, we'll send you a renewal link (it comes with a discount!) via email to renew online before your Car policy expires. You'll be able to make changes to your plan before proceeding with payment. Alternatively, you can also renew your Car Insurance through our mobile app or online services portal here. Otherwise, simply get a new quote for your policy by selecting the product you wish to check on our page."
+
+  utter_faq_car/add_second_driver:
+  - text: "For existing customers holding the Classic Car Insurance plan, you would have to add on the optional 'Anyone you trust can drive your car' rider when you renew your Classic Car Insurance plan. Only when you add on the optional rider, we'll then insure them under your Classic Car Insurance if they fulfil the age, license, and identity requirement, without you having to name them.\n\n\nIf you purchase the Executive or Prestige Car Insurance plan, it automatically covers any drivers you trust to drive your car, without you having to name them.\n\n\nFor new customers, if you are purchasing the Classic Car Insurance plan, do make sure that you select the optional 'Anyone you trust can drive your car' rider before making payment."
+
+  utter_faq_car/quote_do_not_know_ncd:
+  - text: "You'll need to check with your previous insurer and they'll be able to share with you. If you're currently insured with us, you can check your Car Insurance policy for your NCD entitlement. \n\n\nIf you're unsure, you may purchase the insurance first at 0% and give us a call at +6568208888 or send an email to contact.sg@fwd.com"
+
+  utter_faq_car/why_better_direct_asia:
+  - text: "Our Car Insurance automatically protects your NCD once you reached 50% NCD. Also, we cover anyone whom you trust to drive your car without the need to name them 👍"
+
+  utter_faq_car/comprehensive_third_party_differ:
+  - text: "Comprehensive: Covers legal liability to a third party as well as damage to your own car. \n\nThird Party Fire and Theft: Covers for legal liability to a third party as well as damage to your own car as a result of fire or theft only. \n\nThird Party: Covers for legal liability to a third party only"
+
+  utter_faq_car/lower_premium_off_peak_cars:
+  - text: "There is no difference in premium between an off-peak and regular car."
+
+  utter_faq_car/discounts_drivers_no_demerit_points:
+  - text: "If you're demerit points free, we'll reward you with a special discount for being an awesome driver! 😎"
+
+  utter_faq_car/claim_after_renewal_invitation:
+  - text: "You'll need to inform us if there's any claim prior to the renewal of your Car Insurance policy or after your policy has been renewed as it might affect your NCD and premiums. We wouldn't want your policy to be invalid due to non-declaration."
+
+  utter_faq_car/number_of_claims_declare:
+  - text: "You'll need to declare the number of accidents in the last 3 years where you were at fault (windscreen claims is not considered). \n\nIf there's a pending claim or if you're unsure who's at-fault, you'll still need to declare it during application for our Car Insurance. Once we confirm you were not at-fault, we'll then refund the difference in premium."
+
+  utter_faq_car/buy_with_zero_excess:
+  - text: "We don't have a zero-excess Car Insurance plan for now. You'll see the minimum excess applicable for your policy on the next page once you've selected the plan you wish to purchase."
+
+  utter_faq_car/new_for_old_cover:
+  - text: "If your car is less than 12 months since the initial registration and you're the first owner, we'll replace your car with the same make or model if your car is declared a total loss under your Car Insurance."
+
+  utter_faq_car/where_to_repair_car_damaged_from_accident:
+  - text: "You'll need to bring your car to our FWD premium workshop listed [here](https://www.fwd.com.sg/uploads/sites/1/2018/05/FWD_Singapore_Premium_Workshops_12042018.pdf)\n\nIf you've added the 'Any Workshop' benefit to your plan, you can bring your car to any workshop of your choice."
+
+  utter_faq_car/where_to_repair_car:
+  - text: "You'll need to bring your car to our Premium Workshop listed [here](https://www.fwd.com.sg/uploads/sites/1/2018/05/FWD_Singapore_Premium_Workshops_12042018.pdf)\n\nIf you've added the 'Any Workshop' benefit to your Car Insurance plan, you can bring your car to any workshop of your choice"
+
+  utter_faq_car/why_need:
+  - text: "Getting a Car Insurance is a requirement under the Motor Vehicles (Third-Party Risks and Compensation) Act. You'll also need insurance coverage for your motorcycle to be able to renew your road tax."
+
+  utter_faq_car/certificate_of_merit:
+  - text: "The Certificate of Merit (COM) is awarded to those who have been an awesome driver and don't have any demerit points."
+
+  utter_faq_car/when_guardian_angel_benefit_apply:
+  - text: "Under our Car Insurance, if both parents are permanently disabled or pass away in a car accident, the Guardian Angel benefit will be paid to the surviving children. It applies to anyone authorised to drive the car too."
+
+  utter_faq_car/define_modification:
+  - text: "Modification means any change made to your car whether it's for performance enhancing (output and/or handling), decorative purposes or for on-board entertainment."
+
+  utter_faq_car/list_of_workshop:
+  - text: "Just click [here](https://www.fwd.com.sg/uploads/sites/1/2018/09/FWD_Singapore_Premium_Workshops_2018.pdf) for the list of our workshops under our Car Insurance."
+
+  utter_faq_car/what_is_excess:
+  - text: "Excess is a contribution you are required to pay when you make a claim against your insurance policy. For example, if the damage to your car was S$5,500 and your excess on the insurance Summary states S$500 for damages to your car, you'll need to pay the S$500."
+
+  utter_faq_car/ncd_break_in_car_ownership:
+  - text: "Although the standard practice is 12 months, we can still accept the NCD if it doesn't exceed 24 months from the cancellation or expiry date of your previous Car Insurance."
+
+  utter_faq_car/buy_if_driving_license_suspended_revoked:
+  - text: "If your driving license has been suspended or revoked but it's more than 3 years ago, you may proceed with the online application for our Car Insurance."
+
+  utter_faq_car/ncd_affected_when_utilise_breakdown_assistance:
+  - text: "Utilising your breakdown assistance under your Car Insurance will not affect your NCD."
+
+  utter_faq_car/renew_road_tax_just_purchase:
+  - text: "Do make sure your Car Insurance covers you all the way until the last date of your road tax. If you've just purchased the insurance, LTA will take about 3 working days to update the information on their site. You can try later or visit any Singpost or Vicom to renew at their counter using your Certificate of Insurance."
+
+  utter_faq_car/repair_windscreen_malaysia:
+  - text: "You may repair or replace your windscreen in Malaysia if you have the 'Any Workshop' rider in your policy. Otherwise, please call us at +6568208888 and we'll advise you further. If it's beyond our hotline hours, please contact our Emergency Assistance hotline at +6563222072 for assistance."
+
+  utter_faq_car/repair_car_preferred_workshop:
+  - text: "We understand you may prefer to get your car repaired at the dealer workshop to keep the car warranty intact. We do offer the 'Any Workshop' benefit as an add-on which allows you to repair your car at any workshop of your choice. Do make sure you add in the \"Any Workshop\" benefit after selecting a plan for your comprehensive Car Insurance."
+
+  utter_faq_car/extend_renew_road_tax:
+  - text: "If you need to extend your Car Insurance policy to match your road tax, you can extend directly via our mobile app or online services account [here](https://www.fwd.com.sg/portal/), under 'manage policy'. We'll be able to extend your current policy for a maximum of 6 months. To check on the correct date to extend to, you can use this link [here](https://vrl.lta.gov.sg/lta/vrl/action/pubfunc?ID=EnquireRoadTaxPayable)."
+
+  utter_faq_car/use_for_grabhitch:
+  - text: "Our Car Insurance is sufficient if you're only using GrabHitch, but you'll need Our Commercial Car Insurance instead if you use it for other services like GrabCar or GOJEK. Click [here](https://www.fwd.com.sg/commercial-car-insurance/) for more info!"
+
+  utter_faq_car/car_still_under_warranty:
+  - text: "Just select the 'Any Workshop' benefit which is an add-on after you've selected the main Car Insurance plan. \n\n\nThis benefit allows you to repair your car at any workshop of your choice."
+
+  utter_faq_car/top_up_for_own_workshop:
+  - text: "You can select the 'Any Workshop' benefit which is an add-on after you've selected the main Car Insurance plan. This benefit allows you to repair your car at any workshop of your choice."
+
+  utter_faq_car/buy_if_no_license:
+  - text: "We can't offer Car nor Motorcycle Insurance if you don't hold a valid driving license and/or you're not the owner of the vehicle."
+
+  utter_faq_car/license_required_to_buy:
+  - text: "You must be the owner and hold a valid driving license in order to purchase our Car Insurance."
+
+  utter_faq_car/replacement_car_while_vehicle_under_repair:
+  - text: "We don't offer a replacement or courtesy car while your car is in the workshop for repairs. however, we do have the 'Daily Transport Allowance' available up to the limit stated in your Car Insurance policy."
+
+  utter_faq_car/not_satisfied_with_repairs_at_premium_workshop:
+  - text: "If you're not satisfied with the repair, you can send the car back to the same workshop. We offer 'Extended Workmanship Guarantee' under your Car Insurance so it'll be free of charge until your car turns 10."
+
+  utter_faq_car/cover_damage_personal_belongings:
+  - text: "We do cover your personal belongings that are damaged in an accident, but only under our Executive and Prestige Car Insurance plan"
+
+  utter_faq_car/coverage_limit_bodily_injury_to_others:
+  - text: "There's no limit if you accidentally caused injury to others under our Car Insurance 😊"
+
+  utter_faq_car/how_long_covered:
+  - text: "The standard term for our Car Insurance is 1-year. You can purchase the policy for a one-year term and let us know when you need to cancel. But do note that only 80% of the unused period will be refunded (inclusive of GST) if there's no claim against your policy and the refund amount is more than S$26.75."
+
+  utter_faq_car/covered_if_drive_car_out_of_sg:
+  - text: "You're covered under your Car Insurance when driving in Singapore, West Malaysia and Southern Thailand (within 80 kilometres of its border with West Malaysia)."
+
+  utter_faq_car/cover_natural_disaster:
+  - text: "Only our Comprehensive Car Insurance plan covers damages to your car due to natural disasters like flood."
+
+  utter_faq_car/cover_loss_of_keys:
+  - text: "We cover loss of keys if you select our Executive or Prestige plan."
+
+  utter_faq_car/cover_for_coe:
+  - text: "Our Car Insurance includes cover for COE, as long as you bought the 'Comprehensive' or 'Third Party Fire and Theft' plan."
+
+  utter_faq_car/cover_cars_above_10_years:
+  - text: "You can only purchase our Car Insurance if your car doesn't exceed 15 years."
+
+  utter_faq_car/what_cars_can_be_insured:
+  - text: "We cover most of the sedans, MPVs, and SUVs for private use only and we've different plan types that suit your needs.\n\nIf you aren't able to find the car's make and model in our list, do contact us at +6568208888 for assistance."

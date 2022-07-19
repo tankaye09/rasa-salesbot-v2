@@ -1,0 +1,589 @@
+version: "3.1"
+
+responses:
+  utter_faq_travel/know_more:
+  - text: "Sure! 😊 We offer a few types of travel insurance, you may read more about our travel insurance plans [here](https://www.fwd.com.sg/travel-insurance/)."
+  
+  utter_faq_travel/buy_insurance:
+  - text: "Sure! 😊 Click [here](https://www.fwd.com.sg/travel-insurance/online-quote/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq_travel/Get_Quote) and it'll take you less than a minute to get a quote!"
+  
+  utter_faq_travel/get_quote_how:
+  - text: "It's really easy! Click [here](https://www.fwd.com.sg/travel-insurance/online-quote/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq_travel/Get_Quote) and you'll get a quote instantly just by answering a few questions."
+
+  utter_faq_travel/covid_country_exclusion:
+  - text: "Any country where the Ministry of Foreign Affairs of Singapore [here](https://www1.mfa.gov.sg/Where-Are-You-Travelling-Toadvises) against travelling to or recommends to postpone are excluded"
+
+  utter_faq_travel/exclusions:
+  - text: "In general, our Travel Insurance don't cover pre-existing conditions, countries in the exclusion list, pregnancy related conditions and losses due to negligence. For a full exclusion list, please refer to our Travel policy wording [here](https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf)"
+  
+  utter_faq_travel/annual_cancel:
+  - text: "If you would like to terminate your Travel Insurance, you may log in to our mobile app or online services portal here and submit a cancellation request through our online services under 'manage policy'.\n\nWe'll get back to you within 2 working days once you've submitted your request 😊"
+
+  utter_faq_travel/abroad_study_recommend:
+  - text: "You can purchase our Travel Insurance 'Annual Trip' plan which will cover multiple trips from and back to Singapore for a year from the policy start date (but only up to 90 days per trip). You may also consider Personal Accident and International Health Insurance."
+
+  utter_faq_travel/destination_cruise_to_nowhere:
+  - text: "The region to put for cruise to nowhere depends on which Oceans or Waters you will be sailing to. If it is only within Singapore waters, you may select 'Asean'."
+
+  utter_faq_travel/renew_cannot_pay:
+  - text: "Sorry if you're having troubles making payment for your Travel Insurance! If you have not submitted your card details and have gotten an error or unable to proceed, do refresh your browser cache and try to redo. If the error still persist, do take a screenshot of the error message (if there's any) and send us an email at contact.sg@fwd.com"
+
+  utter_faq_travel/auto_renew:
+  - text: "If you have an existing Travel Insurance with us, we'll send you a renewal link (it comes with a discount!) via email to renew online before your policy expires. You'll be able to make changes to your plan before proceeding with payment.\n\nOtherwise, simply get a new quote for your policy by selecting the product you wish to check on our page."
+
+  utter_faq_travel/change_start_date:
+  - text: "Unfortunately, you're unable to extend your Travel Insurance if you extend your trip. If your policy has started and you are already overseas, do call us at +6568208888 or drop us an email at contact.sg@fwd.com"
+
+  utter_faq_travel/make_changes:
+  - text: "If you would like to make changes to your Travel Insurance policy, you may submit a request through our mobile app or online services portal here by clicking on 'manage policy'. You'll be able to change your personal particulars anytime, but changes on the policy may not be permitted if your policy has started.\n\nWe'll get back to you within 2 working days once you've submitted your request 😊"
+
+  utter_faq_travel/differentiate_couple_family_group:
+  - text: "Couple in our Travel Insurance refers to any two adults, regardless of gender and relationship. \n\nIn our Group plan all individuals are treated as adults, whereas our Family plan is for 1 or 2 adults travelling together with their child(ren). The premium and benefit limit for a child is lower than an adult."
+
+  utter_faq_travel/pay_premium:
+  - text: "The premium shown on our website is for the total pax selected during the application of your Travel Insurance whether it is Couple, Group or Family plan."
+
+  utter_faq_travel/how_much_asia_plan:
+  - text: "Seems like you're trying to get a quote. Just click [here](https://www.fwd.com.sg/travel-insurance/online-quote/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_Travel_Get_Quote) to get a quote for the Asia Travel Insurance plan."
+
+  utter_faq_travel/theft_of_money_claim_documents:
+  - text: "You'll need these documents to submit your claim for theft of money: \n\n1. Boarding pass or flight itinerary \n2. Police report lodged overseas."
+
+  utter_faq_travel/car_rental_excess_claim_documents:
+  - text: "For car rental excess claim, you'll need the following documents: \n\n1. Rental vehicle agreement and excess receipt \n2. Overseas police report, if relates to road accident"
+
+  utter_faq_travel/medical_expenses_claim_procedure:
+  - text: "You can refer to our Travel Insurance medical expenses claim guide [here](https://www.fwd.com.sg/insurance-claims/claims-guide/guide-travel.html)."
+
+  utter_faq_travel/trip_cut_short_claim_documents:
+  - text: "For trip cut short, you'll need to the following documents to submit your claim:\n\n1. Travel or airline booking \n2. Confirmation from travel agency or airline that there won't be a refund \n3. Medical documents if trip was disrupted due to illness"
+
+  utter_faq_travel/trip_postponement_claim_documents:
+  - text: "For trip postponement, you'll need to the following documents to submit your claim: \n\n1. Travel or airline booking \n2. Confirmation from travel agency or airline that there won't be a refund \n3. Medical documents if trip was disrupted due to illness"
+
+  utter_faq_travel/claim:
+  - text: "No problem, you can make a claim easily online. Do you have a login password?"
+    buttons:
+      - title: "Yes"
+        payload: "/claim_has_login_password"
+      - title: "No"
+        payload: "/claim_no_login_password"
+
+  utter_faq_travel/loss_of_luggage_claim_documents:
+  - text: "To make a claim for your lost luggage by a transport provider you'll need: \n\n1. Flight itinerary or boarding pass \n2. Report to airline \n3. Proof of denial or compensation by the transport provider \n4. Original invoice(s) for the lost item(s)"
+
+  utter_faq_travel/loss_of_documents_claim_documents:
+  - text: "You'll need these documents to submit your claim for loss of travel documents: \n\n1. Boarding pass or flight itinerary \n2. Police or relevant report lodged overseas \n3. Receipts for replacement / temporary passports"
+
+  utter_faq_travel/sports_equipment_protector:
+  - text: "These documents are required to claim for sports equipment protector:\n\n1. Flight itinerary or boarding pass\n\n2. Damage report filed with relevant authorities or service providers"
+
+  utter_faq_travel/doctor_visit_claim_documents:
+  - text: "Hope you're feeling better! The documents needed for medical claim are: \n\n1. Boarding pass or flight itinerary \n2. Medical bill(s) \n3. Hospital discharge summary if you were hospitalised \n4. GP Doctor's referral letter (if you visited a specialist)"
+
+  utter_faq_travel/trip_cancellation_claim_documents:
+  - text: "For trip cancellation, you'll need to the following documents to submit your claim: \n\n1. Travel or airline booking \n2. Confirmation from travel agency or airline that there won't be a refund \n3. Medical documents if trip was disrupted due to illness"
+
+  utter_faq_travel/claim_where:
+  - text: "It depends on what you're claiming for. You can make a Travel Insurance claim through our FWD Online Portal, FWD SG app or using the online form."
+
+  utter_faq_travel/claim_both:
+  - text: "Unfortunately, you won’t be able to claim from multiple insurance policies for the same event, unless you wish to claim under the hospital income benefits."
+
+  utter_faq_travel/receive_after_purchase:
+  - text: "Thank you for purchasing from us! 😊 We will send you a confirmation email within 30 minutes with a link inside the email to download your travel policy documents. Alternatively, you can log in to our mobile app or online services portal here to view your travel policy."
+
+  utter_faq_travel/buy_enhanced_covid_travel_multiple_countries:
+  - text: "Yes, you can. If you are travelling to more than one country, please select the zone that includes your destination countries. For example, if you are going to Bangkok and Japan, you should choose the Asia zone. If you are going to Hong Kong and to USA, you should choose Worldwide."
+
+  utter_faq_travel/buy_if_going_overseas_for_work:
+  - text: "You can purchase our Travel Insurance for your business trip as long as you're travelling from Singapore and return back within 180 days under the single trip plan or 90 days under the annual plan. Do note that any damages connected to your business or profession will not be covered."
+
+  utter_faq_travel/buy_started_travelling:
+  - text: "You'll need to purchase our Travel Insurance before crossing the customs in Singapore or before the trip starts. We're not able to cover if you purchase the policy after your trip has started."
+
+  utter_faq_travel/buy_how_long_before_trip:
+  - text: "You can buy our Travel Insurance as early as 180 days before your trip. However, coverage for trip cancellation, postponement and insolvency of travel operators only starts 30 days before your trip provided you bought the policy at least 3 days before your travel date."
+
+  utter_faq_travel/buy_for_one_way_trip:
+  - text: "One way trips aren't covered in our Travel Insurance."
+
+  utter_faq_travel/buy_cruise:
+  - text: "You'll be covered under our Travel Insurance no matter what type of scheduled commercial transportation you'll be travelling on - either via land, air or water!"
+
+  utter_faq_travel/how_choose_start_date:
+  - text: "Our Travel Insurance covers trip cancellation, trip postponement and insolvency from the date your trip is booked or 30 days before your trip starts (whichever is later). These benefits are not available if you buy this insurance less than 3 days before your trip starts unless there's a death occurrence.\n\nAll other benefits starts when you leave your home or workplace to start your trip."
+
+  utter_faq_travel/buy_if_sick:
+  - text: "Pre-existing medical condition means any injury or sickness that you are aware of before the start of your trip or any injury or sickness that you have received medical consultation or treatment in the last 12 months."
+
+  utter_faq_travel/buy_enhanced_covid_how_soon:
+  - text: "You can buy this add-on together with our travel insurance on the same day that you’re travelling. You can buy FWD’s COVID-19 enhanced travel benefits as long as you are in Singapore before immigration. Please note that any claims made for incidences that happen before you buy your insurance will not be covered. This includes trip cancellation and loss of deposit. Also, please note that we will not pay any claims for trip cancellation and loss of deposit benefit if you buy your policy less than 3 days before your scheduled departure date."
+
+  utter_faq_travel/buy_if_pregnant:
+  - text: "You can buy our Travel Insurance as long as you're in Singapore before immigration. \n\nAnything that happened before your purchase will not be covered including travel delay."
+
+  utter_faq_travel/buy_travelled_out_of_sg:
+  - text: "Our Travel Insurance doesn't cover if you've already travelled out from Singapore or your trip doesn't start from Singapore."
+
+  utter_faq_travel/buy_multiple_countries:
+  - text: "If you're travelling to multiple countries, you can buy our Travel Insurance by selecting the region based on your furthest destination so it includes all your destination countries."
+
+  utter_faq_travel/buy_for_child:
+  - text: "You can purchase Travel Insurance for your child as long as your child has a valid Singapore ID and is residing in Singapore."
+
+  utter_faq_travel/buy_enhanced_covid_already_on_ferry_cruise:
+  - text: "Yes, you can. You can buy FWD’s COVID-19 enhanced travel benefits as long as you are in Singapore before immigration. Please note that any claims made for incidences that happen before you buy your insurance will not be covered. This includes trip cancellation and loss of deposit. Also, please note that we will not pay any claims for trip cancellation and loss of deposit benefit if you buy your policy less than 3 days before your scheduled departure date."
+
+  utter_faq_travel/buy_enhanced_covid_already_at_airport_checkpoint:
+  - text: "Yes, you can. You can buy FWD’s COVID-19 enhanced travel benefits as long as you are in Singapore before immigration. Please note that any claims made for incidences that happen before you buy your insurance will not be covered. This includes trip cancellation and loss of deposit. Also, please note that we will not pay any claims for trip cancellation and loss of deposit benefit if you buy your policy less than 3 days before your scheduled departure date."
+  
+  utter_faq_travel/buy_single_trip_travelling_with_relatives:
+  - text: "At least one of the adult must be the father/mother of the child that's travelling under our family Travel Insurance plan 😊"
+
+  utter_faq_travel/buy_above_age:
+  - text: "We do cover travellers above 70 years old under our Travel Insurance 😊 \n\nOnly thing to note is the 'medical coverage' and the 'death or permanent disability caused by accident that occurred whilst overseas' is lower. Do refer to the limits at our website and click on the '+' for more information"
+
+  utter_faq_travel/buy_for_parents_from_country:
+  - text: "Our Travel Insurance is only valid if you're a resident of Singapore with a valid NRIC/FIN and you must start and end your trip in Singapore."
+
+  utter_faq_travel/flight_cancelled:
+  - text: "Zoom in to policy details about flight cancellation"
+
+  utter_faq_travel/which_region_travel_to_island:
+  - text: "In such cases, please select the area the occupying country belongs to. In the examples above, Guam (USA) would be Worldwide, New Caledonia (France) would be Worldwide excluding USA, and Norfolk Island (Australia) would be Asia."
+
+  utter_faq_travel/get_covid_overseas:
+  - text: "Zoom in to policy details about COVID\n- Mention what add-ons are required to be covered for COVID"
+
+  utter_faq_travel/china_which_region:
+  - text: "China will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan"
+
+  utter_faq_travel/preexisting_condition:
+  - text: "In general, our Travel Insurance don't cover pre-existing conditions, countries in the exclusion list, pregnancy related conditions and losses due to negligence. For a full exclusion list, please refer to our Travel policy wording here"
+
+  utter_faq_travel/fiji_which_region:
+  - text: "Fiji is under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan"
+
+  utter_faq_travel/asean_consist_which_country:
+  - text: "Under our Travel Insurance, ASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam"
+
+  utter_faq_travel/emergency_assistance:
+  - text: "Please call our Emergency Assistance hotline on +6563222072. \n\nYou can call us any time of the day or night, from anywhere in the world, and we'll be ready to assist you the best we can."
+
+  utter_faq_travel/trip_disruption:
+  - text: "Our Travel Disruption benefit covers trip disruptions while you are in Singapore or overseas, and you forced to change your itinerary because of you suffer a serious injury or illness and are medically unfit to travel, a serious public event happens in Singapore or at one of your travel destinations and if tour flight is cancelled, delayed or postponed."
+
+  utter_faq_travel/types_offered:
+  - text: "We offer annual and single trip Travel Insurance plans, for individuals, couples, families and groups. \n\nThere are 3 different tiers which offer different coverage; Premium, Business and First. You can click [here](https://www.fwd.com.sg/travel-insurance/) to view the benefit table."
+
+  utter_faq_travel/how_check_travel_notice_mfa:
+  - text: "You can refer to this link [here](https://www1.mfa.gov.sg/Where-Are-You-Travelling-To) for any travel notice by the MFA"
+
+  utter_faq_travel/details_for_cruise:
+  - text: "We cover for cruise (including cruise to nowhere) under our Travel Insurance. Please note to select our Covid-19 enhanced travel benefits add-on when purchasing the standard Travel Insurance for a comprehensive coverage that includes Covid-19.\n\nFor cruise to nowhere, you can select the region 'Asean' for Singapore waters."
+
+  utter_faq_travel/cover_trip_cancellation:
+  - text: "You can claim for trip cancellation if an incident such as serious injury, illness, death or natural disaster happened 30 days before your departure date, provided it's not a known event. \n\nFor the full details, do refer to our Travel Insurance policy wording [here](https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf)."
+
+  utter_faq_travel/covered_if_drive_car_out_of_sg:
+  - text: "You'll be covered under the Travel Insurance if you're driving or riding overseas. However, do note that we don't cover any loss or damage to the vehicle itself. That'll be under your own car or motorcycle insurance."
+
+  utter_faq_travel/cover_flight_cancellation:
+  - text: "We do cover flight cancellation. Depending on the circumstances, it may fall under any of our Travel Disruption benefit (Trip cancellation, delay, postponement etc.)."
+
+  utter_faq_travel/cover_outbound_passengers_into_philippines:
+  - text: "Sorry, we do not cover for outbound passengers travelling into Philippines."
+
+  utter_faq_travel/cover_if_test_covid_positive_no_hospitalisation:
+  - text: "We will only cover your medical expenses if you are hospitalised overseas while on a trip or within 14 days of your return to Singapore."
+
+  utter_faq_travel/max_trip_duration_to_buy_enhanced_travel_rider:
+  - text: "You can purchase FWD's COVID-19 Enhanced Travel Benefits online as an add-on to our FWD Travel Insurance (single trip only) if your travel period is 90 days or less. Simply click [here](https://www.fwd.com.sg/travel-insurance/) to get a quote!"
+
+  utter_faq_travel/age_limit:
+  - text: "If you are at least 16 years old and a resident of Singapore holding NRIC/FIN, you can buy our Travel Insurance. Please note to select our Covid-19 enhanced travel benefits add-on when purchasing the standard Travel Insurance for a comprehensive coverage that includes Covid-19."
+
+  utter_faq_travel/emergency evacuation:
+  - text: "Emergency evacuation is when you need to be evacuated to nearby medical facilities due to any life-threatening injuries or medical conditions overseas"
+
+  utter_faq_travel/website_hang_during_renew:
+  - text: "Sorry if you are having troubles on our website! If you have gotten an error or unable to proceed, do refresh your browser cache and try to redo. If the error still persist, do take a screenshot of the error message (if there's any) and send us an email at contact.sg@fwd.com"
+
+  utter_faq_travel/promo:
+  - text: "Everyone loves a good deal! You can click [here](https://www.fwd.com.sg/insurance-promotions) to find our latest promotions for Travel Insurance which may include promo codes and vouchers 😉"
+
+  utter_faq_travel/what:
+  - text: "Travel Insurance is an insurance that covers the costs and losses associated with travelling.\n\nYou can refer to our table of benefits in our Travel policy wording [here](https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf) for more information on our coverage 😊"
+
+  utter_faq_travel/cruise_to_nowhere:
+  - text: "You can buy our Travel Insurance which covers for cruise to nowhere.\n\nFor cruise to nowhere, you can select the region 'Asean' for Singapore waters.\n\nIf you would like a comprehensive coverage that includes Covid-19, please remember to select our Covid-19 enhanced travel benefits add-on when purchasing the standard Travel Insurance."
+
+  utter_faq_travel/do_you_offer:
+  - text: "We offer annual and single trip Travel Insurance plans, for individuals, couples, families and groups."
+
+  utter_faq_travel/single_trip:
+  - text: "A single trip Travel Insurance is a plan that only covers you for one travel trip, up to a maximum of 180 days. You will not be eligible to buy our single trip Travel Insurance if your trip is more than 180 days"
+
+  utter_faq_travel/fall_sick_overseas:
+  - text: "Zoom in to policy details about medical bills overseas\n- Mention excluding COVID if COVID cover is not selected"
+
+  utter_faq_travel/find_clinic_list_app:
+  - text: "As of 26 November 2020, we've migrated from the Flyer app to our new FWD SG app. You can access all existing services and more on our new app.\n\nTo view a list of our panel clinics, simply log in to the FWD SG app using your online services login credentials, click on 'Visit doctor' and tap on 'Locate a clinic (SG only)'. Alternatively, you can go to the 'More' tab, click on 'Locate workshop or clinic' and select 'Travel'."
+
+  utter_faq_travel/evacuation_medical_emergency:
+  - text: "If you ever need emergency medical evacuation, the last thing you’ll want to think of is how much it costs. That’s why we’ve got limitless cover for you."
+
+  utter_faq_travel/buy_couple_insurance_but_one_travelling:
+  - text: "Our couple or group travel annual trip Travel Insurance covers all individuals, even if one of them is travelling separately. However our single trip Travel Insurance for groups will only cover groups that are travelling together. If you bought a single trip Travel Insurance for couples but one of you cannot travel then you should consider cancelling your current policy and purchasing a new single trip Travel Insurance for individuals."
+
+  utter_faq_travel/max_days_per_trip:
+  - text: "For our single trip Travel Insurance plan, the maximum is 180 days. For the annual plan, the maximum is 90 days per trip."
+
+  utter_faq_travel/how_many_trips_under_annual:
+  - text: "There is no limit in terms of the number of trips under the Annual Travel Insurance Plan as long as the trips are made within 90 days."
+
+  utter_faq_travel/myanmar_under_asean_asia:
+  - text: "Myanmar will be under the 'ASEAN' region 😊 \n\nASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
+
+  utter_faq_travel/what_happens_mfa_issues_travel_advisory:
+  - text: "Take precaution and stay safe! You can call our Emergency Assistance at +65 6322 2072 if you have an emergency."
+
+  utter_faq_travel/uae_dubai_asia:
+  - text: "United Arab Emirates will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/berlin_region:
+  - text: "Germany will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/australia_asean_asia:
+  - text: "Australia will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+
+  utter_faq_travel/turkey_asia_europe:
+  - text: "Turkey will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/austria_region:
+  - text: "Austria will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/stockholm_region:
+  - text: "Sweden will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/ukraine_region:
+  - text: "Ukraine will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/start_trip_in_sg:
+  - text: "For our Travel Insurance, it's only valid if you start and end your trip in Singapore"
+
+  utter_faq_travel/portugal_region:
+  - text: "Portugal will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/cover_russia:
+  - text: "Russia is under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/cover_chiropractor_visit:
+  - text: "Our Travel Insurance do cover chiropractor treatment (maximum S$50 per visit up to your policy limit) as long as you seek treatment within 48 hours of your return back to Singapore."
+
+  utter_faq_travel/cover_hospitalisation_under_covid_positive_test:
+  - text: "Starting from 2 March, you may add on our Covid-19 enhanced travel benefits when you purchase our standard Travel Insurance for a comprehensive coverage that includes Covid-19. This Covid-19 enhanced travel benefit addresses 6 major concerns in the event you are diagnosed with Covid-19, by covering travel cancellation and loss of deposit, trip disruption, medical expenses, hospital income and emergency medical evacuation and repatriation. \n\nBut do note that our Covid-19 enhanced travel benefit is only valid for a travel period of up to 90 days."
+
+  utter_faq_travel/add_car_rental_excess:
+  - text: "If you would like to add the 'Car Rental Excess' cover to your Travel Insurance, do call us at +6568208888 at least 2 working days before your policy starts. Otherwise, we're not able to make any changes. \n\nDo note that Car Rental Excess cover is already included in our 'Business' and 'First' plan type."
+
+  utter_faq_travel/brunei_asean_asia:
+  - text: "Brunei Darussalam will be under the 'ASEAN' region 😊 \n\nASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
+
+  utter_faq_travel/athens_region:
+  - text: "Greece will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/america_region:
+  - text: "America is under the region 'Worldwide'."
+
+  utter_faq_travel/bhutan_asia:
+  - text: "Bhutan will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+
+  utter_faq_travel/kuwait_region:
+  - text: "Kuwait will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/amsterdam_region:
+  - text: "Netherlands will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/bangladesh_asean_asia:
+  - text: "Bangladesh will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+
+  utter_faq_travel/see_doctor_again:
+  - text: "If you've seen a doctor overseas, we'll cover you up to a maximum of 30 days (from the date you returned to Singapore) for follow-up visits for the same conditions as when you first visited the GP.\n\nDo note that if specialist attention is required, you'll need to obtain a doctor's referral letter before you proceed."
+
+  utter_faq_travel/sri_lanka_asean_asia:
+  - text: "Sri Lanka will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+
+  utter_faq_travel/pakistan_asia_global_region:
+  - text: "Pakistan will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+
+  utter_faq_travel/poland_region:
+  - text: "Poland will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/luxembourg_region:
+  - text: "Luxembourg will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/tanzania_region:
+  - text: "Tanzania will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/thailand_mfa_advise_against:
+  - text: "For covid-19 travel restrictions matters, please refer to the latest update by the Ministry of Foreign Affairs [here](https://www.mfa.gov.sg/Services/Singapore-Citizens/COVID-19-Travel-Restrictions)."
+
+  utter_faq_travel/zurich_region:
+  - text: "Switzerland will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/qatar_region:
+  - text: "Qatar will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/uzbekistan_region:
+  - text: "Uzbekistan will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/croatia_region:
+  - text: "Croatia will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/worldwide_cover_egypt:
+  - text: "Egypt will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to"
+
+  utter_faq_travel/south_africa_region:
+  - text: "South Africa will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/slovakia_region:
+  - text: "Slovakia will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/israel_region:
+  - text: "Israel will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/hungary_region:
+  - text: "Hungary will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/belgium_region:
+  - text: "Belgium will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/buy_employment_pass_holder:
+  - text: "Employment pass holders are welcome to purchase our Travel Insurance as they meet our requirement of having a FIN. Please note that you must start and end your trip in Singapore."
+
+  utter_faq_travel/indonesia_under_asia:
+  - text: "Indonesia will be under the 'ASEAN' region 😊 \n\nASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
+
+  utter_faq_travel/moscow_region:
+  - text: "Russia will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/use_for_schengen_visa_application:
+  - text: "You can use our Travel Insurance for your Schengen Visa application. Do check our coverage [here](https://www.fwd.com.sg/travel-insurance/) to see if it's suitable for you."
+
+  utter_faq_travel/india_asean:
+  - text: "India will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+
+  utter_faq_travel/reykjavik_region:
+  - text: "Iceland will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/london_region:
+  - text: "United Kingdom will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/vancouver_canada_zone:
+  - text: "Canada will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/mauritius_asia:
+  - text: "Mauritius will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/maldives_asia:
+  - text: "Maldives will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+
+  utter_faq_travel/milano_region:
+  - text: "Milano will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/macau_asean_asia:
+  - text: "Macau will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+
+  utter_faq_travel/romania_region:
+  - text: "Romania will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/tibet_asia:
+  - text: "Tibet is under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan"
+
+  utter_faq_travel/rome_region:
+  - text: "Italy will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/laos_asean_asia:
+  - text: "Laos will be under the 'ASEAN' region 😊 \n\nASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
+
+  utter_faq_travel/papua_new_guinea_asean_asia:
+  - text: "Papua New Guine will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+
+  utter_faq_travel/barcelona_region:
+  - text: "Spain will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/east_timor_asean_asia:
+  - text: "East Timor will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+
+  utter_faq_travel/cover_saudi_arabia:
+  - text: "Saudi Arabia will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/finland_region:
+  - text: "Finland will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+
+  utter_faq_travel/cambodia_asean_asia:
+  - text: "Cambodia will be under the 'ASEAN' region 😊 \n\nASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
+
+  utter_faq_travel/oman_region:
+  - text: "Oman will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to"
+
+  utter_faq_travel/nepal_region:
+  - text: "Nepal will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+
+  utter_faq_travel/cover_emergency_landing:
+  - text: "We do cover emergency landing under our Travel Insurance. Depending on the situation, it'll fall under Trip Diversion or Trip Delay."
+
+  utter_faq_travel/cover_loss_of_documents:
+  - text: "We do cover loss of travel documents including passport 😊"
+
+  utter_faq_travel/cover_political_unrest:
+  - text: "We do cover political unrest under all our Travel Insurance plans if it affects your travel. Depending on the circumstances, it may fall under any of our Travel Disruption benefit (Trip cancellation, delay, postponement etc.)."
+
+  utter_faq_travel/cover_trip_extended_reasons_beyond_my_control:
+  - text: "We are unable to provide extended cover beyond 30 days. Hence, your cover will cease at the end of the 30th day or the coverage end date, whichever is earlier.\n\nPlease log in here to extend your policy up to a maximum of 30 days from your coverage start date. You may need to top-up the premium differences."
+
+  utter_faq_travel/cover_start_enhanced_travel:
+  - text: "It depends! Please refer [here](https://help.fwd.com.sg/hc/en-us/articles/4407185320985-When-does-my-cover-start-for-FWD-s-COVID-19-enhanced-travel-benefits-) for the specific situation."
+
+  utter_faq_travel/cover_robbery:
+  - text: "That would be a nightmare! We do cover robbery and the claim limit are as follow:\n\nTheft of money: $300\nTheft of laptop/tablet: $1,000\nAll other items: $300 for 'Premium' plan and $500 for 'Business' and 'First' plan type\n\nDo report to the local police as the report is needed for claims."
+
+  utter_faq_travel/cover_hiking:
+  - text: "We do cover hiking or trekking up to 3,000m under our Travel Insurance, as long as you're not participating in a professional capacity i.e. you aren't being paid."
+
+  utter_faq_travel/cover_pharmacy_expenses:
+  - text: "You can claim for pharmacy expenses under your Travel Insurance only if you have a valid prescription from a doctor."
+
+  utter_faq_travel/cover_loss_of_passport_cash:
+  - text: "e do cover loss of travel documents including passport, and loss of cash and travellers' cheque if it is due to theft. \n\nMake sure you lodge a report and claim against the transportation or accommodation provider first before making a claim. If there was a theft, do report to the local police."
+
+  utter_faq_travel/cover_overseas_call_charges:
+  - text: "We do cover overseas call charges if you call our Emergency Assistance hotline to engage our services; or you suffer an illness or injury during your trip and in need of support you call the police, medical facilities, or family members in Singapore."
+
+  utter_faq_travel/cover_high_altitude_activities:
+  - text: "You'll be covered for high altitude activities up to 3,000m under our Travel Insurance, as long as you're not participating in a professional capacity i.e. you aren't being paid."
+
+  utter_faq_travel/cover_sailing_on_my_own:
+  - text: "Unfortunately, we can only cover you when you travel on scheduled commercial transportation, including ships. We will not be able to cover you if you are on your own boat, yacht, or cruiser."
+
+  utter_faq_travel/cover_insolvency:
+  - text: "We do cover insolvency under Travel Insurance if the travel agent, transport provider, tour operator and/or accommodation provider responsible for your trip is insolvent. \n\nPlease note that this benefit is only valid if you bought your policy at least 3 days before the start of your trip."
+
+  utter_faq_travel/cover_business_trips:
+  - text: "You can purchase our Travel Insurance for your business trip. But any damages connected to your business or profession will not be covered."
+
+  utter_faq_travel/cover_cosmetic_surgeries:
+  - text: "We don't cover any kind of cosmetic surgeries under our Travel Insurance unless it was deemed necessary as a result of an accident you were involved in during your trip."
+
+  utter_faq_travel/cover_adventurous_activities:
+  - text: "In general you'll be covered for all sports and recreational activities under our Travel Insurance (i.e. skiing, hiking, scuba-diving, hot air ballon, sky-diving etc.) as long as it's managed by a licensed commercial operator, and you're not participating in a professional capacity (i.e. you aren't being paid)."
+
+  utter_faq_travel/cover_visa_rejected:
+  - text: "We're not able to provide coverage if your visa or any travel document was rejected or not approved. We also don't cover for trip cancellation if it was caused by the rejection."
+
+  utter_faq_travel/cover_cruise_cruise_to_nowhere:
+  - text: "Yes, our travel insurance as well as our COVID-19 Enhanced Travel Benefits add-on cover cruises or cruises to nowhere."
+
+  utter_faq_travel/cover_cruise:
+  - text: "We cover for cruise (including cruise to nowhere) under our Travel Insurance. For Covid-19 related claims to be covered, you would need to add the Enhanced Covid-19 Travel Benefit add-on so long as you have purchased a single trip travel policy up to 90 days.\n\nFor cruise to nowhere, you can select the region 'Asean' for Singapore waters.\n\nFor travels beyond 90 days, if you would like to be covered for Covid-19 , you can top it up with our Personal Accident Insurance here to protect yourself and your loved ones. Please note that there is a 15-day waiting period for Covid-19 coverage under our Personal Accident Insurance."
+
+  utter_faq_travel/cover_coup:
+  - text: "We do cover coup if it affects your travel. Depending on the circumstances, it may fall under any of our Travel Disruption benefit (Trip cancellation, delay, postponement etc.)."
+
+  utter_faq_travel/coverage_cruise_to_nowhere:
+  - text: "It depends on what coverage you're looking for. We cover for cruise to nowhere under our Travel Insurance. However, please note that we do not cover for Covid-19 related cases. If you would like to be covered for Covid-19, you can top it up with our Personal Accident Insurance here to protect yourself and your loved ones. Please note that there is a 15-day waiting period for Covid-19 coverage under our Personal Accident Insurance."
+
+  utter_faq_travel/cover_if_volcano_eruption:
+  - text: "Events which occur or were known before your policy commenced will not be covered under the Travel insurance."
+
+  utter_faq_travel/cover_volcano_eruption:
+  - text: "We do cover volcano eruption if it affects your travel. Depending on the circumstances, it may fall under any of our Travel Disruption benefit (Trip cancellation, delay, postponement etc.)."
+
+  utter_faq_travel/cover_diving:
+  - text: "We do cover diving (no depth limit), as long as you're not participating in a professional capacity i.e. you aren't being paid and it's managed by a licensed commercial operator."
+
+  utter_faq_travel/cover_flight_delay:
+  - text: "We do cover flight delay if the delay is more than 6 hours, and you're not the cause of the delay. If the delay happens while: \n\n1. You're overseas: S$100 for every 6 hours of delay up to your policy limit based on your plan type\n2. You're back in Singapore: only S$100"
+
+  utter_faq_travel/cover_baggage_delay:
+  - text: "We do cover baggage delay if your bag is delayed for more than 6 hours. If the delay happens while:\n1. You're overseas: S$150 for every 6 hours up to your policy limit based on your plan type\n2. You're back in Singapore: Only S$150"
+
+  utter_faq_travel/cover_north_korea_annual_travel:
+  - text: "Countries that our Travel Insurance don't cover are: Afghanistan, Cuba, Democratic Republic of Congo, Iran, Libya, Liberia, North Korea, Somalia, South Sudan, Sudan, Syria, Yemen and any country where Ministry of Foreign Affairs of Singapore advises against travelling to or recommends to postpone. You can refer to this link [here](https://www1.mfa.gov.sg/Where-Are-You-Travelling-To) for more details."
+
+  utter_faq_travel/cover_north_korea:
+  - text: "Unfortunately we do not cover North Korea under our Travel Insurance.\n\nCountries that our Travel Insurance don't cover are: Afghanistan, Cuba, Democratic Republic of Congo, Iran, Libya, Liberia, North Korea, Somalia, South Sudan, Sudan, Syria, Yemen and any country where Ministry of Foreign Affairs of Singapore advises against travelling to or recommends to postpone. You can refer to this link [here](https://www1.mfa.gov.sg/Where-Are-You-Travelling-To) for more details."
+
+  utter_faq_travel/cover_natural_disaster:
+  - text: "We do cover natural disaster if it affects your travel. Depending on the circumstances, it may fall under any of our Travel Disruption benefit (Trip cancellation, delay, postponement etc.)"
+
+  utter_faq_travel/cover_flight_delay_pass_coverage_date:
+  - text: "Under the 'Automatic Policy Extension' benefit, your Travel Insurance policy will automatically be extended between 7 and 21 days depending on your plan type or until you reach home in Singapore, whichever is shorter if:\n\n1. Your return to Singapore is delayed by a serious public event,\n2. You're confined in an overseas hospital, or\n3. Government authorities didn't allow you to travel because you've contracted an infectious disease"
+
+  utter_faq_travel/cover_repatriation:
+  - text: "We do cover repatriation under all our Travel Insurance plans as long as it's not related to pregnancy. We'll pay the necessary expenses to return your body to Singapore or your home country. There's no limit under this benefit."
+
+  utter_faq_travel/cover_loss_mobile_phones:
+  - text: "We do cover loss of mobile phone up to $300 for 'Premium' plan and $500 for 'Business' and 'First' plan type under our Travel Insurance. Do report to the local police as the report is needed for claims."
+
+  utter_faq_travel/cover_loss_of_baggage:
+  - text: "We cover baggage delay and losses due to theft or accidental damage, but not due to negligence. \n\nMake sure you lodge a report and claim against the transportation or accommodation provider first before making a claim. If there was a theft, do report to the local police."
+
+  utter_faq_travel/cover_loss_of_cash:
+  - text: "Our Travel Insurance does cover loss of cash with a claim limit of $300. Do report to the local police as the report is needed for claims."
+
+  utter_faq_travel/what_you_cover:
+  - text: "Our Travel Insurance offers you a wide range of benefits 😊\n\nYou can refer to the table of benefits and maximum claim amounts in our Travel policy wording [here](https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf) for more information on our coverage."
+
+  utter_faq_travel/cover_death:
+  - text: "We do cover death under the personal accident benefit in our Travel Insurance. The coverage is different between a child, an adult below 70, and an adult above 70."
+
+  utter_faq_travel/cover_covid:
+  - text: "We now have our Covid-19 enhanced travel benefits plan which is an add-on you can purchase along with our standard Travel Insurance for a comprehensive coverage that includes Covid-19.\n\nWe offer this Covid-19 enhanced travel benefits for individuals, couples, families or groups travelling to:\n\nASEAN – Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam\n\nAsia – ASEAN Countries, Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan\n\nWorldwide excluding USA – All of the world, excluding USA and any of its territories\n\nWorldwide – All of the world\n\nPlease note that this plan excludes travel to any country in which the Ministry of Foreign Affairs of Singapore has advised against travelling to or has recommended postponing travel to."
+
+  utter_faq_travel/cover_enhanced_travel_go_country_not_listed_in_vtl:
+  - text: "You'll be covered as long as at the time of booking of your trip and before you purchase this add-on:\n\nthe Singapore authorities, World Health Organisation or local authorities of the country you are travelling to have not issued any travel advisory or notice warning against non-essential travel; or\n\nSingapore or the country you are travelling to must not have had their airports shut or implemented any ban of any international flights for reasons related to COVID-19.\n\nFor a list of countries that the Ministry of Foreign Affairs of Singapore has advised against travelling to or has recommended postponing travel to, please refe to our policy wording."
+
+  utter_faq_travel/cover_surgery:
+  - text: "We do cover surgery overseas up to your policy limit as long as the incident happened during your trip, and it is not a pre-existing condition."
+
+  utter_faq_travel/cover_hospitalisation:
+  - text: "We do cover medical expenses under our Travel Insurance as long as it's not a pre-existing condition. Make sure you seek medical treatment at a GP or A&E within 48 hours upon returning to Singapore and submit the documents for claim assessment. \n\nYou can refer to the full benefits table and maximum claim amount [here](https://www.fwd.com.sg/travel-insurance/)"
+
+  utter_faq_travel/cover_countries:
+  - text: "It depends on which region you are looking at.\n\nASEAN includes: Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam\n\nAsia includes: Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan\n\nWorldwide excluding USA refers to: All of the world excluding USA and any of its territory\n\nPlease note that any country where the Ministry of Foreign Affairs of Singapore advises against travelling to or recommends postponing the travel to, are excluded."
+
+  utter_faq_travel/cover_how_many_people_under_group_plan:
+  - text: "Our group Travel Insurance plan covers between 3 to 20 adults travelling together on the same trip."
+
+  utter_faq_travel/cover_airbnb:
+  - text: "We do cover the remainder of the Airbnb cost that you aren't refunded if it falls under any of our Travel Disruption benefits (Trip cut short, cancellation, postponement etc.)."
+
+  utter_faq_travel/cover_travel_delay:
+  - text: "We do cover travel delay if the delay is more than 6 hours, and you're not the cause of the delay. If the delay happens while: \n\n1. You're overseas: S$100 for every 6 hours of delay up to your policy limit based on your plan type\n2. You're back in Singapore: only S$100"
+
+  utter_faq_travel/cover_overseas_surgery:
+  - text: "Our Travel Insurance do cover surgery overseas up to your policy limit as long as the incident happened during your trip, and it's not a pre-existing condition."
+
+  utter_faq_travel/cover_elderly:
+  - text: "You can purchase our Travel Insurance as long as you hold a valid Singapore ID and residing in Singapore. \n\nDo note that the 'medical coverage' and the 'death or permanent disability caused by accident that occurred whilst overseas' is lower for age 70 and above. Do refer to the limits [here](https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf)."
+
+  utter_faq_travel/cover_illness:
+  - text: "Falling sick during trips is the worst! 😷 \n\nMake sure you seek medical treatment at a GP or A&E within 48 hours upon returning to Singapore and submit the claim under your Travel Insurance."
+
+  utter_faq_travel/cover_overseas_medical_expenses:
+  - text: "Our Travel Insurance covers you if you fall ill while overseas and you seek treatment there and then. However, we don't cover existing medical conditions or if you're travelling overseas to seek medical treatment."
+
+  utter_faq_travel/cover_missed_flight:
+  - text: "We do cover missed connection if your arrival time is more than six hours from the original arrival time due to delay during transit."
+
+  utter_faq_travel/cover_sail_on_yacht:
+  - text: "Sorry! ☹ \n\nOur Travel Insurance only covers you when you travel on scheduled commercial transportation."
+
+  utter_faq_travel/revalidate_return_ticket_covid_positive:
+  - text: "You can make a claim under the Trip disruption benefit if your trip is disrupted while you are overseas, and you are forced to change your itinerary because you are diagnosed with COVID-19 and are medically unfit to travel. A medical practitioner must confirm this in writing."
+
+  utter_faq_travel/cover_hospitalisation_bills_if_hospitalised_overseas_covid:
+  - text: "You will be covered as long as the date you are hospitalised overseas falls within the period of insurance, up to the end date of your COVID-19 Enhanced Travel Benefits policy."

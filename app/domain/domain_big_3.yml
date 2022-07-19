@@ -1,0 +1,206 @@
+version: "3.1"
+
+responses:
+  utter_faq_big_3/know_more:
+  - text: "Sure! 😊 You may read more about our big 3 critical illness [here](https://www.fwd.com.sg/big-3-critical-illness/)."
+
+  utter_faq_big_3/buy_insurance:
+  - text: "Great choice! It'll take less than a min to get a quote.\n\nPlease click [here](https://www.fwd.com.sg/big-3-critical-illness/online-quote) to get a quote."
+
+  utter_faq_big_3/get_quote_how:
+  - text: "It's really easy! Click [here](https://www.fwd.com.sg/big-3-critical-illness/online-quote) and you'll get a quote instantly just by answering a few questions."
+
+  utter_faq_big_3/cancellation:
+  - text: "Do note that there’ll be no refund for Big 3 policy once the 14 days free-look period is over. However, you'll continue to enjoy the coverage till the last day of cover.\n\nIf you would still like to cancel, you can submit your request through our mobile app or online services portal [here](https://www.fwd.com.sg/portal/) under 'manage policy' and your policy will not be automatically renewed."
+
+  utter_faq_big_3/withdraw_leave_sg:
+  - text: "Our Big 3 Critical Illness Insurance has no cash value, no surrender value, and no investment nor savings portion. Do note that there’ll be no refund for Big 3 policy once the 14 days free-look period is over. However, you'll continue to enjoy the coverage till the last day of cover."
+  
+  utter_faq_big_3/recommend_stroke:
+  - text: "Our Stroke Insurance provides a more extensive and specific coverage for Stroke which includes cover for Stroke with Permanent Neurological Deficit, compared to Critical Illness Insurance which covers a range of 37 illnesses."
+  
+  utter_faq_big_3/breast_cysts_no_treatment:
+  - text: "You'll have to say 'yes' to the question."
+  
+  utter_faq_big_3/renew_years:
+  - text: "Our Big 3 Insurance covers you for 1 year and it renews every year, up to a maximum age of 85."
+
+  utter_faq_big_3/wrong_gender:
+  - text: "Sorry to hear that there's a mistake on the gender! if you would like to make changes to it, kindly drop us an email at contact.sg@FWD.com with your correct gender, full name, NRIC/FIN, mobile number and insurance policy number of the policy that needs amendment."
+
+  utter_faq_big_3/change_personal_particulars:
+  - text: "You can update your mobile number and other personal particulars through our mobile app or online services portal [here](https://www.fwd.com.sg/portal/)."
+
+  utter_faq_big_3/convert_from_term_life:
+  - text: "You will not be able to convert your Term Life Insurance to Big 3 Critical Illness Insurance as Big 3 only covers for critical illness."
+
+  utter_faq_big_3/change_coverage_amount_benefits:
+  - text: "The coverage amount of your Big 3 Critical Illness Insurance plan can't be reduced nor increased once the policy is effective. If you wish to upgrade and increase the protection amount, you may purchase a new policy up till S$200,00 worth of total coverage."
+
+  utter_faq_big_3/change_plan_renewal:
+  - text: "We do not support changing your Big 3 Insurance to Cancer Insurance, Heart Attack Insurance, or Stroke Insurance. You will need to cancel the Big 3 Insurance policy and purchase them separately."
+  
+  utter_faq_big_3/term_life_difference_critical_illness:
+  - text: "Our Term Life Plus policy covers up to 35 types of critical illnesses (Direct-Term Life covers up to 30) whereas our Big 3 Critical Illness policy only provides specific coverage for Heart Attack, Cancer and Stroke."
+
+  utter_faq_big_3/cancer_more_expensive:
+  - text: "Our Cancer Insurance is more expensive than Big 3 because for Big 3, once you make a claim, the policy will stop."
+
+  utter_faq_big_3/cheaper_than_cancer:
+  - text: "Our Big 3 Critical Illness Insurance is cheaper than Cancer Insurance because for Big 3, once you make a claim, the policy will stop."
+
+  utter_faq_big_3/term_life_difference:
+  - text: "Big 3 Critical Illness Insurance provides specific coverage for Heart Attack, Cancer and Stroke. It has a fixed death benefit of S$20,000 and there's also an option to purchase riders to cover neurological and heart disorders. \n\nMeanwhile, our Term Life critical illness add on covers up to 35 types of critical illnesses (Direct-Term Life covers up to 30) which adheres to the definition put together by the Life insurer's Association of Singapore (LIA) and Monetary Authority of Singapore (MAS). \n\nYou can refer to individual definitions of critical illness [here](https://www.lia.org.sg/media/1463/lia-ci-framework-2014_lia-definitions-for-37-cis.pdf)"
+
+  utter_faq_big_3/cancer_difference:
+  - text: "Big 3 Critical Illness Insurance provides specific coverage for Heart Attack, Cancer and Stroke and there's also an option to purchase riders to cover neurological and heart disorders. Whereas Cancer Insurance only covers Cancer."
+
+  utter_faq_big_3/cancer_difference_cancer_coverage:
+  - text: "There is no difference in cancer coverage between Big 3 Critical Illness and Cancer Insurance. However, please note that if you claim for Cancer under Big 3 Critical Illness Insurance, the policy will end and you can no longer claim for stroke or heart attack."
+
+  utter_faq_big_3/is_term_life_better:
+  - text: "Sorry, I am not in the position to advise this but it depends on how much coverage you want. Our Term Life Plus policy covers up to 35 types of critical illnesses (Direct-Term Life covers up to 30) whereas our Big 3 Critical Illness policy only provides specific coverage for Heart Attack, Cancer and Stroke.\n\nYou can always purchase both Term Life and Big 3 Critical Illness Insurance to have the maximum protection 😊"
+
+  utter_faq_big_3/payment_frequencies:
+  - text: "You can choose to pay for your Big 3 Critical Illness Insurance either monthly or yearly."
+
+  utter_faq_big_3/pay_premium_every_year:
+  - text: "You can choose to pay via Credit or Debit card either monthly or yearly till age 85.\n\nPlease note that the premium for our Big 3 Critical Illness Insurance policy isn't fixed and will be based on your age upon renewal. Before making payment, you can download a copy of your personalised quotation including the premium table to check your current and future expected premiums."
+
+  utter_faq_big_3/premiums_levelled:
+  - text: "The premium for our Big 3 Critical Illness Insurance policy isn't fixed and will be based on your age upon renewal. Before making payment, you can download a copy of your personalised quotation including the premium table to check your current and future expected premiums."
+
+  utter_faq_big_3/payment_methods:
+  - text: "You can pay via Credit or Debit card either monthly or yearly.\n\nFor monthly payment by Credit or Debit Card, we'll debit your premiums for the first 1 month from your credit or debit card."
+
+  utter_faq_big_3/premium:
+  - text: "Before making payment, you can download a copy of your personalised quotation including the premium table to check your current and future expected premiums."
+
+  utter_faq_big_3/payment_sum_early_cancer_detected:
+  - text: "We will pay you the whole sum you chose if you have an early cancer detection."
+
+  utter_faq_big_3/claim_myself:
+  - text: "You will have to make a Big 3 Critical Illness claim yourself. You can easily submit a claim through our mobile app or Online Services Portal [here](https://www.fwd.com.sg/portal/)"
+
+  utter_faq_big_3/buy_have_cancer_insurance:
+  - text: "You'll not be able to purchase our Big 3 Insurance if you have an existing Cancer Insurance. However, you can still purchase our Stroke and Heart Attack policies separately."
+
+  utter_faq_big_3/buy_rider:
+  - text: "Riders are optional benefits that you can add to your main plan to enhance your coverage. They are not compulsory and will be depending on your needs."
+
+  utter_faq_big_3/buy_after_cancer_insurance_expires:
+  - text: "You will be able to buy the Big 3 Critical Illness Insurance once your Cancer Insurance has expired."
+
+  utter_faq_big_3/buy_if_cancel_cancer_insurance:
+  - text: "Kindly give us a call at +6568208888 or drop us an email at contact.sg@FWD.com and we will assist you further."
+
+  utter_faq_big_3/free_look_period:
+  - text: "There's a standard 14 days free-look period and you may cancel your Big 3 Critical Illness Insurance policy within this period for a full refund as long as no claims were made against the policy."
+
+  utter_faq_big_3/who_can_buy:
+  - text: "You can purchase our Big 3 Critical Illness Insurance if you're between 18 and 65 (both inclusive) and a resident of Singapore holding an NRIC or FIN, so long as your application is approved based on your health condition. Click [here](https://www.fwd.com.sg/big-3-critical-illness/) to easily get a quote."
+
+  utter_faq_big_3/promo:
+  - text: "Click [here](https://www.fwd.com.sg/insurance-promotions) to get the promo codes and see our current promotions 😊"
+
+  utter_faq_big_3/buy_more_than_one:
+  - text: "Sorry, an individual can only buy one Big 3 Critical Illness Insurance."
+
+  utter_faq_big_3/who_dependents_sudden_death:
+  - text: "Under our Big 3 Critical Illness Insurance, in the case of sudden death the dependent will be your next-of-kin."
+
+  utter_faq_big_3/survival_period:
+  - text: "There is no survival period for Big 3 Critical Illness Insurance."
+
+  utter_faq_big_3/max_age_coverage:
+  - text: "Our Big 3 Critical Illness Insurance provides coverage to the age of 85."
+
+  utter_faq_big_3/terms_conditions:
+  - text: "To view a full list of terms and conditions under our Big 3 Critical Illness Insurance, you can refer to our policy wording [here](https://www.fwd.com.sg/uploads/sites/1/2020/04/FWD-Big-3-Critical-Illness-Insurance-Contract-.pdf)"
+
+  utter_faq/big_cannot_open_policy_document:
+  - text: "The default password is your NRIC and Year of Birth in the format of S1234567JYYYY. Do make sure that there is no spacing and the alphabets are in capital letters. If you are still unable to unlock your policy, you can try logging in to our online services [here](https://www.fwd.com.sg/portal/) to retrieve the documents."
+
+  utter_faq_big_3/waiting_period:
+  - text: "The waiting period for our Big 3 Critical Illness Insurance is 90 days from the policy issued date or date of endorsement, whichever is later."
+
+  utter_faq_big_3/cover_cancer_types:
+  - text: "Under Big 3 Critical Illness, all types and all stages of cancers are covered."
+
+  utter_faq_big_3/why_cannot_buy_if_have_cancer_insurance:
+  - text: "If you are already holding a Cancer Insurance, you are unable to buy Big 3 Critical Illness Insurance because Cancer Insurance is a part of Big 3 and you can only have one Cancer policy at any time. Furthermore, Cancer Insurance caters for individuals who wants cancer coverage only whereas Big 3 cater for individuals who wants wider coverage for cancer, heart attack and stroke altogether."
+
+  utter_faq_big_3/buy_if_have_cancer_insurance:
+  - text: "You'll not be able to purchase our Big 3 Insurance if you have an existing Cancer Insurance. However, you can still purchase our Stroke and Heart Attack policies separately."
+
+  utter_faq_big_3/buy_with_policy_from_another_company:
+  - text: "You can still buy our Big 3 Critical Illness Insurance even though you already have a critical illness policy from another company."
+
+  utter_faq_big_3/medical_checkup:
+  - text: "A medical check-up is not required for Big 3 Critical Illness Insurance. You just need to answer a few simple questions to get covered 😊"
+
+  utter_faq_big_3/change_rider_after_purchase:
+  - text: "If you are our existing customers, you can make changes to your policy by logging in to our mobile app or online services portal [here](https://www.fwd.com.sg/portal/)."
+
+  utter_faq_big_3/buy_term_life_already_have_big_3:
+  - text: "You can still buy Term Life Insurance even if you already have Big 3 Critical Illness Insurance."
+
+  utter_faq_big_3/smoker_nonsmoker:
+  - text: "You are considered a non-smoker if you have not smoked for the last 12 months"
+
+  utter_faq_big_3/buy_if_undergo_medical_treatment:
+  - text: "You will need to wait for the results of your medical test in order to buy this Big 3 Critical Illness policy. There will be some health questions that are based on the results and it may affect your claims or termination of the policy. Click [here](https://www.fwd.com.sg/big-3-critical-illness/) to easily get a quote."
+
+  utter_faq_big_3/resume_smoking:
+  - text: "You are required to inform us that you have resumed smoking under Big 3 Critical Illness Insurance. You can inform us through our mobile app or online services portal [here](https://www.fwd.com.sg/portal/)."
+
+  utter_faq_big_3/for_parents_children:
+  - text: "You can buy our Big 3 Critical Illness Insurance for your parents or child(ren) as long as the person covered is between 18 and 65 years old (both inclusive) with a NRIC or valid FIN during application. \n\nDo note that they'll not be able to purchase this Big 3 Critical Illness Insurance if they are already covered under our Big 3 Critical Illness Insurance. Click [here](https://www.fwd.com.sg/big-3-critical-illness/) to easily get a quote."
+
+  utter_faq_big_3/buy_if_above_65:
+  - text: "Sorry, the maximum age eligible to buy our Big 3 Critical Illness Insurance is 65 years old."
+
+  utter_faq_big_3/whose_ic_to_key_in:
+  - text: "You should key in the NRIC/FIN of the insured - the person who is covered under the policy."
+
+  utter_faq_big_3/buy_if_recovered_from_cancer:
+  - text: "Big 3 does not cover pre-existing conditions and will not pay out for claims that are directly or indirectly caused by a pre-existing condition. Pre-existing medical conditions include medical conditions you have suffered from before."
+
+  utter_faq_big_3/covers_how_many_years:
+  - text: "Our Big 3 Critical Illness Insurance covers you up to a maximum age of 85."
+
+  utter_faq_big_3/pay_whole_sum_if_early_cancer_detected:
+  - text: "We will pay you the whole sum you chose if you have an early cancer detection."
+
+  utter_faq_big_3/cover_should_i_choose:
+  - text: "Insurance is a long-term commitment. You may want to prioritise the type of benefits and coverage that meet your needs in the most cost-effective manner before making a purchase.\n\nIf you're unsure, MoneySENSE has a Protection Gap Calculator to guide you [here](https://www.moneysense.gov.sg/financial-tools/budget-calculator)."
+
+  utter_faq_big_3/cover_kidney_failure:
+  - text: "Big 3 Critical Illness Insurance only provides specific coverage for Heart Attack, Cancer and Stroke."
+
+  utter_faq_big_3/buy_max_age_eligible:
+  - text: "The maximum age eligible to buy our Big 3 Critical Illness Insurance is 65 years old."
+
+  utter_faq_big_3/heart_attack_coverage:
+  - text: "Our Big 3 Critical Illness Insurance covers heart attack which means the death of heart muscle due to ischaemia. For more information, you can refer to the heart attack definition in the policy wording [here](https://www.fwd.com.sg/uploads/sites/1/2020/04/FWD-Big-3-Critical-Illness-Insurance-Contract-.pdf)."
+
+  utter_faq_big_3/cancer_coverage_limit:
+  - text: "The maximum protection you can buy under Big 3 Critical Illness Insurance or Cancer Insurance is the same at $200,000."
+
+  utter_faq_big_3/cover_early_stages_heart_disease:
+  - text: "Our Big 3 Critical Illness Insurance does not cover early stages of heart disease."
+
+  utter_faq_big_3/max_protection:
+  - text: "S$200,000 is the maximum protection you can buy under Big 3 Critical Illness Insurance. If you would like to increase your cover above S$200,000, please consider purchasing cover for Cancer, Heart Attack and Stroke as individual illnesses, at up to S$200,000 for each illness."
+
+  utter_faq_big_3/cover_sg_international:
+  - text: "You can purchase our Big 3 Insurance only if you reside in Singapore and as long as you continue paying your premium, you will be covered. If you have moved out from the country you will need to inform us and your renewal will be subjected to underwriting."
+
+  utter_faq_big_3/cover_early_critical_illness:
+  - text: "Our Big 3 Critical Illness Insurance offers full payout for all stages of Cancer, but does not cover early stages of heart disease and stroke. Click [here](https://www.fwd.com.sg/big-3-critical-illness/) to easily get a quote."
+
+  utter_faq_big_3/max_protection_cancer:
+  - text: "The maximum protection for cancer if it occurs is the coverage amount you chose when purchasing your policy. The maximum coverage amount that you can select is $200,000."
+
+  utter_faq_big_3/cover_early_stage_cancer:
+  - text: "Our Big 3 Critical Illness Insurance offers full payout for all stages of Cancer."
