@@ -1,46 +1,108 @@
 version: "3.1"
 
 stories:
-  # - story: happy path
-  #   steps:
-  #   - intent: greet
-  #   - action: utter_greet
-  #   - intent: mood_great
-  #   - action: utter_happy
 
-  # - story: sad path 1
-  #   steps:
-  #   - intent: greet
-  #   - action: utter_greet
-  #   - intent: mood_unhappy
-  #   - action: utter_cheer_up
-  #   - action: utter_did_that_help
-  #   - intent: affirm
-  #   - action: utter_happy
+# - story: happy path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
 
-  # - story: sad path 2
-  #   steps:
-  #   - intent: greet
-  #   - action: utter_greet
-  #   - intent: mood_unhappy
-  #   - action: utter_cheer_up
-  #   - action: utter_did_that_help
-  #   - intent: deny
-  #   - action: utter_goodbye
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
 
-  - story: hook
-    steps:
-      - intent: greet
-      - action: utter_greet
-      - action: utter_emoji_hook
-      - intent: emoji_quiz_correct
-      - action: utter_correct
-      - action: utter_ask_likeToSki
-      - intent: affirm
-      - action: utter_ask_travel_ski
-      - intent: affirm
-      - action: utter_ask_travel_insurance
-      - intent: ask_how
-      - action: utter_ans_how
-      - intent: show_policy
-      - action: utter_redirect
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye
+
+- story: hook
+  steps:
+    - intent: initiate_hook
+    - action: utter_greet
+    - action: utter_emoji_hook
+    - intent: emoji_quiz_correct
+    - action: utter_correct
+    - action: utter_ask_likeToSki
+    - intent: affirm
+    - action: utter_ask_faq/travel_ski
+    - intent: affirm
+    - action: utter_ask_faq/travel_insurance
+    - intent: ask_how
+    - action: utter_ans_how
+    - intent: show_policy
+    - action: utter_redirect
+
+# CLAIMS
+- story: Make a Claim
+  steps:
+    - intent: claim_general
+    - action: utter_help
+    - action: utter_claim_options
+    - intent: claim_select_insurance
+    - action: utter_claim_online
+
+- story: Make a Insurance Claim (Login Password)
+  steps:
+    - intent: claim_login_password
+      entities:
+      - has_login_password: 'true'
+    - slot_was_set:
+      - has_login_password: 'true'
+    - action: utter_claim_has_login_password
+
+- story: Make a Insurance Claim (No Login Password)
+  steps:
+    - intent: claim_login_password
+      entities:
+      - has_login_password: 'false'
+    - slot_was_set:
+      - has_login_password: 'false'
+    - action: utter_claim_no_login_password
+
+# TRANSFER TO HUMAN AGENT (NON-WORKING HOURS)
+# TODO: FLOWS FOR WHEN USER TYPES SOMETHING WRONG & REQUIRES UNDO
+- story: Connecting to Human Agent (Non-Working Hours)
+  steps:
+  - intent: redirect_agent
+  - action: action_agent_transfer_check
+  - slot_was_set:
+    - activate_agent_form: 'false'
+  - action: utter_agent_callback
+  - intent: agent_callback
+    entities:
+      - agent_callback_choice: 'true'
+  - slot_was_set:
+    - agent_callback_choice: 'true'
+  - action: utter_request_callback
+  - action: agent_callback_form
+  - active_loop: agent_callback_form
+
+- story: No Callback from Agent (Non-Working Hours) -> End Convo
+  steps:
+  - intent: redirect_agent
+  - action: action_agent_transfer_check
+  - slot_was_set:
+    - activate_agent_form: 'false'
+  - action: utter_agent_callback
+  - intent: agent_callback
+    entities:
+      - agent_callback_choice: 'false'
+  - slot_was_set:
+      - agent_callback_choice: 'false'
+  - action: utter_no_callback
+  - intent: deny
+  - action: utter_goodbye

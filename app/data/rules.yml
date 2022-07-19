@@ -1,11 +1,143 @@
 version: "3.1"
 
 rules:
-  - rule: Say goodbye anytime the user says goodbye
-    steps:
-      - intent: goodbye
-      - action: utter_goodbye
-# - rule: Say 'I am a bot' anytime the user challenges
+
+# - rule: Say goodbye anytime the user says goodbye
 #   steps:
-#   - intent: bot_challenge
-#   - action: utter_iamabot
+#   - intent: goodbye
+#   - action: utter_goodbye
+
+# FWD GREETING FLOWS
+- rule: Greet with Insurance Options
+  steps:
+    - intent: greet
+    - action: utter_greet_insurance
+
+# FAQ FLOWS (SORTED BY INSURANCE TYPE)
+- rule: Big 3 Insurance FAQ
+  steps:
+    - intent: faq_big_3
+    - action: utter_faq_big_3
+
+- rule: Cancer Insurance FAQ
+  steps:
+    - intent: faq_cancer
+    - action: utter_faq_cancer
+
+- rule: Home Insurance FAQ
+  steps:
+    - intent: faq_home
+    - action: utter_faq_home
+
+- rule: Car Insurance FAQ
+  steps:
+    - intent: faq_car
+    - action: utter_faq_car
+
+- rule: Maid Insurance FAQ
+  steps:
+    - intent: faq_maid
+    - action: utter_faq_maid
+
+- rule: Stroke Insurance FAQ
+  steps:
+    - intent: faq_stroke
+    - action: utter_faq_stroke
+
+- rule: Travel Insurance FAQ
+  steps:
+    - intent: faq_travel
+    - action: utter_faq_travel
+
+- rule: Personal Accident Insurance FAQ
+  steps:
+    - intent: faq_pa
+    - action: utter_faq_pa
+
+# QUOTES
+- rule: Get Quote for Renewal
+  steps:
+    - intent: get_renew_quote
+    - action: utter_get_renew_quote
+
+- rule: Validity of Insurance Quote
+  steps:
+    - intent: get_quote_valid
+    - action: utter_get_quote_valid
+
+- rule: How to Retrieve Quote
+  steps:
+    - intent: get_quote_retrieve
+    - action: utter_get_quote_retrieve
+
+# BUY INSURANCE
+- rule: Ask which Insurance to Buy
+  steps:
+  - intent: how_buy_insurance
+  - action: utter_how_buy_insurance
+
+# OUT OF SCOPE
+- rule: Out of Scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - action: utter_redirect_agent
+
+# FALLBACK
+- rule: Request user to rephrase when message has low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_fallback
+  - action: utter_redirect_agent
+
+# REDIRECT TO HUMAN AGENT
+- rule: Connecting to Human Agent (Working Hours)
+  steps:
+  - intent: redirect_agent
+  - action: action_agent_transfer_check
+  - slot_was_set:
+    - activate_agent_form: true
+  - action: utter_agent_form
+  - action: agent_form
+  - active_loop: agent_form
+
+- rule: Submit Form for Connecting to Human Agent (Working Hours)
+  condition:
+  - active_loop: agent_form
+  steps:
+  - action: agent_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_connecting_to_agent
+
+- rule: Submit Form for Callback from Agent -> End Convo
+  condition:
+  - active_loop: agent_callback_form
+  steps:
+  - action: agent_callback_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_callback_form_values
+  - action: utter_help_anything
+  - intent: deny
+  - action: utter_goodbye
+
+# GENERAL BOT FLOWS
+- rule: Goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: I am a Bot
+  steps:
+    - intent: what_can_you_do
+    - action: utter_bot
+
+- rule: My Name
+  steps:
+    - intent: who_are_you
+    - action: utter_bot_name
+
+# NEED TO BUILD UNHAPPY PATHS
