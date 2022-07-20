@@ -33,18 +33,18 @@ stories:
   steps:
     - intent: initiate_hook
     - action: utter_greet
-    - action: utter_emoji_hook
+    - action: utter_hook_emoji
     - intent: emoji_quiz_correct
-    - action: utter_correct
-    - action: utter_ask_likeToSki
+    - action: utter_hook_correct
+    - action: utter_hook_likeToSki
     - intent: affirm
-    - action: utter_ask_faq/travel_ski
+    - action: utter_hook_travelToSki
     - intent: affirm
-    - action: utter_ask_faq/travel_insurance
+    - action: utter_hook_promoteTravel
     - intent: ask_how
-    - action: utter_ans_how
+    - action: utter_hook_travelDetails
     - intent: show_policy
-    - action: utter_redirect
+    - action: utter_hook_redirect
 
 # CLAIMS
 - story: Make a Claim
