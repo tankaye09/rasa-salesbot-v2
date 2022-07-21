@@ -117,6 +117,8 @@ nlu:
     - buy insurance from you
     - purchase insurance from you
     - get insurance from you
+    - get quote
+    - get quote from you
 
 - intent: get_renew_quote
   examples: |

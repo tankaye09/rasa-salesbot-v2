@@ -128,7 +128,7 @@ responses:
   - text: "Click below if you would like to chat with a Live Agent.\n"
     buttons:
     - title: "Chat with Agent"
-      payload: 'Chat with Agent'
+      payload: '/redirect_agent'
   
   utter_agent_form:
   - text: "Sure! We will require some details from you before connecting you to a Live Agent."
@@ -153,19 +153,19 @@ responses:
     - title: "No"
       payload: '/agent_callback{{"agent_callback_choice":"false"}}'
 
-  utter_ask_callback_user_first_name:
+  utter_ask_callback_form_user_first_name:
   - text: "May I have your first name?"
 
-  utter_ask_callback_user_last_name:
+  utter_ask_callback_form_user_last_name:
   - text: "May I have your last name?"
   
-  utter_ask_callback_user_email:
+  utter_ask_callback_form_user_email:
   - text: "May I have your email address?"
 
-  utter_ask_callback_user_number:
+  utter_ask_callback_form_user_number:
   - text: "May I have your contact number?"
 
-  utter_ask_callback_user_nature:
+  utter_ask_callback_form_user_nature:
   - text: "Please select the nature of your enquiry:\n"
     # quick_replies:
     buttons:
@@ -175,7 +175,7 @@ responses:
     - title: "Change of Policy / Personal Details"
     - title: "Others"
 
-  utter_ask_callback_user_message:
+  utter_ask_callback_form_user_message:
   - text: "Please type your message:\n"
 
   utter_request_callback:
@@ -187,10 +187,10 @@ responses:
   utter_callback_form_values:
   - text: "Thank you for filling in the form.\n\n
             Here are the details you have submitted: \n
-              - First Name: {callback_user_first_name}\n
-              - Last Name: {callback_user_last_name}\n
-              - Email: {callback_user_email}\n
-              - Contact Number: {callback_user_number}\n
-              - Nature of Enquiry: {callback_user_nature}\n
-              - Message: {callback_user_message}\n\n
+              - First Name: {callback_form_user_first_name}\n
+              - Last Name: {callback_form_user_last_name}\n
+              - Email: {callback_form_user_email}\n
+              - Contact Number: {callback_form_user_number}\n
+              - Nature of Enquiry: {callback_form_user_nature}\n
+              - Message: {callback_form_user_message}\n\n
             We'll get back to you within 2 working days.\n"

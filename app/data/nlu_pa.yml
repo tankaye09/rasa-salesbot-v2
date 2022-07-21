@@ -241,6 +241,9 @@ nlu:
     - Occupation group teacher under Personal Accident Insurance
     - teacher is under which occupation group for your personal accident insurance
     - which occupation group is teacher grouped under for your personal accident
+    - what occupation group do i select for teacher under personal accident insurance 
+    - teacher falls under which occupation group for your personal accident insurance
+    - what occupation group is teacher under for personal accident insurance
 
 - intent: faq_pa/free_look_period
   examples: |

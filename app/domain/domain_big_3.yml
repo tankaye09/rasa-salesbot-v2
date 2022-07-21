@@ -118,7 +118,7 @@ responses:
   utter_faq_big_3/terms_conditions:
   - text: "To view a full list of terms and conditions under our Big 3 Critical Illness Insurance, you can refer to our policy wording [here](https://www.fwd.com.sg/uploads/sites/1/2020/04/FWD-Big-3-Critical-Illness-Insurance-Contract-.pdf)"
 
-  utter_faq/big_cannot_open_policy_document:
+  utter_faq_big_3/cannot_open_policy_document:
   - text: "The default password is your NRIC and Year of Birth in the format of S1234567JYYYY. Do make sure that there is no spacing and the alphabets are in capital letters. If you are still unable to unlock your policy, you can try logging in to our online services [here](https://www.fwd.com.sg/portal/) to retrieve the documents."
 
   utter_faq_big_3/waiting_period:

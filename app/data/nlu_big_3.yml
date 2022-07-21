@@ -374,7 +374,7 @@ nlu:
     - state the terms and conditions for your big 3 insurance
     - state the terms and conditions for your big 3 critical illness insurance
 
-- intent: faq/big_cannot_open_policy_document
+- intent: faq_big_3/cannot_open_policy_document
   examples: |
     - why can't i open my big 3 critical illness policy document
     - why can't i open my big 3 policy document

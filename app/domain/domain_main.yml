@@ -58,12 +58,12 @@ forms:
 
   agent_callback_form:
     required_slots:
-        - callback_user_first_name
-        - callback_user_last_name
-        - callback_user_email
-        - callback_user_number
-        - callback_user_nature
-        - callback_user_message
+        - callback_form_user_first_name
+        - callback_form_user_last_name
+        - callback_form_user_email
+        - callback_form_user_number
+        - callback_form_user_nature
+        - callback_form_user_message
 
 slots:
   # CLAIMS
@@ -112,57 +112,59 @@ slots:
     mappings:
     - type: from_entity
       entity: agent_callback_choice
-  callback_user_first_name:
+  callback_form_user_first_name:
     type: text
     influence_conversation: true
     mappings:
     - type: from_text
       conditions:
       - active_loop: agent_callback_form
-        requested_slot: callback_user_first_name
-  callback_user_last_name:
+        requested_slot: callback_form_user_first_name
+  callback_form_user_last_name:
     type: text
     influence_conversation: true
     mappings:
     - type: from_text
       conditions:
       - active_loop: agent_callback_form
-        requested_slot: callback_user_last_name
-  callback_user_email:
+        requested_slot: callback_form_user_last_name
+  callback_form_user_email:
     type: text
     influence_conversation: true
     mappings:
     - type: from_text
       conditions:
       - active_loop: agent_callback_form
-        requested_slot: callback_user_email
-  callback_user_number:
+        requested_slot: callback_form_user_email
+  callback_form_user_number:
     type: text
     influence_conversation: true
     mappings:
     - type: from_text
       conditions:
       - active_loop: agent_callback_form
-        requested_slot: callback_user_number
-  callback_user_nature:
+        requested_slot: callback_form_user_number
+  callback_form_user_nature:
     type: text
     influence_conversation: true
     mappings:
     - type: from_text
       conditions:
       - active_loop: agent_callback_form
-        requested_slot: callback_user_nature
-  callback_user_message:
+        requested_slot: callback_form_user_nature
+  callback_form_user_message:
     type: text
     influence_conversation: true
     mappings:
     - type: from_text
       conditions:
       - active_loop: agent_callback_form
-        requested_slot: callback_user_message
+        requested_slot: callback_form_user_message
 
 actions:
   - action_agent_transfer_check
+  - validate_agent_form
+  - validate_agent_callback_form
 
 session_config:
   session_expiration_time: 60
