@@ -39,14 +39,14 @@ class Agent_Transfer_Check(Action):
         # check time if it is on monday - saturday
         else: 
             # check time
-            current_time = datetime.now()
+            current_time = datetime.now().time()
             
             if current_day == 6:
-                working_hours_start = datetime.strptime("09:00:00", "%H:%M:%S")
-                working_hours_end = datetime.strptime("22:00:00", "%H:%M:%S")
+                working_hours_start = datetime.strptime("09:00:00", "%H:%M:%S").time()
+                working_hours_end = datetime.strptime("22:00:00", "%H:%M:%S").time()
             else:
-                working_hours_start = datetime.strptime("09:00:00", "%H:%M:%S")
-                working_hours_end = datetime.strptime("13:00:00", "%H:%M:%S")
+                working_hours_start = datetime.strptime("09:00:00", "%H:%M:%S").time()
+                working_hours_end = datetime.strptime("13:00:00", "%H:%M:%S").time()
 
         # connect to live agent if within working hours
         if working_hours_start < current_time < working_hours_end:
