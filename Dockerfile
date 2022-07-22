@@ -7,6 +7,6 @@ USER root
 RUN chmod -R 777 /app
 USER 1001
 
-RUN rasa train
+RUN rasa train --domain domain
 
 ENTRYPOINT ["/app/server.sh"]
