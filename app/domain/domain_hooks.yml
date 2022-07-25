@@ -1,11 +1,22 @@
 version: "3.1"
 
 responses:
+  utter_hook_comment:
+  - text: "Thank you for commenting on our post! ❤️"
 
-  utter_hook_emoji:
+  utter_hook_like:
+  - text: "Thank you for liking our post! ❤️"
+
+  utter_hook_emoji_water_ski:
   - text: "Can you guess what this emoji is? 🌊 ⛷️"
   - text: "Want to guess what this emoji is? 🌊 ⛷️"
-  - text: "Have a go at what this is! 🌊 ⛷️"
+  - text: "Have a go at guessing what this is! 🌊 ⛷️"
+  
+  utter_hook_emoji_water_ski_promo:
+  - text: "Guess what the following emojis represent to unlock a promo code: 🌊 ⛷️"
+
+  utter_hook_emoji_water_ski_hint:
+  - text: "Hint: FWD covers the above extreme sport in its travel insurance"
 
   utter_hook_affirm:
   - text: "Sure!"
@@ -13,30 +24,131 @@ responses:
   - text: "Got it!"
   - text: "Ok!"
 
+  utter_hook_try_again:
+  - text: "Good try, but that's incorrect! 😕\nTry to guess again!😀"
+  - text: "Good try, but that's not the right answer! 😕\nGive it another guess!😀"
+
+  utter_hook_reveal_answer:
+  - text: "Nice tries, but that's still not the right answer! Do you want me to reveal the answer?"
+    buttons:
+    - title: "Yes"
+      payload: '/affirm'
+  
+  utter_hook_water_ski_answer:
+  - text: "The correct answer is...\n\nwater skiing!"
+  
   utter_hook_correct:
-  - text: "Nice!"
-  - text: "Wow! Good guess!"
-  - text: "Wow! How did you know?"
-  - text: "Correct!"
-
-  utter_hook_likeToSki:
+  - text: "Nice! 😊👏"
+  - text: "Wow! Good guess! 👍"
+  - text: "Wow! 👏 How did you know?"
+  - text: "Correct! 😊👏"
+ 
+  utter_hook_like_to_ski:
   - text: "Do you like skiing?"
+    buttons:
+    - title: "Yes"
+      payload: '/affirm'
+    - title: "No"
+      payload: '/deny'
+  - text: "Do you like to ski?"
+    buttons:
+    - title: "Yes"
+      payload: '/affirm'
+    - title: "No"
+      payload: '/deny'
   - text: "Do you enjoy skiing?"
+    buttons:
+    - title: "Yes"
+      payload: '/affirm'
+    - title: "No"
+      payload: '/deny'
 
-  utter_hook_travelToSki:
+  utter_hook_travel_to_ski:
   - text: "Are you intending to travel? Maybe going to ski?"
+    buttons:
+    - title: "Yes"
+      payload: '/affirm'
+    - title: "No"
+      payload: '/deny'
   - text: "Going overseas to ski?"
+    buttons:
+    - title: "Yes"
+      payload: '/affirm'
+    - title: "No"
+      payload: '/deny'
 
-  utter_hook_promoteTravel:
+  utter_hook_plan_to_travel:
+  - text: "Ahh, I see. How about travelling? Now that covid restrictions are relaxed, are you planning to go overseas anytime soon?"
+    buttons:
+    - title: "Yes"
+      payload: '/affirm'
+    - title: "No"
+      payload: '/deny'
+
+  utter_hook_promote_travel:
+  - text: "Did you know that having travel insurance can provide you with peace of mind when travelling?"
+
+  utter_hook_travel_details:
+  - text: "We provide emergency medical evacuation & repatriation as well as protection for baggage and theft of or damage to your personal belongings, including your baggage. You can even purchase our travel insurance up to 180 days before your trip so you’ll be well-prepared ahead of time. Ultimately, we want to protect you so that you can focus on living life to the fullest!"
+
+  utter_hook_promote_travel_extreme_sports:
   - text: "Did you know that travel insurance can provide you with a peace of mind when doing extreme sports overseas?"
-  #- text: "Nice! Have you bought any travel insurance for the trip? Would you like one?"
 
-  utter_hook_goWhere:
-  - text: "Where would you like to go?"
-
-  utter_hook_travelDetails:
+  utter_hook_travel_details_extreme_sports:
   - text: "We provide unlimited coverage for emergency medical evacuation, a minimum of 200k in medical expenses incurred overseas, and a minimum of 200k of lump sum payment upon death or disability from accidents. Ultimately, we want to protect you so that you can focus on living life to the fullest."
 
+  utter_hook_travel_know_more:
+  - text: "Would you like to know more about our travel insurance?"
+    buttons:
+    - title: "Yes"
+      payload: '/affirm'
+    - title: "No"
+      payload: '/deny'
+
   utter_hook_redirect:
-  - text: "Ok! Read more about our policy and get a quote here: https://www.fwd.com.sg/travel-insurance."
-  #- text: "Ok! Please hold while I get you the best deals I can find."
+  - text: "Ok! Read more about our policy and get a quote (here)[https://www.fwd.com.sg/travel-insurance]"
+
+  utter_hook_keep_in_mind:
+  - text: "Sure, no worries! Do keep us in mind for your future trips!"
+
+  utter_hook_not_travelling:
+  - text: "Ahh, I see."
+
+  utter_hook_promo_code:
+  - text: "You're a genius! Here's a promo code for you:\nGet 20% off travel insurance with <b>'TRAVEL20'</b> 🎟️"
+  
+  utter_hook_promo_code_incorrect_ans:
+  - text: "Don't fret, we will still reward you with a promo code for trying the quiz:\nGet 20% off travel insurance with <b>'TRAVEL20'</b> 🎟️"
+
+  utter_hook_guess_again:
+  - text: "Would you like to play another round of guessing? You can also ask insurance or FWD-related questions and I would be glad to answer them! 😊"
+    buttons:
+    - title: "Yes"
+      payload: '/affirm'
+    - title: "No"
+      payload: '/deny'
+
+  utter_hook_end:
+  - text: "That's the end of the emoji quiz! Hope you had fun! 😊"
+
+  utter_hook_no_second_round:
+  - text: "Sure, no worries! 😊"
+
+  # EMOJI QUIZ
+  utter_hook_emoji_snowboarding:
+  - text: "Can you guess what this emoji is? ❄️ 🏂"
+  - text: "Want to guess what this emoji is? ❄️ 🏂"
+  - text: "Have a go at guessing what this is! ❄️ 🏂"
+
+  utter_hook_emoji_mountain_biking:
+  - text: "Can you guess what this emoji is? ⛰ 🚴‍♂️"
+  - text: "Want to guess what this emoji is? ⛰ 🚴‍♂️"
+  - text: "Have a go at guessing what this is! ⛰ 🚴‍♂️"
+
+  utter_hook_snowboarding_answer:
+  - text: "The correct answer is...\n\nsnowboarding!"
+  
+  utter_hook_mountain_biking_answer:
+  - text: "The correct answer is...\n\nmountain biking!"
+
+  

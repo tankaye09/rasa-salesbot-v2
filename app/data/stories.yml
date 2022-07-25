@@ -2,49 +2,194 @@ version: "3.1"
 
 stories:
 
-# - story: happy path
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_great
-#   - action: utter_happy
-
-# - story: sad path 1
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
-#   - intent: affirm
-#   - action: utter_happy
-
-# - story: sad path 2
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
-#   - intent: deny
-#   - action: utter_goodbye
-
-- story: hook
+- story: Hook 1 - Correct Answer
   steps:
-    - intent: initiate_hook
+    - intent: initiate_hook_like
+    - slot_was_set:
+      - user_like_post: true
     - action: utter_greet
-    - action: utter_hook_emoji
-    - intent: emoji_quiz_correct
+    - action: utter_hook_like
+    - action: utter_hook_emoji_water_ski
+    - action: utter_hook_emoji_water_ski_hint
+    - intent: emoji_quiz_water_ski_correct
     - action: utter_hook_correct
-    - action: utter_hook_likeToSki
+    - action: utter_hook_like_to_ski
+
+- story: Hook 1 - User likes skiing, plans to travel, wants to know more
+  steps:
+    - action: utter_hook_like_to_ski
     - intent: affirm
-    - action: utter_hook_travelToSki
+    - action: utter_hook_travel_to_ski
     - intent: affirm
-    - action: utter_hook_promoteTravel
-    - intent: ask_how
-    - action: utter_hook_travelDetails
-    - intent: show_policy
+    - action: utter_hook_promote_travel_extreme_sports
+    - action: utter_hook_travel_details_extreme_sports
+    - action: utter_hook_travel_know_more
+    - intent: affirm
     - action: utter_hook_redirect
+    - action: utter_feel_free_to_ask_2
+
+- story: Hook 1 - User likes skiing, plans to travel, does not want to know more
+  steps:
+    - action: utter_hook_like_to_ski
+    - intent: affirm
+    - action: utter_hook_travel_to_ski
+    - intent: affirm
+    - action: utter_hook_promote_travel_extreme_sports
+    - action: utter_hook_travel_details_extreme_sports
+    - action: utter_hook_travel_know_more
+    - intent: deny
+    - action: utter_hook_keep_in_mind
+    - action: utter_feel_free_to_ask
+    - action: utter_great_day
+
+# TODO
+- story: Hook 1 - User likes skiing, does not plan to travel
+  steps:
+    - action: utter_hook_like_to_ski
+    - intent: affirm
+    - action: utter_hook_travel_to_ski
+    - intent: deny
+
+- story: Hook 1 - User does not like skiing, plans to travel, wants to know more
+  steps:
+    - action: utter_hook_like_to_ski
+    - intent: deny
+    - action: utter_hook_plan_to_travel
+    - intent: affirm
+    - action: utter_hook_promote_travel
+    - action: utter_hook_travel_details
+    - action: utter_hook_travel_know_more
+    - intent: affirm
+    - action: utter_hook_redirect
+    - action: utter_feel_free_to_ask_2
+
+- story: Hook 1 - User does not like skiing, plans to travel, does not want to know more
+  steps:
+    - action: utter_hook_like_to_ski
+    - intent: deny
+    - action: utter_hook_plan_to_travel
+    - intent: affirm
+    - action: utter_hook_promote_travel
+    - action: utter_hook_travel_details
+    - action: utter_hook_travel_know_more
+    - intent: deny
+    - action: utter_hook_keep_in_mind
+    - action: utter_feel_free_to_ask
+    - action: utter_great_day
+
+# TO DO
+- story: Hook 1 - User does not like skiing, does not plan to travel
+  steps:
+    - action: utter_hook_like_to_ski
+    - intent: deny
+    - action: utter_hook_plan_to_travel
+    - intent: deny
+
+- story: Hook 2 - Promo Code
+  steps:
+    - intent: initiate_hook_comment
+    - slot_was_set:
+      - user_comment_post: true
+    - action: utter_greet
+    - action: utter_hook_comment
+    - action: utter_hook_emoji_water_ski_promo
+    - action: utter_hook_emoji_water_ski_hint
+    - intent: emoji_quiz_water_ski_correct
+    - action: utter_hook_promo_code
+    - action: utter_hook_guess_again
+
+- story: User wants to start Emoji Quiz Game
+  steps:
+    - slot_was_set:
+      - emoji_quiz: "water_ski"
+    - action: utter_hook_guess_again
+    - intent: affirm
+    - action: action_update_emoji_quiz
+    - action: utter_hook_emoji_snowboarding
+
+- story: User guess correctly (snowboarding)
+  steps:
+    - action: utter_hook_emoji_snowboarding
+    - intent: emoji_quiz_snow_boarding_correct
+    - action: utter_hook_correct
+    - action: utter_hook_guess_again
+
+- story: User wants to reveal answer (snowboarding)
+  steps:
+    - slot_was_set:
+      - emoji_quiz: "snowboarding"
+      - incorrect_tries: 3
+    - action: utter_hook_reveal_answer
+    - intent: affirm
+    - action: utter_hook_snowboarding_answer
+    - action: action_incorrect_tries
+    - action: utter_hook_guess_again
+
+- story: User selects another round of Emoji Quiz
+  steps:
+    - slot_was_set:
+      - emoji_quiz: "snowboarding"
+    - action: utter_hook_guess_again
+    - intent: affirm
+    - action: action_update_emoji_quiz
+    - action: utter_hook_emoji_mountain_biking
+    
+- story: User guess correctly (mountain biking)
+  steps:
+    - action: utter_hook_emoji_mountain_biking
+    - intent: emoji_quiz_mountain_biking_correct
+    - action: utter_hook_correct
+    - action: utter_hook_end
+    - action: action_update_emoji_quiz
+    - action: utter_feel_free_to_ask
+
+- story: User wants to reveal answer (mountain biking)
+  steps:
+    - slot_was_set:
+      - emoji_quiz: "mountain_biking"
+      - incorrect_tries: 3
+    - action: utter_hook_reveal_answer
+    - intent: affirm
+    - action: utter_hook_mountain_biking_answer
+    - action: action_incorrect_tries
+    - action: utter_hook_end
+    - action: utter_feel_free_to_ask
+
+- story: User does not want to start Emoji Quiz Game
+  steps:
+    - action: utter_hook_guess_again
+    - intent: deny
+    - action: utter_hook_no_second_round
+    - action: utter_feel_free_to_ask
+
+- story: Hook 1 - User wants to reveal answer
+  steps:
+    - slot_was_set:
+      - user_like_post: true
+      - incorrect_tries: 3
+    - action: utter_hook_reveal_answer
+    - intent: affirm
+    - action: utter_hook_water_ski_answer
+    - action: action_incorrect_tries
+    - action: utter_hook_like_to_ski
+
+- story: Hook 2 - User wants to reveal answer
+  steps:
+    - slot_was_set:
+      - user_comment_post: true
+      - incorrect_tries: 3
+    - action: utter_hook_reveal_answer
+    - intent: affirm
+    - action: utter_hook_water_ski_answer
+    - action: action_incorrect_tries
+    - action: utter_hook_promo_code_incorrect_ans
+
+# Incorrect Answer
+- story: Increment counter for incorrect emoji quiz answer 
+  steps:
+    - intent: emoji_quiz_incorrect
+    - action: action_incorrect_tries
+    - action: utter_hook_try_again
 
 # CLAIMS
 - story: Make a Claim

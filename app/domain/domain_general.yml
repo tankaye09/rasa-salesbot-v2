@@ -42,11 +42,22 @@ responses:
   utter_help_anything:
   - text: "Is there something else I can help you with?"
 
+  utter_feel_free_to_ask:
+  - text: "Feel free to ask me any questions if you want to find more about FWD or our insurance offerings!"
+
+  utter_feel_free_to_ask_2:
+  - text: "Feel free to ask me any questions if you have any queries or concerns regarding the policy! You may also direct your questions to the Faith chatbot on the FWD website!"
+
+  utter_great_day:
+  - text: “Have a great day ahead!"
+  - text: "Enjoy the rest of your day!"
+  - text: "Have a good day ahead!"
+
   utter_bot:
   - text: "I am a bot and you can ask me anything related to your insurance needs! I'll try my best to answer them 😁"
 
   utter_bot_name:
-  - text: "My name is Bot 😉"
+  - text: "My name is Faye 😉"
   
   # BUY INSURANCE
   utter_how_buy_insurance:
