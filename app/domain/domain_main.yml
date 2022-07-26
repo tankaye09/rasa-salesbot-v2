@@ -43,6 +43,7 @@ intents:
   - emoji_quiz_snow_boarding_correct
   - emoji_quiz_mountain_biking_correct
   - emoji_quiz_incorrect
+  - emoji_quiz_start
 
   # CLAIMS
   - claim_select_insurance
@@ -87,24 +88,6 @@ slots:
     - type: from_intent
       value: true
       intent: initiate_hook_comment
-  emoji_quiz:
-    type: categorical
-    values:
-      - water_ski
-      - snowboarding
-      - mountain_biking
-      - end
-    initial_value: "water_ski"
-    influence_conversation: true
-    mappings:
-    - type: custom
-  incorrect_tries:
-    type: float
-    initial_value: 0
-    influence_conversation: true
-    mappings:
-    - type: custom
-      action: action_incorrect_tries
   # CLAIMS
   has_login_password:
     type: bool
@@ -202,8 +185,7 @@ slots:
         requested_slot: callback_form_user_message
 
 actions:
-  - action_incorrect_tries
-  - action_update_emoji_quiz
+  # TRANSFER TO HUMAN AGENT
   - action_agent_transfer_check
   - validate_agent_form
   - validate_agent_callback_form
