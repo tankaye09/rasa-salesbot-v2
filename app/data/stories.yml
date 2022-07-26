@@ -6,8 +6,6 @@ stories:
 - story: Hook 1 - Correct Answer
   steps:
     - intent: initiate_hook_like
-    - slot_was_set:
-      - user_like_post: true
     - action: utter_greet
     - action: utter_hook_like
     - action: utter_hook_emoji_water_ski
@@ -89,13 +87,11 @@ stories:
 - story: Hook 1 - User wants to reveal answer
   steps:
     - intent: initiate_hook_like
-    - slot_was_set:
-      - user_like_post: true
     - action: utter_greet
     - action: utter_hook_like
     - action: utter_hook_emoji_water_ski
     - action: utter_hook_emoji_water_ski_hint
-    - intent: emoji_quiz_incorrect
+    - intent: emoji_quiz_water_ski_incorrect
     - action: utter_hook_try_again
     - action: utter_hook_reveal_answer
     - intent: affirm
@@ -106,8 +102,6 @@ stories:
 - story: Hook 2 - Correct Answer
   steps:
     - intent: initiate_hook_comment
-    - slot_was_set:
-      - user_comment_post: true
     - action: utter_greet
     - action: utter_hook_comment
     - action: utter_hook_emoji_water_ski_promo
@@ -120,6 +114,7 @@ stories:
     - intent: emoji_quiz_snow_boarding_correct
     - action: utter_hook_correct
     - action: utter_hook_guess_again
+    - intent: affirm
     - action: utter_hook_emoji_mountain_biking
     - intent: emoji_quiz_mountain_biking_correct
     - action: utter_hook_correct
@@ -129,13 +124,11 @@ stories:
 - story: Hook 2 - User wants to reveal answer
   steps:
     - intent: initiate_hook_comment
-    - slot_was_set:
-      - user_comment_post: true
     - action: utter_greet
     - action: utter_hook_comment
     - action: utter_hook_emoji_water_ski_promo
     - action: utter_hook_emoji_water_ski_hint
-    - intent: emoji_quiz_incorrect
+    - intent: emoji_quiz_water_ski_incorrect
     - action: utter_hook_try_again
     - action: utter_hook_reveal_answer
     - intent: affirm
@@ -148,18 +141,19 @@ stories:
 - story: Hook 2 - User wants to reveal answer (Snowboarding)
   steps:
     - action: utter_hook_emoji_snowboarding
-    - intent: emoji_quiz_incorrect
+    - intent: emoji_quiz_snow_boarding_incorrect
     - action: utter_hook_try_again
     - action: utter_hook_reveal_answer
     - intent: affirm
     - action: utter_hook_snowboarding_answer
-    - action: utter_hook_correct
     - action: utter_hook_guess_again
+    - intent: affirm
+    - action: utter_hook_emoji_mountain_biking
 
 - story: Hook 2 - User wants to reveal answer (Mountain Biking)
   steps:
     - action: utter_hook_emoji_mountain_biking
-    - intent: emoji_quiz_incorrect
+    - intent: emoji_quiz_mountain_biking_incorrect
     - action: utter_hook_try_again
     - action: utter_hook_reveal_answer
     - intent: affirm

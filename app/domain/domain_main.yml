@@ -42,8 +42,9 @@ intents:
   - emoji_quiz_water_ski_correct
   - emoji_quiz_snow_boarding_correct
   - emoji_quiz_mountain_biking_correct
-  - emoji_quiz_incorrect
-  - emoji_quiz_start
+  - emoji_quiz_water_ski_incorrect
+  - emoji_quiz_snow_boarding_incorrect
+  - emoji_quiz_mountain_biking_incorrect
 
   # CLAIMS
   - claim_select_insurance
@@ -71,23 +72,6 @@ forms:
         - callback_form_user_message
 
 slots:
-  # HOOKS
-  user_like_post:
-    type: bool
-    initial_value: false
-    influence_conversation: true
-    mappings:
-    - type: from_intent
-      value: true
-      intent: initiate_hook_like
-  user_comment_post:
-    type: bool
-    initial_value: false
-    influence_conversation: true
-    mappings:
-    - type: from_intent
-      value: true
-      intent: initiate_hook_comment
   # CLAIMS
   has_login_password:
     type: bool
