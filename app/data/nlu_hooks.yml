@@ -25,10 +25,20 @@ nlu:
     - snow boarding
     - snow board
   
-- intent: emoji_quiz_incorrect
+- intent: emoji_quiz_water_ski_incorrect
   examples: |
     - water slide
     - water sports
-    - paragliding
+
+- intent: emoji_quiz_snow_boarding_incorrect
+  examples: |
+    - snow slide
+    - snow sliding
+
+- intent: emoji_quiz_mountain_biking_incorrect
+  examples: |
+    - mountain cycle
+    - hill bike
+    - hill biking
+    - mountain cycling
     - mountain climbing
-    - rock climbing
