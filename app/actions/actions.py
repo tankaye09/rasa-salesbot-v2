@@ -17,49 +17,6 @@ from datetime import datetime
 # For regex expressions
 import re
 
-# Increment Incorrect Tries Counter
-class Incorrect_Tries(Action):
-
-    def name(self) -> Text:
-        return "action_incorrect_tries"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        slot_value = tracker.get_slot('incorrect_tries')
-        latest_intent = tracker.get_intent_of_latest_message()
-        latest_action = tracker.latest_action_name
-
-        if latest_intent == "emoji_quiz_incorrect":
-            return[SlotSet("incorrect_tries", value = slot_value+1)]
-        
-        elif latest_action == "utter_hook_water_ski_answer" or latest_action == "utter_hook_snowboarding_answer" or latest_action == "utter_hook_mountain_biking_answer":
-            return[SlotSet("incorrect_tries", value = 0)]
-
-# Update Emoji Quiz Slot
-class Emoji_Quiz(Action):
-
-    def name(self) -> Text:
-        return "action_update_emoji_quiz"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        slot_value = tracker.get_slot('emoji_quiz')
-        latest_action = tracker.latest_action_name
-        latest_intent = tracker.get_intent_of_latest_message()
-
-        if latest_action == "utter_hook_guess_again" and latest_intent == "affirm":
-            if slot_value == "water_ski": 
-                return[SlotSet("emoji_quiz", value = "snowboarding")]
-            elif slot_value == "snowboarding":
-                return[SlotSet("emoji_quiz", value = "mountain_biking")]
-        
-        if latest_action == "utter_hook_end":
-            return[SlotSet("emoji_quiz", value = "end")]
-
 # Transfer to Human Agent
 class Agent_Transfer_Check(Action):
 
@@ -69,7 +26,9 @@ class Agent_Transfer_Check(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
+        
+        print("action_agent_transfer_check was ran")
+        
         # monday starts from 1
         current_day = datetime.today().isoweekday()
 
