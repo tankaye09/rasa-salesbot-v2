@@ -2,6 +2,7 @@ version: "3.1"
 
 stories:
 
+# ---------------------- HOOK 1 ---------------------- 
 - story: Hook 1 - Correct Answer
   steps:
     - intent: initiate_hook_like
@@ -85,7 +86,24 @@ stories:
     - action: utter_hook_plan_to_travel
     - intent: deny
 
-- story: Hook 2 - Promo Code
+- story: Hook 1 - User wants to reveal answer
+  steps:
+    - intent: initiate_hook_like
+    - slot_was_set:
+      - user_like_post: true
+    - action: utter_greet
+    - action: utter_hook_like
+    - action: utter_hook_emoji_water_ski
+    - action: utter_hook_emoji_water_ski_hint
+    - intent: emoji_quiz_incorrect
+    - action: utter_hook_try_again
+    - action: utter_hook_reveal_answer
+    - intent: affirm
+    - action: utter_hook_water_ski_answer
+    - action: utter_hook_like_to_ski
+
+# ---------------------- HOOK 2 ---------------------- 
+- story: Hook 2 - Correct Answer
   steps:
     - intent: initiate_hook_comment
     - slot_was_set:
@@ -97,99 +115,64 @@ stories:
     - intent: emoji_quiz_water_ski_correct
     - action: utter_hook_promo_code
     - action: utter_hook_guess_again
-
-- story: User wants to start Emoji Quiz Game
-  steps:
-    - slot_was_set:
-      - emoji_quiz: "water_ski"
-    - action: utter_hook_guess_again
     - intent: affirm
-    - action: action_update_emoji_quiz
-    - action: utter_hook_emoji_snowboarding
-
-- story: User guess correctly (snowboarding)
-  steps:
     - action: utter_hook_emoji_snowboarding
     - intent: emoji_quiz_snow_boarding_correct
     - action: utter_hook_correct
     - action: utter_hook_guess_again
-
-- story: User wants to reveal answer (snowboarding)
-  steps:
-    - slot_was_set:
-      - emoji_quiz: "snowboarding"
-      - incorrect_tries: 3
-    - action: utter_hook_reveal_answer
-    - intent: affirm
-    - action: utter_hook_snowboarding_answer
-    - action: action_incorrect_tries
-    - action: utter_hook_guess_again
-
-- story: User selects another round of Emoji Quiz
-  steps:
-    - slot_was_set:
-      - emoji_quiz: "snowboarding"
-    - action: utter_hook_guess_again
-    - intent: affirm
-    - action: action_update_emoji_quiz
-    - action: utter_hook_emoji_mountain_biking
-    
-- story: User guess correctly (mountain biking)
-  steps:
     - action: utter_hook_emoji_mountain_biking
     - intent: emoji_quiz_mountain_biking_correct
     - action: utter_hook_correct
     - action: utter_hook_end
-    - action: action_update_emoji_quiz
     - action: utter_feel_free_to_ask
 
-- story: User wants to reveal answer (mountain biking)
+- story: Hook 2 - User wants to reveal answer
   steps:
+    - intent: initiate_hook_comment
     - slot_was_set:
-      - emoji_quiz: "mountain_biking"
-      - incorrect_tries: 3
+      - user_comment_post: true
+    - action: utter_greet
+    - action: utter_hook_comment
+    - action: utter_hook_emoji_water_ski_promo
+    - action: utter_hook_emoji_water_ski_hint
+    - intent: emoji_quiz_incorrect
+    - action: utter_hook_try_again
+    - action: utter_hook_reveal_answer
+    - intent: affirm
+    - action: utter_hook_water_ski_answer
+    - action: utter_hook_promo_code_incorrect_ans
+    - action: utter_hook_guess_again
+    - intent: affirm
+    - action: utter_hook_emoji_snowboarding
+
+- story: Hook 2 - User wants to reveal answer (Snowboarding)
+  steps:
+    - action: utter_hook_emoji_snowboarding
+    - intent: emoji_quiz_incorrect
+    - action: utter_hook_try_again
+    - action: utter_hook_reveal_answer
+    - intent: affirm
+    - action: utter_hook_snowboarding_answer
+    - action: utter_hook_correct
+    - action: utter_hook_guess_again
+
+- story: Hook 2 - User wants to reveal answer (Mountain Biking)
+  steps:
+    - action: utter_hook_emoji_mountain_biking
+    - intent: emoji_quiz_incorrect
+    - action: utter_hook_try_again
     - action: utter_hook_reveal_answer
     - intent: affirm
     - action: utter_hook_mountain_biking_answer
-    - action: action_incorrect_tries
     - action: utter_hook_end
     - action: utter_feel_free_to_ask
 
-- story: User does not want to start Emoji Quiz Game
+- story: Hook 2 - User does not want to start another round of Emoji Quiz
   steps:
     - action: utter_hook_guess_again
     - intent: deny
     - action: utter_hook_no_second_round
     - action: utter_feel_free_to_ask
-
-- story: Hook 1 - User wants to reveal answer
-  steps:
-    - slot_was_set:
-      - user_like_post: true
-      - incorrect_tries: 3
-    - action: utter_hook_reveal_answer
-    - intent: affirm
-    - action: utter_hook_water_ski_answer
-    - action: action_incorrect_tries
-    - action: utter_hook_like_to_ski
-
-- story: Hook 2 - User wants to reveal answer
-  steps:
-    - slot_was_set:
-      - user_comment_post: true
-      - incorrect_tries: 3
-    - action: utter_hook_reveal_answer
-    - intent: affirm
-    - action: utter_hook_water_ski_answer
-    - action: action_incorrect_tries
-    - action: utter_hook_promo_code_incorrect_ans
-
-# Incorrect Answer
-- story: Increment counter for incorrect emoji quiz answer 
-  steps:
-    - intent: emoji_quiz_incorrect
-    - action: action_incorrect_tries
-    - action: utter_hook_try_again
 
 # CLAIMS
 - story: Make a Claim
