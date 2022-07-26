@@ -18,15 +18,15 @@ responses:
   utter_hook_emoji_water_ski_hint:
   - text: "Hint: FWD covers the above extreme sport in its travel insurance"
 
-  utter_hook_affirm:
-  - text: "Sure!"
-  - text: "Of course!"
-  - text: "Got it!"
-  - text: "Ok!"
+  # utter_hook_affirm:
+  # - text: "Sure!"
+  # - text: "Of course!"
+  # - text: "Got it!"
+  # - text: "Ok!"
 
   utter_hook_try_again:
-  - text: "Good try, but that's incorrect! 😕\nTry to guess again!😀"
-  - text: "Good try, but that's not the right answer! 😕\nGive it another guess!😀"
+  - text: "Good try, but that's incorrect! 😕"
+  - text: "Good try, but that's not the right answer! 😕"
 
   utter_hook_reveal_answer:
   - text: "Nice tries, but that's still not the right answer! Do you want me to reveal the answer?"
@@ -141,9 +141,9 @@ responses:
   - text: "Have a go at guessing what this is! ❄️ 🏂"
 
   utter_hook_emoji_mountain_biking:
-  - text: "Can you guess what this emoji is? ⛰ 🚴‍♂️"
-  - text: "Want to guess what this emoji is? ⛰ 🚴‍♂️"
-  - text: "Have a go at guessing what this is! ⛰ 🚴‍♂️"
+  - text: "Can you guess what this emoji is? ⛰ 🚴"
+  - text: "Want to guess what this emoji is? ⛰ 🚴"
+  - text: "Have a go at guessing what this is! ⛰ 🚴"
 
   utter_hook_snowboarding_answer:
   - text: "The correct answer is...\n\nsnowboarding!"
