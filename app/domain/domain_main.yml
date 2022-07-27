@@ -55,24 +55,14 @@ intents:
   - mention_temperature
 
 entities:
-  - agent_callback_choice
   - has_login_password
 
 forms:
   agent_form:
     required_slots:
-        - agent_form_user_first_name
-        - agent_form_user_last_name
+        - agent_form_user_name
         - agent_form_user_email
-
-  agent_callback_form:
-    required_slots:
-        - callback_form_user_first_name
-        - callback_form_user_last_name
-        - callback_form_user_email
-        - callback_form_user_number
-        - callback_form_user_nature
-        - callback_form_user_message
+        - agent_form_user_number
 
 slots:
   # CLAIMS
@@ -82,31 +72,15 @@ slots:
     mappings:
     - type: from_entity
       entity: has_login_password
-  # ACTIVATE FORMS
-  activate_agent_form:
-    type: bool
-    initial_value: false
-    influence_conversation: true
-    mappings:
-    - type: custom
-      action: action_agent_transfer_check
   # AGENT FORM
-  agent_form_user_first_name:
+  agent_form_user_name:
     type: text
     influence_conversation: true
     mappings:
     - type: from_text
       conditions:
       - active_loop: agent_form
-        requested_slot: agent_form_user_first_name
-  agent_form_user_last_name:
-    type: text
-    influence_conversation: true
-    mappings:
-    - type: from_text
-      conditions:
-      - active_loop: agent_form
-        requested_slot: agent_form_user_last_name
+        requested_slot: agent_form_user_name
   agent_form_user_email:
     type: text
     influence_conversation: true
@@ -115,67 +89,17 @@ slots:
       conditions:
       - active_loop: agent_form
         requested_slot: agent_form_user_email
-  # CALLBACK
-  agent_callback_choice:
-    type: bool
-    influence_conversation: true
-    mappings:
-    - type: from_entity
-      entity: agent_callback_choice
-  callback_form_user_first_name:
+  agent_form_user_number:
     type: text
     influence_conversation: true
     mappings:
     - type: from_text
       conditions:
-      - active_loop: agent_callback_form
-        requested_slot: callback_form_user_first_name
-  callback_form_user_last_name:
-    type: text
-    influence_conversation: true
-    mappings:
-    - type: from_text
-      conditions:
-      - active_loop: agent_callback_form
-        requested_slot: callback_form_user_last_name
-  callback_form_user_email:
-    type: text
-    influence_conversation: true
-    mappings:
-    - type: from_text
-      conditions:
-      - active_loop: agent_callback_form
-        requested_slot: callback_form_user_email
-  callback_form_user_number:
-    type: text
-    influence_conversation: true
-    mappings:
-    - type: from_text
-      conditions:
-      - active_loop: agent_callback_form
-        requested_slot: callback_form_user_number
-  callback_form_user_nature:
-    type: text
-    influence_conversation: true
-    mappings:
-    - type: from_text
-      conditions:
-      - active_loop: agent_callback_form
-        requested_slot: callback_form_user_nature
-  callback_form_user_message:
-    type: text
-    influence_conversation: true
-    mappings:
-    - type: from_text
-      conditions:
-      - active_loop: agent_callback_form
-        requested_slot: callback_form_user_message
+      - active_loop: agent_form
+        requested_slot: agent_form_user_number
 
 actions:
-  # TRANSFER TO HUMAN AGENT
-  - action_agent_transfer_check
   - validate_agent_form
-  - validate_agent_callback_form
 
 session_config:
   session_expiration_time: 60
