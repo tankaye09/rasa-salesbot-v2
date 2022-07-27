@@ -48,6 +48,8 @@ stories:
     - intent: affirm
     - action: utter_hook_travel_to_ski
     - intent: deny
+    - action: utter_find_opportunity_to_ski
+    - action: utter_remember_us
 
 - story: Hook 1 - User does not like skiing, plans to travel, wants to know more
   steps:
@@ -83,6 +85,8 @@ stories:
     - intent: deny
     - action: utter_hook_plan_to_travel
     - intent: deny
+    - action: utter_skiing_is_dangerous
+    - action: utter_feel_free_to_ask
 
 - story: Hook 1 - User wants to reveal answer
   steps:
@@ -228,3 +232,10 @@ stories:
   - action: utter_no_callback
   - intent: deny
   - action: utter_goodbye
+
+# ---------------------- SMALL TALK ----------------------
+- story: Weather talk
+  steps:
+  - intent: mention_temperature
+  - action: utter_weather
+    

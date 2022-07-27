@@ -73,6 +73,7 @@ nlu:
   examples: |
     - who are you
     - what is your name
+    - what are you
 
 - intent: what_can_you_do
   examples: |
@@ -275,3 +276,15 @@ nlu:
     - i want to claim insurance
     - claim insurance
     - claim your insurance
+
+# SMALL TALK
+- intent: mention_temperature
+  examples: |
+    - it's hot today
+    - it's cold today
+    - today's really chilly
+    - today's sweltering
+    - it's so windy today
+    - it's so humid today
+    - The weather today is really nice
+    - we've got a nice weather today

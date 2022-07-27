@@ -57,7 +57,8 @@ responses:
   - text: "I am a bot and you can ask me anything related to your insurance needs! I'll try my best to answer them 😁"
 
   utter_bot_name:
-  - text: "My name is Faye 😉"
+  - text: "My name is Faye 😉. I'm a virtual assistant!"
+  - text: "Faye speaking! Or typing. I'm a virtual assistant!"
   
   # BUY INSURANCE
   utter_how_buy_insurance:
@@ -205,3 +206,16 @@ responses:
               - Nature of Enquiry: {callback_form_user_nature}\n
               - Message: {callback_form_user_message}\n\n
             We'll get back to you within 2 working days.\n"
+  
+  # SMALL TALK
+  utter_remember_us:
+  - text: "Do remember us! We've got great insurance coverage!"
+
+  utter_skiing_is_dangerous:
+  - text: "Skiing is pretty dangerous. Some days I much rather watch a movie instead!"
+
+  utter_find_opportunity_to_ski:
+  - text: "Well I hope you find the time to go someday! I really like skiing too!"
+
+  utter_weather:
+  - text: "Nice! I myself like the rain. Splashing in puddles sounds fun!"

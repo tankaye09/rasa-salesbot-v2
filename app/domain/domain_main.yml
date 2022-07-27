@@ -51,6 +51,9 @@ intents:
   - claim_general
   - claim_login_password
 
+  # SMALL TALK
+  - mention_temperature
+
 entities:
   - agent_callback_choice
   - has_login_password
