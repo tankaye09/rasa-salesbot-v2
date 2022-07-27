@@ -96,7 +96,7 @@ rules:
   - intent: redirect_agent
   - action: action_agent_transfer_check
   - slot_was_set:
-    - activate_agent_form: true
+    - activate_agent_form: 'true'
   - action: utter_agent_form
   - action: agent_form
   - active_loop: agent_form

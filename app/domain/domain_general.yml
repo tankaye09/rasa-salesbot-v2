@@ -155,7 +155,12 @@ responses:
   - text: "May I have your email address?"
 
   utter_connecting_to_agent:
-  - text: "Thank you for filling in the form.\n\nHere are the details you have submitted:\n- First Name: {agent_form_user_first_name}\n- Last Name: {agent_form_user_last_name}\n- Email: {agent_form_user_email}\n\nPlease hold while we connect you to a live agent..."
+  - text: "Thank you for filling in the form.\n\n
+            Here are the details you have submitted:\n
+            - First Name: {agent_form_user_first_name}\n
+            - Last Name: {agent_form_user_last_name}\n
+            - Email: {agent_form_user_email}\n\n
+            Please hold while we connect you to a live agent..."
   
   utter_agent_callback:
   - text: "I'm sorry our office is closed now. Our live chat hours are 9am - 10pm Monday to Friday and 9am - 1pm on Saturday, excluding Sundays and public holidays.\n\nWould you like us to call you back?\n"
