@@ -30,10 +30,26 @@ responses:
   - text: "Hello!"
 
   utter_goodbye:
-  - text: "Bye! See you next time!"
-  - text: "Bye! Speak again soon!"
-  - text: "Bye! Hope to speak to you again!"
-  - text: "Bye! See you again!"
+  - text: "See you next time! Have a great day ahead!"
+  - text: "See you next time! Have a great day!"
+  - text: "See you next time! Enjoy the rest of your day!"
+  - text: "See you next time! Have a good day ahead!"
+  - text: "See you next time! Have a good day!"
+  - text: "Speak again soon! Have a great day ahead!"
+  - text: "Speak again soon! Have a great day!"
+  - text: "Speak again soon! Enjoy the rest of your day!"
+  - text: "Speak again soon! Have a good day ahead!"
+  - text: "Speak again soon! Have a good day!"
+  - text: "Hope to speak to you again! Have a great day ahead!"
+  - text: "Hope to speak to you again! Have a great day!"
+  - text: "Hope to speak to you again! Enjoy the rest of your day!"
+  - text: "Hope to speak to you again! Have a good day ahead!"
+  - text: "Hope to speak to you again! Have a good day!"
+  - text: "See you again! Have a great day ahead!"
+  - text: "See you again! Have a great day!"
+  - text: "See you again! Enjoy the rest of your day!"
+  - text: "See you again! Have a good day ahead!"
+  - text: "See you again! Have a good day!"
 
   utter_help:
   - text: "Sure! I can help you with that."
@@ -48,10 +64,8 @@ responses:
   utter_feel_free_to_ask_2:
   - text: "Feel free to ask me any questions if you have any queries or concerns regarding the policy! You may also direct your questions to the Faith chatbot on the FWD website!"
 
-  utter_great_day:
-  - text: “Have a great day ahead!"
-  - text: "Enjoy the rest of your day!"
-  - text: "Have a good day ahead!"
+  utter_thank_user:
+  - text: "Thank you for your time! Hope it was an enjoyable chat for you!"
 
   utter_bot:
   - text: "I am a bot and you can ask me anything related to your insurance needs! I'll try my best to answer them 😁"
@@ -131,86 +145,46 @@ responses:
   # OUT OF SCOPE / FALLBACK
   utter_out_of_scope:
   - text: "Sorry, I am unable to fulfil your request or understand your question."
-
+  
   utter_fallback:
-  - text: "Sorry, I do not have a response this yet. Could you try to rephrase?"
+  - text: "Sorry, I do not have a response for this yet."
 
-  # REDIRECT TO HUMAN AGENT
-  utter_redirect_agent:
-  - text: "Click below if you would like to chat with a Live Agent.\n"
+  # LEAVE USER CONTACT DETAILS
+  utter_speak_to_agent:
+  - text: "Would you like to speak to our agent instead? You may choose to leave your contact details so that our agent can contact you back shortly."
     buttons:
-    - title: "Chat with Agent"
-      payload: '/redirect_agent'
+    - title: "Yes"
+      payload: '/affirm'
+    - title: "No"
+      payload: '/deny'
+  
+  utter_speak_to_agent_alternative:
+  - text: "Alternatively, you may choose to speak to an agent if you have other queries. You can leave your contact details so that our agent can contact you back shortly. Would you like to speak to an agent?"
+    buttons:
+    - title: "Yes"
+      payload: '/affirm'
+    - title: "No"
+      payload: '/deny'
   
   utter_agent_form:
-  - text: "Sure! We will require some details from you before connecting you to a Live Agent."
+  - text: "Sure! We will require your contact details."
 
-  utter_ask_agent_form_user_first_name:
-  - text: "May I have your first name?"
-
-  utter_ask_agent_form_user_last_name:
-  - text: "May I have your last name?"
+  utter_ask_agent_form_user_name:
+  - text: "How would you like us to address you?"
   
   utter_ask_agent_form_user_email:
   - text: "May I have your email address?"
 
-  utter_connecting_to_agent:
-  - text: "Thank you for filling in the form.\n\n
-            Here are the details you have submitted:\n
-            - First Name: {agent_form_user_first_name}\n
-            - Last Name: {agent_form_user_last_name}\n
-            - Email: {agent_form_user_email}\n\n
-            Please hold while we connect you to a live agent..."
-  
-  utter_agent_callback:
-  - text: "I'm sorry our office is closed now. Our live chat hours are 9am - 10pm Monday to Friday and 9am - 1pm on Saturday, excluding Sundays and public holidays.\n\nWould you like us to call you back?\n"
-    buttons:
-    - title: "Yes"
-      payload: '/agent_callback{{"agent_callback_choice":"true"}}'
-    - title: "No"
-      payload: '/agent_callback{{"agent_callback_choice":"false"}}'
-
-  utter_ask_callback_form_user_first_name:
-  - text: "May I have your first name?"
-
-  utter_ask_callback_form_user_last_name:
-  - text: "May I have your last name?"
-  
-  utter_ask_callback_form_user_email:
-  - text: "May I have your email address?"
-
-  utter_ask_callback_form_user_number:
+  utter_ask_agent_form_user_number:
   - text: "May I have your contact number?"
 
-  utter_ask_callback_form_user_nature:
-  - text: "Please select the nature of your enquiry:\n"
-    # quick_replies:
-    buttons:
-    - title: "Product / Promotion"
-    - title: "Renewal of Policy"
-    - title: "Claims"
-    - title: "Change of Policy / Personal Details"
-    - title: "Others"
-
-  utter_ask_callback_form_user_message:
-  - text: "Please type your message:\n"
-
-  utter_request_callback:
-  - text: "Sure! Please help to fill in your details"
-
-  utter_no_callback:
-  - text: "No worries! Is there something else I can help you with?"
-
-  utter_callback_form_values:
+  utter_confirm_contact_details:
   - text: "Thank you for filling in the form.\n\n
-            Here are the details you have submitted: \n
-              - First Name: {callback_form_user_first_name}\n
-              - Last Name: {callback_form_user_last_name}\n
-              - Email: {callback_form_user_email}\n
-              - Contact Number: {callback_form_user_number}\n
-              - Nature of Enquiry: {callback_form_user_nature}\n
-              - Message: {callback_form_user_message}\n\n
-            We'll get back to you within 2 working days.\n"
+            Here are the details you have submitted:\n
+            - Name: {agent_form_user_name}\n
+            - Email: {agent_form_user_email}\n\n
+            - Contact Number: {agent_form_user_number}\n\n
+            We'll get back to you as soon as we can."
   
   # SMALL TALK
   utter_remember_us:
