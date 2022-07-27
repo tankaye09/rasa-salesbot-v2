@@ -81,27 +81,58 @@ rules:
   steps:
   - intent: out_of_scope
   - action: utter_out_of_scope
-  - action: utter_redirect_agent
+  - action: utter_speak_to_agent
 
 # FALLBACK
 - rule: Request user to rephrase when message has low NLU confidence
   steps:
   - intent: nlu_fallback
   - action: utter_fallback
-  - action: utter_redirect_agent
+  - action: utter_speak_to_agent
 
-# REDIRECT TO HUMAN AGENT
-- rule: Connecting to Human Agent (Working Hours)
+- rule: Request user to rephrase when message has low NLU confidence
   steps:
-  - intent: redirect_agent
-  - action: action_agent_transfer_check
-  - slot_was_set:
-    - activate_agent_form: 'true'
+  - intent: nlu_fallback
+  - action: utter_fallback
+  - action: utter_speak_to_agent
+
+- rule: User does not want to leave contact details
+  steps:
+  - action: utter_speak_to_agent
+  - intent: deny
+  - action: utter_help_anything
+
+- rule: User does not want to leave contact details
+  steps:
+  - action: utter_speak_to_agent_alternative
+  - intent: deny
+  - action: utter_help_anything
+
+# LEAVE USER CONTACT DETAILS
+- rule: User want to leave contact details
+  steps:
+  - action: utter_speak_to_agent
+  - intent: affirm
   - action: utter_agent_form
   - action: agent_form
   - active_loop: agent_form
 
-- rule: Submit Form for Connecting to Human Agent (Working Hours)
+- rule: User want to leave contact details
+  steps:
+  - action: utter_speak_to_agent_alternative
+  - intent: affirm
+  - action: utter_agent_form
+  - action: agent_form
+  - active_loop: agent_form
+
+- rule: User request to speak to live agent
+  steps:
+  - intent: redirect_agent
+  - action: utter_agent_form
+  - action: agent_form
+  - active_loop: agent_form
+
+- rule: Submit Form for User to leave Contact
   condition:
   - active_loop: agent_form
   steps:
@@ -109,22 +140,17 @@ rules:
   - active_loop: null
   - slot_was_set:
     - requested_slot: null
-  - action: utter_connecting_to_agent
-
-- rule: Submit Form for Callback from Agent -> End Convo
-  condition:
-  - active_loop: agent_callback_form
-  steps:
-  - action: agent_callback_form
-  - active_loop: null
-  - slot_was_set:
-    - requested_slot: null
-  - action: utter_callback_form_values
+  - action: utter_confirm_contact_details
   - action: utter_help_anything
-  - intent: deny
-  - action: utter_goodbye
 
 # GENERAL BOT FLOWS
+- rule: User does not require further assistance
+  steps:
+  - action: utter_help_anything
+  - intent: deny
+  - action: utter_thank_user
+  - action: utter_goodbye
+
 - rule: Goodbye
   steps:
     - intent: goodbye

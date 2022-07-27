@@ -26,6 +26,7 @@ stories:
     - intent: affirm
     - action: utter_hook_redirect
     - action: utter_feel_free_to_ask_2
+    - action: utter_help_anything
 
 - story: Hook 1 - User likes skiing, plans to travel, does not want to know more
   steps:
@@ -39,7 +40,7 @@ stories:
     - intent: deny
     - action: utter_hook_keep_in_mind
     - action: utter_feel_free_to_ask
-    - action: utter_great_day
+    - action: utter_speak_to_agent_alternative
 
 # TODO
 - story: Hook 1 - User likes skiing, does not plan to travel
@@ -63,6 +64,7 @@ stories:
     - intent: affirm
     - action: utter_hook_redirect
     - action: utter_feel_free_to_ask_2
+    - action: utter_help_anything
 
 - story: Hook 1 - User does not like skiing, plans to travel, does not want to know more
   steps:
@@ -76,7 +78,7 @@ stories:
     - intent: deny
     - action: utter_hook_keep_in_mind
     - action: utter_feel_free_to_ask
-    - action: utter_great_day
+    - action: utter_speak_to_agent_alternative
 
 # TO DO
 - story: Hook 1 - User does not like skiing, does not plan to travel
@@ -87,6 +89,7 @@ stories:
     - intent: deny
     - action: utter_skiing_is_dangerous
     - action: utter_feel_free_to_ask
+    - action: utter_speak_to_agent_alternative
 
 - story: Hook 1 - User wants to reveal answer
   steps:
@@ -124,6 +127,7 @@ stories:
     - action: utter_hook_correct
     - action: utter_hook_end
     - action: utter_feel_free_to_ask
+    - action: utter_speak_to_agent_alternative
 
 - story: Hook 2 - User wants to reveal answer
   steps:
@@ -164,6 +168,7 @@ stories:
     - action: utter_hook_mountain_biking_answer
     - action: utter_hook_end
     - action: utter_feel_free_to_ask
+    - action: utter_speak_to_agent_alternative
 
 - story: Hook 2 - User does not want to start another round of Emoji Quiz
   steps:
@@ -171,6 +176,7 @@ stories:
     - intent: deny
     - action: utter_hook_no_second_round
     - action: utter_feel_free_to_ask
+    - action: utter_speak_to_agent_alternative
 
 # CLAIMS
 - story: Make a Claim
@@ -198,40 +204,6 @@ stories:
     - slot_was_set:
       - has_login_password: 'false'
     - action: utter_claim_no_login_password
-
-# TRANSFER TO HUMAN AGENT (NON-WORKING HOURS)
-# TODO: FLOWS FOR WHEN USER TYPES SOMETHING WRONG & REQUIRES UNDO
-- story: Connecting to Human Agent (Non-Working Hours)
-  steps:
-  - intent: redirect_agent
-  - action: action_agent_transfer_check
-  - slot_was_set:
-    - activate_agent_form: 'false'
-  - action: utter_agent_callback
-  - intent: agent_callback
-    entities:
-      - agent_callback_choice: 'true'
-  - slot_was_set:
-    - agent_callback_choice: 'true'
-  - action: utter_request_callback
-  - action: agent_callback_form
-  - active_loop: agent_callback_form
-
-- story: No Callback from Agent (Non-Working Hours) -> End Convo
-  steps:
-  - intent: redirect_agent
-  - action: action_agent_transfer_check
-  - slot_was_set:
-    - activate_agent_form: 'false'
-  - action: utter_agent_callback
-  - intent: agent_callback
-    entities:
-      - agent_callback_choice: 'false'
-  - slot_was_set:
-      - agent_callback_choice: 'false'
-  - action: utter_no_callback
-  - intent: deny
-  - action: utter_goodbye
 
 # ---------------------- SMALL TALK ----------------------
 - story: Weather talk
