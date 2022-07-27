@@ -26,38 +26,41 @@ class Agent_Transfer_Check(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        
-        print("action_agent_transfer_check was ran")
-        
-        # monday starts from 1
-        current_day = datetime.today().isoweekday()
 
-        # connect to callback if on sunday
-        # TODO: PUBLIC HOLIDAY?
-        if current_day == 7:
-            # dispatcher.utter_message(text="I'm sorry our office is closed now. Our live chat hours are 9am - 10pm Monday to Friday and 9am - 1pm on Saturday, excluding Sundays and public holidays.")
-            return[SlotSet("activate_agent_form", value = "false")]
+        intent = tracker.get_intent_of_latest_message()
 
-        # check time if it is on monday - saturday
-        else: 
-            # check time
-            current_time = datetime.now().time()
-            
-            if current_day == 6:
-                working_hours_start = datetime.strptime("09:00:00", "%H:%M:%S").time()
-                working_hours_end = datetime.strptime("22:00:00", "%H:%M:%S").time()
+        if intent == "redirect_agent": 
+            # monday starts from 1
+            current_day = datetime.today().isoweekday()
+
+            # connect to callback if on sunday
+            # TODO: PUBLIC HOLIDAY?
+            if current_day == 7:
+                # dispatcher.utter_message(text="I'm sorry our office is closed now. Our live chat hours are 9am - 10pm Monday to Friday and 9am - 1pm on Saturday, excluding Sundays and public holidays.")
+                return[SlotSet("activate_agent_form", value = False)]
+
+            # check time if it is on monday - saturday
+            else: 
+                # check time
+                current_time = datetime.now().time()
+                
+                if current_day != 6:
+                    working_hours_start = datetime.strptime("09:00:00", "%H:%M:%S").time()
+                    working_hours_end = datetime.strptime("22:00:00", "%H:%M:%S").time()
+                else:
+                    working_hours_start = datetime.strptime("09:00:00", "%H:%M:%S").time()
+                    working_hours_end = datetime.strptime("13:00:00", "%H:%M:%S").time()
+
+            # connect to live agent if within working hours
+            if working_hours_start < current_time and current_time < working_hours_end:
+                # dispatcher.utter_message(text="Sure! We will require some details from you before connecting you to a Live Agent.")
+                return[SlotSet("activate_agent_form", value = True)]
+
             else:
-                working_hours_start = datetime.strptime("09:00:00", "%H:%M:%S").time()
-                working_hours_end = datetime.strptime("13:00:00", "%H:%M:%S").time()
-
-        # connect to live agent if within working hours
-        if working_hours_start < current_time < working_hours_end:
-            # dispatcher.utter_message(text="Sure! We will require some details from you before connecting you to a Live Agent.")
-            return[SlotSet("activate_agent_form", value = True)]
-
-        else:
-            # dispatcher.utter_message(text="I'm sorry our office is closed now. Our live chat hours are 9am - 10pm Monday to Friday and 9am - 1pm on Saturday, excluding Sundays and public holidays.")
-            return[SlotSet("activate_agent_form", value = False)]
+                # dispatcher.utter_message(text="I'm sorry our office is closed now. Our live chat hours are 9am - 10pm Monday to Friday and 9am - 1pm on Saturday, excluding Sundays and public holidays.")
+                return[SlotSet("activate_agent_form", value = False)]
+        
+        return[]
 
 # Validate Agent Form Inputs
 class ValidateAgentForm(FormValidationAction):
