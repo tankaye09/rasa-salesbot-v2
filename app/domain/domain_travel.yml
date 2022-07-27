@@ -457,7 +457,7 @@ responses:
   - text: "You can claim for pharmacy expenses under your Travel Insurance only if you have a valid prescription from a doctor."
 
   utter_faq_travel/cover_loss_of_passport_cash:
-  - text: "e do cover loss of travel documents including passport, and loss of cash and travellers' cheque if it is due to theft. \n\nMake sure you lodge a report and claim against the transportation or accommodation provider first before making a claim. If there was a theft, do report to the local police."
+  - text: "We do cover loss of travel documents including passport, and loss of cash and travellers' cheque if it is due to theft. \n\nMake sure you lodge a report and claim against the transportation or accommodation provider first before making a claim. If there was a theft, do report to the local police."
 
   utter_faq_travel/cover_overseas_call_charges:
   - text: "We do cover overseas call charges if you call our Emergency Assistance hotline to engage our services; or you suffer an illness or injury during your trip and in need of support you call the police, medical facilities, or family members in Singapore."
