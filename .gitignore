@@ -1,6 +1,4 @@
 .DS_Store
-models/
-env/
 .rasa/
 
 # Byte-compiled / optimized / DLL files
