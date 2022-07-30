@@ -1,0 +1,32 @@
+version: "3.1"
+
+responses:
+  utter_faq_fwd/what_insurance_you_have:
+  - text: "FWD offers a wide range of products and insurance solutions designed to cater to the evolving needs of customers in Singapore. Here is what we have available today: \n Life & Health (Life Protection): Term Life Plus, Future First \n Life & Health (Critical Illness): Ci-Plus, Big 3 Critical Illness, Cancer, Heart Attack, Stroke, Recover First \n Life & Health (Accident & Health): Personal Accident, International Health \n Home & Maid: Home, HDB Fire, Maid \n Motor: Car, Motorcycle, Commercial Car \n Travel: Travel \n Invest & Save: Invest First, Save First, Invest Goal"
+  
+  utter_faq_fwd/recommend_insurance:
+  - text: "Our insurance policies and prices are unique to each customer and tailored to your specifications! Visit our webpage (https://www.fwd.com.sg/) to get a quote for the insurance type you want!"
+
+  utter_faq_fwd/what_is_fwd:
+  - text: "We're the insurance business arm of the investment group, Pacific Century Group (PCG). FWD started operations in Singapore in 2016 offering life and medical insurance, general insurance and employee benefits. Outside of Singapore, FWD Group spans from Hong Kong, Macau, Indonesia, Philippines, Thailand, Vietnam and Japan. You can find more information about us (here)[https://www.fwd.com.sg/corporate]."
+
+  utter_faq_fwd/what_does_fwd_stand_for:
+  - text: "FWD is not an acronym or short form for anything. We're simply known as FWD and we aim to change the way people feel about insurance by leveraging technology to deliver products that are relevant, easy to understand and well-priced."
+
+  utter_faq_fwd/what_services_does_fwd_offer:
+  - text: "FWD offers a wide range of products and insurance solutions that are designed to cater to the evolving needs of customers in Singapore. Feel free to explore our products and get a quote at (here)[https://www.fwd.com.sg/]."
+
+  utter_faq_fwd/how_is_fwd_different:
+  - text: "We're a digital insurance company that provides insurance directly to our customers without going through any agents, hence we are able to pass on these savings to you 😊"
+
+  utter_faq_fwd/find_out_more_about_fwd:
+  - text: "Thank you for your interest in FWD! You can read up about us and our products (here)[https://www.fwd.com.sg/]."
+
+  utter_faq_fwd/buying_as_a_foreigner:
+  - text: "You can purchase our insurance policies as long as the person who is insured is a resident of Singapore and holding a Singapore NRIC or FIN. Other requirements such as age or health condition may apply depending on the insurance product you are checking on."
+
+  utter_faq_fwd/fwd_email_address:
+  - text: "You can email us at contact.sg@fwd.com 😊"
+
+  utter_faq_fwd/fwd_contact:
+  - text: "You can reach us at +6568208888. If it's an emergency, our 24/7 Emergency Assistance hotline is +6563222072"

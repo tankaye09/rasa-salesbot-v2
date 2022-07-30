@@ -288,3 +288,17 @@ nlu:
     - it's so humid today
     - The weather today is really nice
     - we've got a nice weather today
+
+- intent: tell_me_something
+  examples: |
+    - tell me something
+    - talk to me
+    - say something to me
+    - say something random
+    - tell me a fun fact
+
+- intent: tell_the_time
+  examples: |
+    - what time is it
+    - what is the time now
+    - what day is it today

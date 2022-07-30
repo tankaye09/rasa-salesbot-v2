@@ -31,6 +31,7 @@ intents:
   - faq_cancer
   - faq_car
   - faq_home
+  - faq_fwd
   - faq_maid
   - faq_pa
   - faq_stroke
@@ -53,6 +54,8 @@ intents:
 
   # SMALL TALK
   - mention_temperature
+  - tell_me_something
+  - tell_the_time
 
 entities:
   - has_login_password

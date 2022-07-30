@@ -38,6 +38,10 @@ pipeline:
   - name: ResponseSelector
     epochs: 100
     constrain_similarities: true
+    retrieval_intent: faq_fwd
+  - name: ResponseSelector
+    epochs: 100
+    constrain_similarities: true
     retrieval_intent: faq_home
   - name: ResponseSelector
     epochs: 100

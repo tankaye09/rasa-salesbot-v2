@@ -34,6 +34,11 @@ rules:
     - intent: faq_car
     - action: utter_faq_car
 
+- rule: FWD Insurance FAQ
+  steps:
+    - intent: faq_fwd
+    - action: utter_faq_fwd
+
 - rule: Maid Insurance FAQ
   steps:
     - intent: faq_maid

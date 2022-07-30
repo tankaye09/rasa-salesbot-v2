@@ -1,0 +1,68 @@
+version: "3.1"
+nlu:
+
+- intent: faq_fwd/what_insurance_you_have
+  examples: |
+    - What kind of insurance policies do you have?
+    - What insurance do you sell?
+    - What insurance does fwd offer?
+    - What insurance do you offer?
+    - What insurance products do you have?
+    - What insurance offerings do you have? 
+    - Which types of insurance do you offer?
+    - What are the insurance policies available?
+
+- intent: faq_fwd/recommend_insurance
+  examples: |
+    - What is the best selling plan you have?
+    - What is the best selling policy?
+    - Recommend me an insurance plan
+
+- intent: faq_fwd/what_is_fwd
+  examples: |
+    - What is FWD?
+    - Who is FWD?
+
+- intent: faq_fwd/what_does_fwd_stand_for
+  examples: |
+    - What does fwd stands for?
+    - What does fwd mean?
+
+- intent: faq_fwd/what_services_does_fwd_offer
+  examples: |
+    - What services does fwd offer? 
+    - What services does fwd provide? 
+    - What does fwd do?
+    - What does fwd offer?
+
+- intent: faq_fwd/how_is_fwd_different
+  examples: |
+    - How is fwd different from other competitors?
+    - How is fwd different from other insurance companies?
+    - How does fwd compare to its competitors?
+    - How does fwd compare to other insurance providers?
+
+- intent: faq_fwd/find_out_more_about_fwd
+  examples: |
+    - How to find out more about fwd?
+    - Where to find out more about fwd?
+    - How do I get more information about fwd?
+    - Where can I get more information about fwd?
+
+- intent: faq_fwd/buying_as_a_foreigner
+  examples: |
+    - Can I buy insurance from you if I am a foreigner?
+    - Can I buy insurance from fwd if I am a foreigner?
+    - I am a foreigner, can I buy insurance from fwd?
+    - I am a foreigner, can I buy insurance from you?
+
+- intent: faq_fwd/fwd_email_address
+  examples: |
+    - What is fwd email address?
+    - fwd email address
+
+- intent: faq_fwd/fwd_contact
+  examples: |
+    - How to contact fwd?
+    - I want to contact fwd.
+    - What is fwd’s contact number? 

@@ -198,3 +198,13 @@ responses:
 
   utter_weather:
   - text: "Nice! I myself like the rain. Splashing in puddles sounds fun!"
+
+  utter_tell_me_something:
+  - text: "A koala can sleep up to 20 hours a day."
+  - text: "My name is Faye. I've got an older sister called Faith."
+  - text: "I like the taste of lemons. Weird. I know."
+  - text: "Taste the rainbow 🌈"
+  - text: "A tomato is a fruit. What a shocker."
+
+  utter_tell_the_time:
+  - text: "The people who coded me could have made me smart enough to answer this, but they didn't. They got tired of the thousands of lines of code. Sorry."
