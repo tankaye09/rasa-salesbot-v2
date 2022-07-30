@@ -5,23 +5,23 @@ responses:
   # GREETINGS
   utter_greet_insurance:
   - text: "Hello, welcome to FWD! We offer a wide range of insurance that caters to all your needs. Which one would you like to know more about?"
-    # quick_replies:
-    buttons:
-    - title: "Big 3 Insurance"
+    quick_replies:
+    # buttons:
+    - title: "Big 3"
       payload: 'Show me your big 3 insurance'
-    - title: "Cancer Insurance"
+    - title: "Cancer"
       payload: 'Show me your cancer insurance'
-    - title: "Home Insurance"
+    - title: "Home"
       payload: 'Show me your home insurance'
-    - title: "Car Insurance"
+    - title: "Car"
       payload: 'Show me your car insurance'
-    - title: "Maid Insurance"
+    - title: "Maid"
       payload: 'Show me your maid insurance'
-    - title: "Stroke Insurance"
+    - title: "Stroke"
       payload: 'Show me your stroke insurance'
-    - title: "Travel Insurance"
+    - title: "Travel"
       payload: 'Show me your travel insurance'
-    - title: "Personal Accident Insurance"
+    - title: "Personal Accident"
       payload: 'Show me your personal accident insurance'
 
   utter_greet:
@@ -77,23 +77,23 @@ responses:
   # BUY INSURANCE
   utter_how_buy_insurance:
   - text: "Which insurance would you like to purchase?"
-    # quick_replies:
-    buttons:
-    - title: "Big 3 Insurance"
+    quick_replies:
+    # buttons:
+    - title: "Big 3"
       payload: 'get big 3 insurance quote'
-    - title: "Cancer Insurance"
+    - title: "Cancer"
       payload: 'get cancer insurance quote'
-    - title: "Home Insurance"
+    - title: "Home"
       payload: 'get home insurance quote'
-    - title: "Car Insurance"
+    - title: "Car"
       payload: 'get car insurance quote'
-    - title: "Maid Insurance"
+    - title: "Maid"
       payload: 'get maid insurance quote'
-    - title: "Stroke Insurance"
+    - title: "Stroke"
       payload: 'get stroke insurance quote'
-    - title: "Travel Insurance"
+    - title: "Travel"
       payload: 'get travel insurance quote'
-    - title: "Personal Accident Insurance"
+    - title: "Personal Accident"
       payload: 'get personal accident insurance quote'
 
   # QUOTES
@@ -109,23 +109,23 @@ responses:
   # CLAIMS
   utter_claim_options:
   - text: "Which insurance are you claiming from?\n"
-    # quick_replies:
-    buttons:
-    - title: "Big 3 Insurance"
+    quick_replies:
+    # buttons:
+    - title: "Big 3"
       payload: 'Claim for big 3 insurance'
-    - title: "Cancer Insurance"
+    - title: "Cancer"
       payload: 'Claim for cancer insurance'
-    - title: "Home Insurance"
+    - title: "Home"
       payload: 'Claim for home insurance'
-    - title: "Car Insurance"
+    - title: "Car"
       payload: 'Claim for car insurance'
-    - title: "Maid Insurance"
+    - title: "Maid"
       payload: 'Claim for maid insurance'
-    - title: "Stroke Insurance"
+    - title: "Stroke"
       payload: 'Claim for stroke insurance'
-    - title: "Travel Insurance"
+    - title: "Travel"
       payload: 'Claim for travel insurance'
-    - title: "Personal Accident Insurance"
+    - title: "Personal Accident"
       payload: 'Claim for personal accident insurance'
   
   utter_claim_online:
@@ -179,11 +179,11 @@ responses:
   - text: "May I have your contact number?"
 
   utter_confirm_contact_details:
-  - text: "Thank you for filling in the form.\n\n
+  - text: "Thank you for filling in the form.\n
             Here are the details you have submitted:\n
             - Name: {agent_form_user_name}\n
-            - Email: {agent_form_user_email}\n\n
-            - Contact Number: {agent_form_user_number}\n\n
+            - Email: {agent_form_user_email}\n
+            - Contact Number: {agent_form_user_number}\n
             We'll get back to you as soon as we can."
   
   # SMALL TALK
