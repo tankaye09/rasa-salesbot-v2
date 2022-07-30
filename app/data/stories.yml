@@ -210,4 +210,14 @@ stories:
   steps:
   - intent: mention_temperature
   - action: utter_weather
+
+- story: Tell Me Something
+  steps:
+  - intent: tell_me_something
+  - action: utter_tell_me_something
+
+- story: Tell me the time
+  steps:
+  - intent: tell_the_time
+  - action: utter_tell_the_time
     
