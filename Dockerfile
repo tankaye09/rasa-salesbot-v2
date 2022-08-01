@@ -10,7 +10,7 @@ WORKDIR /app
 
 VOLUME /app/models
 
-CMD [ "run","-m","/app/models","--enable-api","--cors","*","--debug" ,"--endpoints", "endpoints.yml","--log-file", "out.log", "--debug"]
+CMD ["run","-m","/app/models","--endpoints", "/app/app/endpoints.yml","--enable-api","--cors","*","--log-file", "out.log", "--debug"]
 
 EXPOSE 5005
 # RUN rasa train --domain domain

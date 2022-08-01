@@ -1,20 +1,31 @@
 version: '3.0'
 services:
-    rasa:
-      container_name: "rasa_server"
-      user: root
-      build: 
-        context:  .
-      volumes:
-      - ./:/app
-      ports: 
-        - 5005:5005
-    action_server:
-      container_name: "action_server"
-      build: 
-        context: .
-      volumes:
-        - ./actions:/app/actions
-        - ./data:/app/data
-      ports:
-        - 5055:5055
+  rasa:
+    container_name: "rasa_server"
+    user: root
+    build: 
+      context:  .
+    volumes:
+    - ./:/app
+    ports: 
+      - "5005:5005"
+    # networks:
+    #   - all
+  # action_server:
+  #   container_name: "action_server"
+  #   build: 
+  #     context: ./app/actions
+  #   volumes:
+  #     - ./actions:/app/actions
+  #   ports:
+  #     - "5055:5055"
+  #   expose: 
+  #     - "5055"
+  #   networks:
+  #     - all
+
+# networks:
+#   all:
+#     driver: bridge
+#     driver_opts:
+#       com.docker.networks.enable_ipv6: "true"
