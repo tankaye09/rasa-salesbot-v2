@@ -16,6 +16,7 @@ intents:
   # GENERAL
   - what_can_you_do
   - who_are_you
+  - thank
 
   # GENERAL INSURANCE
   - show_policy
@@ -56,6 +57,12 @@ intents:
   - mention_temperature
   - tell_me_something
   - tell_the_time
+
+  # RECOMMENDATIONS
+  - what_insurance_to_buy
+  - want_to_buy_life_insurance
+  - i_have_life_insurance
+  - want_to_buy_home_insurance
 
 entities:
   - has_login_password

@@ -208,3 +208,25 @@ responses:
 
   utter_tell_the_time:
   - text: "The people who coded me could have made me smart enough to answer this, but they didn't. They got tired of the thousands of lines of code. Sorry."
+
+  # RECOMMENDATIONS
+  utter_what_insurance_to_buy:
+  - text: "Hey! Let's get you covered! Could I know if you have any existing insurance plans? Please reply with a yes or no!"
+
+  utter_would_you_like_life_insurance:
+  - text: "Alright! I'd like to recommend Life insurance to you! Life insurance protects the people close to you! Your parents, spouse, children or other loved ones would be less burdened!"
+
+  utter_link_to_life_insurance:
+  - text: "I got you. Here, use this link to get a quote: https://www.fwd.com.sg/life-insurance/direct-purchase-term-life-insurance/online-quote/quickQuestions ."
+
+  utter_welcome:
+  - text: "You're very welcome! :D"
+
+  utter_what_insurance_do_you_have:
+  - text: "What insurance do you currently have?"
+
+  utter_would_you_like_home_insurance:
+  - text: "Alright! I'd like to recommend home insurance to you! Rebuilding or replacing a home is an expensive affair and this insurance helps make the process less difficult!"
+
+  utter_link_to_home_insurance:
+  - text: "I got you. Here, use this link to get a quote: https://www.fwd.com.sg/life-insurance/direct-purchase-term-life-insurance/online-quote/quickQuestions ."

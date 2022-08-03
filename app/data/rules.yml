@@ -171,4 +171,9 @@ rules:
     - intent: who_are_you
     - action: utter_bot_name
 
+- rule: Thank Faye
+  steps:
+    - intent: thank
+    - action: utter_welcome
+
 # NEED TO BUILD UNHAPPY PATHS

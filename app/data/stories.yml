@@ -220,4 +220,24 @@ stories:
   steps:
   - intent: tell_the_time
   - action: utter_tell_the_time
-    
+  
+#---------------------- RECOMMENDATIONS ----------------------
+- story: Recommmend me an insurance
+  steps:
+  - intent: what_insurance_to_buy
+  - action: utter_what_insurance_to_buy
+  - intent: deny
+  - action: utter_would_you_like_life_insurance
+  - intent: want_to_buy_life_insurance
+  - action: utter_link_to_life_insurance
+
+- story: Recommmend me an insurance
+  steps:
+  - intent: what_insurance_to_buy
+  - action: utter_what_insurance_to_buy
+  - intent: affirm
+  - action: utter_what_insurance_do_you_have
+  - intent: i_have_life_insurance
+  - action: utter_would_you_like_home_insurance
+  - intent: want_to_buy_home_insurance
+  - action: utter_link_to_home_insurance

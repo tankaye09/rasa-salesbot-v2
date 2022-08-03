@@ -4,7 +4,7 @@ responses:
   utter_faq_fwd/what_insurance_you_have:
   - text: "FWD offers a wide range of products and insurance solutions designed to cater to the evolving needs of customers in Singapore. Here is what we have available today:\n\nLife & Health (Life Protection): Term Life Plus, Future First\nLife & Health (Critical Illness): Ci-Plus, Big 3 Critical Illness, Cancer, Heart Attack, Stroke, Recover First\nLife & Health (Accident & Health): Personal Accident, International Health\nHome & Maid: Home, HDB Fire, Maid\nMotor: Car, Motorcycle, Commercial Car\nTravel: Travel\nInvest & Save: Invest First, Save First, Invest Goal"
   
-  utter_faq_fwd/recommend_insurance:
+  utter_faq_fwd/best_selling_insurance:
   - text: "Our insurance policies and prices are unique to each customer and tailored to your specifications! Visit our webpage (https://www.fwd.com.sg/) to get a quote for the insurance type you want!"
 
   utter_faq_fwd/what_is_fwd:

@@ -302,3 +302,36 @@ nlu:
     - what time is it
     - what is the time now
     - what day is it today
+
+# RECOMMENDATIONS
+- intent: what_insurance_to_buy
+  examples: |
+    - what insurance should I buy?
+    - what insurance do you recommend?
+
+- intent: want_to_buy_life_insurance
+  examples: |
+    - I want to buy life insurance
+    - I would like life insurance
+    - I want to get life insurance
+
+- intent: thank
+  examples: |
+    - thanks
+    - thank you!
+    - thank you very much
+    - thanksss
+    - thx
+    - thenks
+    - Thanks Faye
+
+- intent: i_have_life_insurance
+  examples: |
+    - I have life insurance
+    - Life insurance
+
+- intent: want_to_buy_home_insurance
+  examples: |
+    - I want to buy home insurance
+    - I would like home insurance
+    - I want to get home insurance

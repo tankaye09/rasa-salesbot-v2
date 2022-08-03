@@ -12,11 +12,10 @@ nlu:
     - Which types of insurance do you offer?
     - What are the insurance policies available?
 
-- intent: faq_fwd/recommend_insurance
+- intent: faq_fwd/best_selling_insurance
   examples: |
     - What is the best selling plan you have?
     - What is the best selling policy?
-    - Recommend me an insurance plan
 
 - intent: faq_fwd/what_is_fwd
   examples: |
