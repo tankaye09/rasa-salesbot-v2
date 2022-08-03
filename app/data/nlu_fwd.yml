@@ -66,3 +66,11 @@ nlu:
     - How to contact fwd?
     - I want to contact fwd.
     - What is fwd’s contact number? 
+
+- intent: faq_fwd/why_need_insurance
+  examples: |
+    - why do i need insurance
+    - do i need insurance
+    - insurance is a scam
+    - is insurance important
+    - why is insurance important

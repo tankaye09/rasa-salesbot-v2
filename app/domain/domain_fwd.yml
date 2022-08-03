@@ -2,7 +2,7 @@ version: "3.1"
 
 responses:
   utter_faq_fwd/what_insurance_you_have:
-  - text: "FWD offers a wide range of products and insurance solutions designed to cater to the evolving needs of customers in Singapore. Here is what we have available today: \n Life & Health (Life Protection): Term Life Plus, Future First \n Life & Health (Critical Illness): Ci-Plus, Big 3 Critical Illness, Cancer, Heart Attack, Stroke, Recover First \n Life & Health (Accident & Health): Personal Accident, International Health \n Home & Maid: Home, HDB Fire, Maid \n Motor: Car, Motorcycle, Commercial Car \n Travel: Travel \n Invest & Save: Invest First, Save First, Invest Goal"
+  - text: "FWD offers a wide range of products and insurance solutions designed to cater to the evolving needs of customers in Singapore. Here is what we have available today:\n\nLife & Health (Life Protection): Term Life Plus, Future First\nLife & Health (Critical Illness): Ci-Plus, Big 3 Critical Illness, Cancer, Heart Attack, Stroke, Recover First\nLife & Health (Accident & Health): Personal Accident, International Health\nHome & Maid: Home, HDB Fire, Maid\nMotor: Car, Motorcycle, Commercial Car\nTravel: Travel\nInvest & Save: Invest First, Save First, Invest Goal"
   
   utter_faq_fwd/recommend_insurance:
   - text: "Our insurance policies and prices are unique to each customer and tailored to your specifications! Visit our webpage (https://www.fwd.com.sg/) to get a quote for the insurance type you want!"
@@ -30,3 +30,6 @@ responses:
 
   utter_faq_fwd/fwd_contact:
   - text: "You can reach us at +6568208888. If it's an emergency, our 24/7 Emergency Assistance hotline is +6563222072"
+
+  utter_faq_fwd/why_need_insurance:
+  - text: "Buying insurance is important as it ensures that you are financially secure to face any problem in life. Life is unpredictable, but a comprehensive insurance coverage can significantly reduce this uncertainty.\n\nFWD offers a wide range of products and insurance solutions designed to cater to the evolving needs of customers in Singapore. Here is what we have available today:\n\nLife & Health (Life Protection): Term Life Plus, Future First\nLife & Health (Critical Illness): Ci-Plus, Big 3 Critical Illness, Cancer, Heart Attack, Stroke, Recover First\nLife & Health (Accident & Health): Personal Accident, International Health\nHome & Maid: Home, HDB Fire, Maid\nMotor: Car, Motorcycle, Commercial Car\nTravel: Travel\nInvest & Save: Invest First, Save First, Invest Goal"
