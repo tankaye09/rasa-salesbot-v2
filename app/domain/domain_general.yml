@@ -137,7 +137,7 @@ responses:
         payload: '/claim_login_password{{"has_login_password":"false"}}'
 
   utter_claim_has_login_password:
-  - text: "You can login into our customer portal (here)[https://www.fwd.com.sg/portal/]"
+  - text: "You can login into our customer portal [here](https://www.fwd.com.sg/portal/)"
 
   utter_claim_no_login_password:
   - text: "Not an issue, you can submit your claim [here](https://www.fwd.com.sg/claim-online/stroke-insurance/quickQuestions)"
@@ -217,7 +217,7 @@ responses:
   - text: "Alright! I'd like to recommend Life insurance to you! Life insurance protects the people close to you! Your parents, spouse, children or other loved ones would be less burdened!"
 
   utter_link_to_life_insurance:
-  - text: "I got you. Here, use this link to get a quote: https://www.fwd.com.sg/life-insurance/direct-purchase-term-life-insurance/online-quote/quickQuestions ."
+  - text: "I got you. Here, use this link to get a quote: [here](https://www.fwd.com.sg/life-insurance/direct-purchase-term-life-insurance/online-quote/quickQuestions)."
 
   utter_welcome:
   - text: "You're very welcome! :D"
@@ -229,4 +229,4 @@ responses:
   - text: "Alright! I'd like to recommend home insurance to you! Rebuilding or replacing a home is an expensive affair and this insurance helps make the process less difficult!"
 
   utter_link_to_home_insurance:
-  - text: "I got you. Here, use this link to get a quote: https://www.fwd.com.sg/life-insurance/direct-purchase-term-life-insurance/online-quote/quickQuestions ."
+  - text: "I got you. Here, use this link to get a quote: [here](https://www.fwd.com.sg/home-insurance/online-quote/ownerType)."

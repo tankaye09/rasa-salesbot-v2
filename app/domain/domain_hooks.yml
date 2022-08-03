@@ -106,7 +106,7 @@ responses:
       payload: '/deny'
 
   utter_hook_redirect:
-  - text: "Ok! Read more about our policy and get a quote (here)[https://www.fwd.com.sg/travel-insurance]"
+  - text: "Ok! Read more about our policy and get a quote [here](https://www.fwd.com.sg/travel-insurance)"
 
   utter_hook_keep_in_mind:
   - text: "Sure, no worries! Do keep us in mind for your future trips!"

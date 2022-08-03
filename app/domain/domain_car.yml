@@ -38,7 +38,7 @@ responses:
   - text: "If you were involved in an accident, please contact our Emergency Assistance hotline at +65 6322 2072 for assistance. I hope you are alright!"
 
   utter_faq_car/accident_report_how_to:
-  - text: "Please take your car and the following documents to one of our Approved Reporting Centres here: https://www.fwd.com.sg/claim-locator/ to lodge a report:\n\n1. Driver's driving license\n2. Insured and driver's NRIC\n3. Soft copy of your Car's Certificate of Insurance\n4. Police report (if any)\n5. Scene photos (if any)\n6. Witness reports (if any)\n\nAternatively, you can opt for mobile reporting. Please call our Emergency Assistance hotline at +65 6322 2072 for assistance."
+  - text: "Please take your car and the following documents to one of our Approved Reporting Centres here: [here](https://www.fwd.com.sg/claim-locator/) to lodge a report:\n\n1. Driver's driving license\n2. Insured and driver's NRIC\n3. Soft copy of your Car's Certificate of Insurance\n4. Police report (if any)\n5. Scene photos (if any)\n6. Witness reports (if any)\n\nAternatively, you can opt for mobile reporting. Please call our Emergency Assistance hotline at +65 6322 2072 for assistance."
 
   utter_faq_car/renew_how:
   - text: "If you have an existing policy with us, we'll send you a renewal link (it comes with a discount!) via email to renew online before your Car policy expires. You'll be able to make changes to your plan before proceeding with payment. Alternatively, you can also renew your Car Insurance through our mobile app or online services portal here. Otherwise, simply get a new quote for your policy by selecting the product you wish to check on our page."
