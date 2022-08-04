@@ -52,6 +52,7 @@ intents:
   - claim_select_insurance
   - claim_general
   - claim_login_password
+  - claim_no_login_password
 
   # SMALL TALK
   - mention_temperature
