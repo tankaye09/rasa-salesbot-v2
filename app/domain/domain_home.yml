@@ -13,7 +13,7 @@ responses:
     buttons:
     - title: "Home Owners"
       payload: "https://www.fwd.com.sg/home-insurance/online-quote/ownerType#owner"
-    - title: "Tenantss"
+    - title: "Tenants"
       payload: "https://www.fwd.com.sg/home-insurance/online-quote/ownerType#tenant"
 
   utter_faq_home/get_quote_how:
