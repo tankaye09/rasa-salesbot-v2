@@ -60,7 +60,7 @@ pipeline:
     constrain_similarities: true
     retrieval_intent: faq_travel
   - name: FallbackClassifier
-    threshold: 0.3
+    threshold: 0.5
     ambiguity_threshold: 0.1
 
 # Configuration for Rasa Core.
