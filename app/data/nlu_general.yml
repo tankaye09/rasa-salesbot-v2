@@ -277,6 +277,14 @@ nlu:
     - claim insurance
     - claim your insurance
 
+- intent: claim_login_password
+  examples: |
+    - login password
+
+- intent: claim_no_login_password
+  examples: |
+    - no login password
+
 # SMALL TALK
 - intent: mention_temperature
   examples: |

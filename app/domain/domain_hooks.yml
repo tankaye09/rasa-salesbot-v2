@@ -32,7 +32,7 @@ responses:
   - text: "Nice tries, but that's still not the right answer! Do you want me to reveal the answer?"
     buttons:
     - title: "Yes"
-      payload: '/affirm'
+      payload: 'yes'
   
   utter_hook_water_ski_answer:
   - text: "The correct answer is...\n\nwater skiing!"
@@ -47,43 +47,43 @@ responses:
   - text: "Do you like skiing?"
     buttons:
     - title: "Yes"
-      payload: '/affirm'
+      payload: 'yes'
     - title: "No"
-      payload: '/deny'
+      payload: 'no'
   - text: "Do you like to ski?"
     buttons:
     - title: "Yes"
-      payload: '/affirm'
+      payload: 'yes'
     - title: "No"
-      payload: '/deny'
+      payload: 'no'
   - text: "Do you enjoy skiing?"
     buttons:
     - title: "Yes"
-      payload: '/affirm'
+      payload: 'yes'
     - title: "No"
-      payload: '/deny'
+      payload: 'no'
 
   utter_hook_travel_to_ski:
   - text: "Are you intending to travel? Maybe going to ski?"
     buttons:
     - title: "Yes"
-      payload: '/affirm'
+      payload: 'yes'
     - title: "No"
-      payload: '/deny'
+      payload: 'no'
   - text: "Going overseas to ski?"
     buttons:
     - title: "Yes"
-      payload: '/affirm'
+      payload: 'yes'
     - title: "No"
-      payload: '/deny'
+      payload: 'no'
 
   utter_hook_plan_to_travel:
   - text: "Ahh, I see. How about travelling? Now that covid restrictions are relaxed, are you planning to go overseas anytime soon?"
     buttons:
     - title: "Yes"
-      payload: '/affirm'
+      payload: 'yes'
     - title: "No"
-      payload: '/deny'
+      payload: 'no'
 
   utter_hook_promote_travel:
   - text: "Did you know that having travel insurance can provide you with peace of mind when travelling?"
@@ -101,9 +101,9 @@ responses:
   - text: "Would you like to know more about our travel insurance?"
     buttons:
     - title: "Yes"
-      payload: '/affirm'
+      payload: 'yes'
     - title: "No"
-      payload: '/deny'
+      payload: 'no'
 
   utter_hook_redirect:
   - text: "Ok! Read more about our policy and get a quote [here](https://www.fwd.com.sg/travel-insurance)"
@@ -124,9 +124,9 @@ responses:
   - text: "Would you like to play another round of guessing? You can also ask insurance or FWD-related questions and I would be glad to answer them! 😊"
     buttons:
     - title: "Yes"
-      payload: '/affirm'
+      payload: 'yes'
     - title: "No"
-      payload: '/deny'
+      payload: 'no'
 
   utter_hook_end:
   - text: "That's the end of the emoji quiz! Hope you had fun! 😊"

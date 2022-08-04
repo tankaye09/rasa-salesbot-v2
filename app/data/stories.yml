@@ -189,20 +189,14 @@ stories:
 
 - story: Make a Insurance Claim (Login Password)
   steps:
+    - action: utter_claim_online
     - intent: claim_login_password
-      entities:
-      - has_login_password: 'true'
-    - slot_was_set:
-      - has_login_password: 'true'
     - action: utter_claim_has_login_password
 
 - story: Make a Insurance Claim (No Login Password)
   steps:
-    - intent: claim_login_password
-      entities:
-      - has_login_password: 'false'
-    - slot_was_set:
-      - has_login_password: 'false'
+    - action: utter_claim_online
+    - intent: claim_no_login_password
     - action: utter_claim_no_login_password
 
 # ---------------------- SMALL TALK ----------------------

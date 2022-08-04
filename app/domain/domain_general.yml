@@ -132,9 +132,9 @@ responses:
   - text: "No problem, you can make a claim easily online. Do you have a login password?\n"
     buttons:
       - title: "Yes"
-        payload: '/claim_login_password{{"has_login_password":"true"}}'
+        payload: 'login password'
       - title: "No"
-        payload: '/claim_login_password{{"has_login_password":"false"}}'
+        payload: 'no login password'
 
   utter_claim_has_login_password:
   - text: "You can login into our customer portal [here](https://www.fwd.com.sg/portal/)"
@@ -154,17 +154,17 @@ responses:
   - text: "Would you like to speak to our agent instead? You may choose to leave your contact details so that our agent can contact you back shortly."
     buttons:
     - title: "Yes"
-      payload: '/affirm'
+      payload: 'yes'
     - title: "No"
-      payload: '/deny'
+      payload: 'no'
   
   utter_speak_to_agent_alternative:
   - text: "Alternatively, you may choose to speak to an agent if you have other queries. You can leave your contact details so that our agent can contact you back shortly. Would you like to speak to an agent?"
     buttons:
     - title: "Yes"
-      payload: '/affirm'
+      payload: 'yes'
     - title: "No"
-      payload: '/deny'
+      payload: 'no'
   
   utter_agent_form:
   - text: "Sure! We will require your contact details."
