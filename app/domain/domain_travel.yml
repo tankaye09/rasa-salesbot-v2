@@ -2,19 +2,34 @@ version: "3.1"
 
 responses:
   utter_faq_travel/know_more:
-  - text: "Sure! 😊 We offer a few types of travel insurance, you may read more about our travel insurance plans [here](https://www.fwd.com.sg/travel-insurance/)."
-  
+  - text: "Sure! 😊 We offer a few types of travel insurance, you may read more about our travel insurance plans by clicking on the following button."
+    buttons:
+    - title: "Read More Here"
+      payload: "https://www.fwd.com.sg/travel-insurance/"
+
   utter_faq_travel/buy_insurance:
-  - text: "Sure! 😊 Click [here](https://www.fwd.com.sg/travel-insurance/online-quote/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq_travel/Get_Quote) and it'll take you less than a minute to get a quote!"
+  - text: "Sure! 😊 Click on the following button and it'll take you less than a minute to get a quote!"
+    buttons:
+    - title: "Get a Quote"
+      payload: "https://www.fwd.com.sg/travel-insurance/online-quote/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq_travel/Get_Quote"
   
   utter_faq_travel/get_quote_how:
-  - text: "It's really easy! Click [here](https://www.fwd.com.sg/travel-insurance/online-quote/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq_travel/Get_Quote) and you'll get a quote instantly just by answering a few questions."
+  - text: "It's really easy! Click on the following button and you'll get a quote instantly just by answering a few questions."
+    buttons:
+    - title: "Get a Quote"
+      payload: "https://www.fwd.com.sg/travel-insurance/online-quote/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq_travel/Get_Quote"
 
   utter_faq_travel/covid_country_exclusion:
-  - text: "Any country where the Ministry of Foreign Affairs of Singapore [here](https://www1.mfa.gov.sg/Where-Are-You-Travelling-Toadvises) against travelling to or recommends to postpone are excluded"
+  - text: "Any country where the Ministry of Foreign Affairs of Singapore against travelling to or recommends to postpone are excluded. Click on the following button to find out more."
+    buttons:
+    - title: "Travel Advisory"
+      payload: "https://www1.mfa.gov.sg/Where-Are-You-Travelling-Toadvises"
 
   utter_faq_travel/exclusions:
-  - text: "In general, our Travel Insurance don't cover pre-existing conditions, countries in the exclusion list, pregnancy related conditions and losses due to negligence. For a full exclusion list, please refer to our Travel policy wording [here](https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf)"
+  - text: "In general, our Travel Insurance don't cover pre-existing conditions, countries in the exclusion list, pregnancy related conditions and losses due to negligence. For a full exclusion list, please refer to our Travel policy wording by clicking on the following button."
+    buttons:
+    - title: "Policy Wording"
+      payload: "https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf"
   
   utter_faq_travel/annual_cancel:
   - text: "If you would like to terminate your Travel Insurance, you may log in to our mobile app or online services portal here and submit a cancellation request through our online services under 'manage policy'.\n\nWe'll get back to you within 2 working days once you've submitted your request 😊"
@@ -44,7 +59,10 @@ responses:
   - text: "The premium shown on our website is for the total pax selected during the application of your Travel Insurance whether it is Couple, Group or Family plan."
 
   utter_faq_travel/how_much_asia_plan:
-  - text: "Seems like you're trying to get a quote. Just click [here](https://www.fwd.com.sg/travel-insurance/online-quote/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_Travel_Get_Quote) to get a quote for the Asia Travel Insurance plan."
+  - text: "Seems like you're trying to get a quote. Just click on the following button to get a quote for the Asia Travel Insurance plan."
+    buttons:
+    - title: "Get a Quote"
+      payload: "https://www.fwd.com.sg/travel-insurance/online-quote/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_Travel_Get_Quote"
 
   utter_faq_travel/theft_of_money_claim_documents:
   - text: "You'll need these documents to submit your claim for theft of money: \n\n1. Boarding pass or flight itinerary \n2. Police report lodged overseas."
@@ -53,7 +71,10 @@ responses:
   - text: "For car rental excess claim, you'll need the following documents: \n\n1. Rental vehicle agreement and excess receipt \n2. Overseas police report, if relates to road accident"
 
   utter_faq_travel/medical_expenses_claim_procedure:
-  - text: "You can refer to our Travel Insurance medical expenses claim guide [here](https://www.fwd.com.sg/insurance-claims/claims-guide/guide-travel.html)."
+  - text: "You can refer to our Travel Insurance medical expenses claim guide by clicking on the following button."
+    buttons:
+    - title: "Claims Guide"
+      payload: "https://www.fwd.com.sg/insurance-claims/claims-guide/guide-travel.html"
 
   utter_faq_travel/trip_cut_short_claim_documents:
   - text: "For trip cut short, you'll need to the following documents to submit your claim:\n\n1. Travel or airline booking \n2. Confirmation from travel agency or airline that there won't be a refund \n3. Medical documents if trip was disrupted due to illness"
@@ -65,9 +86,9 @@ responses:
   - text: "No problem, you can make a claim easily online. Do you have a login password?"
     buttons:
       - title: "Yes"
-        payload: "/claim_has_login_password"
+        payload: "login password"
       - title: "No"
-        payload: "/claim_no_login_password"
+        payload: "no login password"
 
   utter_faq_travel/loss_of_luggage_claim_documents:
   - text: "To make a claim for your lost luggage by a transport provider you'll need: \n\n1. Flight itinerary or boarding pass \n2. Report to airline \n3. Proof of denial or compensation by the transport provider \n4. Original invoice(s) for the lost item(s)"
@@ -175,16 +196,25 @@ responses:
   - text: "Our Travel Disruption benefit covers trip disruptions while you are in Singapore or overseas, and you forced to change your itinerary because of you suffer a serious injury or illness and are medically unfit to travel, a serious public event happens in Singapore or at one of your travel destinations and if tour flight is cancelled, delayed or postponed."
 
   utter_faq_travel/types_offered:
-  - text: "We offer annual and single trip Travel Insurance plans, for individuals, couples, families and groups. \n\nThere are 3 different tiers which offer different coverage; Premium, Business and First. You can click [here](https://www.fwd.com.sg/travel-insurance/) to view the benefit table."
+  - text: "We offer annual and single trip Travel Insurance plans, for individuals, couples, families and groups. \n\nThere are 3 different tiers which offer different coverage; Premium, Business and First. You can click on the following button to view the benefit table."
+    buttons:
+    - title: "Travel Insurance"
+      payload: "https://www.fwd.com.sg/travel-insurance/"
 
   utter_faq_travel/how_check_travel_notice_mfa:
-  - text: "You can refer to this link [here](https://www1.mfa.gov.sg/Where-Are-You-Travelling-To) for any travel notice by the MFA"
+  - text: "You can click on the following button for any travel notice by the MFA"
+    buttons:
+    - title: "MFA Travel Notice"
+      payload: "https://www1.mfa.gov.sg/Where-Are-You-Travelling-To"
 
   utter_faq_travel/details_for_cruise:
   - text: "We cover for cruise (including cruise to nowhere) under our Travel Insurance. Please note to select our Covid-19 enhanced travel benefits add-on when purchasing the standard Travel Insurance for a comprehensive coverage that includes Covid-19.\n\nFor cruise to nowhere, you can select the region 'Asean' for Singapore waters."
 
   utter_faq_travel/cover_trip_cancellation:
-  - text: "You can claim for trip cancellation if an incident such as serious injury, illness, death or natural disaster happened 30 days before your departure date, provided it's not a known event. \n\nFor the full details, do refer to our Travel Insurance policy wording [here](https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf)."
+  - text: "You can claim for trip cancellation if an incident such as serious injury, illness, death or natural disaster happened 30 days before your departure date, provided it's not a known event. \n\nFor the full details, do refer to our Travel Insurance policy wording by clicking on the following button."
+    buttons:
+    - title: "Policy Wording"
+      payload: "https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf"
 
   utter_faq_travel/covered_if_drive_car_out_of_sg:
   - text: "You'll be covered under the Travel Insurance if you're driving or riding overseas. However, do note that we don't cover any loss or damage to the vehicle itself. That'll be under your own car or motorcycle insurance."
@@ -199,7 +229,10 @@ responses:
   - text: "We will only cover your medical expenses if you are hospitalised overseas while on a trip or within 14 days of your return to Singapore."
 
   utter_faq_travel/max_trip_duration_to_buy_enhanced_travel_rider:
-  - text: "You can purchase FWD's COVID-19 Enhanced Travel Benefits online as an add-on to our FWD Travel Insurance (single trip only) if your travel period is 90 days or less. Simply click [here](https://www.fwd.com.sg/travel-insurance/) to get a quote!"
+  - text: "You can purchase FWD's COVID-19 Enhanced Travel Benefits online as an add-on to our FWD Travel Insurance (single trip only) if your travel period is 90 days or less. Simply click on the following button to get a quote!"
+    buttons:
+    - title: "Get a Quote"
+      payload: "https://www.fwd.com.sg/travel-insurance/"
 
   utter_faq_travel/age_limit:
   - text: "If you are at least 16 years old and a resident of Singapore holding NRIC/FIN, you can buy our Travel Insurance. Please note to select our Covid-19 enhanced travel benefits add-on when purchasing the standard Travel Insurance for a comprehensive coverage that includes Covid-19."
@@ -211,10 +244,16 @@ responses:
   - text: "Sorry if you are having troubles on our website! If you have gotten an error or unable to proceed, do refresh your browser cache and try to redo. If the error still persist, do take a screenshot of the error message (if there's any) and send us an email at contact.sg@fwd.com"
 
   utter_faq_travel/promo:
-  - text: "Everyone loves a good deal! You can click [here](https://www.fwd.com.sg/insurance-promotions) to find our latest promotions for Travel Insurance which may include promo codes and vouchers 😉"
+  - text: "Everyone loves a good deal! You can click on the following button to find our latest promotions for Travel Insurance which may include promo codes and vouchers 😉"
+    buttons:
+    - title: "FWD Promotions"
+      payload: "https://www.fwd.com.sg/insurance-promotions"
 
   utter_faq_travel/what:
-  - text: "Travel Insurance is an insurance that covers the costs and losses associated with travelling.\n\nYou can refer to our table of benefits in our Travel policy wording [here](https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf) for more information on our coverage 😊"
+  - text: "Travel Insurance is an insurance that covers the costs and losses associated with travelling.\n\nYou can refer to our table of benefits in our Travel policy wording by clicking on the following button for more information on our coverage 😊"
+    buttons:
+    - title: "Policy Wording"
+      payload: "https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf"
 
   utter_faq_travel/cruise_to_nowhere:
   - text: "You can buy our Travel Insurance which covers for cruise to nowhere.\n\nFor cruise to nowhere, you can select the region 'Asean' for Singapore waters.\n\nIf you would like a comprehensive coverage that includes Covid-19, please remember to select our Covid-19 enhanced travel benefits add-on when purchasing the standard Travel Insurance."
@@ -328,7 +367,10 @@ responses:
   - text: "Tanzania will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/thailand_mfa_advise_against:
-  - text: "For covid-19 travel restrictions matters, please refer to the latest update by the Ministry of Foreign Affairs [here](https://www.mfa.gov.sg/Services/Singapore-Citizens/COVID-19-Travel-Restrictions)."
+  - text: "For covid-19 travel restrictions matters, please refer to the latest update by the Ministry of Foreign Affairs by clicking on the following button."
+    buttons:
+    - title: "Travel Restrictions"
+      payload: "https://www.mfa.gov.sg/Services/Singapore-Citizens/COVID-19-Travel-Restrictions"
 
   utter_faq_travel/zurich_region:
   - text: "Switzerland will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
@@ -370,7 +412,10 @@ responses:
   - text: "Russia will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/use_for_schengen_visa_application:
-  - text: "You can use our Travel Insurance for your Schengen Visa application. Do check our coverage [here](https://www.fwd.com.sg/travel-insurance/) to see if it's suitable for you."
+  - text: "You can use our Travel Insurance for your Schengen Visa application. Do check our coverage by clicking on the following button to see if it's suitable for you."
+    buttons:
+    - title: "Travel Insurance"
+      payload: "https://www.fwd.com.sg/travel-insurance/"
 
   utter_faq_travel/india_asean:
   - text: "India will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
@@ -445,7 +490,10 @@ responses:
   - text: "We are unable to provide extended cover beyond 30 days. Hence, your cover will cease at the end of the 30th day or the coverage end date, whichever is earlier.\n\nPlease log in here to extend your policy up to a maximum of 30 days from your coverage start date. You may need to top-up the premium differences."
 
   utter_faq_travel/cover_start_enhanced_travel:
-  - text: "It depends! Please refer [here](https://help.fwd.com.sg/hc/en-us/articles/4407185320985-When-does-my-cover-start-for-FWD-s-COVID-19-enhanced-travel-benefits-) for the specific situation."
+  - text: "It depends! Please click on the following button to find out more for the specific situation."
+    buttons:
+    - title: "Cover Start Date"
+      payload: "https://help.fwd.com.sg/hc/en-us/articles/4407185320985-When-does-my-cover-start-for-FWD-s-COVID-19-enhanced-travel-benefits-"
 
   utter_faq_travel/cover_robbery:
   - text: "That would be a nightmare! We do cover robbery and the claim limit are as follow:\n\nTheft of money: $300\nTheft of laptop/tablet: $1,000\nAll other items: $300 for 'Premium' plan and $500 for 'Business' and 'First' plan type\n\nDo report to the local police as the report is needed for claims."
@@ -511,10 +559,16 @@ responses:
   - text: "We do cover baggage delay if your bag is delayed for more than 6 hours. If the delay happens while:\n1. You're overseas: S$150 for every 6 hours up to your policy limit based on your plan type\n2. You're back in Singapore: Only S$150"
 
   utter_faq_travel/cover_north_korea_annual_travel:
-  - text: "Countries that our Travel Insurance don't cover are: Afghanistan, Cuba, Democratic Republic of Congo, Iran, Libya, Liberia, North Korea, Somalia, South Sudan, Sudan, Syria, Yemen and any country where Ministry of Foreign Affairs of Singapore advises against travelling to or recommends to postpone. You can refer to this link [here](https://www1.mfa.gov.sg/Where-Are-You-Travelling-To) for more details."
+  - text: "Countries that our Travel Insurance don't cover are: Afghanistan, Cuba, Democratic Republic of Congo, Iran, Libya, Liberia, North Korea, Somalia, South Sudan, Sudan, Syria, Yemen and any country where Ministry of Foreign Affairs of Singapore advises against travelling to or recommends to postpone. You can click on the following button for more details."
+    buttons:
+    - title: "MFA Travel Advisory"
+      payload: "https://www1.mfa.gov.sg/Where-Are-You-Travelling-To"
 
   utter_faq_travel/cover_north_korea:
-  - text: "Unfortunately we do not cover North Korea under our Travel Insurance.\n\nCountries that our Travel Insurance don't cover are: Afghanistan, Cuba, Democratic Republic of Congo, Iran, Libya, Liberia, North Korea, Somalia, South Sudan, Sudan, Syria, Yemen and any country where Ministry of Foreign Affairs of Singapore advises against travelling to or recommends to postpone. You can refer to this link [here](https://www1.mfa.gov.sg/Where-Are-You-Travelling-To) for more details."
+  - text: "Unfortunately we do not cover North Korea under our Travel Insurance.\n\nCountries that our Travel Insurance don't cover are: Afghanistan, Cuba, Democratic Republic of Congo, Iran, Libya, Liberia, North Korea, Somalia, South Sudan, Sudan, Syria, Yemen and any country where Ministry of Foreign Affairs of Singapore advises against travelling to or recommends to postpone. You can click on the following button for more details."
+    buttons:
+    - title: "MFA Travel Advisory"
+      payload: "https://www1.mfa.gov.sg/Where-Are-You-Travelling-To"
 
   utter_faq_travel/cover_natural_disaster:
   - text: "We do cover natural disaster if it affects your travel. Depending on the circumstances, it may fall under any of our Travel Disruption benefit (Trip cancellation, delay, postponement etc.)"
@@ -535,7 +589,10 @@ responses:
   - text: "Our Travel Insurance does cover loss of cash with a claim limit of $300. Do report to the local police as the report is needed for claims."
 
   utter_faq_travel/what_you_cover:
-  - text: "Our Travel Insurance offers you a wide range of benefits 😊\n\nYou can refer to the table of benefits and maximum claim amounts in our Travel policy wording [here](https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf) for more information on our coverage."
+  - text: "Our Travel Insurance offers you a wide range of benefits 😊\n\nYou can refer to the table of benefits and maximum claim amounts in our Travel policy wording by clicking on the following button for more information on our coverage."
+    buttons:
+    - title: "Policy Wording"
+      payload: "https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf"
 
   utter_faq_travel/cover_death:
   - text: "We do cover death under the personal accident benefit in our Travel Insurance. The coverage is different between a child, an adult below 70, and an adult above 70."
@@ -550,7 +607,10 @@ responses:
   - text: "We do cover surgery overseas up to your policy limit as long as the incident happened during your trip, and it is not a pre-existing condition."
 
   utter_faq_travel/cover_hospitalisation:
-  - text: "We do cover medical expenses under our Travel Insurance as long as it's not a pre-existing condition. Make sure you seek medical treatment at a GP or A&E within 48 hours upon returning to Singapore and submit the documents for claim assessment. \n\nYou can refer to the full benefits table and maximum claim amount [here](https://www.fwd.com.sg/travel-insurance/)"
+  - text: "We do cover medical expenses under our Travel Insurance as long as it's not a pre-existing condition. Make sure you seek medical treatment at a GP or A&E within 48 hours upon returning to Singapore and submit the documents for claim assessment. \n\nYou can refer to the full benefits table and maximum claim amount by clicking on the following button."
+    buttons:
+    - title: "Travel Insurance"
+      payload: "https://www.fwd.com.sg/travel-insurance/"
 
   utter_faq_travel/cover_countries:
   - text: "It depends on which region you are looking at.\n\nASEAN includes: Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam\n\nAsia includes: Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan\n\nWorldwide excluding USA refers to: All of the world excluding USA and any of its territory\n\nPlease note that any country where the Ministry of Foreign Affairs of Singapore advises against travelling to or recommends postponing the travel to, are excluded."
@@ -568,7 +628,10 @@ responses:
   - text: "Our Travel Insurance do cover surgery overseas up to your policy limit as long as the incident happened during your trip, and it's not a pre-existing condition."
 
   utter_faq_travel/cover_elderly:
-  - text: "You can purchase our Travel Insurance as long as you hold a valid Singapore ID and residing in Singapore. \n\nDo note that the 'medical coverage' and the 'death or permanent disability caused by accident that occurred whilst overseas' is lower for age 70 and above. Do refer to the limits [here](https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf)."
+  - text: "You can purchase our Travel Insurance as long as you hold a valid Singapore ID and residing in Singapore. \n\nDo note that the 'medical coverage' and the 'death or permanent disability caused by accident that occurred whilst overseas' is lower for age 70 and above. Do refer to the limits by clicking on the following button."
+    buttons:
+    - title: "Insurance Contract"
+      payload: "https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf"
 
   utter_faq_travel/cover_illness:
   - text: "Falling sick during trips is the worst! 😷 \n\nMake sure you seek medical treatment at a GP or A&E within 48 hours upon returning to Singapore and submit the claim under your Travel Insurance."

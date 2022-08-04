@@ -2,16 +2,25 @@ version: "3.1"
 
 responses:
   utter_faq_pa/know_more:
-  - text: "Sure! 😊 You may read more about our personal accident insurance [here](https://www.fwd.com.sg/personal-accident-insurance/)."
+  - text: "Sure! 😊 You may read more about our personal accident insurance by clicking on the following button."
+    buttons:
+    - title: "PA Insurance"
+      payload: "https://www.fwd.com.sg/personal-accident-insurance/"
 
   utter_faq_pa/buy_insurance:
-  - text: "Great choice! It'll take less than a min to get a quote.\n\nPlease click [here](https://www.fwd.com.sg/personal-accident-insurance/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/pa_Get_Quote) to get a quote."
+  - text: "Great choice! It'll take less than a min to get a quote.\n\nPlease click the following button to get a quote."
+    buttons:
+    - title: "Get a Quote"
+      payload: "https://www.fwd.com.sg/personal-accident-insurance/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/pa_Get_Quote"
 
   utter_faq_pa/get_quote_info:
   - text: "You'll need to select:\n\n1. Choice of plan (individual, couple or family)\n2. Occupation group\n3. Coverage amount to get a Personal Accident Insurance quote"
 
   utter_faq_pa/get_quote_how:
-  - text: "It's really easy! Click [here](https://www.fwd.com.sg/personal-accident-insurance/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/pa_Get_Quote) and you'll get a quote instantly just by answering a few questions."
+  - text: "It's really easy! Click the following button and you'll get a quote instantly just by answering a few questions."
+    buttons:
+    - title: "Get a Quote"
+      payload: "https://www.fwd.com.sg/personal-accident-insurance/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/pa_Get_Quote"
 
   utter_faq_pa/emergency_contact:
   - text: "You can call our FWD Emergency Assistance hotline at +65 6322 2072 which is available 24/7."
@@ -29,7 +38,10 @@ responses:
   - text: "You can use any credit/debit card, Visa or Mastercard to make payment for our Personal Accident Insurance."
 
   utter_faq_pa/claim_documents:
-  - text: "The documents needed to make a Personal Accident Insurance claim depend on what you're claiming for. You can refer to the guide [here](https://www.fwd.com.sg/insurance-claims/claims-guide/guide-personal.html)."
+  - text: "The documents needed to make a Personal Accident Insurance claim depend on what you're claiming for. Click on the following button to access the guide."
+    buttons:
+    - title: "PA Insurance Guide"
+      payload: "https://www.fwd.com.sg/insurance-claims/claims-guide/guide-personal.html"
 
   utter_faq_pa/claim_infectious_diseases_50_percent_payable:
   - text: "Our Personal Accident Insurance covers food poisoning and infectious disease as a result of accident, we will pay up to 50% of the relevant limit stated in the summary but do note that the coverage will only begin 90 days after your policy start date."
@@ -53,10 +65,16 @@ responses:
   - text: "You can still consider a Term Life policy even if you already have a Personal Accident Insurance as both provide a different coverage. \n\nTerm Life Insurance provides you cover for death caused by illnesses or accidents. Personal Accident Insurance only covers death caused by an accident."
 
   utter_faq_pa/policy_wording:
-  - text: "Just click [here](https://www.fwd.com.sg/pdfs/PA-Insurance_unsigned_30092016.pdf) for the summary of cover for our Personal Accident Insurance."
-
+  - text: "Just click on the following button for the summary of cover for our Personal Accident Insurance."
+    buttons:
+    - title: "Policy Wording"
+      payload: "https://www.fwd.com.sg/pdfs/PA-Insurance_unsigned_30092016.pdf"
+  
   utter_faq_pa/can_i_buy:
-  - text: "Please click [here](https://www.fwd.com.sg/personal-accident-insurance/online-quote/#/quotation/quickQuestions) to get a Personal Accident Insurance quote."
+  - text: "Please click on the following button to get a Personal Accident Insurance quote."
+    buttons:
+    - title: "Get a Quote"
+      payload: "https://www.fwd.com.sg/personal-accident-insurance/online-quote/#/quotation/quickQuestions"
 
   utter_faq_pa/under_general_insurance:
   - text: "Personal Accident Insurance is under General Insurance for FWD and across all insurance companies as well."
@@ -83,7 +101,10 @@ responses:
   - text: "Under our Personal Accident Insurance, you can choose to insure your family (spouse and children) with 5 options for the sum insured between $100k to $1mil. To do so, when you click on 'get a quote', simply choose the option 'me and my family'."
 
   utter_faq_pa/do_you_have:
-  - text: "You'll find info on our Personal Accident Insurance [here](https://www.fwd.com.sg/personal-accident-insurance/) 😄\n"
+  - text: "You'll find info on our Personal Accident Insurance by clicking on the following button 😄\n"
+    buttons:
+    - title: "PA Insurance"
+      payload: "https://www.fwd.com.sg/personal-accident-insurance/"
 
   utter_faq_pa/promo:
   - text: "Click here to get the promo codes and see our current promotions. You may be eligible for a gift too! \n\nCall us if you need help 😊"
@@ -182,7 +203,10 @@ responses:
   - text: "The Personal Accident Insurance allows you to add on coverage for your child only if you purchase the policy indicating yourself as the main policyholder and insured person."
 
   utter_faq_pa/visit_panel_clinic_to_claim:
-  - text: "Our Personal Accident claim can be from any clinic as long as the documents needed to make the claim is submitted. You can refer to the guide [here](https://www.fwd.com.sg/insurance-claims/claims-guide/guide-personal.html)."
+  - text: "Our Personal Accident claim can be from any clinic as long as the documents needed to make the claim is submitted. You can refer to the guide here."
+    buttons:
+    - title: "Panel Clinics"
+      payload: "https://www.fwd.com.sg/insurance-claims/claims-guide/guide-personal.html"
 
   utter_faq_pa/cover_out_of_sg:
   - text: "As long as you're overseas for less than 180 continuous days, you'll be covered under your Personal Accident Insurance policy."

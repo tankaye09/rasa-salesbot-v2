@@ -2,13 +2,26 @@ version: "3.1"
 
 responses:
   utter_faq_car/know_more:
-  - text: "Sure! 😊 You may read more about our car insurance [here](https://www.fwd.com.sg/car-insurance/)."
+  - text: "Sure! 😊 You may read more about our car insurance by clicking on the following button."
+    buttons:
+    - title: "Read More Here"
+      payload: "https://www.fwd.com.sg/car-insurance/"
 
   utter_faq_car/buy_insurance:
-  - text: "Great choice! It'll take less than a min to get a quote.\n\nPlease click [here](https://www.fwd.com.sg/car-insurance/comprehensive-motor-insurance/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/car_Comprehensive_Get_Quote) to get a quote for a comprehensive car insurance.\nOr [here])(https://www.fwd.com.sg/car-insurance/third-party-cover/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/car_Third-Party_Get_Quote) to get a quote for a third party car insurance."
-
+  - text: "Great choice! It'll take less than a min to get a quote.\n\nPlease click the first button to get a quote for a comprehensive car insurance.\nOr the second button to get a quote for a third party car insurance."
+    buttons:
+    - title: "Comprehensive"
+      payload: "https://www.fwd.com.sg/car-insurance/comprehensive-motor-insurance/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/car_Comprehensive_Get_Quote"
+    - title: "Third Party"
+      payload: "https://www.fwd.com.sg/car-insurance/third-party-cover/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/car_Third-Party_Get_Quote"
+      
   utter_faq_car/get_quote_how:
-  - text: "It's really easy!\n\nFor a comprehensive car insurance, click [here](https://www.fwd.com.sg/car-insurance/comprehensive-motor-insurance/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/car_Comprehensive_Get_Quote) and you'll get a quote instantly just by answering a few questions.\nOr click [here](https://www.fwd.com.sg/car-insurance/third-party-cover/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/car_Third-Party_Get_Quote) for a third party car insurance."
+  - text: "It's really easy!\n\nFor a comprehensive car insurance, click the first button and you'll get a quote for a comprehensive car insurance instantly just by answering a few questions.\nOr click the second button for a third party car insurance."
+    buttons:
+    - title: "Comprehensive"
+      payload: "https://www.fwd.com.sg/car-insurance/comprehensive-motor-insurance/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/car_Comprehensive_Get_Quote"
+    - title: "Third Party"
+      payload: "https://www.fwd.com.sg/car-insurance/third-party-cover/online-quote/#/quotation/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_faq/car_Third-Party_Get_Quote"
 
   utter_faq_car/modifications_exclusion:
   - text: "As long as your vehicle modification is approved by LTA, we're able to provide cover under our Car Insurance 😊"
@@ -38,7 +51,10 @@ responses:
   - text: "If you were involved in an accident, please contact our Emergency Assistance hotline at +65 6322 2072 for assistance. I hope you are alright!"
 
   utter_faq_car/accident_report_how_to:
-  - text: "Please take your car and the following documents to one of our Approved Reporting Centres here: [here](https://www.fwd.com.sg/claim-locator/) to lodge a report:\n\n1. Driver's driving license\n2. Insured and driver's NRIC\n3. Soft copy of your Car's Certificate of Insurance\n4. Police report (if any)\n5. Scene photos (if any)\n6. Witness reports (if any)\n\nAternatively, you can opt for mobile reporting. Please call our Emergency Assistance hotline at +65 6322 2072 for assistance."
+  - text: "Please take your car and the following documents to one of our Approved Reporting Centres to lodge a report:\n\n1. Driver's driving license\n2. Insured and driver's NRIC\n3. Soft copy of your Car's Certificate of Insurance\n4. Police report (if any)\n5. Scene photos (if any)\n6. Witness reports (if any)\n\nAternatively, you can opt for mobile reporting. Please call our Emergency Assistance hotline at +65 6322 2072 for assistance."
+    buttons:
+    - title: "Reporting Centres"
+      payload: "https://www.fwd.com.sg/claim-locator/"
 
   utter_faq_car/renew_how:
   - text: "If you have an existing policy with us, we'll send you a renewal link (it comes with a discount!) via email to renew online before your Car policy expires. You'll be able to make changes to your plan before proceeding with payment. Alternatively, you can also renew your Car Insurance through our mobile app or online services portal here. Otherwise, simply get a new quote for your policy by selecting the product you wish to check on our page."
@@ -74,10 +90,16 @@ responses:
   - text: "If your car is less than 12 months since the initial registration and you're the first owner, we'll replace your car with the same make or model if your car is declared a total loss under your Car Insurance."
 
   utter_faq_car/where_to_repair_car_damaged_from_accident:
-  - text: "You'll need to bring your car to our FWD premium workshop listed [here](https://www.fwd.com.sg/uploads/sites/1/2018/05/FWD_Singapore_Premium_Workshops_12042018.pdf)\n\nIf you've added the 'Any Workshop' benefit to your plan, you can bring your car to any workshop of your choice."
+  - text: "You'll need to bring your car to our FWD premium workshop listed in the link below.\n\nIf you've added the 'Any Workshop' benefit to your plan, you can bring your car to any workshop of your choice."
+    buttons:
+    - title: "Premium Workshops"
+      payload: "https://www.fwd.com.sg/uploads/sites/1/2018/05/FWD_Singapore_Premium_Workshops_12042018.pdf"
 
   utter_faq_car/where_to_repair_car:
-  - text: "You'll need to bring your car to our Premium Workshop listed [here](https://www.fwd.com.sg/uploads/sites/1/2018/05/FWD_Singapore_Premium_Workshops_12042018.pdf)\n\nIf you've added the 'Any Workshop' benefit to your Car Insurance plan, you can bring your car to any workshop of your choice"
+  - text: "You'll need to bring your car to our Premium Workshop listed in the link below.\n\nIf you've added the 'Any Workshop' benefit to your Car Insurance plan, you can bring your car to any workshop of your choice"
+    buttons:
+    - title: "Premium Workshops"
+      payload: "https://www.fwd.com.sg/uploads/sites/1/2018/05/FWD_Singapore_Premium_Workshops_12042018.pdf"
 
   utter_faq_car/why_need:
   - text: "Getting a Car Insurance is a requirement under the Motor Vehicles (Third-Party Risks and Compensation) Act. You'll also need insurance coverage for your motorcycle to be able to renew your road tax."
@@ -92,7 +114,10 @@ responses:
   - text: "Modification means any change made to your car whether it's for performance enhancing (output and/or handling), decorative purposes or for on-board entertainment."
 
   utter_faq_car/list_of_workshop:
-  - text: "Just click [here](https://www.fwd.com.sg/uploads/sites/1/2018/09/FWD_Singapore_Premium_Workshops_2018.pdf) for the list of our workshops under our Car Insurance."
+  - text: "Click the following button to view the list of our workshops under our Car Insurance."
+    buttons:
+    - title: "List of Workshops"
+      payload: "https://www.fwd.com.sg/uploads/sites/1/2018/09/FWD_Singapore_Premium_Workshops_2018.pdf"
 
   utter_faq_car/what_is_excess:
   - text: "Excess is a contribution you are required to pay when you make a claim against your insurance policy. For example, if the damage to your car was S$5,500 and your excess on the insurance Summary states S$500 for damages to your car, you'll need to pay the S$500."
@@ -116,10 +141,18 @@ responses:
   - text: "We understand you may prefer to get your car repaired at the dealer workshop to keep the car warranty intact. We do offer the 'Any Workshop' benefit as an add-on which allows you to repair your car at any workshop of your choice. Do make sure you add in the \"Any Workshop\" benefit after selecting a plan for your comprehensive Car Insurance."
 
   utter_faq_car/extend_renew_road_tax:
-  - text: "If you need to extend your Car Insurance policy to match your road tax, you can extend directly via our mobile app or online services account [here](https://www.fwd.com.sg/portal/), under 'manage policy'. We'll be able to extend your current policy for a maximum of 6 months. To check on the correct date to extend to, you can use this link [here](https://vrl.lta.gov.sg/lta/vrl/action/pubfunc?ID=EnquireRoadTaxPayable)."
+  - text: "If you need to extend your Car Insurance policy to match your road tax, you can extend directly via our mobile app or online services account by clicking on the first button, under 'manage policy'. We'll be able to extend your current policy for a maximum of 6 months. To check on the correct date to extend to, click on the second button to know more."
+    buttons:
+    - title: "FWD Portal"
+      payload: "https://www.fwd.com.sg/portal/"
+    - title: "Road Tax"
+      payload: "https://vrl.lta.gov.sg/lta/vrl/action/pubfunc?ID=EnquireRoadTaxPayable"
 
   utter_faq_car/use_for_grabhitch:
-  - text: "Our Car Insurance is sufficient if you're only using GrabHitch, but you'll need Our Commercial Car Insurance instead if you use it for other services like GrabCar or GOJEK. Click [here](https://www.fwd.com.sg/commercial-car-insurance/) for more info!"
+  - text: "Our Car Insurance is sufficient if you're only using GrabHitch, but you'll need Our Commercial Car Insurance instead if you use it for other services like GrabCar or GOJEK. Click the following button for more info!"
+    buttons:
+    - title: "Commercial Car Insurance"
+      payload: "https://www.fwd.com.sg/commercial-car-insurance/"
 
   utter_faq_car/car_still_under_warranty:
   - text: "Just select the 'Any Workshop' benefit which is an add-on after you've selected the main Car Insurance plan. \n\n\nThis benefit allows you to repair your car at any workshop of your choice."

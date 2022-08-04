@@ -137,10 +137,16 @@ responses:
         payload: 'no login password'
 
   utter_claim_has_login_password:
-  - text: "You can login into our customer portal [here](https://www.fwd.com.sg/portal/)"
+  - text: "You can login into our customer portal here."
+    buttons:
+      - title: "FWD Customer Portal"
+        payload: "https://www.fwd.com.sg/portal/"
 
   utter_claim_no_login_password:
-  - text: "Not an issue, you can submit your claim [here](https://www.fwd.com.sg/claim-online/stroke-insurance/quickQuestions)"
+  - text: "Not an issue, you can submit your claim here."
+    buttons:
+      - title: "Submit Your Claim"
+        payload: "https://www.fwd.com.sg/claim-online/stroke-insurance/quickQuestions"
 
   # OUT OF SCOPE / FALLBACK
   utter_out_of_scope:
@@ -154,17 +160,17 @@ responses:
   - text: "Would you like to speak to our agent instead? You may choose to leave your contact details so that our agent can contact you back shortly."
     buttons:
     - title: "Yes"
-      payload: 'yes'
+      payload: "yes"
     - title: "No"
-      payload: 'no'
+      payload: "no"
   
   utter_speak_to_agent_alternative:
   - text: "Alternatively, you may choose to speak to an agent if you have other queries. You can leave your contact details so that our agent can contact you back shortly. Would you like to speak to an agent?"
     buttons:
     - title: "Yes"
-      payload: 'yes'
+      payload: "yes"
     - title: "No"
-      payload: 'no'
+      payload: "no"
   
   utter_agent_form:
   - text: "Sure! We will require your contact details."
@@ -217,7 +223,10 @@ responses:
   - text: "Alright! I'd like to recommend Life insurance to you! Life insurance protects the people close to you! Your parents, spouse, children or other loved ones would be less burdened!"
 
   utter_link_to_life_insurance:
-  - text: "I got you. Here, use this link to get a quote: [here](https://www.fwd.com.sg/life-insurance/direct-purchase-term-life-insurance/online-quote/quickQuestions)."
+  - text: "I got you. Here, click on the following button to get a quote."
+    buttons:
+    - title: "Life Insurance"
+      payload: "https://www.fwd.com.sg/life-insurance/direct-purchase-term-life-insurance/online-quote/quickQuestions"
 
   utter_welcome:
   - text: "You're very welcome! :D"
@@ -229,4 +238,7 @@ responses:
   - text: "Alright! I'd like to recommend home insurance to you! Rebuilding or replacing a home is an expensive affair and this insurance helps make the process less difficult!"
 
   utter_link_to_home_insurance:
-  - text: "I got you. Here, use this link to get a quote: [here](https://www.fwd.com.sg/home-insurance/online-quote/ownerType)."
+  - text: "I got you. Here, click on the following button to get a quote."
+    buttons:
+    - title: "Home Insurance"
+      payload: "https://www.fwd.com.sg/home-insurance/online-quote/ownerType"
