@@ -62,7 +62,7 @@ responses:
   - text: "Under our Personal Accident Insurance, you can choose to insure you and your spouse with 5 options for the sum insured between $100k to $1mil. For more information, click on 'get a quote', and choose the option 'me and my spouse'."
 
   utter_faq_pa/buy_term_life:
-  - text: "You can still consider a Term Life policy even if you already have a Personal Accident Insurance as both provide a different coverage. \n\nTerm Life Insurance provides you cover for death caused by illnesses or accidents. Personal Accident Insurance only covers death caused by an accident."
+  - text: "You can still consider a Term Life policy even if you already have a Personal Accident Insurance as both provide a different coverage.Term Life Insurance provides you cover for death caused by illnesses or accidents. Personal Accident Insurance only covers death caused by an accident."
 
   utter_faq_pa/policy_wording:
   - text: "Just click on the following button for the summary of cover for our Personal Accident Insurance."
@@ -107,10 +107,10 @@ responses:
       payload: "https://www.fwd.com.sg/personal-accident-insurance/"
 
   utter_faq_pa/promo:
-  - text: "Click here to get the promo codes and see our current promotions. You may be eligible for a gift too! \n\nCall us if you need help 😊"
+  - text: "Click here to get the promo codes and see our current promotions. You may be eligible for a gift too!Call us if you need help 😊"
 
   utter_faq_pa/waiting_period:
-  - text: "Coverage will start immediately on the policy start date for our Personal Accident Insurance. \n\nBut for infectious disease and food poisoning, there's a 90 days waiting period from the coverage start date."
+  - text: "Coverage will start immediately on the policy start date for our Personal Accident Insurance.But for infectious disease and food poisoning, there's a 90 days waiting period from the coverage start date."
 
   utter_faq_pa/medical_expenses_limit_per_accident:
   - text: "The medical expenses for Personal Accident Insurance is per accident. Medical expenses is up to S$15,000 for inpatient and outpatient care in Singapore. You may add a rider and get up to S$30,000 coverage for overseas medical expenses."
@@ -125,7 +125,7 @@ responses:
   - text: "For Personal Accident Insurance, you can check which category of your occupation falls under by selecting the 'i' button beside each of the occupation group.\n\nIf you are still unsure, feel free to give us a call at +6568208888 and we'll try out best to help you 😊"
 
   utter_faq_pa/free_look_period:
-  - text: "The free-look period for our Personal Accident Insurance is 14 days from the date of issuance \n\nDuring this period you can cancel your policy and receive a full refund if no claims are made."
+  - text: "The free-look period for our Personal Accident Insurance is 14 days from the date of issuanceDuring this period you can cancel your policy and receive a full refund if no claims are made."
 
   utter_faq_pa/emergency_medical_evacuation:
   - text: "Under our Personal Accident emergency medical evacuation, we will pay for any necessary expenses to move you to the medical facility for treatment and also any adminstrative fees to change your return dates or destionations. For more information, you can refer to our policy wording online."

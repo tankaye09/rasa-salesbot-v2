@@ -41,7 +41,7 @@ responses:
       payload: "https://www.fwd.com.sg/portal/"
 
   utter_faq_cancer/change_beneficiaries:
-  - text: "It depends on whether your beneficiary is a revocable nominee or trust nominee. Respective documents are accessible by the following buttons.\n1. Revocable Nominee: You can change it anytime using Form 5.\n2. Trust Nominee: Only if your trust nominee/s agree to the changes and you will need to complete Form 2.\n\n"
+  - text: "It depends on whether your beneficiary is a revocable nominee or trust nominee. Respective documents are accessible by the following buttons.\n1. Revocable Nominee: You can change it anytime using Form 5.\n2. Trust Nominee: Only if your trust nominee/s agree to the changes and you will need to complete Form 2."
     buttons:
     - title: "Form 5"
       payload: "https://www.fwd.com.sg/pdfs/Nomination-of-Beneficiary-Form-5-Revocation-of-Revocable-Nomination.pdf"

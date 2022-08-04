@@ -27,7 +27,7 @@ responses:
   - text: "As long as your vehicle modification is approved by LTA, we're able to provide cover under our Car Insurance 😊"
 
   utter_faq_car/ncd_transfer:
-  - text: "We'll accept a transfer of NCD between spouses only. Your NCD can also be transferred to any new car if the old car is sold. \n\n\nDo note that NCD can't be transferred to a different class of vehicle."
+  - text: "We'll accept a transfer of NCD between spouses only. Your NCD can also be transferred to any new car if the old car is sold.\nDo note that NCD can't be transferred to a different class of vehicle."
 
   utter_faq_car/ncd_transfer_motorcycle:
   - text: "NCD can't be shared or split between multiple vehicles and can't be transferred to a different class of vehicle."
@@ -39,13 +39,13 @@ responses:
   - text: "The NCD under Car Insurance will be reduced by 10% if the accident is not reported or it was done after the 24 hours period. So make sure you report the accident within 24 hours 🙏"
 
   utter_faq_car/types_accidents_police_report:
-  - text: "A Police report is only required for the following cases: \n\n1. Accidents involving death or injury to any party \n2. Non-injury accidents involving a foreign vehicle \n3. Non-injury accidents involving a government vehicle/damage to government property \n4. Non-injury accidents involving a pedestrian or cyclist \n5. Theft or loss of vehicle, hit and run accidents, vandalism, parked and found damaged"
+  - text: "A Police report is only required for the following cases:1. Accidents involving death or injury to any party \n2. Non-injury accidents involving a foreign vehicle \n3. Non-injury accidents involving a government vehicle/damage to government property \n4. Non-injury accidents involving a pedestrian or cyclist \n5. Theft or loss of vehicle, hit and run accidents, vandalism, parked and found damaged"
 
   utter_faq_car/accident_report_days:
   - text: "All accidents must be reported within 24 hours or immediately on the next working day even if there's no injury, damage or claim."
 
   utter_faq_car/accident_report_not_claiming:
-  - text: "All accidents must be reported at any of our approved reporting centres within 24 hours. \n\nThis is to help our Motor Claims team to handle if there's any claims made against your Car Insurance policy due to the accident."
+  - text: "All accidents must be reported at any of our approved reporting centres within 24 hours.This is to help our Motor Claims team to handle if there's any claims made against your Car Insurance policy due to the accident."
 
   utter_faq_car/accident_what_to_do:
   - text: "If you were involved in an accident, please contact our Emergency Assistance hotline at +65 6322 2072 for assistance. I hope you are alright!"
@@ -63,13 +63,13 @@ responses:
   - text: "For existing customers holding the Classic Car Insurance plan, you would have to add on the optional 'Anyone you trust can drive your car' rider when you renew your Classic Car Insurance plan. Only when you add on the optional rider, we'll then insure them under your Classic Car Insurance if they fulfil the age, license, and identity requirement, without you having to name them.\n\n\nIf you purchase the Executive or Prestige Car Insurance plan, it automatically covers any drivers you trust to drive your car, without you having to name them.\n\n\nFor new customers, if you are purchasing the Classic Car Insurance plan, do make sure that you select the optional 'Anyone you trust can drive your car' rider before making payment."
 
   utter_faq_car/quote_do_not_know_ncd:
-  - text: "You'll need to check with your previous insurer and they'll be able to share with you. If you're currently insured with us, you can check your Car Insurance policy for your NCD entitlement. \n\n\nIf you're unsure, you may purchase the insurance first at 0% and give us a call at +6568208888 or send an email to contact.sg@fwd.com"
+  - text: "You'll need to check with your previous insurer and they'll be able to share with you. If you're currently insured with us, you can check your Car Insurance policy for your NCD entitlement.\nIf you're unsure, you may purchase the insurance first at 0% and give us a call at +6568208888 or send an email to contact.sg@fwd.com"
 
   utter_faq_car/why_better_direct_asia:
   - text: "Our Car Insurance automatically protects your NCD once you reached 50% NCD. Also, we cover anyone whom you trust to drive your car without the need to name them 👍"
 
   utter_faq_car/comprehensive_third_party_differ:
-  - text: "Comprehensive: Covers legal liability to a third party as well as damage to your own car. \n\nThird Party Fire and Theft: Covers for legal liability to a third party as well as damage to your own car as a result of fire or theft only. \n\nThird Party: Covers for legal liability to a third party only"
+  - text: "Comprehensive: Covers legal liability to a third party as well as damage to your own car.Third Party Fire and Theft: Covers for legal liability to a third party as well as damage to your own car as a result of fire or theft only.Third Party: Covers for legal liability to a third party only"
 
   utter_faq_car/lower_premium_off_peak_cars:
   - text: "There is no difference in premium between an off-peak and regular car."
@@ -81,7 +81,7 @@ responses:
   - text: "You'll need to inform us if there's any claim prior to the renewal of your Car Insurance policy or after your policy has been renewed as it might affect your NCD and premiums. We wouldn't want your policy to be invalid due to non-declaration."
 
   utter_faq_car/number_of_claims_declare:
-  - text: "You'll need to declare the number of accidents in the last 3 years where you were at fault (windscreen claims is not considered). \n\nIf there's a pending claim or if you're unsure who's at-fault, you'll still need to declare it during application for our Car Insurance. Once we confirm you were not at-fault, we'll then refund the difference in premium."
+  - text: "You'll need to declare the number of accidents in the last 3 years where you were at fault (windscreen claims is not considered).If there's a pending claim or if you're unsure who's at-fault, you'll still need to declare it during application for our Car Insurance. Once we confirm you were not at-fault, we'll then refund the difference in premium."
 
   utter_faq_car/buy_with_zero_excess:
   - text: "We don't have a zero-excess Car Insurance plan for now. You'll see the minimum excess applicable for your policy on the next page once you've selected the plan you wish to purchase."
@@ -155,7 +155,7 @@ responses:
       payload: "https://www.fwd.com.sg/commercial-car-insurance/"
 
   utter_faq_car/car_still_under_warranty:
-  - text: "Just select the 'Any Workshop' benefit which is an add-on after you've selected the main Car Insurance plan. \n\n\nThis benefit allows you to repair your car at any workshop of your choice."
+  - text: "Just select the 'Any Workshop' benefit which is an add-on after you've selected the main Car Insurance plan.\nThis benefit allows you to repair your car at any workshop of your choice."
 
   utter_faq_car/top_up_for_own_workshop:
   - text: "You can select the 'Any Workshop' benefit which is an add-on after you've selected the main Car Insurance plan. This benefit allows you to repair your car at any workshop of your choice."

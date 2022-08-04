@@ -26,7 +26,7 @@ responses:
   - text: "Once you have the In-Principle Approval letter, it's advisable for you to purchase the Maid Insurance policy the earliest possible because it'll take 5 days for the application to be approved by MOM. Your helper will not be allowed to enter Singapore if the policy has not started.\n\nAs we would need to process and furnish your maid's insurance details to the Ministry of Manpower (MOM), the earliest policy start date for our Maid Insurance is 5 days from the date of purchase.\n\nFor new maids, the policy start date should be the date when your maid is coming into Singapore or earlier.\nFor renewal maids, the policy start date should be 1 day after your maid's current work permit expires.\nFor transferred maids, the policy start date should be on or before the date you apply for a transfer with MOM."
 
   utter_faq_maid/work_permit_type:
-  - text: "These are type of work permit under the Maid Insurance: \n\nNew: Maid who is currently not in Singapore \nTransfer: An existing maid in Singapore whom you're now employing \nRenew: You current maid whom you want to renew"
+  - text: "These are type of work permit under the Maid Insurance:New: Maid who is currently not in Singapore \nTransfer: An existing maid in Singapore whom you're now employing \nRenew: You current maid whom you want to renew"
 
   utter_faq_maid/renew_start_date:
   - text: "The Maid Insurance policy start date must be one day after her current work permit's expiry date as required by MOM. MOM will reject the transmission if the date is selected wrongly."
@@ -38,7 +38,7 @@ responses:
       payload: "https://www.fwd.com.sg/maid-insurance/online-quote/quickQuestions"
 
   utter_faq_maid/ntuc_issue_policy_same_day:
-  - text: "I won't be able to comment on another insurer 😩 \n\nOur maid policy does indeed have a 5-days wait time because we want to allow enough time for the information to reach MOM for approval."
+  - text: "I won't be able to comment on another insurer 😩Our maid policy does indeed have a 5-days wait time because we want to allow enough time for the information to reach MOM for approval."
 
   utter_faq_maid/instalment_plan:
   - text: "Sorry, there isn't an instalment plan for our Maid Insurance at the moment."

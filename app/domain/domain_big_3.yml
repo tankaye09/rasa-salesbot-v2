@@ -65,7 +65,7 @@ responses:
   - text: "Our Big 3 Critical Illness Insurance is cheaper than Cancer Insurance because for Big 3, once you make a claim, the policy will stop."
 
   utter_faq_big_3/term_life_difference:
-  - text: "Big 3 Critical Illness Insurance provides specific coverage for Heart Attack, Cancer and Stroke. It has a fixed death benefit of S$20,000 and there's also an option to purchase riders to cover neurological and heart disorders. \n\nMeanwhile, our Term Life critical illness add on covers up to 35 types of critical illnesses (Direct-Term Life covers up to 30) which adheres to the definition put together by the Life insurer's Association of Singapore (LIA) and Monetary Authority of Singapore (MAS). \n\nYou can refer to individual definitions of critical illness by clicking on the following button."
+  - text: "Big 3 Critical Illness Insurance provides specific coverage for Heart Attack, Cancer and Stroke. It has a fixed death benefit of S$20,000 and there's also an option to purchase riders to cover neurological and heart disorders.Meanwhile, our Term Life critical illness add on covers up to 35 types of critical illnesses (Direct-Term Life covers up to 30) which adheres to the definition put together by the Life insurer's Association of Singapore (LIA) and Monetary Authority of Singapore (MAS).You can refer to individual definitions of critical illness by clicking on the following button."
     buttons:
     - title: "Critical Illness"
       payload: "https://www.lia.org.sg/media/1463/lia-ci-framework-2014_lia-definitions-for-37-cis.pdf"
@@ -197,7 +197,7 @@ responses:
       payload: "https://www.fwd.com.sg/portal/"
 
   utter_faq_big_3/for_parents_children:
-  - text: "You can buy our Big 3 Critical Illness Insurance for your parents or child(ren) as long as the person covered is between 18 and 65 years old (both inclusive) with a NRIC or valid FIN during application. \n\nDo note that they'll not be able to purchase this Big 3 Critical Illness Insurance if they are already covered under our Big 3 Critical Illness Insurance. Click on the following button to easily get a quote."
+  - text: "You can buy our Big 3 Critical Illness Insurance for your parents or child(ren) as long as the person covered is between 18 and 65 years old (both inclusive) with a NRIC or valid FIN during application.Do note that they'll not be able to purchase this Big 3 Critical Illness Insurance if they are already covered under our Big 3 Critical Illness Insurance. Click on the following button to easily get a quote."
     buttons:
     - title: "Get a Quote"
       payload: "https://www.fwd.com.sg/big-3-critical-illness/"

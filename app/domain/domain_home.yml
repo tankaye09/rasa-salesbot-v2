@@ -46,7 +46,7 @@ responses:
   - text: "Do call our friendly consultants at +6568208888 immediately if any details in your Home Insurance policy needs to be changed as it may affect your coverage."
 
   utter_faq_home/hdb_fire_difference:
-  - text: "Our HDB Fire Insurance covers the cost of reinstating damaged internal structures, fixtures, as well as areas built and provided by HDB. \n\nThe Home Insurance covers home contents such as furniture, renovations and personal belongings. You can click on the first button for more info or click on the second button to get a quote."
+  - text: "Our HDB Fire Insurance covers the cost of reinstating damaged internal structures, fixtures, as well as areas built and provided by HDB.The Home Insurance covers home contents such as furniture, renovations and personal belongings. You can click on the first button for more info or click on the second button to get a quote."
     buttons:
     - title: "Home Insurance"
       payload: "https://www.fwd.com.sg/home-insurance"
@@ -120,7 +120,7 @@ responses:
   - text: "Our Home Insurance home assistance cover provides electrical, plumbing, locksmith and air-con services up to 4 times per 12 month period."
 
   utter_faq_home/incidental_expenses:
-  - text: "Incidental expenses refers to costs you incur as a result of any of the Insured Events. For more information, you can refer to item 10 of our Home Insurance contract. \n\nIf you're the owner/landlord, click on the first button.\nIf you're a tenant, click on the second button."
+  - text: "Incidental expenses refers to costs you incur as a result of any of the Insured Events. For more information, you can refer to item 10 of our Home Insurance contract.If you're the owner/landlord, click on the first button.\nIf you're a tenant, click on the second button."
     buttons:
     - title: "Home Owners"
       payload: "https://www.fwd.com.sg/uploads/sites/1/2018/03/FWD-home-contract-homeowner-without-signature.pdf"
@@ -150,7 +150,7 @@ responses:
   - text: "There is fire and theft coverage in our Home Insurance. The fire coverage includes covers for home contents such as furniture, renovations and personal belongings and the theft coverage includes covers for theft if the home contents stolen were stored within a residential building."
 
   utter_faq_home/cover_event_types:
-  - text: "Our Home Insurance covers most of the common events that lead to loss or damage. For the detailed coverage, you can refer to our policy wording: \n\nFor owner/landlord, click on the first button.\nFor tenant, click on the second button."
+  - text: "Our Home Insurance covers most of the common events that lead to loss or damage. For the detailed coverage, you can refer to our policy wording:For owner/landlord, click on the first button.\nFor tenant, click on the second button."
     buttons:
     - title: "Home Owners"
       payload: "https://www.fwd.com.sg/uploads/sites/1/2018/03/FWD-home-contract-homeowner-without-signature.pdf"
@@ -161,7 +161,7 @@ responses:
   - text: "For furniture, home appliances and home audio-visual equipment there's no maximum limit per item under our Home Insurance. All other home contents are subjected to a maximum of S$1,000 per item."
 
   utter_faq_home/cover_renovation_defects_by_previous_owner:
-  - text: "Renovations refer to any improvements made by you or previous owner and tenants. Our Home Insurance covers renovations made from previous owners but the repair has to be due to insured events. For the detailed coverage, you can refer to our policy wording: \n\nFor owner/landlord, click on the first button.\nFor tenant, click on the second button."
+  - text: "Renovations refer to any improvements made by you or previous owner and tenants. Our Home Insurance covers renovations made from previous owners but the repair has to be due to insured events. For the detailed coverage, you can refer to our policy wording:For owner/landlord, click on the first button.\nFor tenant, click on the second button."
     buttons:
     - title: "Home Owners"
       payload: "https://www.fwd.com.sg/uploads/sites/1/2018/03/FWD-home-contract-homeowner-without-signature.pdf"
@@ -175,7 +175,7 @@ responses:
   - text: "Under our Home Insurance, we cover for worldwide personal liability up to S$500,000 if you or your family members are legally liable for the loss or damage to third party's property."
 
   utter_faq_home/building_coverage:
-  - text: "The amount of building cover is the cost to repair your home to its original form, excluding renovations that you have made. For landed property, you will need to consider the full cost of rebuilding your home. \n\nThere is no building coverage for condo, HDB building coverage is fixed depending on the number of rooms, and landed is adjustable up to $1million."
+  - text: "The amount of building cover is the cost to repair your home to its original form, excluding renovations that you have made. For landed property, you will need to consider the full cost of rebuilding your home.There is no building coverage for condo, HDB building coverage is fixed depending on the number of rooms, and landed is adjustable up to $1million."
 
   utter_faq_home/cover_expensive_jewellery_watches:
   - text: "For items other than furniture, domestic appliances and home audio-visual equipment, there is a limit of S$1,000 per item under our Home Insurance."

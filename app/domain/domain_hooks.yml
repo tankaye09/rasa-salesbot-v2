@@ -35,7 +35,7 @@ responses:
       payload: "yes"
   
   utter_hook_water_ski_answer:
-  - text: "The correct answer is...\n\nwater skiing!"
+  - text: "The correct answer is... water skiing!"
   
   utter_hook_correct:
   - text: "Nice! 😊👏"
@@ -149,9 +149,9 @@ responses:
   - text: "Have a go at guessing what this is! ⛰ 🚴"
 
   utter_hook_snowboarding_answer:
-  - text: "The correct answer is...\n\nsnowboarding!"
+  - text: "The correct answer is... snowboarding!"
   
   utter_hook_mountain_biking_answer:
-  - text: "The correct answer is...\n\nmountain biking!"
+  - text: "The correct answer is... mountain biking!"
 
   

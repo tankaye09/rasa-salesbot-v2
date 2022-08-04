@@ -53,7 +53,7 @@ responses:
   - text: "If you would like to make changes to your Travel Insurance policy, you may submit a request through our mobile app or online services portal here by clicking on 'manage policy'. You'll be able to change your personal particulars anytime, but changes on the policy may not be permitted if your policy has started.\n\nWe'll get back to you within 2 working days once you've submitted your request 😊"
 
   utter_faq_travel/differentiate_couple_family_group:
-  - text: "Couple in our Travel Insurance refers to any two adults, regardless of gender and relationship. \n\nIn our Group plan all individuals are treated as adults, whereas our Family plan is for 1 or 2 adults travelling together with their child(ren). The premium and benefit limit for a child is lower than an adult."
+  - text: "Couple in our Travel Insurance refers to any two adults, regardless of gender and relationship.In our Group plan all individuals are treated as adults, whereas our Family plan is for 1 or 2 adults travelling together with their child(ren). The premium and benefit limit for a child is lower than an adult."
 
   utter_faq_travel/pay_premium:
   - text: "The premium shown on our website is for the total pax selected during the application of your Travel Insurance whether it is Couple, Group or Family plan."
@@ -65,10 +65,10 @@ responses:
       payload: "https://www.fwd.com.sg/travel-insurance/online-quote/quickQuestions?utm_source=Chatbot&utm_medium=Chatbot_Direct&utm_campaign=Chatbot_Travel_Get_Quote"
 
   utter_faq_travel/theft_of_money_claim_documents:
-  - text: "You'll need these documents to submit your claim for theft of money: \n\n1. Boarding pass or flight itinerary \n2. Police report lodged overseas."
+  - text: "You'll need these documents to submit your claim for theft of money:1. Boarding pass or flight itinerary \n2. Police report lodged overseas."
 
   utter_faq_travel/car_rental_excess_claim_documents:
-  - text: "For car rental excess claim, you'll need the following documents: \n\n1. Rental vehicle agreement and excess receipt \n2. Overseas police report, if relates to road accident"
+  - text: "For car rental excess claim, you'll need the following documents:1. Rental vehicle agreement and excess receipt \n2. Overseas police report, if relates to road accident"
 
   utter_faq_travel/medical_expenses_claim_procedure:
   - text: "You can refer to our Travel Insurance medical expenses claim guide by clicking on the following button."
@@ -80,7 +80,7 @@ responses:
   - text: "For trip cut short, you'll need to the following documents to submit your claim:\n\n1. Travel or airline booking \n2. Confirmation from travel agency or airline that there won't be a refund \n3. Medical documents if trip was disrupted due to illness"
 
   utter_faq_travel/trip_postponement_claim_documents:
-  - text: "For trip postponement, you'll need to the following documents to submit your claim: \n\n1. Travel or airline booking \n2. Confirmation from travel agency or airline that there won't be a refund \n3. Medical documents if trip was disrupted due to illness"
+  - text: "For trip postponement, you'll need to the following documents to submit your claim:1. Travel or airline booking \n2. Confirmation from travel agency or airline that there won't be a refund \n3. Medical documents if trip was disrupted due to illness"
 
   utter_faq_travel/claim:
   - text: "No problem, you can make a claim easily online. Do you have a login password?"
@@ -91,19 +91,19 @@ responses:
         payload: "no login password"
 
   utter_faq_travel/loss_of_luggage_claim_documents:
-  - text: "To make a claim for your lost luggage by a transport provider you'll need: \n\n1. Flight itinerary or boarding pass \n2. Report to airline \n3. Proof of denial or compensation by the transport provider \n4. Original invoice(s) for the lost item(s)"
+  - text: "To make a claim for your lost luggage by a transport provider you'll need:1. Flight itinerary or boarding pass \n2. Report to airline \n3. Proof of denial or compensation by the transport provider \n4. Original invoice(s) for the lost item(s)"
 
   utter_faq_travel/loss_of_documents_claim_documents:
-  - text: "You'll need these documents to submit your claim for loss of travel documents: \n\n1. Boarding pass or flight itinerary \n2. Police or relevant report lodged overseas \n3. Receipts for replacement / temporary passports"
+  - text: "You'll need these documents to submit your claim for loss of travel documents:1. Boarding pass or flight itinerary \n2. Police or relevant report lodged overseas \n3. Receipts for replacement / temporary passports"
 
   utter_faq_travel/sports_equipment_protector:
   - text: "These documents are required to claim for sports equipment protector:\n\n1. Flight itinerary or boarding pass\n\n2. Damage report filed with relevant authorities or service providers"
 
   utter_faq_travel/doctor_visit_claim_documents:
-  - text: "Hope you're feeling better! The documents needed for medical claim are: \n\n1. Boarding pass or flight itinerary \n2. Medical bill(s) \n3. Hospital discharge summary if you were hospitalised \n4. GP Doctor's referral letter (if you visited a specialist)"
+  - text: "Hope you're feeling better! The documents needed for medical claim are:1. Boarding pass or flight itinerary \n2. Medical bill(s) \n3. Hospital discharge summary if you were hospitalised \n4. GP Doctor's referral letter (if you visited a specialist)"
 
   utter_faq_travel/trip_cancellation_claim_documents:
-  - text: "For trip cancellation, you'll need to the following documents to submit your claim: \n\n1. Travel or airline booking \n2. Confirmation from travel agency or airline that there won't be a refund \n3. Medical documents if trip was disrupted due to illness"
+  - text: "For trip cancellation, you'll need to the following documents to submit your claim:1. Travel or airline booking \n2. Confirmation from travel agency or airline that there won't be a refund \n3. Medical documents if trip was disrupted due to illness"
 
   utter_faq_travel/claim_where:
   - text: "It depends on what you're claiming for. You can make a Travel Insurance claim through our FWD Online Portal, FWD SG app or using the online form."
@@ -142,7 +142,7 @@ responses:
   - text: "You can buy this add-on together with our travel insurance on the same day that you’re travelling. You can buy FWD’s COVID-19 enhanced travel benefits as long as you are in Singapore before immigration. Please note that any claims made for incidences that happen before you buy your insurance will not be covered. This includes trip cancellation and loss of deposit. Also, please note that we will not pay any claims for trip cancellation and loss of deposit benefit if you buy your policy less than 3 days before your scheduled departure date."
 
   utter_faq_travel/buy_if_pregnant:
-  - text: "You can buy our Travel Insurance as long as you're in Singapore before immigration. \n\nAnything that happened before your purchase will not be covered including travel delay."
+  - text: "You can buy our Travel Insurance as long as you're in Singapore before immigration.Anything that happened before your purchase will not be covered including travel delay."
 
   utter_faq_travel/buy_travelled_out_of_sg:
   - text: "Our Travel Insurance doesn't cover if you've already travelled out from Singapore or your trip doesn't start from Singapore."
@@ -163,7 +163,7 @@ responses:
   - text: "At least one of the adult must be the father/mother of the child that's travelling under our family Travel Insurance plan 😊"
 
   utter_faq_travel/buy_above_age:
-  - text: "We do cover travellers above 70 years old under our Travel Insurance 😊 \n\nOnly thing to note is the 'medical coverage' and the 'death or permanent disability caused by accident that occurred whilst overseas' is lower. Do refer to the limits at our website and click on the '+' for more information"
+  - text: "We do cover travellers above 70 years old under our Travel Insurance 😊Only thing to note is the 'medical coverage' and the 'death or permanent disability caused by accident that occurred whilst overseas' is lower. Do refer to the limits at our website and click on the '+' for more information"
 
   utter_faq_travel/buy_for_parents_from_country:
   - text: "Our Travel Insurance is only valid if you're a resident of Singapore with a valid NRIC/FIN and you must start and end your trip in Singapore."
@@ -178,25 +178,25 @@ responses:
   - text: "Zoom in to policy details about COVID\n- Mention what add-ons are required to be covered for COVID"
 
   utter_faq_travel/china_which_region:
-  - text: "China will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan"
+  - text: "China will be under the 'Asia' region 😄Asia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan"
 
   utter_faq_travel/preexisting_condition:
   - text: "In general, our Travel Insurance don't cover pre-existing conditions, countries in the exclusion list, pregnancy related conditions and losses due to negligence. For a full exclusion list, please refer to our Travel policy wording here"
 
   utter_faq_travel/fiji_which_region:
-  - text: "Fiji is under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan"
+  - text: "Fiji is under the 'Asia' region 😄Asia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan"
 
   utter_faq_travel/asean_consist_which_country:
   - text: "Under our Travel Insurance, ASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam"
 
   utter_faq_travel/emergency_assistance:
-  - text: "Please call our Emergency Assistance hotline on +6563222072. \n\nYou can call us any time of the day or night, from anywhere in the world, and we'll be ready to assist you the best we can."
+  - text: "Please call our Emergency Assistance hotline on +6563222072.You can call us any time of the day or night, from anywhere in the world, and we'll be ready to assist you the best we can."
 
   utter_faq_travel/trip_disruption:
   - text: "Our Travel Disruption benefit covers trip disruptions while you are in Singapore or overseas, and you forced to change your itinerary because of you suffer a serious injury or illness and are medically unfit to travel, a serious public event happens in Singapore or at one of your travel destinations and if tour flight is cancelled, delayed or postponed."
 
   utter_faq_travel/types_offered:
-  - text: "We offer annual and single trip Travel Insurance plans, for individuals, couples, families and groups. \n\nThere are 3 different tiers which offer different coverage; Premium, Business and First. You can click on the following button to view the benefit table."
+  - text: "We offer annual and single trip Travel Insurance plans, for individuals, couples, families and groups.There are 3 different tiers which offer different coverage; Premium, Business and First. You can click on the following button to view the benefit table."
     buttons:
     - title: "Travel Insurance"
       payload: "https://www.fwd.com.sg/travel-insurance/"
@@ -211,7 +211,7 @@ responses:
   - text: "We cover for cruise (including cruise to nowhere) under our Travel Insurance. Please note to select our Covid-19 enhanced travel benefits add-on when purchasing the standard Travel Insurance for a comprehensive coverage that includes Covid-19.\n\nFor cruise to nowhere, you can select the region 'Asean' for Singapore waters."
 
   utter_faq_travel/cover_trip_cancellation:
-  - text: "You can claim for trip cancellation if an incident such as serious injury, illness, death or natural disaster happened 30 days before your departure date, provided it's not a known event. \n\nFor the full details, do refer to our Travel Insurance policy wording by clicking on the following button."
+  - text: "You can claim for trip cancellation if an incident such as serious injury, illness, death or natural disaster happened 30 days before your departure date, provided it's not a known event.For the full details, do refer to our Travel Insurance policy wording by clicking on the following button."
     buttons:
     - title: "Policy Wording"
       payload: "https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf"
@@ -283,88 +283,88 @@ responses:
   - text: "There is no limit in terms of the number of trips under the Annual Travel Insurance Plan as long as the trips are made within 90 days."
 
   utter_faq_travel/myanmar_under_asean_asia:
-  - text: "Myanmar will be under the 'ASEAN' region 😊 \n\nASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
+  - text: "Myanmar will be under the 'ASEAN' region 😊ASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
 
   utter_faq_travel/what_happens_mfa_issues_travel_advisory:
   - text: "Take precaution and stay safe! You can call our Emergency Assistance at +65 6322 2072 if you have an emergency."
 
   utter_faq_travel/uae_dubai_asia:
-  - text: "United Arab Emirates will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "United Arab Emirates will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/berlin_region:
-  - text: "Germany will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Germany will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/australia_asean_asia:
-  - text: "Australia will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+  - text: "Australia will be under the 'Asia' region 😄Asia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
 
   utter_faq_travel/turkey_asia_europe:
-  - text: "Turkey will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Turkey will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/austria_region:
-  - text: "Austria will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Austria will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/stockholm_region:
-  - text: "Sweden will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Sweden will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/ukraine_region:
-  - text: "Ukraine will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Ukraine will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/start_trip_in_sg:
   - text: "For our Travel Insurance, it's only valid if you start and end your trip in Singapore"
 
   utter_faq_travel/portugal_region:
-  - text: "Portugal will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Portugal will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/cover_russia:
-  - text: "Russia is under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Russia is under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/cover_chiropractor_visit:
   - text: "Our Travel Insurance do cover chiropractor treatment (maximum S$50 per visit up to your policy limit) as long as you seek treatment within 48 hours of your return back to Singapore."
 
   utter_faq_travel/cover_hospitalisation_under_covid_positive_test:
-  - text: "Starting from 2 March, you may add on our Covid-19 enhanced travel benefits when you purchase our standard Travel Insurance for a comprehensive coverage that includes Covid-19. This Covid-19 enhanced travel benefit addresses 6 major concerns in the event you are diagnosed with Covid-19, by covering travel cancellation and loss of deposit, trip disruption, medical expenses, hospital income and emergency medical evacuation and repatriation. \n\nBut do note that our Covid-19 enhanced travel benefit is only valid for a travel period of up to 90 days."
+  - text: "Starting from 2 March, you may add on our Covid-19 enhanced travel benefits when you purchase our standard Travel Insurance for a comprehensive coverage that includes Covid-19. This Covid-19 enhanced travel benefit addresses 6 major concerns in the event you are diagnosed with Covid-19, by covering travel cancellation and loss of deposit, trip disruption, medical expenses, hospital income and emergency medical evacuation and repatriation.But do note that our Covid-19 enhanced travel benefit is only valid for a travel period of up to 90 days."
 
   utter_faq_travel/add_car_rental_excess:
-  - text: "If you would like to add the 'Car Rental Excess' cover to your Travel Insurance, do call us at +6568208888 at least 2 working days before your policy starts. Otherwise, we're not able to make any changes. \n\nDo note that Car Rental Excess cover is already included in our 'Business' and 'First' plan type."
+  - text: "If you would like to add the 'Car Rental Excess' cover to your Travel Insurance, do call us at +6568208888 at least 2 working days before your policy starts. Otherwise, we're not able to make any changes.Do note that Car Rental Excess cover is already included in our 'Business' and 'First' plan type."
 
   utter_faq_travel/brunei_asean_asia:
-  - text: "Brunei Darussalam will be under the 'ASEAN' region 😊 \n\nASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
+  - text: "Brunei Darussalam will be under the 'ASEAN' region 😊ASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
 
   utter_faq_travel/athens_region:
-  - text: "Greece will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Greece will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/america_region:
   - text: "America is under the region 'Worldwide'."
 
   utter_faq_travel/bhutan_asia:
-  - text: "Bhutan will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+  - text: "Bhutan will be under the 'Asia' region 😄Asia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
 
   utter_faq_travel/kuwait_region:
-  - text: "Kuwait will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Kuwait will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/amsterdam_region:
-  - text: "Netherlands will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Netherlands will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/bangladesh_asean_asia:
-  - text: "Bangladesh will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+  - text: "Bangladesh will be under the 'Asia' region 😄Asia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
 
   utter_faq_travel/see_doctor_again:
   - text: "If you've seen a doctor overseas, we'll cover you up to a maximum of 30 days (from the date you returned to Singapore) for follow-up visits for the same conditions as when you first visited the GP.\n\nDo note that if specialist attention is required, you'll need to obtain a doctor's referral letter before you proceed."
 
   utter_faq_travel/sri_lanka_asean_asia:
-  - text: "Sri Lanka will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+  - text: "Sri Lanka will be under the 'Asia' region 😄Asia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
 
   utter_faq_travel/pakistan_asia_global_region:
-  - text: "Pakistan will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+  - text: "Pakistan will be under the 'Asia' region 😄Asia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
 
   utter_faq_travel/poland_region:
-  - text: "Poland will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Poland will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/luxembourg_region:
-  - text: "Luxembourg will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Luxembourg will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/tanzania_region:
-  - text: "Tanzania will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Tanzania will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/thailand_mfa_advise_against:
   - text: "For covid-19 travel restrictions matters, please refer to the latest update by the Ministry of Foreign Affairs by clicking on the following button."
@@ -373,43 +373,43 @@ responses:
       payload: "https://www.mfa.gov.sg/Services/Singapore-Citizens/COVID-19-Travel-Restrictions"
 
   utter_faq_travel/zurich_region:
-  - text: "Switzerland will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Switzerland will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/qatar_region:
-  - text: "Qatar will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Qatar will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/uzbekistan_region:
-  - text: "Uzbekistan will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Uzbekistan will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/croatia_region:
-  - text: "Croatia will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Croatia will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/worldwide_cover_egypt:
-  - text: "Egypt will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to"
+  - text: "Egypt will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to"
 
   utter_faq_travel/south_africa_region:
-  - text: "South Africa will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "South Africa will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/slovakia_region:
-  - text: "Slovakia will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Slovakia will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/israel_region:
-  - text: "Israel will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Israel will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/hungary_region:
-  - text: "Hungary will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Hungary will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/belgium_region:
-  - text: "Belgium will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Belgium will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/buy_employment_pass_holder:
   - text: "Employment pass holders are welcome to purchase our Travel Insurance as they meet our requirement of having a FIN. Please note that you must start and end your trip in Singapore."
 
   utter_faq_travel/indonesia_under_asia:
-  - text: "Indonesia will be under the 'ASEAN' region 😊 \n\nASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
+  - text: "Indonesia will be under the 'ASEAN' region 😊ASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
 
   utter_faq_travel/moscow_region:
-  - text: "Russia will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Russia will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/use_for_schengen_visa_application:
   - text: "You can use our Travel Insurance for your Schengen Visa application. Do check our coverage by clicking on the following button to see if it's suitable for you."
@@ -418,64 +418,64 @@ responses:
       payload: "https://www.fwd.com.sg/travel-insurance/"
 
   utter_faq_travel/india_asean:
-  - text: "India will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+  - text: "India will be under the 'Asia' region 😄Asia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
 
   utter_faq_travel/reykjavik_region:
-  - text: "Iceland will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Iceland will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/london_region:
-  - text: "United Kingdom will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "United Kingdom will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/vancouver_canada_zone:
-  - text: "Canada will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Canada will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/mauritius_asia:
-  - text: "Mauritius will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Mauritius will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/maldives_asia:
-  - text: "Maldives will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+  - text: "Maldives will be under the 'Asia' region 😄Asia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
 
   utter_faq_travel/milano_region:
-  - text: "Milano will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Milano will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/macau_asean_asia:
-  - text: "Macau will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+  - text: "Macau will be under the 'Asia' region 😄Asia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
 
   utter_faq_travel/romania_region:
-  - text: "Romania will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Romania will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/tibet_asia:
-  - text: "Tibet is under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan"
+  - text: "Tibet is under the 'Asia' region 😄Asia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan"
 
   utter_faq_travel/rome_region:
-  - text: "Italy will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Italy will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/laos_asean_asia:
-  - text: "Laos will be under the 'ASEAN' region 😊 \n\nASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
+  - text: "Laos will be under the 'ASEAN' region 😊ASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
 
   utter_faq_travel/papua_new_guinea_asean_asia:
-  - text: "Papua New Guine will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+  - text: "Papua New Guine will be under the 'Asia' region 😄Asia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
 
   utter_faq_travel/barcelona_region:
-  - text: "Spain will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Spain will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/east_timor_asean_asia:
-  - text: "East Timor will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+  - text: "East Timor will be under the 'Asia' region 😄Asia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
 
   utter_faq_travel/cover_saudi_arabia:
-  - text: "Saudi Arabia will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Saudi Arabia will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/finland_region:
-  - text: "Finland will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
+  - text: "Finland will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to."
 
   utter_faq_travel/cambodia_asean_asia:
-  - text: "Cambodia will be under the 'ASEAN' region 😊 \n\nASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
+  - text: "Cambodia will be under the 'ASEAN' region 😊ASEAN includes Brunei Darussalam, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
 
   utter_faq_travel/oman_region:
-  - text: "Oman will be under the 'Worldwide Excluding USA' region 😄 \n\nWorldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to"
+  - text: "Oman will be under the 'Worldwide Excluding USA' region 😄Worldwide excluding USA refers to all of the world excluding USA, countries in our exclusion list, and countries the Ministry of Foreign Affairs here of Singapore advises not to travel to"
 
   utter_faq_travel/nepal_region:
-  - text: "Nepal will be under the 'Asia' region 😄 \n\nAsia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
+  - text: "Nepal will be under the 'Asia' region 😄Asia includes: ASEAN Countries and Australia, Bangladesh, Bhutan, China (including Hong Kong and Macau), East Timor, Fiji, India, Japan, Maldives, Mongolia, Nepal, New Zealand, Papua New Guinea, South Korea, Sri Lanka, Taiwan."
 
   utter_faq_travel/cover_emergency_landing:
   - text: "We do cover emergency landing under our Travel Insurance. Depending on the situation, it'll fall under Trip Diversion or Trip Delay."
@@ -505,7 +505,7 @@ responses:
   - text: "You can claim for pharmacy expenses under your Travel Insurance only if you have a valid prescription from a doctor."
 
   utter_faq_travel/cover_loss_of_passport_cash:
-  - text: "We do cover loss of travel documents including passport, and loss of cash and travellers' cheque if it is due to theft. \n\nMake sure you lodge a report and claim against the transportation or accommodation provider first before making a claim. If there was a theft, do report to the local police."
+  - text: "We do cover loss of travel documents including passport, and loss of cash and travellers' cheque if it is due to theft.Make sure you lodge a report and claim against the transportation or accommodation provider first before making a claim. If there was a theft, do report to the local police."
 
   utter_faq_travel/cover_overseas_call_charges:
   - text: "We do cover overseas call charges if you call our Emergency Assistance hotline to engage our services; or you suffer an illness or injury during your trip and in need of support you call the police, medical facilities, or family members in Singapore."
@@ -517,7 +517,7 @@ responses:
   - text: "Unfortunately, we can only cover you when you travel on scheduled commercial transportation, including ships. We will not be able to cover you if you are on your own boat, yacht, or cruiser."
 
   utter_faq_travel/cover_insolvency:
-  - text: "We do cover insolvency under Travel Insurance if the travel agent, transport provider, tour operator and/or accommodation provider responsible for your trip is insolvent. \n\nPlease note that this benefit is only valid if you bought your policy at least 3 days before the start of your trip."
+  - text: "We do cover insolvency under Travel Insurance if the travel agent, transport provider, tour operator and/or accommodation provider responsible for your trip is insolvent.Please note that this benefit is only valid if you bought your policy at least 3 days before the start of your trip."
 
   utter_faq_travel/cover_business_trips:
   - text: "You can purchase our Travel Insurance for your business trip. But any damages connected to your business or profession will not be covered."
@@ -553,7 +553,7 @@ responses:
   - text: "We do cover diving (no depth limit), as long as you're not participating in a professional capacity i.e. you aren't being paid and it's managed by a licensed commercial operator."
 
   utter_faq_travel/cover_flight_delay:
-  - text: "We do cover flight delay if the delay is more than 6 hours, and you're not the cause of the delay. If the delay happens while: \n\n1. You're overseas: S$100 for every 6 hours of delay up to your policy limit based on your plan type\n2. You're back in Singapore: only S$100"
+  - text: "We do cover flight delay if the delay is more than 6 hours, and you're not the cause of the delay. If the delay happens while:1. You're overseas: S$100 for every 6 hours of delay up to your policy limit based on your plan type\n2. You're back in Singapore: only S$100"
 
   utter_faq_travel/cover_baggage_delay:
   - text: "We do cover baggage delay if your bag is delayed for more than 6 hours. If the delay happens while:\n1. You're overseas: S$150 for every 6 hours up to your policy limit based on your plan type\n2. You're back in Singapore: Only S$150"
@@ -583,7 +583,7 @@ responses:
   - text: "We do cover loss of mobile phone up to $300 for 'Premium' plan and $500 for 'Business' and 'First' plan type under our Travel Insurance. Do report to the local police as the report is needed for claims."
 
   utter_faq_travel/cover_loss_of_baggage:
-  - text: "We cover baggage delay and losses due to theft or accidental damage, but not due to negligence. \n\nMake sure you lodge a report and claim against the transportation or accommodation provider first before making a claim. If there was a theft, do report to the local police."
+  - text: "We cover baggage delay and losses due to theft or accidental damage, but not due to negligence.Make sure you lodge a report and claim against the transportation or accommodation provider first before making a claim. If there was a theft, do report to the local police."
 
   utter_faq_travel/cover_loss_of_cash:
   - text: "Our Travel Insurance does cover loss of cash with a claim limit of $300. Do report to the local police as the report is needed for claims."
@@ -607,7 +607,7 @@ responses:
   - text: "We do cover surgery overseas up to your policy limit as long as the incident happened during your trip, and it is not a pre-existing condition."
 
   utter_faq_travel/cover_hospitalisation:
-  - text: "We do cover medical expenses under our Travel Insurance as long as it's not a pre-existing condition. Make sure you seek medical treatment at a GP or A&E within 48 hours upon returning to Singapore and submit the documents for claim assessment. \n\nYou can refer to the full benefits table and maximum claim amount by clicking on the following button."
+  - text: "We do cover medical expenses under our Travel Insurance as long as it's not a pre-existing condition. Make sure you seek medical treatment at a GP or A&E within 48 hours upon returning to Singapore and submit the documents for claim assessment.You can refer to the full benefits table and maximum claim amount by clicking on the following button."
     buttons:
     - title: "Travel Insurance"
       payload: "https://www.fwd.com.sg/travel-insurance/"
@@ -622,19 +622,19 @@ responses:
   - text: "We do cover the remainder of the Airbnb cost that you aren't refunded if it falls under any of our Travel Disruption benefits (Trip cut short, cancellation, postponement etc.)."
 
   utter_faq_travel/cover_travel_delay:
-  - text: "We do cover travel delay if the delay is more than 6 hours, and you're not the cause of the delay. If the delay happens while: \n\n1. You're overseas: S$100 for every 6 hours of delay up to your policy limit based on your plan type\n2. You're back in Singapore: only S$100"
+  - text: "We do cover travel delay if the delay is more than 6 hours, and you're not the cause of the delay. If the delay happens while:1. You're overseas: S$100 for every 6 hours of delay up to your policy limit based on your plan type\n2. You're back in Singapore: only S$100"
 
   utter_faq_travel/cover_overseas_surgery:
   - text: "Our Travel Insurance do cover surgery overseas up to your policy limit as long as the incident happened during your trip, and it's not a pre-existing condition."
 
   utter_faq_travel/cover_elderly:
-  - text: "You can purchase our Travel Insurance as long as you hold a valid Singapore ID and residing in Singapore. \n\nDo note that the 'medical coverage' and the 'death or permanent disability caused by accident that occurred whilst overseas' is lower for age 70 and above. Do refer to the limits by clicking on the following button."
+  - text: "You can purchase our Travel Insurance as long as you hold a valid Singapore ID and residing in Singapore.Do note that the 'medical coverage' and the 'death or permanent disability caused by accident that occurred whilst overseas' is lower for age 70 and above. Do refer to the limits by clicking on the following button."
     buttons:
     - title: "Insurance Contract"
       payload: "https://www.fwd.com.sg/uploads/sites/1/2019/07/FWD-Travel-Insurance-Contract.pdf"
 
   utter_faq_travel/cover_illness:
-  - text: "Falling sick during trips is the worst! 😷 \n\nMake sure you seek medical treatment at a GP or A&E within 48 hours upon returning to Singapore and submit the claim under your Travel Insurance."
+  - text: "Falling sick during trips is the worst! 😷Make sure you seek medical treatment at a GP or A&E within 48 hours upon returning to Singapore and submit the claim under your Travel Insurance."
 
   utter_faq_travel/cover_overseas_medical_expenses:
   - text: "Our Travel Insurance covers you if you fall ill while overseas and you seek treatment there and then. However, we don't cover existing medical conditions or if you're travelling overseas to seek medical treatment."
@@ -643,7 +643,7 @@ responses:
   - text: "We do cover missed connection if your arrival time is more than six hours from the original arrival time due to delay during transit."
 
   utter_faq_travel/cover_sail_on_yacht:
-  - text: "Sorry! ☹ \n\nOur Travel Insurance only covers you when you travel on scheduled commercial transportation."
+  - text: "Sorry! ☹Our Travel Insurance only covers you when you travel on scheduled commercial transportation."
 
   utter_faq_travel/revalidate_return_ticket_covid_positive:
   - text: "You can make a claim under the Trip disruption benefit if your trip is disrupted while you are overseas, and you are forced to change your itinerary because you are diagnosed with COVID-19 and are medically unfit to travel. A medical practitioner must confirm this in writing."
