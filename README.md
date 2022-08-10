@@ -3,7 +3,7 @@
 ### Introduction
 A chatbot hosted on Facebook that approaches customers with interactive features that encourages engagement between the brand and customers through providing assistance to customers’ queries and promoting awareness of the benefits of insurance, thereby leaving a memorable brand image on customers.
 
-This is the README.md file for our [Rasa](https://rasa.com/docs/) component. 
+This is the README.md file for our [Rasa NLU](https://rasa.com/docs/) component. 
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
@@ -14,7 +14,7 @@ This is the README.md file for our [Rasa](https://rasa.com/docs/) component.
   - [Clone the repository](#clone-the-repository)
   - [Setting up the Virtual Environment (Windows User)](#setting-up-the-virtual-environment-windows-user)
   - [Setting up the Virtual Environment (Mac User)](#setting-up-the-virtual-environment-mac-user)
-- [4. Rasa Usage](#4-rasa-usage)
+- [4. Rasa NLU Usage](#4-rasa-nlu-usage)
 - [5. Deployment](#5-deployment)
   - [Push changes to Heroku](#push-changes-to-heroku)
   - [Make requests to Rasa](#make-requests-to-rasa)
@@ -28,11 +28,7 @@ Here's a brief high-level overview of the tech stack:
 ### Folder Structure
     .
     ├── app
-        ├── actions           Contains your custom actions which can be used to run custom Python code
         ├── data              This folder contains all NLU and RULES and STORIES files
-        ├── models            Stored the trained Rasa NLU models
-        ├── results           Test results from the Rasa NLU model
-        ├── tests             Contains the test stories
         ├── config.yml        Configurations for the entire pipeline of the chatbot
         ├── domain            Contains all the intent and all the utters (responses) for each intent
         ├── endpoints.yml
@@ -106,7 +102,7 @@ To deactivate the virtual environment:
 deactivate
 ```
 
-## 4. Rasa Usage
+## 4. Rasa NLU Usage
 ![Rasa](images/rasa.png)
 
 For more information:
@@ -139,11 +135,6 @@ Use cross validation:
 
 ```
 rasa test nlu --nlu data/nlu.yml --cross-validation
-```
-
-Start the server with the trained model:
-```
-rasa run actions
 ```
 
 To load the trained model and talk to the Rasa chatbot on the command line:
