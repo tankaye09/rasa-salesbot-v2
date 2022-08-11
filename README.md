@@ -166,3 +166,69 @@ For example:
 ```
 curl https://<your Heroku application name>.herokuapp.com/model/parse -d '{"text":"hello"}'
 ```
+
+## 6. Deployment on Azure
+### Building the Docker image
+Install [Docker](https://docs.docker.com/engine/install/) and run:
+```bash
+docker build -t <imageID>
+```
+To run the Docker image locally:
+```bash
+docker run <imageID>
+```
+### Setting up Azure environment
+Install [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) and login to Azure:
+```
+az login
+```
+
+Setup the right subscription if required:
+```
+az account set --subscription <Subscription Name>
+```
+
+Create the resource group:
+```
+az group create --name rasaResourceGroup --location southeastasia
+```
+
+Create container registry:
+```
+az acr create --resource-group rasaResourceGroup --name rasaCR --sku Basic
+```
+> Make sure the container is unique, you can check [here](https://docs.microsoft.com/en-us/rest/api/containerregistry/registries/check-name-availability?tabs=HTTP#code-try-0)
+
+Log in to the container registry:
+```
+az acr login --name rasaCR
+```
+
+### Hosting on Azure
+- In the Azure dashboard, click on the container registry created and get the login server as shown in the image
+![Image](./images/1.png)
+Run the command: 
+```
+docker tag <imageID> <Login server>/<imageID>
+```
+
+- Push the Docker image onto Azure
+```
+docker push <Login server>/<imageID>
+```
+
+## 7. Deployment locally using ngrok
+Install ngrok using [Chocolatey](https://docs.chocolatey.org/en-us/choco/setup)
+```bash
+choco install ngrok
+```
+
+Connect your account
+```bash
+ngrok config add-authtoken <authtoken taken from dashboard.ngrok.com>
+```
+
+Start HTTP tunnel forwarding to local port 5005
+```bash
+ngrok http 5005
+```
