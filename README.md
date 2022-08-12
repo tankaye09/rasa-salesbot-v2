@@ -142,7 +142,7 @@ To load the trained model and talk to the Rasa chatbot on the command line:
 rasa shell -m models
 ```
 
-## 5. Deployment
+## 5. Deployment on Heroku (Not advised)
 ### Push changes to Heroku
 Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install).
 Log in to Heroku using the Heroku CLI. 
@@ -160,7 +160,7 @@ git push heroku master
 Heroku will automatically handle the changes, re-build NLU model and re-start the server.
 > Please note that locally trained NLU models won't be pushed to the Heroku repository.
 
-### Make requests to Rasa
+### Make requests to Rasa (Advised option)
 Once your server is deployed, you can make requests to your NLU model via [Rasa HTTP API](https://rasa.com/docs/rasa/api/http-api/#operation/parseModelMessage)
 For example:
 ```
