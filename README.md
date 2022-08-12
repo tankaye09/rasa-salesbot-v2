@@ -143,6 +143,12 @@ rasa shell -m models
 ```
 
 ## 5. Deployment on Heroku (Not advised)
+
+### Create a Heroku app using Heroku CLI
+
+Refer to the tutorial link below to create your Heroku app:
+https://devcenter.heroku.com/articles/creating-apps#creating-a-named-app
+
 ### Push changes to Heroku
 Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install).
 Log in to Heroku using the Heroku CLI. 
