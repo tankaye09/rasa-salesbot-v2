@@ -50,7 +50,7 @@ git clone x
 ```
 Change directory into the repository:
 ```
-cd rasa-chatbot
+cd rasa-salesbot-v2
 ```
 
 ### Setting up the Virtual Environment (Windows User)
