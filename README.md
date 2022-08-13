@@ -1,3 +1,4 @@
+![title](./images/title.png)
 <h1 align="center">Capstone Chatbot</h1>
 
 ### Introduction
@@ -15,9 +16,16 @@ This is the README.md file for our [Rasa NLU](https://rasa.com/docs/) component.
   - [Setting up the Virtual Environment (Windows User)](#setting-up-the-virtual-environment-windows-user)
   - [Setting up the Virtual Environment (Mac User)](#setting-up-the-virtual-environment-mac-user)
 - [4. Rasa NLU Usage](#4-rasa-nlu-usage)
-- [5. Deployment](#5-deployment)
+- [5. Deployment on Heroku (Not advised)](#5-deployment-on-heroku-not-advised)
+  - [Create a Heroku app using Heroku CLI](#create-a-heroku-app-using-heroku-cli)
   - [Push changes to Heroku](#push-changes-to-heroku)
-  - [Make requests to Rasa](#make-requests-to-rasa)
+  - [Make requests to Rasa (Advised option)](#make-requests-to-rasa-advised-option)
+- [6. Deployment on Azure](#6-deployment-on-azure)
+  - [Building the Docker image](#building-the-docker-image)
+  - [Setting up Azure environment](#setting-up-azure-environment)
+  - [Building the Docker image](#building-the-docker-image-1)
+  - [Deployment via Azure ACR](#deployment-via-azure-acr)
+- [7. Deployment locally using ngrok](#7-deployment-locally-using-ngrok)
 
 ## 1. Tech Stack
 Here's a brief high-level overview of the tech stack:
@@ -174,54 +182,94 @@ curl https://<your Heroku application name>.herokuapp.com/model/parse -d '{"text
 ```
 
 ## 6. Deployment on Azure
+
 ### Building the Docker image
+
 Install [Docker](https://docs.docker.com/engine/install/) and run:
+
 ```bash
 docker build -t <imageID>
 ```
+
 To run the Docker image locally:
+
 ```bash
 docker run <imageID>
 ```
+
 ### Setting up Azure environment
+
 Install [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) and login to Azure:
+
 ```
 az login
 ```
 
 Setup the right subscription if required:
+
 ```
 az account set --subscription <Subscription Name>
 ```
 
 Create the resource group:
+
 ```
 az group create --name rasaResourceGroup --location southeastasia
 ```
 
 Create container registry:
+
 ```
 az acr create --resource-group rasaResourceGroup --name rasaCR --sku Basic
 ```
+
 > Make sure the container is unique, you can check [here](https://docs.microsoft.com/en-us/rest/api/containerregistry/registries/check-name-availability?tabs=HTTP#code-try-0)
 
 Log in to the container registry:
+
 ```
 az acr login --name rasaCR
 ```
 
-### Hosting on Azure
+### Building the Docker image
+
 - In the Azure dashboard, click on the container registry created and get the login server as shown in the image
-![Image](./images/1.png)
-Run the command: 
+  ![Image](./images/1.png)
+  Run the command:
+
 ```
 docker tag <imageID> <Login server>/<imageID>
 ```
 
 - Push the Docker image onto Azure
+
 ```
 docker push <Login server>/<imageID>
 ```
+
+### Deployment via Azure ACR
+1. Click on Create a resource
+![2](./images/2.png)
+2. Type “web app for container” in the search bar and press enter, click Create
+![3](./images/3.png)
+3. Under the Resource Group dropdown, pick the Resource Group you created earlier
+Ensure the Sku and size section under App Service Plan is at least 14 GB of memory
+![4](images/4.png)
+4. Click Docker in the top taskbar, under Image Source, select Azure Container Registry
+![5](images/5.png)
+5. Choose the appropriate Registry, Image and Tag, based on what you created earlier, via dropdown
+6. Click Review + create
+7. After the app has been successfully created, access the app either from the notifications or the home page
+8. Click Settings > Configuration > Application settings > New application setting
+![6](./images/6.png)
+Fill up these 2 fields:
+> NAME: WEBSITES_PORT
+> VALUE: 8000
+9. Click Save
+10. Click Deployment > Deployment Center > Logs to view the deployment logs, the deployment should be a success, otherwise, try restarting the app in Overview
+![7](./images/7.png)
+11. App endpoint URL can be found under Overview > Essentials
+![8](./images/8.png)
 
 ## 7. Deployment locally using ngrok
 Install ngrok using [Chocolatey](https://docs.chocolatey.org/en-us/choco/setup)
